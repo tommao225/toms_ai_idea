@@ -23,6 +23,16 @@ mkdir -p ~/VSCodeProjects/新项目
 3. `AGENTS.md` 第 4 节：本项目的最小验证门命令。
 4. `.dsh/conventions/verification.md` 与 `.dsh/conventions/module-layout.md`：把命令模板、目录职责换成项目真实值。
 
+## 专题目录
+
+本仓库同时承载不含通用价值的专题项目，各占一个顶层目录，自带文档与工程结构，互不依赖：
+
+| 目录 | 专题 | 入口 |
+|---|---|---|
+| `films/` | 电影榜单导航站（按口径的前 100 部 + 打卡 + 奖项维度） | `films/README.md` |
+
+专题目录里的代码与数据只在各自目录内增长；根目录只放通用工具（`scripts/`、`templates/`）与规则（`AGENTS.md`、`.dsh/`）。
+
 ## 内容分级
 
 | 级别 | 文件 | 取用建议 |

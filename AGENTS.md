@@ -31,6 +31,7 @@
 | `.dsh/checklists/` | 提交前与开工前自检 |
 | `.dsh/agents/` | 子 agent 使用手册 |
 | `.dsh/lessons/` | 跨项目教训：现象、根因、防法 |
+| `films/` | 专题项目：电影榜单导航站（自带 docs/data/pipeline/web 分层） |
 | `templates/` | 铺到新项目的入口骨架，含占位符 |
 | `scripts/install.sh` | 把库铺到目标项目，默认只补齐不覆盖 |
 | `scripts/check.sh` | 禁用词、交叉引用、行数预算三项机检 |

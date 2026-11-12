@@ -1,0 +1,32 @@
+# TMDb 类型 → 本站类型映射。榜单只用本站三类型，其余归 other，不进榜。
+# 土星奖与雨果奖都跨科幻/奇幻，类型判定以本映射为准，存疑项人工复核。
+
+schema_version = 1
+
+[site_genres]
+mystery = "悬疑"
+scifi = "科幻"
+action = "动作"
+
+# 一部片可映射到多个本站类型（如 Crime + Science Fiction），按并集处理。
+# 只映射到 other 的片子不进任何类型榜。
+[map]
+Mystery = ["mystery"]
+Thriller = ["mystery"]
+Crime = ["mystery"]
+"Science Fiction" = ["scifi"]
+Action = ["action"]
+Adventure = ["action"]
+War = ["action"]
+Western = ["action"]
+Fantasy = ["other"]
+Horror = ["other"]
+Drama = ["other"]
+Comedy = ["other"]
+Romance = ["other"]
+Animation = ["other"]
+Documentary = ["other"]
+History = ["other"]
+Music = ["other"]
+Family = ["other"]
+"TV Movie" = ["other"]

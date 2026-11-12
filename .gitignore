@@ -1,0 +1,5 @@
+films/data/posters/
+films/data/raw/**/*.tmp
+__pycache__/
+*.pyc
+.DS_Store

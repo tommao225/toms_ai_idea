@@ -1,0 +1,218 @@
+# 奖项定义与分级。award / category 用固定 slug，管线只接受这里定义过的值。
+# 分级依据见 docs/02-data-and-canon.md §5。
+
+schema_version = 1
+
+[tiers]
+"A" = "全球公认、影响影史的奖"
+"A-" = "影响力大但争议明显"
+"B" = "国家级最高奖 / 一线地区奖"
+"C" = "类型专项奖"
+"D" = "参考级，不进主榜单"
+
+# ---- A ----
+[[awards]]
+slug = "oscar"
+name = "奥斯卡金像奖"
+tier = "A"
+region = "US"
+categories = ["best_picture", "best_director", "best_original_screenplay", "best_adapted_screenplay", "best_international_feature", "best_actor", "best_actress", "best_supporting_actor", "best_supporting_actress", "best_cinematography", "best_editing", "best_sound", "best_score"]
+
+[[awards]]
+slug = "cannes-palme"
+name = "戛纳电影节金棕榈"
+tier = "A"
+region = "FR"
+categories = ["palme_dor"]
+
+[[awards]]
+slug = "venice-lion"
+name = "威尼斯电影节金狮"
+tier = "A"
+region = "IT"
+categories = ["golden_lion"]
+
+[[awards]]
+slug = "berlin-bear"
+name = "柏林电影节金熊"
+tier = "A"
+region = "DE"
+categories = ["golden_bear"]
+
+[[awards]]
+slug = "bafta"
+name = "英国电影学院奖"
+tier = "A"
+region = "GB"
+categories = ["best_film", "best_film_not_english"]
+
+# ---- A- ----
+[[awards]]
+slug = "golden-globe"
+name = "金球奖"
+tier = "A-"
+region = "US"
+categories = ["best_motion_picture_drama", "best_motion_picture_musical_comedy"]
+
+[[awards]]
+slug = "cannes-grand-prix"
+name = "戛纳评审团大奖"
+tier = "A-"
+region = "FR"
+categories = ["grand_prix"]
+
+[[awards]]
+slug = "venice-grand-jury"
+name = "威尼斯评审团大奖"
+tier = "A-"
+region = "IT"
+categories = ["grand_jury_prize"]
+
+# ---- B（地区榜才可用）----
+[[awards]]
+slug = "cesar"
+name = "法国凯撒奖"
+tier = "B"
+region = "FR"
+categories = ["best_film"]
+
+[[awards]]
+slug = "david"
+name = "意大利大卫奖"
+tier = "B"
+region = "IT"
+categories = ["best_film"]
+
+[[awards]]
+slug = "goya"
+name = "西班牙戈雅奖"
+tier = "B"
+region = "ES"
+categories = ["best_film"]
+
+[[awards]]
+slug = "german-film-award"
+name = "德国电影奖"
+tier = "B"
+region = "DE"
+categories = ["best_film"]
+
+[[awards]]
+slug = "european-film-awards"
+name = "欧洲电影奖"
+tier = "B"
+region = "EU"
+categories = ["best_film"]
+
+[[awards]]
+slug = "japan-academy"
+name = "日本电影学院奖"
+tier = "B"
+region = "JP"
+categories = ["best_film"]
+
+[[awards]]
+slug = "kinema-junpo"
+name = "电影旬报年度十佳"
+tier = "B"
+region = "JP"
+categories = ["best_ten"]
+
+[[awards]]
+slug = "blue-dragon"
+name = "韩国青龙电影奖"
+tier = "B"
+region = "KR"
+categories = ["best_film"]
+
+[[awards]]
+slug = "golden-horse"
+name = "台湾金马奖"
+tier = "B"
+region = "TW"
+categories = ["best_film"]
+
+[[awards]]
+slug = "hk-film-awards"
+name = "香港电影金像奖"
+tier = "B"
+region = "HK"
+categories = ["best_film"]
+
+[[awards]]
+slug = "golden-rooster"
+name = "中国电影金鸡奖"
+tier = "B"
+region = "CN"
+categories = ["best_film"]
+
+[[awards]]
+slug = "filmfare"
+name = "印度 Filmfare 奖"
+tier = "B"
+region = "IN"
+categories = ["best_film"]
+
+[[awards]]
+slug = "ariel"
+name = "墨西哥 Ariel 奖"
+tier = "B"
+region = "MX"
+categories = ["best_film"]
+
+# ---- C（只进类型榜）----
+[[awards]]
+slug = "edgar"
+name = "埃德加·爱伦·坡奖"
+tier = "C"
+region = "US"
+genres = ["mystery"]
+categories = ["best_motion_picture"]
+
+[[awards]]
+slug = "japan-mystery"
+name = "日本推理作家协会奖"
+tier = "C"
+region = "JP"
+genres = ["mystery"]
+categories = ["best_work"]
+
+[[awards]]
+slug = "martin-beck"
+name = "马丁·贝克奖"
+tier = "C"
+region = "SE"
+genres = ["mystery"]
+categories = ["best_work"]
+
+[[awards]]
+slug = "hugo"
+name = "雨果奖最佳戏剧表现"
+tier = "C"
+region = "US"
+genres = ["scifi"]
+categories = ["long_form", "short_form"]
+
+[[awards]]
+slug = "saturn"
+name = "土星奖"
+tier = "C"
+region = "US"
+genres = ["scifi", "action"]
+categories = ["best_scifi_film", "best_action_adventure_film"]
+
+[[awards]]
+slug = "taurus-stunt"
+name = "Taurus 世界特技奖"
+tier = "C"
+region = "US"
+genres = ["action"]
+categories = ["best_stunt"]
+
+# ---- D ----
+[[awards]]
+slug = "mtv-awards"
+name = "MTV 影视大奖"
+tier = "D"
+region = "US"
+categories = ["best_movie"]

@@ -1,0 +1,77 @@
+# 榜单定义（真相源）。每个榜单一条；entries 在 entries/{list_id}.csv。
+# 路径约定：本文本里的路径相对 films/ 根。
+# 口径决策未定时 decision 写 pending，禁止上线。
+
+schema_version = 1
+
+[[lists]]
+id = "global-mystery-greatest"
+title = "影史最伟大的 100 部悬疑片"
+criterion = "greatest"
+status = "draft"
+decision = "pending"        # pending | authority | self_computed | hybrid
+genres = ["mystery"]
+chapters = []               # 每 10 部一个卷名，人工命名
+
+[lists.scope]
+kind = "global"
+countries = []
+
+[lists.canon]
+definition = ""             # 这个榜在选什么
+ranking_rule = ""           # 具体怎么排序，必须可复现
+time_window = ""            # 例：1895–2024
+sources = []                # [{name, url, weight, accessed}]
+inclusion_rule = ""
+exclusion_rule = ""
+known_bias = ""
+curator = ""
+version = "1"
+
+[[lists]]
+id = "global-scifi-greatest"
+title = "影史最伟大的 100 部科幻片"
+criterion = "greatest"
+status = "draft"
+decision = "pending"
+genres = ["scifi"]
+chapters = []
+
+[lists.scope]
+kind = "global"
+countries = []
+
+[lists.canon]
+definition = ""
+ranking_rule = ""
+time_window = ""
+sources = []
+inclusion_rule = ""
+exclusion_rule = ""
+known_bias = ""
+curator = ""
+version = "1"
+
+[[lists]]
+id = "global-action-greatest"
+title = "影史最伟大的 100 部动作片"
+criterion = "greatest"
+status = "draft"
+decision = "pending"
+genres = ["action"]
+chapters = []
+
+[lists.scope]
+kind = "global"
+countries = []
+
+[lists.canon]
+definition = ""
+ranking_rule = ""
+time_window = ""
+sources = []
+inclusion_rule = ""
+exclusion_rule = ""
+known_bias = ""
+curator = ""
+version = "1"
