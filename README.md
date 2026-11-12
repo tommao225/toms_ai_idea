@@ -1,0 +1,86 @@
+# 通用规则库
+
+一套去项目化后的工程纪律：核心规则、按技术面取用的约定、自检清单、子 agent 手册、跨项目教训。目标是**新项目一条命令铺进去就能用**，而不是每开一个项目重抄一遍。
+
+## 快速开始
+
+```bash
+# 目标目录必须已存在；默认只补齐，不覆盖已有文件
+mkdir -p ~/VSCodeProjects/新项目
+./scripts/install.sh ~/VSCodeProjects/新项目
+
+# 先看会写哪些文件
+./scripts/install.sh --dry-run ~/VSCodeProjects/新项目
+
+# 确实要覆盖已有同名文件时
+./scripts/install.sh --force ~/VSCodeProjects/新项目
+```
+
+装完需要人工填四处事实段，另把各文件里的 `<占位>` 按项目替换：
+
+1. `AGENTS.md` 第 1 节：项目是什么、怎么跑。
+2. `AGENTS.md` 第 2 节：本项目取值后的硬约束（把 `TODO：` 换成真实约束）。
+3. `AGENTS.md` 第 4 节：本项目的最小验证门命令。
+4. `.dsh/conventions/verification.md` 与 `.dsh/conventions/module-layout.md`：把命令模板、目录职责换成项目真实值。
+
+## 内容分级
+
+| 级别 | 文件 | 取用建议 |
+|---|---|---|
+| 核心 | `.dsh/rules/` 四份 | 任何项目都装，与任务类型无关 |
+| 场景 | `.dsh/conventions/` 六份 | 只看与当前技术面相关的那几份 |
+| 清单 | `.dsh/checklists/` 两份 | 开工前、提交前各用一次 |
+| 手册 | `.dsh/agents/subagent-playbook.md` | 需要并行派子 agent 时 |
+| 模板 | `templates/` | 只取部分文件时，用 `dsh-README.template.md` 生成项目自己的索引 |
+| 教训 | `.dsh/lessons/cross-project-pitfalls.md` | 设计或排查时对照 |
+
+详细索引见 `.dsh/README.md`；给 agent 的入口是根 `AGENTS.md`。
+
+## 收录判据
+
+一条内容能进库，当且仅当**去掉项目专有名词后，判据仍然可执行、可验证**。
+
+反之不收录：
+
+- 某项目的字段表、接口表、目录树、端口、业务术语。
+- 「某某功能的实现说明」——那是项目文档，不是纪律。
+- 依赖特定工具链才能成立的流程；没有对应前提的流程降级为人工检查或放弃。
+
+## 改写原则
+
+1. 举例一律中性占位：`<源码目录>`、`<数据文件>`、`某模块`、`领域层`。
+2. 命令保留形状、去掉事实：`for f in $(find <源码目录> -name '*.js'); do node --check "$f"; done`。
+3. 教训只写「现象（抽象）+ 根因 + 防法」，不写具体文件名、编号、数量。
+4. 删除日期、版本、作者、变更叙事。
+5. 保留每份文件末尾的评审快查与审查清单——它们是这套库最直接可用的部分。
+
+## 机检
+
+```bash
+./scripts/check.sh .
+```
+
+范围：`.dsh/`、`templates/`、根目录 `*.md`；`docs/` 不在扫描范围（设计文档允许写来源项目名）。
+三项全过才算合格：
+
+1. **禁用词 0 命中**：不出现任何具体项目的模块名、路径、端口、业务名词、专有函数名。
+2. **交叉引用全部命中**：markdown 相对链接目标存在。
+3. **行数预算**：单文件 ≤ 300 行。
+
+`scripts/install.sh` 的干跑、实装、幂等验证命令见根 `AGENTS.md` 第 6 节。
+
+## 目录
+
+```
+AGENTS.md                 库入口（agent 读这份）
+README.md                 人读总览（本文件）
+.dsh/                     规则、约定、清单、手册、教训
+templates/                新项目入口骨架，含占位符
+scripts/install.sh        铺库到目标项目
+scripts/check.sh          三项机检
+docs/superpowers/specs/   设计文档
+```
+
+## 来源
+
+内容整理自本机两个实际项目长期沉淀的项目内规则目录，经去项目化改写、合并取并集、冲突取严格。具体来源与逐份改写要点见 `docs/superpowers/specs/2026-11-12-generic-rules-library-design.md`。
