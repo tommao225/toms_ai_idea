@@ -1,0 +1,19 @@
+/* 设计 token：全部数值来自 films/docs/03-atmosphere-spec.md，不在这里发明新值。 */
+:root {
+  --ink: #0B0B0C;
+  --ink-2: #131215;
+  --ink-3: #1B1918;
+  --paper: #E8E4DA;
+  --paper-dim: #9A948A;
+  --accent: #C8552B;
+  --rule: rgba(232, 228, 218, 0.08);
+  --rule-strong: rgba(232, 228, 218, 0.16);
+
+  --serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", serif;
+  --sans: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", system-ui, sans-serif;
+  --mono: "SF Mono", "JetBrains Mono", Menlo, ui-monospace, monospace;
+
+  --row-h: 64px;
+  --maxw: 1120px;
+  --film: var(--accent); /* 运行时按影片主色覆盖 */
+}
