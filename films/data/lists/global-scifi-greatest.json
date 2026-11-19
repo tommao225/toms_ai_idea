@@ -2,6 +2,7 @@
   "id": "global-scifi-greatest",
   "title": "科幻电影",
   "genre": "科幻",
+  "order": 1,
   "criterion": "greatest",
   "decision": "hybrid",
   "status": "draft",

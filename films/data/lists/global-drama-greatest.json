@@ -2,6 +2,7 @@
   "id": "global-drama-greatest",
   "title": "剧情电影",
   "genre": "剧情",
+  "order": 3,
   "criterion": "greatest",
   "decision": "hybrid",
   "status": "draft",

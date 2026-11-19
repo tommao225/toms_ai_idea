@@ -4,14 +4,14 @@
 
 | 子目录 | 谁写 | 内容 | 进版本库 |
 |---|---|---|---|
-| `curated/lists/<list_id>/` | **只有人** | `list.toml`（榜单定义、口径、卷名）、`entries.csv`（名次、movie_key、这一榜的手记） | 是 |
+| `curated/lists/<list_id>/` | **只有人** | `list.toml`（榜单定义、口径、章节数据）、`entries.csv`（名次、movie_key、这一榜的手记） | 是 |
 | `curated/movies.toml` | **只有人** | 首批电影的中文名、英文名、导演中文名 | 是 |
 | `curated/movies/<movie_id>/` | **只有人** | `quote.md`（台词或摘句，带出处）、`note.md`（跨榜通用说明，可选） | 是 |
 | `media/movies/<movie_id>/` | 管线 / 人 | 海报、剧照、`credits.json`（来源、授权、是否占位） | 图片否，`credits.json` 是 |
-| `media/lists/<list_id>/` | 人 / 管线 | 板块头图、卷封面、`credits.json` | 图片否，`credits.json` 是 |
-| `media/colors.json` | `pipeline/colorize.py` / `placeholders.py` | 每部电影的主色 | 是 |
-| `raw/tmdb/<tmdb_id>.json` | `pipeline/fetch.py` | TMDb 原始响应缓存 | 是（离线可重跑） |
-| `raw/wikidata/<imdb_id>.json` | `pipeline/fetch_wikidata.py` | Wikidata 元数据缓存 | 是（离线可重跑） |
+| `media/lists/<list_id>/` | 人 / 管线 | 板块头图、`credits.json` | 图片否，`credits.json` 是 |
+| `media/colors.json` | `pipeline/fetch_*.py` / `image_io.py` | 每部电影的主色 | 是 |
+| `raw/tmdb/<tmdb_id>.json` | 历史缓存 / 手工 | TMDb 原始响应缓存 | 是（离线可重跑） |
+| `raw/wikidata/<imdb_id>.json` | 历史缓存 / 手工 | Wikidata 元数据缓存 | 是（离线可重跑） |
 | `raw/manual/<imdb_id>.json` | `pipeline/manual_seed.py` | Wikidata 限流时的人工元数据，带 IMDb 编号待复核 | 是 |
 | `movies/movies.jsonl` | `pipeline/merge.py` / `build.py` | 电影主档，一行一部；build 会补 `lists` 和主色 | 是 |
 | `lists/<list_id>.json` | `pipeline/build.py` | 每个榜单一个文件 | 是 |
