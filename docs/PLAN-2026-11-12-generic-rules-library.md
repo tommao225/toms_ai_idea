@@ -1,4 +1,17 @@
+---
+id: PLAN-2026-11-12-generic-rules-library
+type: plan
+status: done
+scope: repo
+kind: refactor
+created: 2026-11-12
+updated: 2026-11-19
+related: [ADR-0001]
+---
+
 # 通用规则库设计
+
+> 已完成的历史方案。按 `docs/README.md` 的布局迁到这里；正文保留当时的设计，目录路径已同步。
 
 ## 1. 目标
 
@@ -9,7 +22,7 @@
 ## 2. 非目标
 
 - 不收项目专属事实：字段表、接口表、端口、目录树、业务术语表。
-- 不做规则引擎、不接自动化门禁。可机检的部分落成 `scripts/check.sh`，其余写成人工评审判据。
+- 不做规则引擎、不接自动化门禁。可机检的部分落成 `scripts/check.sh` 与 `scripts/check-docs.sh`，其余写成人工评审判据。
 - 不复制 `ui-color-system` skill 本体：`~/.dsh/skills/ui-color-system` 已有全局副本，库内只登记来源与触发词，避免两份漂移。
 
 ## 3. 结构
@@ -31,6 +44,7 @@ README.md                     人读：分类索引、来源、外部经验引�
     local-server.md
     data-and-assets.md
     verification.md
+    change-docs.md
   checklists/
     change.md
     new-feature.md
@@ -41,8 +55,9 @@ templates/
   dsh-README.template.md      只取部分文件时用的项目索引骨架
 scripts/
   install.sh                  铺库到目标项目
-  check.sh                    禁用词、交叉引用、行数预算
-docs/superpowers/specs/       设计文档
+  check.sh                    禁用词、交叉引用、行数预算，并调用公共文档检查
+  check-docs.sh               公共文档：文档开头的元信息、编号、登记、链接、行数
+docs/                         公共变更文档：仓库级在根下，项目级在子目录
 ```
 
 ## 4. 内容来源与改写
@@ -71,7 +86,7 @@ docs/superpowers/specs/       设计文档
 1. 不出现项目名词。禁用词清单见 `scripts/check.sh`，命中数必须为 0。
 2. 举例必须中性：`<源码目录>`、`<数据文件>`、`某模块`、`领域层/统计模块`。
 3. 命令写成模板：`for f in $(find <源码目录> -name '*.js'); do node --check "$f"; done`，并注明按项目替换。
-4. 删除一切日期、版本、作者、变更叙事，以及项目事实型数量（某项目里出现了几个、有几行、端口多少）。规则阈值（300 行、60 行、连续 3 次失败）属于判据，保留。
+4. 删除一切日期、版本、作者、改动过程，以及项目事实型数量（某项目里出现了几个、有几行、端口多少）。规则阈值（300 行、60 行、连续 3 次失败）属于判据，保留。
 5. 保留可执行判据：每条纪律尽量带「怎么算通过」。
 6. 中文书写；单文件 ≤ 300 行；不复述代码，不注水。
 7. 文件间交叉引用用相对路径，且目标必须存在。
@@ -93,7 +108,7 @@ scripts/install.sh <目标目录> [--dry-run] [--force]
 
 ## 7. 验证
 
-1. `scripts/check.sh .`：禁用词 0 命中、交叉引用全部命中（同时认 markdown 链接与反引号里的 `.md` 路径，`templates/` 因路径按目标项目位置书写而跳过）、行数预算通过。
+1. `scripts/check.sh .`：禁用词 0 命中、交叉引用全部命中（同时认 markdown 链接与反引号里的 `.md` 路径，`templates/` 因路径按目标项目位置书写而跳过）、行数预算通过；公共文档检查通过（`scripts/check-docs.sh`）。
 2. `scripts/install.sh --dry-run /tmp/<空目录>` 与真实安装各一次；校验生成结构与 `AGENTS.md` 无 `{{}}` 残留。
 3. 对同一目标重复安装：第二次全部跳过（幂等）。
 4. `--force` 覆盖路径单独在临时目录验证，不碰真实项目。

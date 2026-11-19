@@ -18,6 +18,7 @@
 | `conventions/local-server.md` | 场景 | 回环监听、鉴权、白名单、上传校验 | 改本地服务/接口 |
 | `conventions/data-and-assets.md` | 场景 | 字段消费链、空值语义、资源可复现 | 改数据/资源 |
 | `conventions/verification.md` | 场景 | 本项目的验证范围与命令 | 改完/提交前 |
+| `conventions/change-docs.md` | 场景 | 何时先写方案、方案/排查/决策的分工与准入 | 开工前、写方案/排查时 |
 | `checklists/change.md` | 清单 | 单次改动自检 | 提交前 |
 | `checklists/new-feature.md` | 清单 | 本项目扩展点清单 | 开工前 |
 | `agents/subagent-playbook.md` | 手册 | 子 agent 分工、边界、验收 | 派子 agent 时 |
@@ -42,6 +43,6 @@
 
 1. 硬约束在根 `AGENTS.md` 与 `rules/`；`conventions/` 是本项目取值，改项目事实时同步改这里。
 2. 规则之间按主题互引，不复制同一段话；两处冲突时以根 `AGENTS.md` 为准并修掉另一处。
-3. 只写「现在是什么」和「为什么」；不写日期、作者、版本、变更叙事。
+3. 只写「现在是什么」和「为什么」；不写日期、作者、版本、改动过程。
 4. 新增规则的门槛：同类问题至少出现两次，或一次事故代价足够高。
 5. 规则修改后要能被验证：能落成命令/检查的写成命令；不能机检的写清评审判据。

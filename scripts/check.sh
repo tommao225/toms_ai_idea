@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# 三项机检：禁用词、markdown 交叉引用、文件行数预算。
-# 范围：.dsh/、templates/、根目录 *.md；不含 docs/（设计文档允许写来源项目名）。
+# 四项机检：禁用词、markdown 交叉引用、文件行数预算、公共文档。
+# 范围：.dsh/、templates/、根目录 *.md；docs/ 不做禁用词，另由 check-docs.sh 检查。
 # 用法：scripts/check.sh [仓库根目录，默认当前目录]
 set -uo pipefail
 
@@ -24,7 +24,7 @@ if [ "${#files[@]}" -eq 0 ]; then
   exit 2
 fi
 
-echo "== 1/3 禁用词 =="
+echo "== 1/4 禁用词 =="
 hits=$(grep -nE "$BANNED" "${files[@]}" 2>/dev/null || true)
 if [ -n "$hits" ]; then
   printf '%s\n' "$hits"
@@ -35,7 +35,7 @@ else
 fi
 
 echo
-echo "== 2/3 交叉引用 =="
+echo "== 2/4 交叉引用 =="
 # 认三种写法：markdown 链接、反引号里的 .md 路径、裸的相对路径。
 # templates/ 跳过：那里的路径按「装到目标项目后」的位置书写，在本仓库里不成立。
 checked=0
@@ -74,7 +74,7 @@ else
 fi
 
 echo
-echo "== 3/3 行数预算（≤ $MAX_LINES）=="
+echo "== 3/4 行数预算（≤ $MAX_LINES）=="
 over=0
 for file in "${files[@]}"; do
   n=$(wc -l <"$file" | tr -d ' ')
@@ -87,6 +87,16 @@ done
 
 if [ "$over" -eq 0 ]; then
   echo "全部在预算内"
+fi
+
+echo
+echo "== 4/4 公共文档 =="
+if [ -f scripts/check-docs.sh ] && [ -d docs ]; then
+  if ! bash scripts/check-docs.sh .; then
+    fail=1
+  fi
+else
+  echo "跳过（无 docs/ 或 scripts/check-docs.sh）"
 fi
 
 echo

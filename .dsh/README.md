@@ -17,6 +17,7 @@
 | `conventions/local-server.md` | 场景 | 回环监听、写接口鉴权、静态白名单、上传校验、重启验证 | 改本地服务/接口 |
 | `conventions/data-and-assets.md` | 场景 | 字段消费链、空值语义、格式化器唯一、生成物可复现 | 改数据/资源 |
 | `conventions/verification.md` | 场景 | 按改动面选验证、命令模板、验证边界、证据格式 | 改完/提交前 |
+| `conventions/change-docs.md` | 场景 | 何时先写方案、方案/排查/决策的分工、准入与完成判据 | 开工前、写方案/排查时 |
 | `checklists/change.md` | 清单 | 单次改动提交前自检 | 提交前 |
 | `checklists/new-feature.md` | 清单 | 各类扩展点的同步面清单 | 开工前 |
 | `agents/subagent-playbook.md` | 手册 | 何时派子 agent、角色边界、prompt 必含项、抽查断言 | 派子 agent 时 |

@@ -51,6 +51,7 @@
 | 改本地服务 / 接口 / 上传 | `.dsh/conventions/local-server.md` |
 | 改数据结构 / 资源 | `.dsh/conventions/data-and-assets.md` |
 | 决定跑哪些验证 | `.dsh/conventions/verification.md` |
+| 写方案 / 排查 / 重构 | `.dsh/conventions/change-docs.md` |
 | 提交前 / 新功能开工 | `.dsh/checklists/` |
 | 派子 agent | `.dsh/agents/subagent-playbook.md` |
 | 避免重复踩坑 | `.dsh/lessons/cross-project-pitfalls.md` |
@@ -69,5 +70,5 @@
 2. 先找共享件：已有函数/组件能覆盖就复用；不覆盖再抽，抽完替换所有调用点。
 3. 变更最小闭环：数据 → 校验 → 写入 → 读取 → 展示，每一环都验证。
 4. 删除要彻底：死代码、死样式、旧命名同批清理，并用全仓搜索证明无引用。
-5. 文档同步：README 的目录、命令、数据结构、限制条件必须与代码一致。
+5. 文档同步：README 的目录、命令、数据结构、限制条件必须与代码一致；改动较大时先写方案，完成后把项目现在的情况写回项目文档。
 6. 按批次提交；最后给验证证据与残留项。

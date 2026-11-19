@@ -33,12 +33,16 @@ mkdir -p ~/VSCodeProjects/新项目
 
 专题目录里的代码与数据只在各自目录内增长；根目录只放通用工具（`scripts/`、`templates/`）与规则（`AGENTS.md`、`.dsh/`）。
 
+## 公共文档
+
+一次改动怎么发生、为什么这么选，放 `docs/`：仓库级在根下，项目级在 `docs/<项目>/`；项目现在的事实与使用说明仍留在项目自己的文档目录。规则和索引见 `docs/README.md`，各项目索引见 `docs/films/README.md`。
+
 ## 内容分级
 
 | 级别 | 文件 | 取用建议 |
 |---|---|---|
 | 核心 | `.dsh/rules/` 四份 | 任何项目都装，与任务类型无关 |
-| 场景 | `.dsh/conventions/` 六份 | 只看与当前技术面相关的那几份 |
+| 场景 | `.dsh/conventions/` 七份 | 只看与当前技术面相关的那几份 |
 | 清单 | `.dsh/checklists/` 两份 | 开工前、提交前各用一次 |
 | 手册 | `.dsh/agents/subagent-playbook.md` | 需要并行派子 agent 时 |
 | 模板 | `templates/` | 只取部分文件时，用 `dsh-README.template.md` 生成项目自己的索引 |
@@ -61,7 +65,7 @@ mkdir -p ~/VSCodeProjects/新项目
 1. 举例一律中性占位：`<源码目录>`、`<数据文件>`、`某模块`、`领域层`。
 2. 命令保留形状、去掉事实：`for f in $(find <源码目录> -name '*.js'); do node --check "$f"; done`。
 3. 教训只写「现象（抽象）+ 根因 + 防法」，不写具体文件名、编号、数量。
-4. 删除日期、版本、作者、变更叙事。
+4. 删除日期、版本、作者和改动过程；`docs/` 的变更文档除外，日期和状态只写在文档开头。
 5. 保留每份文件末尾的评审快查与审查清单——它们是这套库最直接可用的部分。
 
 ## 机检
@@ -70,14 +74,15 @@ mkdir -p ~/VSCodeProjects/新项目
 ./scripts/check.sh .
 ```
 
-范围：`.dsh/`、`templates/`、根目录 `*.md`；`docs/` 不在扫描范围（设计文档允许写来源项目名）。
-三项全过才算合格：
+范围：`.dsh/`、`templates/`、根目录 `*.md`；`docs/` 不做禁用词扫描，另按公共文档规则检查文档开头的元信息、索引、链接、行数。
+四项全过才算合格：
 
 1. **禁用词 0 命中**：不出现任何具体项目的模块名、路径、端口、业务名词、专有函数名。
 2. **交叉引用全部命中**：markdown 相对链接目标存在。
 3. **行数预算**：单文件 ≤ 300 行。
+4. **公共文档**：文档开头的元信息完整；编号不重复；每份文档都在索引里；相对链接能打开；每份不超过 300 行。
 
-`scripts/install.sh` 的干跑、实装、幂等验证命令见根 `AGENTS.md` 第 6 节。
+公共文档也可单独检查：`./scripts/check-docs.sh .`。`scripts/install.sh` 的干跑、实装、幂等验证命令见根 `AGENTS.md` 第 6 节。
 
 ## 目录
 
@@ -87,10 +92,11 @@ README.md                 人读总览（本文件）
 .dsh/                     规则、约定、清单、手册、教训
 templates/                新项目入口骨架，含占位符
 scripts/install.sh        铺库到目标项目
-scripts/check.sh          三项机检
-docs/superpowers/specs/   设计文档
+scripts/check.sh          规则三项 + 公共文档一项
+scripts/check-docs.sh     公共文档机检
+docs/                     公共变更文档：仓库级 + 各项目子目录
 ```
 
 ## 来源
 
-内容整理自本机两个实际项目长期沉淀的项目内规则目录，经去项目化改写、合并取并集、冲突取严格。具体来源与逐份改写要点见 `docs/superpowers/specs/2026-11-12-generic-rules-library-design.md`。
+内容整理自本机两个实际项目长期沉淀的项目内规则目录，经去项目化改写、合并取并集、冲突取严格。具体来源与逐份改写要点见 `docs/PLAN-2026-11-12-generic-rules-library.md`。
