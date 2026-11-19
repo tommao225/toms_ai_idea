@@ -16,6 +16,7 @@ from common import (
     read_toml,
     write_jsonl,
 )
+from taxonomy import FALLBACK_COLOR, GENRE_LABELS, genres_for_labels
 
 IMAGE = "https://image.tmdb.org/t/p/w780"
 
@@ -69,25 +70,8 @@ def map_genres(raw: dict, mapping: dict[str, list[str]]) -> list[str]:
     return out or ["other"]
 
 
-GENRE_HINTS = [
-    ("悬疑", "mystery"), ("懸疑", "mystery"),
-    ("惊悚", "mystery"), ("驚悚", "mystery"),
-    ("推理", "mystery"), ("犯罪", "mystery"),
-    ("恐怖", "mystery"), ("神秘", "mystery"), ("黑色", "mystery"),
-    ("科幻", "scifi"),
-    ("动作", "action"), ("動作", "action"),
-    ("冒险", "action"), ("冒險", "action"),
-    ("战争", "action"), ("戰爭", "action"), ("西部", "action"),
-]
-
-
 def map_labels(labels: list[str]) -> list[str]:
-    out: list[str] = []
-    for label in labels:
-        for needle, genre in GENRE_HINTS:
-            if needle in label and genre not in out:
-                out.append(genre)
-    return out or ["other"]
+    return genres_for_labels(labels)
 
 
 def load_movie_meta(curated_root: Path) -> dict[str, dict]:
@@ -97,7 +81,7 @@ def load_movie_meta(curated_root: Path) -> dict[str, dict]:
     return {item["key"]: item for item in read_toml(path).get("movies", [])}
 
 
-def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, memberships: dict, meta: dict) -> dict:
+def base_fields(raw: dict, key: str, meta: dict):
     movie_id = movie_id_for(key.split(":", 1)[1])
     seed = meta.get(key, {})
     missing: list[str] = []
@@ -108,13 +92,11 @@ def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, membership
     runtime = int(raw.get("runtime") or 0)
     if not runtime:
         missing.append("runtime")
-
     countries = [c.get("iso_3166_1") for c in raw.get("production_countries") or [] if c.get("iso_3166_1")]
     countries = [COUNTRY_CODES.get(c, c) for c in countries]
     primary = countries[0] if countries else ""
     if not primary:
         missing.append("primary_country")
-
     languages = [x.get("iso_639_1") for x in raw.get("spoken_languages") or [] if x.get("iso_639_1")]
     directors = []
     names = list(raw.get("director_names") or [])
@@ -128,13 +110,15 @@ def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, membership
     if not names:
         missing.append("directors")
     directors = directors or [f"p:{n}" for n in names]
+    return movie_id, seed, missing, year, runtime, countries, primary, languages, directors, names
 
+
+def media_fields(raw: dict, movie_id: str, curated_root: Path, missing: list[str]):
     poster_src = raw.get("poster_src") or ""
     if not poster_src and raw.get("poster_path"):
         poster_src = IMAGE + raw["poster_path"]
     if not poster_src:
         missing.append("poster")
-
     stills_src = list(raw.get("stills_src") or [])
     if not stills_src:
         for image in (raw.get("images") or {}).get("backdrops") or []:
@@ -145,33 +129,39 @@ def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, membership
     stills = [{"path": f"media/movies/{movie_id}/still-{i + 1:02d}.webp",
                "source": "tmdb", "credit": "TMDb", "kind": "real"}
               for i in range(len(stills_src))]
-
     quote = quote_for(movie_id, curated_root)
     if not quote:
         missing.append("quote")
+    return poster_src, stills_src, stills, quote
 
+
+def genre_fields(raw: dict, mapping: dict):
     genres = raw.get("site_genres") or []
     if not genres or genres == ["other"]:
         genres = map_labels(raw.get("genre_labels") or [])
     if not genres:
         genres = map_genres(raw, mapping)
     genres = [g for g in genres if g] or ["other"]
-    labels = {"mystery": "悬疑", "scifi": "科幻", "action": "动作",
-              "drama": "剧情", "comedy": "喜剧", "romance": "爱情",
-              "crime": "犯罪", "animation": "动画", "horror": "恐怖", "other": "其他"}
-    genre_label = next((labels[g] for g in genres if g in labels), "其他")
+    label = next((GENRE_LABELS[g] for g in genres if g in GENRE_LABELS), GENRE_LABELS["other"])
+    return genres, label
+
+
+def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, memberships: dict, meta: dict) -> dict:
+    movie_id, seed, missing, year, runtime, countries, primary, languages, directors, names = base_fields(raw, key, meta)
+    poster_src, stills_src, stills, quote = media_fields(raw, movie_id, curated_root, missing)
+    genres, genre_label = genre_fields(raw, mapping)
     country_labels = raw.get("country_labels") or countries
     country_display = " / ".join(COUNTRY_NAMES.get(c, c) for c in countries) or " / ".join(country_labels)
-
+    title_zh = raw.get("title") or raw.get("original_title") or ""
+    title_en = raw.get("original_title") or ""
     return {
         "id": movie_id,
         "key": key,
         "source": raw.get("source", "tmdb"),
         "wikidata": raw.get("wikidata", ""),
-        "titles": {"zh": raw.get("title") or raw.get("original_title") or "",
-                   "en": raw.get("original_title") or ""},
-        "zh": raw.get("title") or raw.get("original_title") or "",
-        "en": raw.get("original_title") or "",
+        "titles": {"zh": title_zh, "en": title_en},
+        "zh": title_zh,
+        "en": title_en,
         "year": year,
         "runtime": runtime,
         "countries": countries,
@@ -194,11 +184,12 @@ def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, membership
         "stills_src": stills_src,
         "quote": {"text": quote, "source": "", "kind": "line"} if quote else None,
         "dominant": "",
-        "film": "#3A4653",
+        "film": FALLBACK_COLOR,
         "credits_note": "",
         "lists": sorted(memberships.get(movie_id, []), key=lambda x: x["list_id"]),
         "missing": sorted(set(missing)),
     }
+
 
 
 def main() -> int:

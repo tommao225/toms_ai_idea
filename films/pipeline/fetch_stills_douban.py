@@ -6,16 +6,12 @@ import argparse
 import json
 import re
 import time
-import urllib.parse
-import urllib.request
 from pathlib import Path
 
-from PIL import Image
-
 from common import FILMS_ROOT, read_jsonl
+from image_io import download_image, fetch_bytes
 
 UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)"
-SEARCH = "https://search.douban.com/movie/subject_search?search_text={title}&cat=1002"
 PHOTOS = "https://m.douban.com/rexxar/api/v2/movie/{sid}/photos?type=S&start=0&count=10"
 PHOTO = "https://m.douban.com/rexxar/api/v2/photo/{pid}"
 
@@ -28,16 +24,8 @@ def photo_subject(pid: str) -> str:
 
 
 def fetch(url: str, referer: str = "https://m.douban.com/") -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": referer})
-    with urllib.request.urlopen(req, timeout=30) as res:
-        return res.read()
+    return fetch_bytes(url, referer, UA)
 
-
-def subject_id(title: str) -> str:
-    url = SEARCH.format(title=urllib.parse.quote(title))
-    html = fetch(url, "https://search.douban.com/").decode("utf-8", "ignore")
-    match = re.search(r"subject/(\d+)", html)
-    return match.group(1) if match else ""
 
 
 def photo_urls(sid: str, count: int = 3) -> list[str]:
@@ -52,14 +40,7 @@ def photo_urls(sid: str, count: int = 3) -> list[str]:
 
 
 def save(url: str, dest: Path) -> None:
-    raw = fetch(url)
-    tmp = dest.with_suffix(".download")
-    tmp.write_bytes(raw)
-    image = Image.open(tmp).convert("RGB")
-    image.thumbnail((1200, 1200))
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    image.save(dest, "WEBP", quality=82, method=6)
-    tmp.unlink(missing_ok=True)
+    download_image(url, dest, max_size=1200, user_agent=UA)
 
 
 def main() -> int:

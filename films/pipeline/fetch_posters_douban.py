@@ -10,9 +10,8 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from PIL import Image
-
 from common import FILMS_ROOT, read_jsonl, write_json
+from image_io import download_image
 
 UA = "Mozilla/5.0 (compatible; films-index/0.1)"
 
@@ -49,17 +48,7 @@ def search_page(title: str) -> str:
 
 
 def download(url: str, dest: Path) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Referer": "https://movie.douban.com/"})
-    with urllib.request.urlopen(req, timeout=30) as res:
-        data = res.read()
-    tmp = dest.with_suffix(".download")
-    tmp.write_bytes(data)
-    image = Image.open(tmp).convert("RGB")
-    image.thumbnail((500, 500))
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    image.save(dest, "WEBP", quality=84, method=6)
-    tmp.unlink(missing_ok=True)
-    return "#{:02x}{:02x}{:02x}".format(*image.resize((1, 1)).getpixel((0, 0)))
+    return download_image(url, dest, max_size=500, referer="https://movie.douban.com/", user_agent=UA)
 
 
 def main() -> int:
@@ -83,8 +72,8 @@ def main() -> int:
                 existing = json.loads(credits.read_text(encoding="utf-8"))
                 if existing.get("poster", {}).get("kind") == "real":
                     continue
-            except Exception:
-                pass
+            except Exception as exc:
+                print(f"  读取已有 credits 失败 {movie['id']}: {exc}")
         if args.limit and tried >= args.limit:
             break
         tried += 1
