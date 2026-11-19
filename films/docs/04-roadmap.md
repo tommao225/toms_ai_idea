@@ -21,7 +21,7 @@
 - `data/curated/lists/<list_id>/list.toml`：先 3 个榜单（悬疑/科幻/动作 的最伟大）的口径卡
 - `data/curated/lists/<list_id>/entries.csv`：每榜最多 100 部，能凑到多少收多少，含 `movie_key`、`note`（一句手记）
 - `data/curated/awards.toml`：A/A−/B/C 奖项 slug 表与类型映射
-- `data/curated/genre-map.toml`：TMDb 类型 → 本站三类型的映射
+- `data/curated/genre-map.toml`：TMDb 类型 → 本站九类的映射
 
 **验收**
 
@@ -34,9 +34,9 @@
 
 **交付**
 
-- `pipeline/fetch.py`：按 `movie_key` 抓 TMDb，原始响应缓存到 `data/raw/`
+- `pipeline/image_io.py`：图片下载、转 webp、取主色
 - `pipeline/merge.py`：归一化、去重、`missing` 标注
-- `pipeline/colorize.py`：海报转 webp + 取主色 + LQIP
+- `pipeline/placeholders.py`：没有真实图时生成占位图
 - `pipeline/build.py`：产出 `movies.jsonl`、`lists/*.json`、`web/data/*`
 
 **验收**
@@ -91,7 +91,7 @@
 
 **交付**
 
-- `data/awards/awards.jsonl`：首期录入 A 级 + 三类型 C 级
+- `data/awards/awards.jsonl`：首期录入 A 级 + 九类 C 级
 - 六个奖项榜单：`awards-all-tripod`、`awards-all-oscar`、`awards-scifi-hugo`、`awards-mystery-edgar`、`awards-action-stunt`、`awards-all-major`
 - 详情页获奖记录段
 
@@ -129,7 +129,7 @@
 
 ## 总预算
 
-约 29–43 人日（单人全职折算 6–9 周）。若只做"三类型 × 最伟大 × 打卡"的最小闭环（M0–M4），约 16–23 人日。
+约 29–43 人日（单人全职折算 6–9 周）。若只做“九类 × 最伟大 × 打卡”的最小闭环（M0–M4），约 16–23 人日。
 
 ## 每阶段都要过的门
 

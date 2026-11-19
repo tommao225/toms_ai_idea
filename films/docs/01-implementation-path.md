@@ -21,11 +21,13 @@ data/curated/                    人工源（真相源，可手改）
         │
         ▼
 pipeline/                        构建期，Python 标准库优先
-  fetch.py                       TMDb 抓客观字段（年份/片长/国别/导演/评分/海报/剧照）
-  fetch_wikidata.py              没有 TMDb 密钥时，按 IMDb 编号取 Wikidata 元数据
+  taxonomy.py                    九类标签、顺序、中文提示的唯一来源
+  image_io.py                    图片下载、转 webp、取色的唯一实现
   merge.py                       movie_key 归一、去重、合拍归属、缺失标注
-  colorize.py                    海报和剧照取主色、转 webp
   placeholders.py                没有真实图时生成带标记的占位图
+  fetch_posters_douban.py        豆瓣海报
+  fetch_stills_douban.py         豆瓣剧照
+  fetch_images_sogou.py          豆瓣缺图时用搜狗补
   build.py                       输出 data/lists/、web/data/site.js、按需加载的 web/data/lists/ 和 movies/
         │
         ▼
@@ -131,7 +133,7 @@ v2 增补的 `primary_country`、`sound`、`quote`、`stills`、`lists` 见 §5.
 |---|---|---|---|
 | fetch | curated 里的 `key` 列表 | `data/raw/tmdb/<movie_id>.json`（原始响应缓存） | 有缓存不重抓；新增 key 只抓新增 |
 | merge | raw + curated | `movies.jsonl` | 重跑无 diff |
-| colorize | 海报、剧照 | `data/media/movies/<movie_id>/` 与主色、LQIP | 同图同色 |
+| image_io | 海报、剧照 | `data/media/movies/<movie_id>/` 与主色 | 同图同色 |
 | build | movies + lists + awards | `data/lists/<list_id>.json`、`data/awards/awards.jsonl`、`web/data/site.js` 与按需加载的 `web/data/lists/`、`movies/` | 重跑无 diff；有 diff 必须能解释 |
 
 退出码约定：抓取有失败项仍可继续，但在末尾打印缺失清单并非零退出；`--strict` 时任一缺字段即失败。

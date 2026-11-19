@@ -56,7 +56,7 @@
 | 片长 | TMDb `runtime` | 人工 | 分钟整数；短片单列 |
 | 国别 | TMDb `production_countries` | 人工 | ISO 3166-1 alpha-2；多国 → 首列为 `primary_country` |
 | 导演 | TMDb `credits.crew` | 人工 | 存 `p:slug` 人物 id，不存纯字符串 |
-| 类型 | TMDb `genres` | 人工 | 映射到本站三类型 + `other`，映射表在 `data/curated/genre-map.toml` |
+| 类型 | TMDb `genres` | 人工 | 映射到本站九类 + `other`，映射表在 `data/curated/genre-map.toml` |
 | 票房 | Box Office Mojo / TMDb `revenue` | 无 | 名义美元；缺就是缺 |
 
 `movie_key` 统一用 `tmdb:{id}`，没有 TMDb 记录的用 `imdb:{ttid}`，两者都没有的片子不进榜（宁缺毋滥）。
@@ -85,7 +85,7 @@
 | **A** | 全球公认、影响影史的奖 | 奥斯卡主要奖（最佳影片/导演/剧本/国际影片/表演/摄影/剪辑/音效/配乐）、戛纳金棕榈、威尼斯金狮、柏林金熊、BAFTA 最佳影片 |
 | **A−** | 影响力大但争议明显 | 金球奖（剧情类/音乐喜剧类最佳影片）、戛纳评审团大奖、威尼斯/柏林评审团大奖 |
 | **B** | 国家级最高奖 / 一线地区奖 | 法国凯撒、意大利大卫、西班牙戈雅、德国电影奖、欧洲电影奖、日本电影学院奖、《电影旬报》年度十佳、韩国青龙/大钟、华语三金（金马/金像/金鸡）、印度 Filmfare、墨西哥 Ariel、阿根廷 Sur、巴西 Grande Prêmio |
-| **C** | 类型专项奖（与本站三类型直接相关） | 见 5.2 |
+| **C** | 类型专项奖（与本站九类直接相关） | 见 5.2 |
 | **D** | 参考级，不进主榜单 | MTV 影视大奖、人民选择奖、各类观众票选 |
 
 判定规则：
