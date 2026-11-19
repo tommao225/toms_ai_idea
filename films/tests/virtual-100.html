@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>放映单 · 100 行虚拟滚动测试</title>
+  <link rel="stylesheet" href="../web/assets/css/tokens.css">
+  <link rel="stylesheet" href="../web/assets/css/prototype.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="zh">放映单</span><span class="en">THE REEL</span></a>
+    <nav class="topnav"><a href="#/">目录</a><a href="#/watch">观影册</a></nav>
+  </header>
+  <main id="app"></main>
+  <footer class="foot">放映单 · 100 行虚拟滚动测试</footer>
+
+  <script src="../web/data/fixture.js"></script>
+  <script>if (!location.hash) location.hash = '#/list/fixture-100';</script>
+  <script>window.FILMS_VIRTUAL_TEST = true;</script>
+  <script src="../web/assets/js/data.js"></script>
+  <script src="../web/assets/js/store.js"></script>
+  <script src="../web/assets/js/ui.js"></script>
+  <script src="../web/assets/js/home.js"></script>
+  <script src="../web/assets/js/list.js"></script>
+  <script src="../web/assets/js/detail.js"></script>
+  <script src="../web/assets/js/watch.js"></script>
+  <script src="../web/assets/js/app.js"></script>
+</body>
+</html>

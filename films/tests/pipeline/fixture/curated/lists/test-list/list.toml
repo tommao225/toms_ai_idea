@@ -1,0 +1,27 @@
+# 管线测试用榜单，不是正式数据。
+schema_version = 1
+
+id = "test-list"
+title = "管线测试榜"
+criterion = "greatest"
+status = "final"
+decision = "hybrid"
+max_entries = 100
+count = 3
+genres = ["mystery"]
+chapters = [{ index = 1, title = "第一卷：测试" }]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "测试用口径"
+ranking_rule = "按名次"
+time_window = "1920–2024"
+sources = [{ name = "fixture", url = "", weight = 1.0, accessed = "2026-11" }]
+inclusion_rule = "测试"
+exclusion_rule = "测试"
+known_bias = "无"
+curator = "测试"
+version = "1"

@@ -1,0 +1,14 @@
+{
+  "id": 101,
+  "title": "测试电影一",
+  "original_title": "Test One",
+  "release_date": "1972-03-24",
+  "runtime": 175,
+  "production_countries": [{ "iso_3166_1": "US" }, { "iso_3166_1": "IT" }],
+  "spoken_languages": [{ "iso_639_1": "en" }, { "iso_639_1": "it" }],
+  "genres": [{ "name": "Crime" }, { "name": "Drama" }],
+  "credits": { "crew": [{ "id": 1, "job": "Director", "name": "测试导演一" }] },
+  "poster_src": "web/assets/img/p1.jpg",
+  "stills_src": ["web/assets/img/p2.jpg"],
+  "images": { "backdrops": [] }
+}
