@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""把 40 部海报拼成一张检查图，方便人工看有没有匹配错。"""
+"""把当前片库的海报拼成检查图，方便人工看有没有匹配错。"""
 from __future__ import annotations
 
+import math
+import sys
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-import sys  # noqa: E402
 sys.path.insert(0, str(ROOT / "pipeline"))
 from common import FILMS_ROOT, read_jsonl  # noqa: E402
 
@@ -16,9 +17,10 @@ OUT = FILMS_ROOT / "tests" / "out" / "posters-contact.jpg"
 
 def main() -> int:
     movies = read_jsonl(FILMS_ROOT / "data" / "movies" / "movies.jsonl")
-    font = ImageFont.truetype(r"C:\Windows\Fonts\NotoSerifSC-VF.ttf", 18)
-    cols, rows = 5, 8
-    cw, ch = 200, 240
+    font = ImageFont.truetype(r"C:\Windows\Fonts\NotoSerifSC-VF.ttf", 11)
+    cols = 12
+    rows = max(1, math.ceil(len(movies) / cols))
+    cw, ch = 100, 150
     sheet = Image.new("RGB", (cols * cw, rows * ch), "#0B0B0C")
     draw = ImageDraw.Draw(sheet)
     for i, movie in enumerate(movies):
@@ -27,14 +29,14 @@ def main() -> int:
         path = FILMS_ROOT / "data" / "media" / "movies" / movie["id"] / "poster.webp"
         try:
             image = Image.open(path).convert("RGB")
-            image.thumbnail((160, 200))
-            sheet.paste(image, (x + 20, y + 10))
+            image.thumbnail((82, 110))
+            sheet.paste(image, (x + 9, y + 8))
         except Exception:
             pass
-        draw.text((x + 10, y + 212), movie["zh"][:10], font=font, fill="#E8E4DA")
+        draw.text((x + 6, y + 124), movie["zh"][:7], font=font, fill="#E8E4DA")
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    sheet.save(OUT, "JPEG", quality=88)
-    print(OUT)
+    sheet.save(OUT, "JPEG", quality=86)
+    print(f"{OUT} ({len(movies)} 部)")
     return 0
 
 

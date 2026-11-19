@@ -1,6 +1,6 @@
 # 管线 fixture
 
-三部门电影和一张榜单，只用来验证抓取缓存、归一、取色、生成四步能跑通，不是正式数据。
+三部门电影和一张榜单，只用来验证归一、生成、页面和内容检查能跑通，不是正式数据。
 
 - `fixture/curated/`：榜单和条目。
 - `fixture/raw/tmdb/`：手写的 TMDb 响应，海报和剧照指向 `web/assets/img/`。
@@ -14,20 +14,19 @@
 python3 tests/pipeline/run.py
 ```
 
-它会清掉 `out/`，依次跑 fetch、merge、colorize、build、make_page，并检查 3 部电影、1 个榜单、名次连续。
+它会清掉 `out/`，把 `fixture/raw/tmdb` 复制进去，依次跑 merge、build、make_page、check，并检查 3 部电影、1 个榜单、名次连续。
 
 也可以分步跑：
 
 ```bash
 cd films
-python3 pipeline/fetch.py --fixture tests/pipeline/fixture/raw \
-  --curated tests/pipeline/fixture/curated --data-root tests/pipeline/out/data
+mkdir -p tests/pipeline/out/data/raw
+cp -r tests/pipeline/fixture/raw/tmdb tests/pipeline/out/data/raw/
 python3 pipeline/merge.py --curated tests/pipeline/fixture/curated \
   --data-root tests/pipeline/out/data
-python3 pipeline/colorize.py --data-root tests/pipeline/out/data
 python3 pipeline/build.py --curated tests/pipeline/fixture/curated \
   --data-root tests/pipeline/out/data --web-root tests/pipeline/out/web
-python3 pipeline/make_page.py
+python3 pipeline/make_page.py --web-root tests/pipeline/out/web
 ```
 
 `make_page.py` 生成 `out/web/index.html`，把资源路径指回 `films/web`，数据用生成的 `out/web/data/site.js`。直接打开这个页面就能看到三条测试影片。

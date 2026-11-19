@@ -6,6 +6,7 @@ import { mkdirSync, rmSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { checkGallery, checkLightbox, checkSearch, checkPager, checkThumbHover, checkQuoteReload } from './checks.mjs';
 
 const filmsRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(filmsRoot, 'tests', 'out');
@@ -90,7 +91,7 @@ async function shoot(cdp, name, url, width, height) {
     await sleep(100);
     const ready = await evaluate(cdp, 'document.readyState');
     const hasStats = await evaluate(cdp, 'Boolean(document.getElementById("stats"))');
-    if (ready === 'complete' && (hasStats || !url.includes('list-100'))) break;
+    if (ready === 'complete' && hasStats) break;
   }
   await sleep(400);
   await evaluate(cdp, 'document.fonts.ready.then(() => true)', true);
@@ -182,124 +183,6 @@ async function checkRealWatch(cdp, url) {
   console.log(`real-watch 700x900 ${result}`);
 }
 
-async function checkGallery(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 700, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(1200);
-  const result = await evaluate(cdp, `(async () => {
-    const fig = document.querySelector('.still-gallery');
-    if (!fig) return JSON.stringify({ error: 'no gallery' });
-    const count = fig.querySelector('.still-count');
-    const img = fig.querySelector('.still-image');
-    const before = { count: count.textContent, src: img.getAttribute('src') };
-    fig.querySelector('[data-still-next]').click();
-    await new Promise((r) => setTimeout(r, 100));
-    const after = { count: count.textContent, src: img.getAttribute('src') };
-    return JSON.stringify({ before, after });
-  })()`, true);
-  console.log(`gallery 700x900 ${result}`);
-}
-
-async function checkLightbox(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 700, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(1200);
-  const result = await evaluate(cdp, `(async () => {
-    const fig = document.querySelector('.still-gallery');
-    if (!fig) return JSON.stringify({ error: 'no gallery' });
-    document.querySelector('.still-open').click();
-    await new Promise((r) => setTimeout(r, 120));
-    const box = document.querySelector('.lightbox');
-    const count = box.querySelector('.lightbox-count');
-    const first = { open: !box.hidden, count: count.textContent, src: box.querySelector('.lightbox-image').src };
-    box.querySelector('.lightbox-next').click();
-    await new Promise((r) => setTimeout(r, 80));
-    const second = { count: count.textContent, src: box.querySelector('.lightbox-image').src };
-    box.querySelector('.lightbox-close').click();
-    return JSON.stringify({ first, second, closed: box.hidden });
-  })()`, true);
-  console.log(`lightbox 700x900 ${result}`);
-}
-
-async function checkSearch(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 1200, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(1000);
-  const result = await evaluate(cdp, `(async () => {
-    const rows = () => document.querySelectorAll('.search-row').length;
-    const first = () => document.querySelector('.search-title b')?.textContent || '';
-    const out = { initial: { rows: rows(), first: first() } };
-    const input = document.querySelector('.search-input');
-    input.value = '教父';
-    input.dispatchEvent(new Event('input', { bubbles: true }));
-    await new Promise((r) => setTimeout(r, 100));
-    out.query = { rows: rows(), first: first() };
-    return JSON.stringify(out);
-  })()`, true);
-  console.log(`search 1200x900 ${result}`);
-}
-
-async function checkPager(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 1200, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(1200);
-  const result = await evaluate(cdp, `(async () => {
-    const rows = () => document.querySelectorAll('.reel .row').length;
-    const pos = () => document.querySelector('.pager-pos').textContent;
-    const out = { first: { rows: rows(), pos: pos() } };
-    document.querySelector('[data-page-next]').click();
-    await new Promise((r) => setTimeout(r, 100));
-    out.second = { rows: rows(), pos: pos() };
-    const size = document.querySelector('[data-page-size]');
-    size.value = '20';
-    size.dispatchEvent(new Event('change', { bubbles: true }));
-    await new Promise((r) => setTimeout(r, 100));
-    out.size20 = { rows: rows(), pos: pos() };
-    return JSON.stringify(out);
-  })()`, true);
-  console.log(`pager 1200x900 ${result}`);
-}
-
-async function checkThumbHover(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 1200, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(1200);
-  const result = await evaluate(cdp, `(async () => {
-    const img = document.querySelector('.row-still');
-    if (!img) return JSON.stringify({ error: 'no image' });
-    img.dispatchEvent(new MouseEvent('mouseenter', { bubbles: false, clientX: 600, clientY: 320 }));
-    await new Promise((r) => setTimeout(r, 80));
-    const p = document.querySelector('.thumb-preview');
-    const out = { shown: p ? !p.hidden : false, src: p ? p.getAttribute('src') : '' };
-    img.dispatchEvent(new MouseEvent('mouseleave', { bubbles: false }));
-    return JSON.stringify(out);
-  })()`, true);
-  console.log(`hover 1200x900 ${result}`);
-}
-
-async function checkQuoteReload(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 700, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(1000);
-  const before = await evaluate(cdp, "document.querySelector('.quoteline p') ? document.querySelector('.quoteline p').textContent : ''");
-  await cdp.send('Page.reload', { ignoreCache: true });
-  await sleep(1200);
-  const after = await evaluate(cdp, "document.querySelector('.quoteline p') ? document.querySelector('.quoteline p').textContent : ''");
-  console.log(`quote-reload 700x900 ${JSON.stringify({ before, after })}`);
-}
-
 async function checkStore(cdp, url) {
   await cdp.send('Emulation.setDeviceMetricsOverride', {
     width: 700, height: 900, deviceScaleFactor: 1, mobile: false,
@@ -345,34 +228,6 @@ async function checkKeyboard(cdp, url) {
   console.log(`keyboard 700x900 ${result}`);
 }
 
-async function checkStamp(cdp, url) {
-  await cdp.send('Emulation.setDeviceMetricsOverride', {
-    width: 700, height: 900, deviceScaleFactor: 1, mobile: false,
-  });
-  await cdp.send('Page.navigate', { url });
-  await sleep(900);
-  const result = await evaluate(cdp, `(async () => {
-    const rows = [...document.querySelectorAll('.row')];
-    const row = rows[49];
-    if (!row) return JSON.stringify({ error: 'no row 50' });
-    row.scrollIntoView({ block: 'center' });
-    await new Promise((r) => setTimeout(r, 300));
-    const before = Math.round(window.scrollY);
-    row.querySelector('.stampbtn').click();
-    await new Promise((r) => setTimeout(r, 300));
-    const now = document.querySelector('.row[data-movie="f050"]');
-    return JSON.stringify({
-      before,
-      after: Math.round(window.scrollY),
-      label: now ? now.querySelector('.stampbtn').textContent : 'missing',
-      watched: now ? now.classList.contains('watched') : false,
-      stamp: now ? Boolean(now.querySelector('.stamp')) : false,
-      stored: (() => { try { return localStorage.getItem('films.watched.v1'); } catch { return 'blocked'; } })(),
-    });
-  })()`, true);
-  console.log(`stamp 700x900 ${result}`);
-}
-
 await waitForChrome();
 const wsUrl = await openTarget();
 const cdp = new Cdp(wsUrl);
@@ -383,16 +238,10 @@ await cdp.send('Page.addScriptToEvaluateOnNewDocument', {
   source: "window.__errs=[];window.addEventListener('error',function(e){window.__errs.push(e.message+' @'+e.filename+':'+e.lineno);});",
 });
 
-const list = `${base}/tests/list-100.html`;
 const virtual = `${base}/tests/virtual-100.html`;
-const proto = `${base}/web/prototype.html`;
 const index = `${base}/web/index.html`;
 
 try {
-  for (const width of [1440, 1024, 700, 390]) {
-    await shoot(cdp, 'list-100', list, width, 900);
-  }
-  await checkStamp(cdp, list);
   for (const width of [1440, 1024, 700, 390]) {
     await shoot(cdp, 'virtual-100', virtual, width, 900);
   }
@@ -423,11 +272,6 @@ try {
     await shoot(cdp, 'pipeline-list', `${pipelinePage}#/list/test-list`, 1440, 900);
     await shoot(cdp, 'pipeline-detail', `${pipelinePage}#/movie/m000101?list=test-list`, 390, 844);
   }
-  await shoot(cdp, 'home', proto, 1200, 900);
-  await shoot(cdp, 'list-sample', `${proto}#/list/global-mystery-greatest`, 1440, 900);
-  await shoot(cdp, 'list-sample', `${proto}#/list/global-mystery-greatest`, 390, 844);
-  await shoot(cdp, 'detail', `${proto}#/movie/guest?list=global-mystery-greatest`, 390, 844);
-  await shoot(cdp, 'detail', `${proto}#/movie/guest?list=global-mystery-greatest`, 1440, 900);
 } finally {
   cdp.close();
   chrome.kill();

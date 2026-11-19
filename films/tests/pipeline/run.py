@@ -28,10 +28,10 @@ def main() -> int:
     curated = FIXTURE / "curated"
     data = OUT / "data"
     web = OUT / "web"
-    run(str(FILMS / "pipeline" / "fetch.py"), "--fixture", str(FIXTURE / "raw"),
-        "--curated", str(curated), "--data-root", str(data))
+    raw = data / "raw" / "tmdb"
+    raw.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(FIXTURE / "raw" / "tmdb", raw)
     run(str(FILMS / "pipeline" / "merge.py"), "--curated", str(curated), "--data-root", str(data))
-    run(str(FILMS / "pipeline" / "colorize.py"), "--data-root", str(data))
     run(str(FILMS / "pipeline" / "build.py"), "--curated", str(curated),
         "--data-root", str(data), "--web-root", str(web))
     run(str(FILMS / "pipeline" / "check_content.py"), "--curated", str(curated),
