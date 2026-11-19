@@ -19,13 +19,13 @@
 docs/
 ├─ README.md
 ├─ _templates/
-│  ├─ plan.md
-│  ├─ issue.md
-│  ├─ adr.md
-│  └─ review.md
-├─ ADR-0001-docs-layout.md
-├─ PLAN-2026-11-12-generic-rules-library.md
-├─ ISSUE-YYYY-MM-DD-<英文短名>.md          # 仓库级，按需
+│  ├─ 方案.md
+│  ├─ 排查记录.md
+│  ├─ 决策记录.md
+│  └─ 评审记录.md
+├─ ADR-0001-公共文档布局.md
+├─ PLAN-2026-11-12-通用规则库设计.md
+├─ ISSUE-YYYY-MM-DD-<中文短名>.md          # 仓库级，按需
 └─ films/                                 # 项目级：目录名和顶层项目目录一致
    ├─ README.md
    ├─ adr/
@@ -43,12 +43,12 @@ docs/
 
 ## 3. 写哪种文档
 
-| 类型 | 项目里的目录 | 根目录文件名 |
-|---|---|---|
-| 决策记录（ADR） | `adr/` | `ADR-0001-<英文短名>.md` |
-| 排查记录（Issue） | `issues/` | `ISSUE-YYYY-MM-DD-<英文短名>.md` |
-| 方案（Plan） | `plans/feature/` 或 `plans/refactor/` | `PLAN-YYYY-MM-DD-<英文短名>.md` |
-| 评审记录（Review，可选） | `reviews/` | `REVIEW-YYYY-MM-DD-<英文短名>.md` |
+| 类型 | 项目里的目录 | 根目录文件名 | 模板 |
+|---|---|---|---|
+| 决策记录（ADR） | `adr/` | `ADR-0001-<中文短名>.md` | [`_templates/决策记录.md`](_templates/决策记录.md) |
+| 排查记录（Issue） | `issues/` | `ISSUE-YYYY-MM-DD-<中文短名>.md` | [`_templates/排查记录.md`](_templates/排查记录.md) |
+| 方案（Plan） | `plans/feature/` 或 `plans/refactor/` | `PLAN-YYYY-MM-DD-<中文短名>.md` | [`_templates/方案.md`](_templates/方案.md) |
+| 评审记录（Review，可选） | `reviews/` | `REVIEW-YYYY-MM-DD-<中文短名>.md` | [`_templates/评审记录.md`](_templates/评审记录.md) |
 
 四种文档分别写什么、什么时候写，见 [变更文档约定](../.dsh/conventions/change-docs.md) 第 3 节。这里只规定它们放在哪、怎么命名。
 
@@ -56,12 +56,13 @@ docs/
 
 ## 4. 文件名和文档开头
 
-- 文件名用英文和短横线，不用空格、中文或 `_v2` 这样的版本号；日期用创建当天，之后不改名。
+- 文件名由「类型前缀 + 日期或序号 + 中文短名」组成，段与段之间用短横线；短名用中文，不用英文或拼音；不用空格或 `_v2` 这样的版本号。README 是索引文件，保留英文名。
+- 日期用创建当天，之后不改名。
 - 文档开头写一段元信息，供人和检查脚本读取。字段名固定如下：
 
 ```yaml
 ---
-id: films/PLAN-2026-11-19-prototype-to-production
+id: films/PLAN-2026-11-19-原型转生产
 type: plan
 status: draft
 scope: films
@@ -72,7 +73,7 @@ related: [ADR-0001]
 ---
 ```
 
-- `id` 是编号；根目录文档直接写 `ADR-0001`，项目文档写 `films/ADR-0001`。
+- `id` 是编号；根目录文档直接写 `ADR-0001`，项目文档前面加项目名，例如 `films/PLAN-2026-11-19-原型转生产`。
 - `type` 只能是 `adr`、`issue`、`plan`、`review`。
 - `status` 见下表。
 - `scope` 写 `repo` 或项目名。
@@ -105,7 +106,7 @@ related: [ADR-0001]
 
 达到需要先写方案的条件时，先写一份方案再动手。哪些算需要、方案分哪八节、开工和完成的条件、写作要求，统一写在 [变更文档约定](../.dsh/conventions/change-docs.md)，这里不重复。
 
-方案模板在 [`_templates/plan.md`](_templates/plan.md)。问题清单是方案里的一节，不单独写“问题文档”；长期有效的选择另写决策记录。
+问题清单是方案里的一节，不单独写“问题文档”；长期有效的选择另写决策记录。
 
 ## 7. 文档要让人看懂
 
@@ -123,8 +124,8 @@ related: [ADR-0001]
 
 | 编号 | 状态 | 日期 | 文档 |
 |---|---|---|---|
-| `ADR-0001` | 已确认 | 2026-11-19 | [公共文档布局](ADR-0001-docs-layout.md) |
-| `PLAN-2026-11-12-generic-rules-library` | 完成 | 2026-11-12 | [通用规则库设计](PLAN-2026-11-12-generic-rules-library.md) |
+| `ADR-0001` | 已确认 | 2026-11-19 | [公共文档布局](ADR-0001-公共文档布局.md) |
+| `PLAN-2026-11-12-通用规则库设计` | 完成 | 2026-11-12 | [通用规则库设计](PLAN-2026-11-12-通用规则库设计.md) |
 
 ### 项目
 
