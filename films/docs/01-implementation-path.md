@@ -13,30 +13,36 @@
 ## 3. 系统结构
 
 ```
-data/curated/            人工源（真相源，可手改）
-  lists.toml             榜单定义：id、标题、口径卡、作用域、排序规则
-  entries/*.csv          人工策展条目：rank, movie_key, note
-  awards.toml            奖项分级与映射
+data/curated/                    人工源（真相源，可手改）
+  lists/<list_id>/list.toml      榜单定义：id、标题、口径卡、卷名、作用域、排序规则
+  lists/<list_id>/entries.csv    人工策展条目：rank, movie_key, note
+  movies/<movie_id>/quote.md     台词或摘句，带出处
+  awards.toml                    奖项分级与映射
         │
         ▼
-pipeline/                构建期，Python 标准库优先
-  fetch.py               TMDb 抓客观字段（年份/片长/国别/导演/评分/海报）
-  merge.py               movie_key 归一、去重、合拍归属、缺失标注
-  colorize.py            海报取主色 + 生成 LQIP 占位
-  build.py               输出 data/*.json 与 web/data/*
+pipeline/                        构建期，Python 标准库优先
+  fetch.py                       TMDb 抓客观字段（年份/片长/国别/导演/评分/海报/剧照）
+  fetch_wikidata.py              没有 TMDb 密钥时，按 IMDb 编号取 Wikidata 元数据
+  merge.py                       movie_key 归一、去重、合拍归属、缺失标注
+  colorize.py                    海报和剧照取主色、转 webp
+  placeholders.py                没有真实图时生成带标记的占位图
+  build.py                       输出 data/lists/、web/data/site.js、按需加载的 web/data/lists/ 和 movies/
         │
         ▼
-data/movies/movies.jsonl  电影主档，一行一部
-data/lists/*.json         每榜一个文件
-data/awards/awards.jsonl  奖项记录，一行一条
-data/posters/*.webp       本地海报（gitignore）
+data/movies/movies.jsonl         电影主档，一行一部
+data/lists/<list_id>.json        每榜一个文件
+data/awards/awards.jsonl         奖项记录，一行一条（尚未实现）
+data/media/movies/<movie_id>/    海报、剧照、来源说明（gitignore，credits.json 除外）
+data/media/lists/<list_id>/      板块头图、卷封面、来源说明
+data/raw/tmdb/<movie_id>.json    TMDb 原始响应缓存
+data/raw/wikidata/<imdb_id>.json Wikidata 元数据缓存
         │
         ▼
-web/                     静态站，无构建无框架
-  index.html             单页 + hash 路由
-  assets/css/tokens.css  设计 token（氛围规范落地处）
-  assets/js/{app,list,detail,watch}.js
-  data/                  构建产物镜像（软链或拷贝）
+web/                             静态站，无构建无框架
+  index.html                     单页 + hash 路由
+  assets/css/tokens.css          设计 token（氛围规范落地处）
+  assets/js/{app,data,store,ui,home,list,detail,watch}.js
+  data/                          构建产物镜像（软链或拷贝）
 ```
 
 依赖方向：`web` 只读 `data/`，`pipeline` 只写 `data/` 与 `web/data/`，`data/curated` 只由人改。三者不互相 import。
@@ -64,9 +70,11 @@ web/                     静态站，无构建无框架
 {"id":"m000123","key":"tmdb:238","titles":{"zh":"教父","en":"The Godfather"},"year":1972,
  "runtime":175,"countries":["US"],"coproduction":false,"languages":["en"],"directors":["p:coppola"],
  "genres":["crime","drama"],"silent":false,"color":"color","aspect":"1.85:1",
- "scores":{"imdb":9.2,"douban":9.3,"letterboxd":4.5},"poster":"posters/m000123.webp",
+ "scores":{"imdb":9.2,"douban":9.3,"letterboxd":4.5},"poster":"media/movies/m000123/poster.webp",
  "dominant":"#2b1d16","credits_note":"","missing":["boxoffice"]}
 ```
+
+v2 增补的 `primary_country`、`sound`、`quote`、`stills`、`lists` 见 §5.4；上面只保留核心字段。
 
 规则：
 
@@ -78,8 +86,10 @@ web/                     静态站，无构建无框架
 ### 5.2 榜单 `data/lists/{list_id}.json`
 
 ```json
-{"id":"global-all-greatest","title":"影史最伟大的悬疑片","scope":{"kind":"global"},
+{"id":"global-all-greatest","title":"悬疑电影","scope":{"kind":"global"},
  "genres":[],"criterion":"greatest","max_entries":100,"count":97,"status":"final","canon":{...口径卡...},
+ "hero":"media/lists/global-all-greatest/hero.webp",
+ "chapters":[{"index":1,"title":"第一卷：证词"}],
  "entries":[{"rank":1,"movie_id":"m000123","note":"策展手记，一到两句","why_included":"替换理由（混合口径时必填）"}]}
 ```
 
@@ -88,6 +98,8 @@ web/                     静态站，无构建无框架
 - 禁止为凑数添加条目。判定标准：这一部放进去，你能用一句话说清它为什么够格；说不清就删。
 - `status` 只有 `final` / `draft`；`final` 表示已逐条人工确认，不以条数是否满 100 为条件。
 - `note` 是产品灵魂：每部片一句，写"为什么它在这一榜"，不写剧情简介。
+- `chapters` 只作为数据保留，不再在列表里显示卷标；列表改用分页。
+- `hero` 是板块头图，没有就不显示；图片放在 `data/media/lists/<list_id>/`。
 - 打卡进度按 `list_id + movie_id` 存，所以榜单 id 与 movie_id 都必须稳定。
 
 ### 5.3 奖项 `data/awards/awards.jsonl`
@@ -99,14 +111,28 @@ web/                     静态站，无构建无框架
 
 一个奖项一次获奖/提名一行；`result` 只取 `won` / `nominated`。奖项定义见 `02` §5。
 
+### 5.4 v2 增补字段
+
+| 字段 | 在哪 | 来源 | 说明 |
+|---|---|---|---|
+| `primary_country` | 电影 | TMDb / Wikidata / 人工 | ISO alpha-2；`countries` 保留全部，洲榜用主国 |
+| `sound` | 电影 | 人工 / 发行信息 | 声音制式；不清楚就进 `missing`，不猜 |
+| `quote` | 电影 | 人工 | `{text, source, kind}`；`kind` 取 `line`（台词）、`critic`（影评摘句）、`curation`（没有出处的策展短句） |
+| `stills` | 电影 | 管线 / 人工 | `[{path, source, credit, kind}]`，1–2 张；`kind` 取 `real` / `placeholder`；路径在 `data/media/movies/<movie_id>/` |
+| `lists` | 电影 | 构建反查 | `[{list_id, rank}]`；详情页判断来自哪个榜；构建生成，不手写 |
+| `chapters` | 榜单 | 人工 | `[{index, title}]`；作为数据保留，列表不再显示卷标 |
+| `hero` | 榜单 | 人工 / 管线 | 板块头图路径；没有就不显示；图片在 `data/media/lists/<list_id>/` |
+
+目录布局见 `../data/README.md` 与 ADR-0003；详情页的榜单上下文见 ADR-0004。
+
 ## 6. 管线四步
 
 | 步 | 输入 | 输出 | 幂等要求 |
 |---|---|---|---|
-| fetch | curated 里的 `key` 列表 | `data/raw/*.json`（原始响应缓存） | 有缓存不重抓；新增 key 只抓新增 |
+| fetch | curated 里的 `key` 列表 | `data/raw/tmdb/<movie_id>.json`（原始响应缓存） | 有缓存不重抓；新增 key 只抓新增 |
 | merge | raw + curated | `movies.jsonl` | 重跑无 diff |
-| colorize | 海报 | `dominant` + LQIP | 同图同色 |
-| build | movies + lists + awards | `data/lists/*.json`、`web/data/*` | 重跑无 diff；有 diff 必须能解释 |
+| colorize | 海报、剧照 | `data/media/movies/<movie_id>/` 与主色、LQIP | 同图同色 |
+| build | movies + lists + awards | `data/lists/<list_id>.json`、`data/awards/awards.jsonl`、`web/data/site.js` 与按需加载的 `web/data/lists/`、`movies/` | 重跑无 diff；有 diff 必须能解释 |
 
 退出码约定：抓取有失败项仍可继续，但在末尾打印缺失清单并非零退出；`--strict` 时任一缺字段即失败。
 
@@ -117,11 +143,12 @@ web/                     静态站，无构建无框架
 | 路由 | 视图 | 关键点 |
 |---|---|---|
 | `#/` | 榜单索引（放映目录） | 按口径分组，卡片只写标题、作用域、一句口径摘录 |
-| `#/list/{list_id}` | 放映单（≤100 行） | 编号列固定；每 10 部一卷；滚动到卷首时卷标吸入 |
-| `#/movie/{movie_id}` | 单场放映 | 全屏静帧、关键台词、技术栏、手记、打卡 |
+| `#/list/{list_id}` | 放映单（≤100 行） | 正式榜全部动态分页（默认 10 / 可切 20）；100 行测试仍走虚拟滚动 |
+| `#/movie/{movie_id}?list={list_id}` | 单场放映 | 有 `list` 时显示该榜名次；没有时列所属榜单；全屏静帧、台词、技术栏、手记、打卡 |
 | `#/watch` | 我的观影册 | 已看数量、按类型/年代分布、导出导入 |
+| `#/search` | 站内搜索 | 只查 `site.js` 的索引，支持片名、导演、年份 |
 
-`list` 视图是核心，性能预算：首屏只渲染前 20 行，其余交给 `IntersectionObserver` 分批；满 100 行时总 DOM 上限 ≤ 1200 节点。
+`list` 视图是核心。正式榜全部动态分页，默认每页 10 部，可切 20 部；满 100 行的测试仍走虚拟滚动，只保留屏幕附近约 20 行，总页面节点不超过 800（见 ADR-0002）。
 
 ## 8. 打卡
 
@@ -132,9 +159,9 @@ web/                     静态站，无构建无框架
 
 ## 9. 性能与离线
 
-- 海报：构建期转 `webp`（长边 400px），列表用 LQIP 占位，`loading="lazy"`。
-- 字体：自托管，仅子集化用到的字重与字符集；不用 CDN。
-- 首屏预算：HTML + CSS + 首屏数据 ≤ 150KB（不含海报）；无 JS 时列表仍可读（`<noscript>` 走服务端无关的静态兜底：构建期生成 `list/{id}.html` 纯静态版，可选）。
+- 海报和剧照：构建期转 `webp`（海报长边 400px），列表用 LQIP 占位，`loading="lazy"`；按电影存 `data/media/movies/<movie_id>/`。
+- 字体：自托管，GB2312 一级常用字 3755 个，加标点和拉丁共 3889 个字符；变量字体单文件，第一屏加载一次；不用 CDN。
+- 首屏预算：HTML + CSS + 首屏数据 ≤ 150KB（不含海报和字体）；字体单独设上限，第一屏只加载用到的分片。无 JS 时列表仍可读（`<noscript>` 走构建期生成的纯静态兜底，可选）。
 - 离线：不做 PWA 首期；但所有资源同源，`file://` 打开也要能跑（便于本地预览）。
 
 ## 10. 已知风险
@@ -142,7 +169,8 @@ web/                     静态站，无构建无框架
 | 风险 | 应对 |
 |---|---|
 | 榜单口径被质疑 | 口径卡 + 来源链接 + `why_included` 写明替换 |
-| 海报版权 | 本地缓存 + 来源标注 + 不做热链；商用前需重新评估 |
+| 海报和剧照版权 | 本地缓存 + 来源标注 + 不做热链；质量不够用生成的占位；商用前需重新评估 |
+| 台词和摘句版权 | 只引短句，标出处；没有出处的用策展短句并标「策展」 |
 | 「最早」榜数据混乱 | 单独标注存世/残缺/片段，且放到最后做 |
 | 合拍片归洲打架 | 按主出品国，`coproduction:true` 显式标出，不进洲榜 |
 | 打卡进度因改榜丢失 | 榜单 id 冻结；改榜只能新增榜单，不重排已有 id |
