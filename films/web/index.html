@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>放映单</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/prototype.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="zh">放映单</span>
+      <span class="en">THE REEL</span>
+    </a>
+    <nav class="topnav">
+      <a href="#/search">搜索</a>
+      <a href="#/">目录</a>
+      <a href="#/watch">观影册</a>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <noscript>
+    <p style="padding:40px 28px">这个站点需要启用 JavaScript。</p>
+  </noscript>
+
+  <!-- 正式构建写 data/site.js；还没有正式数据时回退到 fixture。 -->
+  <script src="data/site.js"></script>
+  <!-- fallback:start -->
+  <script>if (!window.FILMS_DATA) document.write('<script src="data/fixture.js"><\/script>');</script>
+  <!-- fallback:end -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script src="assets/js/list.js"></script>
+  <script src="assets/js/detail.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/watch.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

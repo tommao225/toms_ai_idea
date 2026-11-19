@@ -1,4 +1,19 @@
 /* 设计 token：全部数值来自 films/docs/03-atmosphere-spec.md，不在这里发明新值。 */
+@font-face {
+  font-family: "Films Serif";
+  src: url("../fonts/films-serif-common.woff2") format("woff2");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Films Sans";
+  src: url("../fonts/films-sans-common.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --ink: #0B0B0C;
   --ink-2: #131215;
@@ -9,8 +24,8 @@
   --rule: rgba(232, 228, 218, 0.08);
   --rule-strong: rgba(232, 228, 218, 0.16);
 
-  --serif: "Songti SC", "STSong", "Noto Serif SC", "Source Han Serif SC", serif;
-  --sans: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", system-ui, sans-serif;
+  --serif: "Films Serif", "Noto Serif SC", "Songti SC", "STSong", serif;
+  --sans: "Films Sans", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", sans-serif;
   --mono: "SF Mono", "JetBrains Mono", Menlo, ui-monospace, monospace;
 
   --row-h: 64px;
