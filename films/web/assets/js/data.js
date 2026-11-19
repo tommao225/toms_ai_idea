@@ -67,7 +67,9 @@
 
   async function loadMovies(ids) {
     for (const id of ids) {
-      try { await loadMovie(id); } catch { /* 缺数据就跳过 */ }
+      try { await loadMovie(id); } catch (err) {
+        console.warn(`电影数据加载失败：${id}`, err);
+      }
     }
   }
 

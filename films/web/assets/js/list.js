@@ -4,6 +4,8 @@
   const ui = Films.ui;
   const BUFFER = 4;
   const VIEW = 24;
+  const PAGE_SIZES = [10, 20];
+  const DEFAULT_PAGE_SIZE = 10;
   let state = null;
   let thumbPreview = null;
 
@@ -83,7 +85,7 @@
     const thumb = ui.asset(film.poster || still);
     const runtime = typeof film.runtime === 'number' ? `${film.runtime}′` : (film.runtime || '');
     const country = film.country || film.primary_country || '';
-    const color = film.film || '#3A4653';
+    const color = film.film || 'var(--film-fallback)';
     return `<li class="row ${watched ? 'watched' : ''}" data-movie="${ui.esc(film.id)}" data-index="${index}"
       aria-setsize="${state.items.length}" aria-posinset="${index + 1}" style="--film:${color}">
       <a class="row-link" href="${href}" style="--title-w:${ui.metrics.titleCellW}px; --dir-w:${ui.metrics.dirCap}px">
@@ -100,10 +102,6 @@
       </span>
       <button class="stampbtn" data-watch="${ui.esc(film.id)}" aria-pressed="${watched}">${watched ? '已入场' : '看过'}</button>
     </li>`;
-  }
-
-  function volHtml(label) {
-    return `<li class="vol"><span>${ui.esc(label)}</span></li>`;
   }
 
   function headHtml(l) {
@@ -123,9 +121,7 @@
     const pageList = Object.assign({}, state.list, { entries: pageEntries });
     const pageItems = buildItems(pageList);
     state.reel.innerHTML = pageItems.map((item, i) => (
-      item.type === 'vol'
-        ? volHtml(item.label)
-        : rowHtml(item.film, item.rank, start + i, state.listId)
+      rowHtml(item.film, item.rank, start + i, state.listId)
     )).join('');
     ui.bindNameScroll(state.reel);
     bindThumbPreview(state.reel);
@@ -155,7 +151,7 @@
       window.scrollTo(0, Math.max(0, state.root.offsetTop - 20));
     });
     pager.querySelector('[data-page-size]').addEventListener('change', (e) => {
-      state.pageSize = Number(e.target.value) === 20 ? 20 : 10;
+      state.pageSize = PAGE_SIZES.includes(Number(e.target.value)) ? Number(e.target.value) : DEFAULT_PAGE_SIZE;
       state.page = 1;
       hideThumbPreview();
       renderPaged();
@@ -177,9 +173,7 @@
     const bottom = `<li class="reel-spacer" aria-hidden="true" style="height:${(items.length - end) * itemH}px"></li>`;
     const body = items.slice(start, end).map((item, i) => {
       const index = start + i;
-      return item.type === 'vol'
-        ? volHtml(item.label)
-        : rowHtml(item.film, item.rank, index, state.listId);
+      return rowHtml(item.film, item.rank, index, state.listId);
     }).join('');
     reel.innerHTML = top + body + bottom;
     ui.bindNameScroll(reel);
@@ -295,8 +289,7 @@
           <button type="button" data-page-next>下一页</button>
           <label class="pager-size">每页
             <select data-page-size>
-              <option value="10" selected>10</option>
-              <option value="20">20</option>
+              ${PAGE_SIZES.map((size) => `<option value="${size}"${size === DEFAULT_PAGE_SIZE ? ' selected' : ''}>${size}</option>`).join('')}
             </select>
             部
           </label>
@@ -304,7 +297,7 @@
       const reel = root.querySelector('#reel');
       state = {
         listId, list: l, entries, items, paginated: true,
-        page: 1, pageSize: 10, itemH, cursor: -1,
+        page: 1, pageSize: DEFAULT_PAGE_SIZE, itemH, cursor: -1,
         reel, root, pager: root.querySelector('.pager'),
       };
       bindPager();

@@ -30,5 +30,6 @@
 
   --row-h: 64px;
   --maxw: 1120px;
-  --film: var(--accent); /* 运行时按影片主色覆盖 */
+  --film-fallback: #3A4653;
+  --film: var(--film-fallback); /* 运行时按影片主色覆盖 */
 }

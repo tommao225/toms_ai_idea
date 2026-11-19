@@ -522,9 +522,10 @@
       ],
       "director": "黑泽明",
       "genres": [
-        "mystery"
+        "drama",
+        "crime"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -668,9 +669,12 @@
       ],
       "director": "阿尔弗雷德·希区柯克",
       "genres": [
-        "mystery"
+        "drama",
+        "crime",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -888,9 +892,9 @@
       ],
       "director": "比利·怀尔德",
       "genres": [
-        "mystery"
+        "crime"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "犯罪",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -963,9 +967,12 @@
       ],
       "director": "阿尔弗雷德·希区柯克",
       "genres": [
-        "mystery"
+        "drama",
+        "romance",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -1112,10 +1119,13 @@
       ],
       "director": "阿尔弗雷德·希区柯克",
       "genres": [
+        "drama",
         "action",
-        "mystery"
+        "crime",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "动作",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -2128,9 +2138,11 @@
       ],
       "director": "西德尼·吕美特",
       "genres": [
+        "drama",
+        "crime",
         "mystery"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -2701,9 +2713,11 @@
       ],
       "director": "约翰·吉勒明",
       "genres": [
-        "mystery"
+        "crime",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "犯罪",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -7806,10 +7820,12 @@
       ],
       "director": "布莱恩·辛格",
       "genres": [
+        "drama",
         "action",
-        "mystery"
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "动作",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -12045,9 +12061,12 @@
       ],
       "director": "大卫·芬奇",
       "genres": [
-        "mystery"
+        "drama",
+        "crime",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -13845,7 +13864,8 @@
       ],
       "director": "奉俊昊",
       "genres": [
-        "mystery"
+        "mystery",
+        "drama"
       ],
       "genreLabel": "悬疑",
       "silent": false,
@@ -13992,10 +14012,12 @@
       ],
       "director": "朴赞郁",
       "genres": [
+        "drama",
         "action",
-        "mystery"
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "动作",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -15288,9 +15310,10 @@
       ],
       "director": "大卫·芬奇",
       "genres": [
+        "drama",
         "mystery"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -15794,9 +15817,11 @@
       ],
       "director": "克里斯托弗·诺兰",
       "genres": [
-        "mystery"
+        "drama",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -15872,9 +15897,11 @@
       ],
       "director": "奥里奥尔·保罗",
       "genres": [
-        "mystery"
+        "drama",
+        "mystery",
+        "horror"
       ],
-      "genreLabel": "悬疑",
+      "genreLabel": "剧情",
       "silent": false,
       "color": "color",
       "aspect": "",
@@ -17291,6 +17318,7 @@
       "id": "global-action-greatest",
       "title": "动作电影",
       "genre": "动作",
+      "order": 2,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -17512,6 +17540,7 @@
       "id": "global-animation-greatest",
       "title": "动画电影",
       "genre": "动画",
+      "order": 7,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -17733,6 +17762,7 @@
       "id": "global-comedy-greatest",
       "title": "喜剧电影",
       "genre": "喜剧",
+      "order": 4,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -17954,6 +17984,7 @@
       "id": "global-crime-greatest",
       "title": "犯罪电影",
       "genre": "犯罪",
+      "order": 6,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -18175,6 +18206,7 @@
       "id": "global-drama-greatest",
       "title": "剧情电影",
       "genre": "剧情",
+      "order": 3,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -18396,6 +18428,7 @@
       "id": "global-horror-greatest",
       "title": "恐怖电影",
       "genre": "恐怖",
+      "order": 8,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -18617,6 +18650,7 @@
       "id": "global-mystery-greatest",
       "title": "悬疑电影",
       "genre": "悬疑",
+      "order": 0,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -18848,6 +18882,7 @@
       "id": "global-romance-greatest",
       "title": "爱情电影",
       "genre": "爱情",
+      "order": 5,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",
@@ -19069,6 +19104,7 @@
       "id": "global-scifi-greatest",
       "title": "科幻电影",
       "genre": "科幻",
+      "order": 1,
       "criterion": "greatest",
       "decision": "hybrid",
       "status": "draft",

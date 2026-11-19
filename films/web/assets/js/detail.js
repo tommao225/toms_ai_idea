@@ -64,7 +64,7 @@
       ? `<div class="watch-hint">所属榜单：${memberships.map((m) => `${ui.esc(m.list_id)} 第 ${m.rank} 位`).join(' · ')}</div>`
       : '';
     const tag = rank != null ? `${ui.esc(genreLabel)} · 榜单第 ${rank} 位` : ui.esc(genreLabel);
-    const color = f.film || '#3A4653';
+    const color = f.film || 'var(--film-fallback)';
 
     return `<article class="detail view" style="--film:${color}">
       <div class="still">

@@ -1,20 +1,20 @@
 # web/
 
-静态站。单页、无构建、无框架、无 CDN。正式入口是 `index.html`；`prototype.html` 保留作视觉对照。
+静态站。单页、无构建、无框架、无 CDN。唯一入口是 `index.html`。
 
 ## 结构
 
 ```
 index.html                 正式入口，hash 路由
-prototype.html             原型对照页
 assets/css/tokens.css      设计 token、自托管字体
-assets/css/prototype.css   版式与组件（正式页暂时共用这个名字）
+assets/css/site.css        列表与首页版式
+assets/css/detail.css      详情、观影册、分页与响应式
 assets/fonts/              中文字体子集
 assets/js/data.js          读取 window.FILMS_DATA
 assets/js/store.js         打卡存储，唯一写入口
 assets/js/ui.js            转义、列宽测量、片名格子
 assets/js/home.js          首页
-assets/js/list.js          放映单，20 部以内分页（10/20），100 行测试仍用虚拟滚动
+assets/js/list.js          放映单，正式榜动态分页（10/20），100 行测试用虚拟滚动
 assets/js/detail.js        详情
 assets/js/search.js        站内搜索
 assets/js/watch.js         观影册、导入导出
