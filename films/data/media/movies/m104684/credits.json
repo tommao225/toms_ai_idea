@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F1013%2F1bd99bacj00t41ty6005jd200u001hcg00it00xf.jpg&thumbnail=750x2147483647&quality=75&type=webp",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m104684/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imgs.weekendhk.com/wp-content/uploads/2022/03/screen-shot-2022-03-30-at-3.50.36-pm_103467739162440c4983cc7-1024x541.png"
+    },
+    {
+      "path": "media/movies/m104684/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dl.kulemi.com/project/photo/2023051716112549379346.jpg"
+    },
+    {
+      "path": "media/movies/m104684/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/87b3e017f5764796853d9875f5dd9d24~tplv-xv4ileqgde-image.image"
+    }
+  ]
+}

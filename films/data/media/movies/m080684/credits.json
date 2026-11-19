@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img9.doubanio.com/view/photo/l_ratio_poster/public/p732937546.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m080684/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic.baike.soso.com/ugc/baikepic2/0/20230511020446-771951636_jpeg_1200_800_533656.jpg/0"
+    },
+    {
+      "path": "media/movies/m080684/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic1.zhimg.com/v2-8760abff5d7bd78ae153885c5d8b6784_b.jpg"
+    },
+    {
+      "path": "media/movies/m080684/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.tvspielfilm.de/14/fb/ff/56fbc8faea60e536affffb14.jpeg?im=Crop,rect=(0,0,1788,1176),gravity=Center;Resize,width=632"
+    }
+  ]
+}

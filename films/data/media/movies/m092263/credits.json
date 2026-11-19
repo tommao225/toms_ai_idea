@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://fastly-s3.allmovie.com/iva/movie/4847/300/4847.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m092263/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/5d6034a85edf8db1cb1336c30f79ca54564e9258de58/5d6034a85edf8db1cb1336c30f79ca54564e9258de58_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+    },
+    {
+      "path": "media/movies/m092263/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/d0c8a786c9177f3e0e7398dd72cf3bc79e3d569e/d0c8a786c9177f3e0e7398dd72cf3bc79e3d569e_16_9?x-bce-process=image/format,f_auto"
+    },
+    {
+      "path": "media/movies/m092263/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://ian.marieclaire.com.tw/assets/mc/202203/624029176454E1648371991.jpeg?t=sc&w=1200%2C675&format=jpg"
+    }
+  ]
+}

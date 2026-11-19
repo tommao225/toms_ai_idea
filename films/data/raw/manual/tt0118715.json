@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0118715",
+  "wikidata": "",
+  "title": "谋杀绿脚趾",
+  "original_title": "The Big Lebowski",
+  "release_date": "1998-01-01",
+  "runtime": 117,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "乔尔·科恩"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0034583",
+  "wikidata": "",
+  "title": "卡萨布兰卡",
+  "original_title": "Casablanca",
+  "release_date": "1942-01-01",
+  "runtime": 102,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "迈克尔·柯蒂斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

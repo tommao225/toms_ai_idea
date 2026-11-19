@@ -1,0 +1,21 @@
+{
+  "poster": {
+    "source": "user",
+    "kind": "real",
+    "url": ""
+  },
+  "stills": [
+    {
+      "path": "media/movies/m113568/still-01.webp",
+      "source": "user",
+      "kind": "real",
+      "url": ""
+    },
+    {
+      "path": "media/movies/m113568/still-02.webp",
+      "source": "user",
+      "kind": "real",
+      "url": ""
+    }
+  ]
+}

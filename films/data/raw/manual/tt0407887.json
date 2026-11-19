@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0407887",
+  "wikidata": "",
+  "title": "无间道风云",
+  "original_title": "The Departed",
+  "release_date": "2006-01-01",
+  "runtime": 151,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "马丁·斯科塞斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

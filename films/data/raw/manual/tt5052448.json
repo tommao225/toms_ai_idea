@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt5052448",
+  "wikidata": "",
+  "title": "逃出绝命镇",
+  "original_title": "Get Out",
+  "release_date": "2017-01-01",
+  "runtime": 104,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "乔丹·皮尔"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

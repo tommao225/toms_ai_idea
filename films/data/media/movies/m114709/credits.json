@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://moviesense.io/img/movie/519/poster/w500.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m114709/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://images.stacker.com/w/1080/BestPixarfilmsBestPixarfilmsslide18O3EK_0_0_0_1.png?v=v3"
+    },
+    {
+      "path": "media/movies/m114709/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://m.media-amazon.com/images/M/MV5BYTBhNGUyNTktYTlhYy00MzNkLThkMmQtYTZiNTNhZTMzYjcyXkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+    },
+    {
+      "path": "media/movies/m114709/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://insidethemagic.net/wp-content/uploads/2025/03/Rex-in-Toy-Story.jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0113703",
+  "wikidata": "",
+  "title": "情书",
+  "original_title": "Love Letter",
+  "release_date": "1995-01-01",
+  "runtime": 117,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "JP"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "岩井俊二"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://www.people.com.cn/mediafile/pic/20190815/9/15123142416442937781.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m765120/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic2.zhimg.com/v2-c22bedfd9cf521d5954fa32cfeacd435_b.jpg"
+    },
+    {
+      "path": "media/movies/m765120/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20171119/d03cf3f794664df1894c068ed338adc9.jpeg"
+    },
+    {
+      "path": "media/movies/m765120/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.etnet.com.hk/diva/images/stories/226/2018/11/3love20181114.jpg"
+    }
+  ]
+}

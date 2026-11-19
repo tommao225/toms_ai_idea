@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1392190",
+  "wikidata": "",
+  "title": "疯狂的麦克斯：狂暴之路",
+  "original_title": "Mad Max: Fury Road",
+  "release_date": "2015-01-01",
+  "runtime": 120,
+  "production_countries": [
+    {
+      "iso_3166_1": "AU"
+    },
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "AU",
+    "US"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "乔治·米勒"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

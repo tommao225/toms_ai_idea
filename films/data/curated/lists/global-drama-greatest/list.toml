@@ -1,0 +1,28 @@
+schema_version = 1
+
+id = "global-drama-greatest"
+title = "剧情电影"
+criterion = "greatest"
+status = "draft"
+decision = "hybrid"
+max_entries = 100
+count = 30
+genres = ["drama"]
+chapters = [
+  { index = 1, title = "第一卷：人的处境" },
+]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "以人物处境、家庭、历史和道德选择为核心的全球剧情长片。"
+ranking_rule = "按影史影响、人物完成度和可重看性综合排序。"
+time_window = "1941–2000"
+sources = [{ name = "人工初选", url = "", weight = 1.0, accessed = "2026-11" }]
+inclusion_rule = "人物和处境是叙事核心，类型元素只是外壳。"
+exclusion_rule = "只靠情节反转或奇观、没有人物处境的片子。"
+known_bias = "欧美偏多，华语和日本各几部。"
+curator = "初选"
+version = "1"

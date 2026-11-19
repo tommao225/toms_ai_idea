@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0080339",
+  "wikidata": "",
+  "title": "空前绝后满天飞",
+  "original_title": "Airplane!",
+  "release_date": "1980-01-01",
+  "runtime": 88,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "吉姆·艾布拉姆斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0116209",
+  "wikidata": "",
+  "title": "英国病人",
+  "original_title": "The English Patient",
+  "release_date": "1996-01-01",
+  "runtime": 162,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "US",
+    "GB"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "安东尼·明格拉"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

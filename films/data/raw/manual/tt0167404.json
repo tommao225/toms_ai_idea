@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0167404",
+  "wikidata": "",
+  "title": "第六感",
+  "original_title": "The Sixth Sense",
+  "release_date": "1999-01-01",
+  "runtime": 107,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "mystery"
+  ],
+  "genre_labels": [
+    "mystery"
+  ],
+  "director_names": [
+    "奈特·沙马兰"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

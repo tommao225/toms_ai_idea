@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0096902",
+  "wikidata": "",
+  "title": "悲情城市",
+  "original_title": "A City of Sadness",
+  "release_date": "1989-01-01",
+  "runtime": 157,
+  "production_countries": [
+    {
+      "iso_3166_1": "TW"
+    }
+  ],
+  "country_labels": [
+    "TW"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "侯孝贤"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

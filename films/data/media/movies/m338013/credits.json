@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://media.9game.cn/gamebase/ieu-eagle-docking-service/images/20260803/4/20/9f98d0874a021dd518d501597e2041f4.png",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m338013/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.chinabig.com.cn/uploads/allimg/160430/152302E36-5.jpg"
+    },
+    {
+      "path": "media/movies/m338013/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20180220/6aab641420fa47acb6b5a7bf2b042e14.jpeg"
+    },
+    {
+      "path": "media/movies/m338013/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://p3.itc.cn/images01/20201212/ec0eeaed8e144512a690f9cbdd27b141.png"
+    }
+  ]
+}

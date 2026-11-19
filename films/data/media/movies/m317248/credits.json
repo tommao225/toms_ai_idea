@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://www.acfun.cn/imageProxy?url=http://p5.itc.cn/q_70/images03/20200717/b0abc5c7d13a4b9daa4c0523565eeec2.jpeg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m317248/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.showmetech.com.br/wp-content/uploads/2022/11/filmes-br-006-1024x576.jpg"
+    },
+    {
+      "path": "media/movies/m317248/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.weixinpcs.com/upload/comment/01/5b5d031dd5498c5e.webp"
+    },
+    {
+      "path": "media/movies/m317248/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p0.itc.cn/images01/20230709/f869aa81124a45b6a1d95c7e37508dd8.jpeg"
+    }
+  ]
+}

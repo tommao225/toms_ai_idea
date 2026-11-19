@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt3783958",
+  "wikidata": "",
+  "title": "爱乐之城",
+  "original_title": "La La Land",
+  "release_date": "2016-01-01",
+  "runtime": 128,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "达米恩·查泽雷"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

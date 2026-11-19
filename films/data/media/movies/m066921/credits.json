@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img9.doubanio.com/view/photo/l_ratio_poster/public/p529908155.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m066921/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img9.doubanio.com/view/note/l/public/p102791305.webp"
+    },
+    {
+      "path": "media/movies/m066921/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q2.itc.cn/images01/20260718/6a2e7467a5c34153be592931e84668b4.jpeg"
+    },
+    {
+      "path": "media/movies/m066921/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://media.doblu.com/wp-content/uploads/2021/10/08142912/Clockwork-Orange.mkv_snapshot_01.30.23_2021.10.08_14.21.25-scaled.jpg"
+    }
+  ]
+}

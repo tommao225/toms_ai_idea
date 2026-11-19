@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0061722",
+  "wikidata": "",
+  "title": "毕业生",
+  "original_title": "The Graduate",
+  "release_date": "1967-01-01",
+  "runtime": 106,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "迈克·尼科尔斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

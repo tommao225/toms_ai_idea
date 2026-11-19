@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0033467",
+  "wikidata": "",
+  "title": "公民凯恩",
+  "original_title": "Citizen Kane",
+  "release_date": "1941-01-01",
+  "runtime": 119,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "奥逊·威尔斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

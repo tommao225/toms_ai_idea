@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0089218",
+  "wikidata": "",
+  "title": "鬼驱人",
+  "original_title": "Poltergeist",
+  "release_date": "1982-01-01",
+  "runtime": 114,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "托比·胡珀"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

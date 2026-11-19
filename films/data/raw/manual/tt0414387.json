@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0414387",
+  "wikidata": "",
+  "title": "傲慢与偏见",
+  "original_title": "Pride & Prejudice",
+  "release_date": "2005-01-01",
+  "runtime": 129,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    },
+    {
+      "iso_3166_1": "FR"
+    }
+  ],
+  "country_labels": [
+    "GB",
+    "FR"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "乔·赖特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

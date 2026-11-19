@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0104652",
+  "wikidata": "",
+  "title": "红猪",
+  "original_title": "Porco Rosso",
+  "release_date": "1992-01-01",
+  "runtime": 94,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "JP"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "宫崎骏"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

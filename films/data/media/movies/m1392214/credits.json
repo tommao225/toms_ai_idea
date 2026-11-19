@@ -1,0 +1,21 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://v2.cri.cn/M00/30/06/rBABCWDTJ3SAbF-VAAAAAAAAAAA976.1080x1920.960x1707.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m1392214/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://big5.cri.cn/gate/big5/v2.cri.cn/M00/13/9E/CqgNOlW5ejmAbthIAAAAAAAAAAA651.970x618.640x408.jpg"
+    },
+    {
+      "path": "media/movies/m1392214/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.people.com.cn/mediafile/pic/20180809/72/255427411172092360.jpg"
+    }
+  ]
+}

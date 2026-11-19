@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0106332",
+  "wikidata": "",
+  "title": "霸王别姬",
+  "original_title": "Farewell My Concubine",
+  "release_date": "1993-01-01",
+  "runtime": 171,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    },
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "CN",
+    "HK"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "陈凯歌"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

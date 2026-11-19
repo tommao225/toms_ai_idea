@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2209371738.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m089218/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://data.znds.com/attachment/forum/201509/16/120707r1mahqb1ambafgiz.png"
+    },
+    {
+      "path": "media/movies/m089218/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://data.znds.com/attachment/forum/201509/20/181234c51sx95s50soqgx5.jpg"
+    },
+    {
+      "path": "media/movies/m089218/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://data.znds.com/attachment/forum/201506/22/104738he8k2yooyw4d4owi.jpg"
+    }
+  ]
+}

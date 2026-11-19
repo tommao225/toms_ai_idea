@@ -1,0 +1,28 @@
+schema_version = 1
+
+id = "global-animation-greatest"
+title = "动画电影"
+criterion = "greatest"
+status = "draft"
+decision = "hybrid"
+max_entries = 100
+count = 30
+genres = ["animation"]
+chapters = [
+  { index = 1, title = "第一卷：动画" },
+]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "动画电影的全球候选，先凑够 20 部，再逐步补到 100。"
+ranking_rule = "按影史影响、类型完成度和可重看性综合排序。"
+time_window = "1927–2023"
+sources = [{ name = "人工初选", url = "", weight = 1.0, accessed = "2026-11" }]
+inclusion_rule = "类型是叙事核心，不只是标签。"
+exclusion_rule = "只靠单一元素、没有类型完成度的片子。"
+known_bias = "首版偏经典和欧美，后续补亚洲和当代。"
+curator = "初选"
+version = "1"

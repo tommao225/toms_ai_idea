@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://www.popcatalog.com/cdn/shop/files/57_092a292c-9d6a-4440-b1dd-1beed839c322.jpg?v=1768529487&width=800",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m112864/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/7af40ad162d9f2d3572c15cca0b79d13632762d066c7/7af40ad162d9f2d3572c15cca0b79d13632762d066c7_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+    },
+    {
+      "path": "media/movies/m112864/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p.yingfs.com/2021/01/zntg6WZWdPPbNmQOxEAtrqyVaCt.jpg"
+    },
+    {
+      "path": "media/movies/m112864/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p.yingfs.com/2021/01/3nFeM5r2hPeHkIlDmAgGaSp3712.jpg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0353969",
+  "wikidata": "http://www.wikidata.org/entity/Q488169",
+  "title": "杀人回忆",
+  "original_title": "Memories of Murder",
+  "release_date": "2003-05-02",
+  "runtime": 132,
+  "production_countries": [
+    {
+      "iso_3166_1": "大韩民国"
+    }
+  ],
+  "country_labels": [
+    "大韩民国"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "黑色幽默",
+    "讽刺",
+    "劇情片",
+    "推理作品",
+    "推理電影",
+    "crime thriller film",
+    "剧情向",
+    "police procedural film"
+  ],
+  "director_names": [
+    "奉俊昊"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

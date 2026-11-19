@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img9.doubanio.com/view/photo/l_ratio_poster/public/p860250155.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m052561/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2344776618.jpg"
+    },
+    {
+      "path": "media/movies/m052561/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1381686147.jpg?sa_cv=2c6a85ba50e581267925cf3aea6ea2f9&sa_ct=6afed348&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m052561/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1523545259.jpg?sa_cv=2c9d263a1f6db9c3cc22b076e65b14b4&sa_ct=6afed348&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    }
+  ]
+}

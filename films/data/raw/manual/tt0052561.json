@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0052561",
+  "wikidata": "",
+  "title": "热情似火",
+  "original_title": "Some Like It Hot",
+  "release_date": "1959-01-01",
+  "runtime": 120,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "比利·怀尔德"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

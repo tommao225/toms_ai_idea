@@ -1,0 +1,221 @@
+{
+  "id": "global-animation-greatest",
+  "title": "动画电影",
+  "genre": "动画",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "动画电影的全球候选，先凑够 20 部，再逐步补到 100。",
+    "ranking_rule": "按影史影响、类型完成度和可重看性综合排序。",
+    "time_window": "1927–2023",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "类型是叙事核心，不只是标签。",
+    "exclusion_rule": "只靠单一元素、没有类型完成度的片子。",
+    "known_bias": "首版偏经典和欧美，后续补亚洲和当代。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：动画"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m245429",
+      "note": "女孩走进神隐世界，先学会记住名字。",
+      "why_included": "动画里的成长寓言。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m096283",
+      "note": "乡下夏天，两个女孩遇见森林精灵。",
+      "why_included": "把童年拍成风。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m092067",
+      "note": "飞行石带着两个孩子去找天空之城。",
+      "why_included": "冒险动画的经典。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m119698",
+      "note": "人和森林互相伤害，没有干净的赢家。",
+      "why_included": "生态与暴力。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m087544",
+      "note": "腐海下面，世界还在呼吸。",
+      "why_included": "末世动画。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m094625",
+      "note": "少年获得力量，城市跟着失控。",
+      "why_included": "赛博朋克动画的爆点。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m156887",
+      "note": "偶像转型演员，分不清自己和角色。",
+      "why_included": "心理动画。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m851578",
+      "note": "梦境被机器入侵，现实开始变形。",
+      "why_included": "动画里的梦。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m110357",
+      "note": "小狮子失去父亲，再回到王位。",
+      "why_included": "把成长写成循环。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m114709",
+      "note": "玩具们争宠，最后学会一起被爱。",
+      "why_included": "第一部全CG长片。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m266543",
+      "note": "父亲穿过整片海找儿子。",
+      "why_included": "亲子冒险。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m910970",
+      "note": "垃圾星球上，一个小机器人还在收东西。",
+      "why_included": "沉默的科幻动画。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m1049413",
+      "note": "老人用气球把屋子带走。",
+      "why_included": "把失去拍成冒险。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m4633694",
+      "note": "多个蜘蛛侠挤进同一个城市。",
+      "why_included": "动画视觉的刷新。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m808417",
+      "note": "女孩在革命和流亡之间长大。",
+      "why_included": "黑白图像回忆录。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m1185616",
+      "note": "一个老兵去找回自己忘掉的战争。",
+      "why_included": "动画纪录片。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m978762",
+      "note": "两个孤独的人隔着大陆写信。",
+      "why_included": "黏土动画的孤独。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m2948356",
+      "note": "兔子警察和狐狸骗子一起查案。",
+      "why_included": "把偏见写进类型片。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m2380307",
+      "note": "男孩走进亡灵世界，找回家族记忆。",
+      "why_included": "家庭与记忆。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m9362722",
+      "note": "每个宇宙都有自己的蜘蛛侠，也都有自己的代价。",
+      "why_included": "续集把视觉再推一步。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m347149",
+      "note": "被诅咒的女孩住进会走的城堡。",
+      "why_included": "把战争和童话扣在一起。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m097814",
+      "note": "小魔女进城，先用扫帚送快递。",
+      "why_included": "成长动画的轻盈。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m2013293",
+      "note": "造飞机的人，先被时代折断。",
+      "why_included": "把梦想拍成代价。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m2576852",
+      "note": "竹子里出生的女孩，最后还是离开人间。",
+      "why_included": "水墨动画的呼吸。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m291350",
+      "note": "女演员的一生，在采访里重演。",
+      "why_included": "把记忆剪成电影。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m388473",
+      "note": "三个流浪汉在圣诞夜捡到一个婴儿。",
+      "why_included": "残酷城市里的温柔。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m104652",
+      "note": "一个变成猪的飞行员，还在亚得里亚海飞。",
+      "why_included": "成年人的童话。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m1568921",
+      "note": "小人一家住在人类地板下。",
+      "why_included": "微观世界的冒险。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m2140203",
+      "note": "母亲带着两个狼孩子住进山里。",
+      "why_included": "把成长拍成四季。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m1474276",
+      "note": "一个虚拟世界被入侵，一家人先吃饭。",
+      "why_included": "把家庭和网络扣在一起。"
+    }
+  ]
+}

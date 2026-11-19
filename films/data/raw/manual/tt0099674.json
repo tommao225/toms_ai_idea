@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0099674",
+  "wikidata": "",
+  "title": "教父3",
+  "original_title": "The Godfather Part III",
+  "release_date": "1990-01-01",
+  "runtime": 162,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "弗朗西斯·福特·科波拉"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

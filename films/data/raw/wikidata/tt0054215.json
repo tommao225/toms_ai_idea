@@ -1,0 +1,43 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0054215",
+  "wikidata": "http://www.wikidata.org/entity/Q163038",
+  "title": "惊魂记",
+  "original_title": "Psycho",
+  "release_date": "1960-01-01",
+  "runtime": 109,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other",
+    "mystery"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "黑色电影",
+    "恐怖電影",
+    "獨立電影",
+    "砍杀电影",
+    "犯罪片",
+    "推理電影",
+    "驚悚片",
+    "suspense film",
+    "crime thriller film",
+    "性少数相关电影",
+    "心理剧电影",
+    "心理恐怖電影",
+    "psychological thriller film",
+    "crime drama film"
+  ],
+  "director_names": [
+    "亞弗列·希治閣"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

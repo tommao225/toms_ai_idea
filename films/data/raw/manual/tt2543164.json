@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt2543164",
+  "wikidata": "",
+  "title": "降临",
+  "original_title": "Arrival",
+  "release_date": "2016-01-01",
+  "runtime": 116,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "丹尼斯·维伦纽瓦"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

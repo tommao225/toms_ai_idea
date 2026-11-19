@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0317248",
+  "wikidata": "",
+  "title": "上帝之城",
+  "original_title": "City of God",
+  "release_date": "2002-01-01",
+  "runtime": 130,
+  "production_countries": [
+    {
+      "iso_3166_1": "BR"
+    }
+  ],
+  "country_labels": [
+    "BR"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "费尔南多·梅里尔斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+schema_version = 1
+
+id = "global-crime-greatest"
+title = "犯罪电影"
+criterion = "greatest"
+status = "draft"
+decision = "hybrid"
+max_entries = 100
+count = 30
+genres = ["crime"]
+chapters = [
+  { index = 1, title = "第一卷：罪与罚" },
+]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "以犯罪、调查、惩罚和道德灰区为核心的长片。"
+ranking_rule = "按影史影响、犯罪结构和人物压力综合排序。"
+time_window = "1950–2016"
+sources = [{ name = "人工初选", url = "", weight = 1.0, accessed = "2026-11" }]
+inclusion_rule = "犯罪是叙事发动机，不只是背景。"
+exclusion_rule = "只把犯罪当奇观、没有道德压力的片子。"
+known_bias = "与悬疑高度重叠，先复用同一批片。"
+curator = "初选"
+version = "1"

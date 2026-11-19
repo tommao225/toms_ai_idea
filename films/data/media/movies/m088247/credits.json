@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://images.martincid.com/2026/06/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m088247/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i2-prod.irishmirror.ie/article12764276.ece/ALTERNATES/s1200f/GP12723921.jpg"
+    },
+    {
+      "path": "media/movies/m088247/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://batman-univers.fr/wp-content/uploads/2025/09/1757608634_Mystery-a-resolu-Terminator-revele-comment-Sarah-Connor-est-mort.jpg"
+    },
+    {
+      "path": "media/movies/m088247/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.showmetech.com.br/wp-content/uploads/2020/09/e477cbdc0ab7692df7316db77b8966b21-1024x557.jpg"
+    }
+  ]
+}

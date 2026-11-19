@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt15151242",
+  "wikidata": "",
+  "title": "怒火·重案",
+  "original_title": "Raging Fire",
+  "release_date": "2021-01-01",
+  "runtime": 126,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    },
+    {
+      "iso_3166_1": "CN"
+    }
+  ],
+  "country_labels": [
+    "HK",
+    "CN"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "陈木胜"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

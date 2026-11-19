@@ -1,0 +1,1442 @@
+# 首批 40 部：悬疑 20、科幻 10、动作 10。中文名和导演中文名人工定，元数据由管线补或人工录入。
+schema_version = 1
+
+[[movies]]
+key = "imdb:tt0052357"
+title_zh = "迷魂记"
+title_en = "Vertigo"
+director_zh = "阿尔弗雷德·希区柯克"
+
+[[movies]]
+key = "imdb:tt0054215"
+title_zh = "惊魂记"
+title_en = "Psycho"
+director_zh = "阿尔弗雷德·希区柯克"
+
+[[movies]]
+key = "imdb:tt0114369"
+title_zh = "七宗罪"
+title_en = "Se7en"
+director_zh = "大卫·芬奇"
+
+[[movies]]
+key = "imdb:tt0102926"
+title_zh = "沉默的羔羊"
+title_en = "The Silence of the Lambs"
+director_zh = "乔纳森·戴米"
+
+[[movies]]
+key = "imdb:tt0443706"
+title_zh = "十二宫"
+title_en = "Zodiac"
+director_zh = "大卫·芬奇"
+
+[[movies]]
+key = "imdb:tt0209144"
+title_zh = "记忆碎片"
+title_en = "Memento"
+director_zh = "克里斯托弗·诺兰"
+
+[[movies]]
+key = "imdb:tt0482571"
+title_zh = "致命魔术"
+title_en = "The Prestige"
+director_zh = "克里斯托弗·诺兰"
+
+[[movies]]
+key = "imdb:tt4857264"
+title_zh = "看不见的客人"
+title_en = "Contratiempo"
+director_zh = "奥里奥尔·保罗"
+
+[[movies]]
+key = "imdb:tt0051201"
+title_zh = "控方证人"
+title_en = "Witness for the Prosecution"
+director_zh = "比利·怀尔德"
+
+[[movies]]
+key = "imdb:tt0047396"
+title_zh = "后窗"
+title_en = "Rear Window"
+director_zh = "阿尔弗雷德·希区柯克"
+
+[[movies]]
+key = "imdb:tt0053125"
+title_zh = "西北偏北"
+title_en = "North by Northwest"
+director_zh = "阿尔弗雷德·希区柯克"
+
+[[movies]]
+key = "imdb:tt0071877"
+title_zh = "东方快车谋杀案"
+title_en = "Murder on the Orient Express"
+director_zh = "西德尼·吕美特"
+
+[[movies]]
+key = "imdb:tt0077413"
+title_zh = "尼罗河上的惨案"
+title_en = "Death on the Nile"
+director_zh = "约翰·吉勒明"
+
+[[movies]]
+key = "imdb:tt2267998"
+title_zh = "消失的爱人"
+title_en = "Gone Girl"
+director_zh = "大卫·芬奇"
+
+[[movies]]
+key = "imdb:tt1130884"
+title_zh = "禁闭岛"
+title_en = "Shutter Island"
+director_zh = "马丁·斯科塞斯"
+
+[[movies]]
+key = "imdb:tt0166924"
+title_zh = "穆赫兰道"
+title_en = "Mulholland Drive"
+director_zh = "大卫·林奇"
+
+[[movies]]
+key = "imdb:tt0364569"
+title_zh = "老男孩"
+title_en = "Oldboy"
+director_zh = "朴赞郁"
+
+[[movies]]
+key = "imdb:tt0353969"
+title_zh = "杀人回忆"
+title_en = "Memories of Murder"
+director_zh = "奉俊昊"
+
+[[movies]]
+key = "imdb:tt0114814"
+title_zh = "非常嫌疑犯"
+title_en = "The Usual Suspects"
+director_zh = "布莱恩·辛格"
+
+[[movies]]
+key = "imdb:tt0042876"
+title_zh = "罗生门"
+title_en = "Rashomon"
+director_zh = "黑泽明"
+
+[[movies]]
+key = "imdb:tt0062622"
+title_zh = "2001太空漫游"
+title_en = "2001: A Space Odyssey"
+director_zh = "斯坦利·库布里克"
+
+[[movies]]
+key = "imdb:tt0083658"
+title_zh = "银翼杀手"
+title_en = "Blade Runner"
+director_zh = "雷德利·斯科特"
+
+[[movies]]
+key = "imdb:tt0078748"
+title_zh = "异形"
+title_en = "Alien"
+director_zh = "雷德利·斯科特"
+
+[[movies]]
+key = "imdb:tt0133093"
+title_zh = "黑客帝国"
+title_en = "The Matrix"
+director_zh = "沃卓斯基姐妹"
+
+[[movies]]
+key = "imdb:tt0079944"
+title_zh = "潜行者"
+title_en = "Stalker"
+director_zh = "安德烈·塔可夫斯基"
+
+[[movies]]
+key = "imdb:tt0069293"
+title_zh = "飞向太空"
+title_en = "Solaris"
+director_zh = "安德烈·塔可夫斯基"
+
+[[movies]]
+key = "imdb:tt2543164"
+title_zh = "降临"
+title_en = "Arrival"
+director_zh = "丹尼斯·维伦纽瓦"
+
+[[movies]]
+key = "imdb:tt0816692"
+title_zh = "星际穿越"
+title_en = "Interstellar"
+director_zh = "克里斯托弗·诺兰"
+
+[[movies]]
+key = "imdb:tt0206634"
+title_zh = "人类之子"
+title_en = "Children of Men"
+director_zh = "阿方索·卡隆"
+
+[[movies]]
+key = "imdb:tt0113568"
+title_zh = "攻壳机动队"
+title_en = "Ghost in the Shell"
+director_zh = "押井守"
+
+[[movies]]
+key = "imdb:tt1392190"
+title_zh = "疯狂的麦克斯：狂暴之路"
+title_en = "Mad Max: Fury Road"
+director_zh = "乔治·米勒"
+
+[[movies]]
+key = "imdb:tt0095016"
+title_zh = "虎胆龙威"
+title_en = "Die Hard"
+director_zh = "约翰·麦克蒂尔南"
+
+[[movies]]
+key = "imdb:tt1602613"
+title_zh = "突袭"
+title_en = "The Raid"
+director_zh = "加雷斯·埃文斯"
+
+[[movies]]
+key = "imdb:tt0047478"
+title_zh = "七武士"
+title_en = "Seven Samurai"
+director_zh = "黑泽明"
+
+[[movies]]
+key = "imdb:tt0060196"
+title_zh = "黄金三镖客"
+title_en = "The Good, the Bad and the Ugly"
+director_zh = "赛尔乔·莱昂内"
+
+[[movies]]
+key = "imdb:tt0082971"
+title_zh = "夺宝奇兵"
+title_en = "Raiders of the Lost Ark"
+director_zh = "史蒂文·斯皮尔伯格"
+
+[[movies]]
+key = "imdb:tt0103064"
+title_zh = "终结者2"
+title_en = "Terminator 2: Judgment Day"
+director_zh = "詹姆斯·卡梅隆"
+
+[[movies]]
+key = "imdb:tt2911666"
+title_zh = "疾速追杀"
+title_en = "John Wick"
+director_zh = "查德·斯塔尔斯基"
+
+[[movies]]
+key = "imdb:tt0190332"
+title_zh = "卧虎藏龙"
+title_en = "Crouching Tiger, Hidden Dragon"
+director_zh = "李安"
+
+[[movies]]
+key = "imdb:tt0067116"
+title_zh = "法国贩毒网"
+title_en = "The French Connection"
+director_zh = "威廉·弗莱德金"
+
+[[movies]]
+key = "imdb:tt0068646"
+title_zh = "教父"
+title_en = "The Godfather"
+director_zh = "弗朗西斯·福特·科波拉"
+
+[[movies]]
+key = "imdb:tt0071562"
+title_zh = "教父2"
+title_en = "The Godfather Part II"
+director_zh = "弗朗西斯·福特·科波拉"
+
+[[movies]]
+key = "imdb:tt0111161"
+title_zh = "肖申克的救赎"
+title_en = "The Shawshank Redemption"
+director_zh = "弗兰克·德拉邦特"
+
+[[movies]]
+key = "imdb:tt0109830"
+title_zh = "阿甘正传"
+title_en = "Forrest Gump"
+director_zh = "罗伯特·泽米吉斯"
+
+[[movies]]
+key = "imdb:tt0108052"
+title_zh = "辛德勒的名单"
+title_en = "Schindler's List"
+director_zh = "史蒂文·斯皮尔伯格"
+
+[[movies]]
+key = "imdb:tt0050083"
+title_zh = "十二怒汉"
+title_en = "12 Angry Men"
+director_zh = "西德尼·吕美特"
+
+[[movies]]
+key = "imdb:tt0033467"
+title_zh = "公民凯恩"
+title_en = "Citizen Kane"
+director_zh = "奥逊·威尔斯"
+
+[[movies]]
+key = "imdb:tt0078788"
+title_zh = "现代启示录"
+title_en = "Apocalypse Now"
+director_zh = "弗朗西斯·福特·科波拉"
+
+[[movies]]
+key = "imdb:tt0075314"
+title_zh = "出租车司机"
+title_en = "Taxi Driver"
+director_zh = "马丁·斯科塞斯"
+
+[[movies]]
+key = "imdb:tt0081398"
+title_zh = "愤怒的公牛"
+title_en = "Raging Bull"
+director_zh = "马丁·斯科塞斯"
+
+[[movies]]
+key = "imdb:tt0087843"
+title_zh = "美国往事"
+title_en = "Once Upon a Time in America"
+director_zh = "赛尔乔·莱昂内"
+
+[[movies]]
+key = "imdb:tt0120382"
+title_zh = "楚门的世界"
+title_en = "The Truman Show"
+director_zh = "彼得·威尔"
+
+[[movies]]
+key = "imdb:tt0118799"
+title_zh = "美丽人生"
+title_en = "Life Is Beautiful"
+director_zh = "罗伯托·贝尼尼"
+
+[[movies]]
+key = "imdb:tt0095765"
+title_zh = "天堂电影院"
+title_en = "Cinema Paradiso"
+director_zh = "朱塞佩·托纳多雷"
+
+[[movies]]
+key = "imdb:tt0244316"
+title_zh = "一一"
+title_en = "Yi Yi"
+director_zh = "杨德昌"
+
+[[movies]]
+key = "imdb:tt0096902"
+title_zh = "悲情城市"
+title_en = "A City of Sadness"
+director_zh = "侯孝贤"
+
+[[movies]]
+key = "imdb:tt0118694"
+title_zh = "花样年华"
+title_en = "In the Mood for Love"
+director_zh = "王家卫"
+
+[[movies]]
+key = "imdb:tt0106332"
+title_zh = "霸王别姬"
+title_en = "Farewell My Concubine"
+director_zh = "陈凯歌"
+
+[[movies]]
+key = "imdb:tt0110081"
+title_zh = "活着"
+title_en = "To Live"
+director_zh = "张艺谋"
+
+[[movies]]
+key = "imdb:tt0120689"
+title_zh = "绿里奇迹"
+title_en = "The Green Mile"
+director_zh = "弗兰克·德拉邦特"
+
+[[movies]]
+key = "imdb:tt1856101"
+title_zh = "银翼杀手2049"
+title_en = "Blade Runner 2049"
+director_zh = "丹尼斯·维伦纽瓦"
+
+[[movies]]
+key = "imdb:tt0470752"
+title_zh = "机械姬"
+title_en = "Ex Machina"
+director_zh = "亚历克斯·加兰"
+
+[[movies]]
+key = "imdb:tt1182345"
+title_zh = "月球"
+title_en = "Moon"
+director_zh = "邓肯·琼斯"
+
+[[movies]]
+key = "imdb:tt0076759"
+title_zh = "星球大战"
+title_en = "Star Wars"
+director_zh = "乔治·卢卡斯"
+
+[[movies]]
+key = "imdb:tt0080684"
+title_zh = "帝国反击战"
+title_en = "The Empire Strikes Back"
+director_zh = "厄文·克什纳"
+
+[[movies]]
+key = "imdb:tt0075860"
+title_zh = "第三类接触"
+title_en = "Close Encounters of the Third Kind"
+director_zh = "史蒂文·斯皮尔伯格"
+
+[[movies]]
+key = "imdb:tt0091064"
+title_zh = "变蝇人"
+title_en = "The Fly"
+director_zh = "大卫·柯南伯格"
+
+[[movies]]
+key = "imdb:tt0088846"
+title_zh = "巴西"
+title_en = "Brazil"
+director_zh = "特里·吉列姆"
+
+[[movies]]
+key = "imdb:tt0066921"
+title_zh = "发条橙"
+title_en = "A Clockwork Orange"
+director_zh = "斯坦利·库布里克"
+
+[[movies]]
+key = "imdb:tt0017136"
+title_zh = "大都会"
+title_en = "Metropolis"
+director_zh = "弗里茨·朗"
+
+[[movies]]
+key = "imdb:tt0092263"
+title_zh = "英雄本色"
+title_en = "A Better Tomorrow"
+director_zh = "吴宇森"
+
+[[movies]]
+key = "imdb:tt0097202"
+title_zh = "喋血双雄"
+title_en = "The Killer"
+director_zh = "吴宇森"
+
+[[movies]]
+key = "imdb:tt0104684"
+title_zh = "辣手神探"
+title_en = "Hard Boiled"
+director_zh = "吴宇森"
+
+[[movies]]
+key = "imdb:tt0103285"
+title_zh = "黄飞鸿"
+title_en = "Once Upon a Time in China"
+director_zh = "徐克"
+
+[[movies]]
+key = "imdb:tt0105859"
+title_zh = "新龙门客栈"
+title_en = "New Dragon Gate Inn"
+director_zh = "李惠民"
+
+[[movies]]
+key = "imdb:tt0089374"
+title_zh = "警察故事"
+title_en = "Police Story"
+director_zh = "成龙"
+
+[[movies]]
+key = "imdb:tt0469045"
+title_zh = "杀破狼"
+title_en = "SPL: Sha Po Lang"
+director_zh = "叶伟信"
+
+[[movies]]
+key = "imdb:tt1220719"
+title_zh = "叶问"
+title_en = "Ip Man"
+director_zh = "叶伟信"
+
+[[movies]]
+key = "imdb:tt1403130"
+title_zh = "十月围城"
+title_en = "Bodyguards and Assassins"
+director_zh = "陈德森"
+
+[[movies]]
+key = "imdb:tt0299977"
+title_zh = "英雄"
+title_en = "Hero"
+director_zh = "张艺谋"
+
+[[movies]]
+key = "imdb:tt0021749"
+title_zh = "城市之光"
+title_en = "City Lights"
+director_zh = "查理·卓别林"
+
+[[movies]]
+key = "imdb:tt0027977"
+title_zh = "摩登时代"
+title_en = "Modern Times"
+director_zh = "查理·卓别林"
+
+[[movies]]
+key = "imdb:tt0032553"
+title_zh = "大独裁者"
+title_en = "The Great Dictator"
+director_zh = "查理·卓别林"
+
+[[movies]]
+key = "imdb:tt0052561"
+title_zh = "热情似火"
+title_en = "Some Like It Hot"
+director_zh = "比利·怀尔德"
+
+[[movies]]
+key = "imdb:tt0057012"
+title_zh = "奇爱博士"
+title_en = "Dr. Strangelove"
+director_zh = "斯坦利·库布里克"
+
+[[movies]]
+key = "imdb:tt0061722"
+title_zh = "毕业生"
+title_en = "The Graduate"
+director_zh = "迈克·尼科尔斯"
+
+[[movies]]
+key = "imdb:tt0075686"
+title_zh = "安妮·霍尔"
+title_en = "Annie Hall"
+director_zh = "伍迪·艾伦"
+
+[[movies]]
+key = "imdb:tt0080339"
+title_zh = "空前绝后满天飞"
+title_en = "Airplane!"
+director_zh = "吉姆·艾布拉姆斯"
+
+[[movies]]
+key = "imdb:tt0088763"
+title_zh = "回到未来"
+title_en = "Back to the Future"
+director_zh = "罗伯特·泽米吉斯"
+
+[[movies]]
+key = "imdb:tt0118715"
+title_zh = "谋杀绿脚趾"
+title_en = "The Big Lebowski"
+director_zh = "乔尔·科恩"
+
+[[movies]]
+key = "imdb:tt0088258"
+title_zh = "摇滚万万岁"
+title_en = "This Is Spinal Tap"
+director_zh = "罗伯·莱纳"
+
+[[movies]]
+key = "imdb:tt0071853"
+title_zh = "巨蟒与圣杯"
+title_en = "Monty Python and the Holy Grail"
+director_zh = "特瑞·吉列姆"
+
+[[movies]]
+key = "imdb:tt0107048"
+title_zh = "土拨鼠之日"
+title_en = "Groundhog Day"
+director_zh = "哈罗德·雷米斯"
+
+[[movies]]
+key = "imdb:tt0109686"
+title_zh = "阿呆与阿瓜"
+title_en = "Dumb and Dumber"
+director_zh = "彼得·法拉利"
+
+[[movies]]
+key = "imdb:tt4996490"
+title_zh = "夏洛特烦恼"
+title_en = "Goodbye Mr. Loser"
+director_zh = "闫非"
+
+[[movies]]
+key = "imdb:tt1533117"
+title_zh = "让子弹飞"
+title_en = "Let the Bullets Fly"
+director_zh = "姜文"
+
+[[movies]]
+key = "imdb:tt0843270"
+title_zh = "疯狂的石头"
+title_en = "Crazy Stone"
+director_zh = "宁浩"
+
+[[movies]]
+key = "imdb:tt0373074"
+title_zh = "功夫"
+title_en = "Kung Fu Hustle"
+director_zh = "周星驰"
+
+[[movies]]
+key = "imdb:tt0286112"
+title_zh = "少林足球"
+title_en = "Shaolin Soccer"
+director_zh = "周星驰"
+
+[[movies]]
+key = "imdb:tt0108285"
+title_zh = "唐伯虎点秋香"
+title_en = "Flirting Scholar"
+director_zh = "李力持"
+
+[[movies]]
+key = "imdb:tt0034583"
+title_zh = "卡萨布兰卡"
+title_en = "Casablanca"
+director_zh = "迈克尔·柯蒂斯"
+
+[[movies]]
+key = "imdb:tt0046250"
+title_zh = "罗马假日"
+title_en = "Roman Holiday"
+director_zh = "威廉·惠勒"
+
+[[movies]]
+key = "imdb:tt0112471"
+title_zh = "爱在黎明破晓前"
+title_en = "Before Sunrise"
+director_zh = "理查德·林克莱特"
+
+[[movies]]
+key = "imdb:tt0381681"
+title_zh = "爱在日落黄昏时"
+title_en = "Before Sunset"
+director_zh = "理查德·林克莱特"
+
+[[movies]]
+key = "imdb:tt2209418"
+title_zh = "爱在午夜降临前"
+title_en = "Before Midnight"
+director_zh = "理查德·林克莱特"
+
+[[movies]]
+key = "imdb:tt0338013"
+title_zh = "暖暖内含光"
+title_en = "Eternal Sunshine of the Spotless Mind"
+director_zh = "米歇尔·贡德里"
+
+[[movies]]
+key = "imdb:tt0335266"
+title_zh = "迷失东京"
+title_en = "Lost in Translation"
+director_zh = "索菲亚·科波拉"
+
+[[movies]]
+key = "imdb:tt1798709"
+title_zh = "她"
+title_en = "Her"
+director_zh = "斯派克·琼斯"
+
+[[movies]]
+key = "imdb:tt0414387"
+title_zh = "傲慢与偏见"
+title_en = "Pride & Prejudice"
+director_zh = "乔·赖特"
+
+[[movies]]
+key = "imdb:tt0125439"
+title_zh = "诺丁山"
+title_en = "Notting Hill"
+director_zh = "罗杰·米歇尔"
+
+[[movies]]
+key = "imdb:tt0314331"
+title_zh = "真爱至上"
+title_en = "Love Actually"
+director_zh = "理查德·柯蒂斯"
+
+[[movies]]
+key = "imdb:tt0117905"
+title_zh = "甜蜜蜜"
+title_en = "Comrades: Almost a Love Story"
+director_zh = "陈可辛"
+
+[[movies]]
+key = "imdb:tt0109424"
+title_zh = "重庆森林"
+title_en = "Chungking Express"
+director_zh = "王家卫"
+
+[[movies]]
+key = "imdb:tt0118845"
+title_zh = "春光乍泄"
+title_en = "Happy Together"
+director_zh = "王家卫"
+
+[[movies]]
+key = "imdb:tt0113703"
+title_zh = "情书"
+title_en = "Love Letter"
+director_zh = "岩井俊二"
+
+[[movies]]
+key = "imdb:tt0146270"
+title_zh = "四月物语"
+title_en = "April Story"
+director_zh = "岩井俊二"
+
+[[movies]]
+key = "imdb:tt5311514"
+title_zh = "你的名字"
+title_en = "Your Name"
+director_zh = "新海诚"
+
+[[movies]]
+key = "imdb:tt0113824"
+title_zh = "侧耳倾听"
+title_en = "Whisper of the Heart"
+director_zh = "近藤喜文"
+
+[[movies]]
+key = "imdb:tt1554523"
+title_zh = "山楂树之恋"
+title_en = "Under the Hawthorn Tree"
+director_zh = "张艺谋"
+
+[[movies]]
+key = "imdb:tt0233422"
+title_zh = "我的父亲母亲"
+title_en = "The Road Home"
+director_zh = "张艺谋"
+
+[[movies]]
+key = "imdb:tt0245429"
+title_zh = "千与千寻"
+title_en = "Spirited Away"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt0096283"
+title_zh = "龙猫"
+title_en = "My Neighbor Totoro"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt0092067"
+title_zh = "天空之城"
+title_en = "Castle in the Sky"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt0119698"
+title_zh = "幽灵公主"
+title_en = "Princess Mononoke"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt0087544"
+title_zh = "风之谷"
+title_en = "Nausicaä of the Valley of the Wind"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt0094625"
+title_zh = "阿基拉"
+title_en = "Akira"
+director_zh = "大友克洋"
+
+[[movies]]
+key = "imdb:tt0156887"
+title_zh = "未麻的部屋"
+title_en = "Perfect Blue"
+director_zh = "今敏"
+
+[[movies]]
+key = "imdb:tt0851578"
+title_zh = "红辣椒"
+title_en = "Paprika"
+director_zh = "今敏"
+
+[[movies]]
+key = "imdb:tt0110357"
+title_zh = "狮子王"
+title_en = "The Lion King"
+director_zh = "罗杰·阿勒斯"
+
+[[movies]]
+key = "imdb:tt0114709"
+title_zh = "玩具总动员"
+title_en = "Toy Story"
+director_zh = "约翰·拉塞特"
+
+[[movies]]
+key = "imdb:tt0266543"
+title_zh = "海底总动员"
+title_en = "Finding Nemo"
+director_zh = "安德鲁·斯坦顿"
+
+[[movies]]
+key = "imdb:tt0910970"
+title_zh = "瓦力"
+title_en = "WALL·E"
+director_zh = "安德鲁·斯坦顿"
+
+[[movies]]
+key = "imdb:tt1049413"
+title_zh = "飞屋环游记"
+title_en = "Up"
+director_zh = "彼特·道格特"
+
+[[movies]]
+key = "imdb:tt4633694"
+title_zh = "蜘蛛侠：平行宇宙"
+title_en = "Spider-Man: Into the Spider-Verse"
+director_zh = "鲍勃·佩尔西凯蒂"
+
+[[movies]]
+key = "imdb:tt0808417"
+title_zh = "我在伊朗长大"
+title_en = "Persepolis"
+director_zh = "文森特·帕兰德"
+
+[[movies]]
+key = "imdb:tt1185616"
+title_zh = "和巴什尔跳华尔兹"
+title_en = "Waltz with Bashir"
+director_zh = "阿里·福尔曼"
+
+[[movies]]
+key = "imdb:tt0978762"
+title_zh = "玛丽与马克思"
+title_en = "Mary and Max"
+director_zh = "亚当·艾略特"
+
+[[movies]]
+key = "imdb:tt2948356"
+title_zh = "疯狂动物城"
+title_en = "Zootopia"
+director_zh = "拜伦·霍华德"
+
+[[movies]]
+key = "imdb:tt2380307"
+title_zh = "寻梦环游记"
+title_en = "Coco"
+director_zh = "李·昂克里奇"
+
+[[movies]]
+key = "imdb:tt9362722"
+title_zh = "蜘蛛侠：纵横宇宙"
+title_en = "Spider-Man: Across the Spider-Verse"
+director_zh = "华金·多斯·桑托斯"
+
+[[movies]]
+key = "imdb:tt0081505"
+title_zh = "闪灵"
+title_en = "The Shining"
+director_zh = "斯坦利·库布里克"
+
+[[movies]]
+key = "imdb:tt0070047"
+title_zh = "驱魔人"
+title_en = "The Exorcist"
+director_zh = "威廉·弗莱德金"
+
+[[movies]]
+key = "imdb:tt0072271"
+title_zh = "德州电锯杀人狂"
+title_en = "The Texas Chain Saw Massacre"
+director_zh = "托比·胡珀"
+
+[[movies]]
+key = "imdb:tt0077651"
+title_zh = "月光光心慌慌"
+title_en = "Halloween"
+director_zh = "约翰·卡朋特"
+
+[[movies]]
+key = "imdb:tt0084787"
+title_zh = "怪形"
+title_en = "The Thing"
+director_zh = "约翰·卡朋特"
+
+[[movies]]
+key = "imdb:tt0063522"
+title_zh = "罗斯玛丽的婴儿"
+title_en = "Rosemary's Baby"
+director_zh = "罗曼·波兰斯基"
+
+[[movies]]
+key = "imdb:tt0076786"
+title_zh = "阴风阵阵"
+title_en = "Suspiria"
+director_zh = "达里奥·阿基多"
+
+[[movies]]
+key = "imdb:tt0178868"
+title_zh = "午夜凶铃"
+title_en = "Ring"
+director_zh = "中田秀夫"
+
+[[movies]]
+key = "imdb:tt0364385"
+title_zh = "咒怨"
+title_en = "Ju-on: The Grudge"
+director_zh = "清水崇"
+
+[[movies]]
+key = "imdb:tt1457767"
+title_zh = "招魂"
+title_en = "The Conjuring"
+director_zh = "温子仁"
+
+[[movies]]
+key = "imdb:tt5052448"
+title_zh = "逃出绝命镇"
+title_en = "Get Out"
+director_zh = "乔丹·皮尔"
+
+[[movies]]
+key = "imdb:tt7784604"
+title_zh = "遗传厄运"
+title_en = "Hereditary"
+director_zh = "阿里·艾斯特"
+
+[[movies]]
+key = "imdb:tt8772262"
+title_zh = "仲夏夜惊魂"
+title_en = "Midsommar"
+director_zh = "阿里·艾斯特"
+
+[[movies]]
+key = "imdb:tt4263482"
+title_zh = "女巫"
+title_en = "The Witch"
+director_zh = "罗伯特·艾格斯"
+
+[[movies]]
+key = "imdb:tt3235888"
+title_zh = "它在身后"
+title_en = "It Follows"
+director_zh = "大卫·罗伯特·米切尔"
+
+[[movies]]
+key = "imdb:tt1139797"
+title_zh = "生人勿近"
+title_en = "Let the Right One In"
+director_zh = "托马斯·阿尔弗莱德森"
+
+[[movies]]
+key = "imdb:tt5700672"
+title_zh = "釜山行"
+title_en = "Train to Busan"
+director_zh = "延尚昊"
+
+[[movies]]
+key = "imdb:tt3835080"
+title_zh = "僵尸"
+title_en = "Rigor Mortis"
+director_zh = "麦浚龙"
+
+[[movies]]
+key = "imdb:tt0113356"
+title_zh = "回魂夜"
+title_en = "Out of the Dark"
+director_zh = "刘镇伟"
+
+[[movies]]
+key = "imdb:tt0089218"
+title_zh = "鬼驱人"
+title_en = "Poltergeist"
+director_zh = "托比·胡珀"
+
+[[movies]]
+key = "imdb:tt0167404"
+title_zh = "第六感"
+title_en = "The Sixth Sense"
+director_zh = "奈特·沙马兰"
+
+[[movies]]
+key = "imdb:tt1392214"
+title_zh = "囚徒"
+title_en = "Prisoners"
+director_zh = "丹尼斯·维伦纽瓦"
+
+[[movies]]
+key = "imdb:tt1568346"
+title_zh = "龙纹身的女孩"
+title_en = "The Girl with the Dragon Tattoo"
+director_zh = "大卫·芬奇"
+
+[[movies]]
+key = "imdb:tt0230600"
+title_zh = "小岛惊魂"
+title_en = "The Others"
+director_zh = "亚历杭德罗·阿梅纳瓦尔"
+
+[[movies]]
+key = "imdb:tt0464141"
+title_zh = "孤儿院"
+title_en = "The Orphanage"
+director_zh = "胡安·安东尼奥·巴亚纳"
+
+[[movies]]
+key = "imdb:tt1937149"
+title_zh = "女尸谜案"
+title_en = "The Body"
+director_zh = "奥里奥尔·保罗"
+
+[[movies]]
+key = "imdb:tt5715874"
+title_zh = "圣鹿之死"
+title_en = "The Killing of a Sacred Deer"
+director_zh = "欧格斯·兰斯莫斯"
+
+[[movies]]
+key = "imdb:tt4016934"
+title_zh = "小姐"
+title_en = "The Handmaiden"
+director_zh = "朴赞郁"
+
+[[movies]]
+key = "imdb:tt12477480"
+title_zh = "分手的决心"
+title_en = "Decision to Leave"
+director_zh = "朴赞郁"
+
+[[movies]]
+key = "imdb:tt7282468"
+title_zh = "燃烧"
+title_en = "Burning"
+director_zh = "李沧东"
+
+[[movies]]
+key = "imdb:tt1160419"
+title_zh = "沙丘"
+title_en = "Dune"
+director_zh = "丹尼斯·维伦纽瓦"
+
+[[movies]]
+key = "imdb:tt15239678"
+title_zh = "沙丘2"
+title_en = "Dune: Part Two"
+director_zh = "丹尼斯·维伦纽瓦"
+
+[[movies]]
+key = "imdb:tt0796366"
+title_zh = "星际迷航"
+title_en = "Star Trek"
+director_zh = "J.J.艾布拉姆斯"
+
+[[movies]]
+key = "imdb:tt2488496"
+title_zh = "星球大战：原力觉醒"
+title_en = "Star Wars: The Force Awakens"
+director_zh = "J.J.艾布拉姆斯"
+
+[[movies]]
+key = "imdb:tt1136608"
+title_zh = "第九区"
+title_en = "District 9"
+director_zh = "尼尔·布洛姆坎普"
+
+[[movies]]
+key = "imdb:tt2798920"
+title_zh = "湮灭"
+title_en = "Annihilation"
+director_zh = "亚历克斯·加兰"
+
+[[movies]]
+key = "imdb:tt0093870"
+title_zh = "机械战警"
+title_en = "RoboCop"
+director_zh = "保罗·范霍文"
+
+[[movies]]
+key = "imdb:tt0093773"
+title_zh = "铁血战士"
+title_en = "Predator"
+director_zh = "约翰·麦克蒂尔南"
+
+[[movies]]
+key = "imdb:tt0090605"
+title_zh = "异形2"
+title_en = "Aliens"
+director_zh = "詹姆斯·卡梅隆"
+
+[[movies]]
+key = "imdb:tt0088247"
+title_zh = "终结者"
+title_en = "The Terminator"
+director_zh = "詹姆斯·卡梅隆"
+
+[[movies]]
+key = "imdb:tt0082694"
+title_zh = "疯狂的麦克斯2"
+title_en = "Mad Max 2: The Road Warrior"
+director_zh = "乔治·米勒"
+
+[[movies]]
+key = "imdb:tt0112864"
+title_zh = "虎胆龙威3"
+title_en = "Die Hard with a Vengeance"
+director_zh = "约翰·麦克蒂尔南"
+
+[[movies]]
+key = "imdb:tt1229238"
+title_zh = "碟中谍4"
+title_en = "Mission: Impossible – Ghost Protocol"
+director_zh = "布拉德·伯德"
+
+[[movies]]
+key = "imdb:tt0258463"
+title_zh = "谍影重重"
+title_en = "The Bourne Identity"
+director_zh = "道格·里曼"
+
+[[movies]]
+key = "imdb:tt3397884"
+title_zh = "边境杀手"
+title_en = "Sicario"
+director_zh = "丹尼斯·维伦纽瓦"
+
+[[movies]]
+key = "imdb:tt10366206"
+title_zh = "疾速追杀4"
+title_en = "John Wick: Chapter 4"
+director_zh = "查德·斯塔赫斯基"
+
+[[movies]]
+key = "imdb:tt2265171"
+title_zh = "突袭2"
+title_en = "The Raid 2"
+director_zh = "加雷斯·埃文斯"
+
+[[movies]]
+key = "imdb:tt3838978"
+title_zh = "杀破狼2"
+title_en = "SPL 2: A Time for Consequences"
+director_zh = "郑保瑞"
+
+[[movies]]
+key = "imdb:tt15151242"
+title_zh = "怒火·重案"
+title_en = "Raging Fire"
+director_zh = "陈木胜"
+
+[[movies]]
+key = "imdb:tt0368909"
+title_zh = "拳霸"
+title_en = "Ong-Bak"
+director_zh = "普拉奇亚·平克尧"
+
+[[movies]]
+key = "imdb:tt0099674"
+title_zh = "教父3"
+title_en = "The Godfather Part III"
+director_zh = "弗朗西斯·福特·科波拉"
+
+[[movies]]
+key = "imdb:tt0099685"
+title_zh = "好家伙"
+title_en = "Goodfellas"
+director_zh = "马丁·斯科塞斯"
+
+[[movies]]
+key = "imdb:tt0110912"
+title_zh = "低俗小说"
+title_en = "Pulp Fiction"
+director_zh = "昆汀·塔伦蒂诺"
+
+[[movies]]
+key = "imdb:tt0137523"
+title_zh = "搏击俱乐部"
+title_en = "Fight Club"
+director_zh = "大卫·芬奇"
+
+[[movies]]
+key = "imdb:tt0169547"
+title_zh = "美国丽人"
+title_en = "American Beauty"
+director_zh = "萨姆·门德斯"
+
+[[movies]]
+key = "imdb:tt0405159"
+title_zh = "百万美元宝贝"
+title_en = "Million Dollar Baby"
+director_zh = "克林特·伊斯特伍德"
+
+[[movies]]
+key = "imdb:tt0375679"
+title_zh = "撞车"
+title_en = "Crash"
+director_zh = "保罗·哈吉斯"
+
+[[movies]]
+key = "imdb:tt0477348"
+title_zh = "老无所依"
+title_en = "No Country for Old Men"
+director_zh = "乔尔·科恩"
+
+[[movies]]
+key = "imdb:tt0469494"
+title_zh = "血色将至"
+title_en = "There Will Be Blood"
+director_zh = "保罗·托马斯·安德森"
+
+[[movies]]
+key = "imdb:tt1285016"
+title_zh = "社交网络"
+title_en = "The Social Network"
+director_zh = "大卫·芬奇"
+
+[[movies]]
+key = "imdb:tt1119646"
+title_zh = "宿醉"
+title_en = "The Hangover"
+director_zh = "托德·菲利普斯"
+
+[[movies]]
+key = "imdb:tt1478338"
+title_zh = "伴娘"
+title_en = "Bridesmaids"
+director_zh = "保罗·费格"
+
+[[movies]]
+key = "imdb:tt0829482"
+title_zh = "太坏了"
+title_en = "Superbad"
+director_zh = "格雷格·莫托拉"
+
+[[movies]]
+key = "imdb:tt0443453"
+title_zh = "波拉特"
+title_en = "Borat"
+director_zh = "拉里·查尔斯"
+
+[[movies]]
+key = "imdb:tt1645170"
+title_zh = "独裁者"
+title_en = "The Dictator"
+director_zh = "拉里·查尔斯"
+
+[[movies]]
+key = "imdb:tt0079470"
+title_zh = "布莱恩的一生"
+title_en = "Life of Brian"
+director_zh = "特里·琼斯"
+
+[[movies]]
+key = "imdb:tt0365748"
+title_zh = "僵尸肖恩"
+title_en = "Shaun of the Dead"
+director_zh = "埃德加·赖特"
+
+[[movies]]
+key = "imdb:tt0425112"
+title_zh = "热血警探"
+title_en = "Hot Fuzz"
+director_zh = "埃德加·赖特"
+
+[[movies]]
+key = "imdb:tt0116282"
+title_zh = "冰血暴"
+title_en = "Fargo"
+director_zh = "乔尔·科恩"
+
+[[movies]]
+key = "imdb:tt3799694"
+title_zh = "耐撕侦探"
+title_en = "The Nice Guys"
+director_zh = "沙恩·布莱克"
+
+[[movies]]
+key = "imdb:tt0112579"
+title_zh = "廊桥遗梦"
+title_en = "The Bridges of Madison County"
+director_zh = "克林特·伊斯特伍德"
+
+[[movies]]
+key = "imdb:tt0116209"
+title_zh = "英国病人"
+title_en = "The English Patient"
+director_zh = "安东尼·明格拉"
+
+[[movies]]
+key = "imdb:tt0120338"
+title_zh = "泰坦尼克号"
+title_en = "Titanic"
+director_zh = "詹姆斯·卡梅隆"
+
+[[movies]]
+key = "imdb:tt3783958"
+title_zh = "爱乐之城"
+title_en = "La La Land"
+director_zh = "达米恩·查泽雷"
+
+[[movies]]
+key = "imdb:tt1563738"
+title_zh = "一天"
+title_en = "One Day"
+director_zh = "罗勒·莎菲"
+
+[[movies]]
+key = "imdb:tt0765120"
+title_zh = "蓝莓之夜"
+title_en = "My Blueberry Nights"
+director_zh = "王家卫"
+
+[[movies]]
+key = "imdb:tt1602476"
+title_zh = "志明与春娇"
+title_en = "Love in a Puff"
+director_zh = "彭浩翔"
+
+[[movies]]
+key = "imdb:tt2255399"
+title_zh = "春娇与志明"
+title_en = "Love in the Buff"
+director_zh = "彭浩翔"
+
+[[movies]]
+key = "imdb:tt2169322"
+title_zh = "北京遇上西雅图"
+title_en = "Finding Mr. Right"
+director_zh = "薛晓路"
+
+[[movies]]
+key = "imdb:tt1859438"
+title_zh = "初恋这件小事"
+title_en = "A Little Thing Called Love"
+director_zh = "普特鹏·普罗萨卡·那·萨克那卡林"
+
+[[movies]]
+key = "imdb:tt0765429"
+title_zh = "美国黑帮"
+title_en = "American Gangster"
+director_zh = "雷德利·斯科特"
+
+[[movies]]
+key = "imdb:tt0338564"
+title_zh = "无间道"
+title_en = "Infernal Affairs"
+director_zh = "刘伟强"
+
+[[movies]]
+key = "imdb:tt0407887"
+title_zh = "无间道风云"
+title_en = "The Departed"
+director_zh = "马丁·斯科塞斯"
+
+[[movies]]
+key = "imdb:tt0317248"
+title_zh = "上帝之城"
+title_en = "City of God"
+director_zh = "费尔南多·梅里尔斯"
+
+[[movies]]
+key = "imdb:tt0040522"
+title_zh = "偷自行车的人"
+title_en = "Bicycle Thieves"
+director_zh = "维托里奥·德·西卡"
+
+[[movies]]
+key = "imdb:tt0072890"
+title_zh = "热天午后"
+title_en = "Dog Day Afternoon"
+director_zh = "西德尼·吕美特"
+
+[[movies]]
+key = "imdb:tt0113277"
+title_zh = "盗火线"
+title_en = "Heat"
+director_zh = "迈克尔·曼"
+
+[[movies]]
+key = "imdb:tt0105236"
+title_zh = "落水狗"
+title_en = "Reservoir Dogs"
+director_zh = "昆汀·塔伦蒂诺"
+
+[[movies]]
+key = "imdb:tt0120735"
+title_zh = "两杆大烟枪"
+title_en = "Lock, Stock and Two Smoking Barrels"
+director_zh = "盖·里奇"
+
+[[movies]]
+key = "imdb:tt0117951"
+title_zh = "猜火车"
+title_en = "Trainspotting"
+director_zh = "丹尼·博伊尔"
+
+[[movies]]
+key = "imdb:tt0347149"
+title_zh = "哈尔的移动城堡"
+title_en = "Howl's Moving Castle"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt0097814"
+title_zh = "魔女宅急便"
+title_en = "Kiki's Delivery Service"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt2013293"
+title_zh = "起风了"
+title_en = "The Wind Rises"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt2576852"
+title_zh = "辉夜姬物语"
+title_en = "The Tale of the Princess Kaguya"
+director_zh = "高畑勋"
+
+[[movies]]
+key = "imdb:tt0291350"
+title_zh = "千年女优"
+title_en = "Millennium Actress"
+director_zh = "今敏"
+
+[[movies]]
+key = "imdb:tt0388473"
+title_zh = "东京教父"
+title_en = "Tokyo Godfathers"
+director_zh = "今敏"
+
+[[movies]]
+key = "imdb:tt0104652"
+title_zh = "红猪"
+title_en = "Porco Rosso"
+director_zh = "宫崎骏"
+
+[[movies]]
+key = "imdb:tt1568921"
+title_zh = "借东西的小人阿莉埃蒂"
+title_en = "Arrietty"
+director_zh = "米林宏昌"
+
+[[movies]]
+key = "imdb:tt2140203"
+title_zh = "狼的孩子雨和雪"
+title_en = "Wolf Children"
+director_zh = "细田守"
+
+[[movies]]
+key = "imdb:tt1474276"
+title_zh = "夏日大作战"
+title_en = "Summer Wars"
+director_zh = "细田守"

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0765429",
+  "wikidata": "",
+  "title": "美国黑帮",
+  "original_title": "American Gangster",
+  "release_date": "2007-01-01",
+  "runtime": 157,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "雷德利·斯科特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://wx1.sinaimg.cn/bmiddle/007BaG9Ely4i4ec2kwct1j30m40q0n02.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m146270/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://vhs-heaven.com/1998/april-story/april-story.82e7.w1280.avif"
+    },
+    {
+      "path": "media/movies/m146270/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.115pt.com/wp-content/uploads/2025/09/05034945491.webp"
+    },
+    {
+      "path": "media/movies/m146270/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20200618ac/195/w640h355/20200618/66ed-ivffpcs2054759.jpg/w700d1q75cms.jpg"
+    }
+  ]
+}

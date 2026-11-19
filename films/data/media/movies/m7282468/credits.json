@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://p2.ssl.qhimgs1.com/t04114ccb9db121c982.jpg?hpgo=movie-img-158526",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m7282468/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://so1.360tres.com/dmtfd/599_599_/t015da3911eada5b6fa.jpg"
+    },
+    {
+      "path": "media/movies/m7282468/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://wx4.sinaimg.cn/middle/007wpNK8ly1gg35qcalpoj31hc0u01kj.jpg"
+    },
+    {
+      "path": "media/movies/m7282468/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://d3cyv0xf0ss37v.cloudfront.net/2018/830x467/burning-sun-03.jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0063522",
+  "wikidata": "",
+  "title": "罗斯玛丽的婴儿",
+  "original_title": "Rosemary's Baby",
+  "release_date": "1968-01-01",
+  "runtime": 137,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "罗曼·波兰斯基"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

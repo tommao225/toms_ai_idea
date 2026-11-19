@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0083658",
+  "wikidata": "",
+  "title": "银翼杀手",
+  "original_title": "Blade Runner",
+  "release_date": "1982-01-01",
+  "runtime": 117,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "雷德利·斯科特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

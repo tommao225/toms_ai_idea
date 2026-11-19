@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://i2.chinanews.com/simg/hd/2016/03/10/200x133_fe438cdd18ef4ab58b611296b8be6302.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m470752/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://horse.neweekly.com.cn/neweekly/1c18eccfa4016252188826f07dbca971/20250320/c7ff5631efcf4c0aa3e7761ebfbee81a.webp"
+    },
+    {
+      "path": "media/movies/m470752/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fcrawl.ws.126.net%2Fimg%2Fdb08cd865fcccc70946ede29afe17559.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m470752/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0813%2Fed3d4c59j00rzc5y000c5c000vz00fdm.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0079470",
+  "wikidata": "",
+  "title": "布莱恩的一生",
+  "original_title": "Life of Brian",
+  "release_date": "1979-01-01",
+  "runtime": 94,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "特里·琼斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

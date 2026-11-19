@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://pub-dc9424d401964202802f570f4ba6580d.r2.dev/qita/c0aae2d2903c5643e0d4.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m5311514/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.imgtop.top//caiji/bg/201707/02/10.jpg"
+    },
+    {
+      "path": "media/movies/m5311514/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/301/205/234.jpg"
+    },
+    {
+      "path": "media/movies/m5311514/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://ossimg.xinli001.com/visioncn/600x400/VCG41200226388-001.jpg"
+    }
+  ]
+}

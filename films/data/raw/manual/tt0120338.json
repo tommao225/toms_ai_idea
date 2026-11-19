@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0120338",
+  "wikidata": "",
+  "title": "泰坦尼克号",
+  "original_title": "Titanic",
+  "release_date": "1997-01-01",
+  "runtime": 194,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "詹姆斯·卡梅隆"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0112579",
+  "wikidata": "",
+  "title": "廊桥遗梦",
+  "original_title": "The Bridges of Madison County",
+  "release_date": "1995-01-01",
+  "runtime": 135,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "克林特·伊斯特伍德"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

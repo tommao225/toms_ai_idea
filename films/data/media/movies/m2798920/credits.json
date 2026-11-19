@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://e0.ifengimg.com/12/2019/0128/75CB69553E177845F7FC2349453B64324767802A_size407_w1280_h1895.jpeg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m2798920/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.eastent.com/uploadfile/2018/0416/20180416100436854.jpg"
+    },
+    {
+      "path": "media/movies/m2798920/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/natalie-portman-annihilation.jpeg?q=50&fit=crop&w=825&dpr=1.5"
+    },
+    {
+      "path": "media/movies/m2798920/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://k.sinaimg.cn/n/sinakd20121/158/w1080h678/20251221/f53f-e322f18b552caa14fad3d526fd368f36.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    }
+  ]
+}

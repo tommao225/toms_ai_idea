@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0079944",
+  "wikidata": "",
+  "title": "潜行者",
+  "original_title": "Stalker",
+  "release_date": "1979-01-01",
+  "runtime": 162,
+  "production_countries": [
+    {
+      "iso_3166_1": "SU"
+    }
+  ],
+  "country_labels": [
+    "SU"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "安德烈·塔可夫斯基"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

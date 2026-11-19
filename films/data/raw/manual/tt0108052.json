@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0108052",
+  "wikidata": "",
+  "title": "辛德勒的名单",
+  "original_title": "Schindler's List",
+  "release_date": "1993-01-01",
+  "runtime": 195,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "史蒂文·斯皮尔伯格"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

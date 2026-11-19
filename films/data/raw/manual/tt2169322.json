@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt2169322",
+  "wikidata": "",
+  "title": "北京遇上西雅图",
+  "original_title": "Finding Mr. Right",
+  "release_date": "2013-01-01",
+  "runtime": 123,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    }
+  ],
+  "country_labels": [
+    "CN"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "薛晓路"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0093773",
+  "wikidata": "",
+  "title": "铁血战士",
+  "original_title": "Predator",
+  "release_date": "1987-01-01",
+  "runtime": 107,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "约翰·麦克蒂尔南"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

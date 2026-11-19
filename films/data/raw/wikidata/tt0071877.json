@@ -1,0 +1,38 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0071877",
+  "wikidata": "http://www.wikidata.org/entity/Q3241699",
+  "title": "东方快车谋杀案",
+  "original_title": "Murder on the Orient Express",
+  "release_date": "1974-11-21",
+  "runtime": 128,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "GB"
+    },
+    {
+      "iso_3166_1": "AU"
+    }
+  ],
+  "country_labels": [
+    "美國",
+    "英国",
+    "澳大利亚"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "犯罪片",
+    "推理電影"
+  ],
+  "director_names": [
+    "薛尼·盧梅"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

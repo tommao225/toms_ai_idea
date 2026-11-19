@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0110081",
+  "wikidata": "",
+  "title": "活着",
+  "original_title": "To Live",
+  "release_date": "1994-01-01",
+  "runtime": 133,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    },
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "CN",
+    "HK"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "张艺谋"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

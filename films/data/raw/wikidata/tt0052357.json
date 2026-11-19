@@ -1,0 +1,34 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0052357",
+  "wikidata": "http://www.wikidata.org/entity/Q202548",
+  "title": "迷魂记",
+  "original_title": "Vertigo",
+  "release_date": "1958-01-01",
+  "runtime": 128,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "爱情片",
+    "推理電影",
+    "浪漫片",
+    "驚悚片",
+    "心理剧电影",
+    "psychological thriller film"
+  ],
+  "director_names": [
+    "亞弗列·希治閣"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

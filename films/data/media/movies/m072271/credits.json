@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2187475349.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m072271/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://vhsrevival.com/wp-content/uploads/2020/09/tcm-marylin-1.jpg?w=776"
+    },
+    {
+      "path": "media/movies/m072271/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0927%2F162dd4e1j00skh4nq003zd200ri013dg00ri013d.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m072271/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://picx.zhimg.com/v2-94f9dae05041e156a51b5c700d3d1392_r.jpg?source=1def8aca"
+    }
+  ]
+}

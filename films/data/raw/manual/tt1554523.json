@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1554523",
+  "wikidata": "",
+  "title": "山楂树之恋",
+  "original_title": "Under the Hawthorn Tree",
+  "release_date": "2010-01-01",
+  "runtime": 98,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    }
+  ],
+  "country_labels": [
+    "CN"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "张艺谋"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

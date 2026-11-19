@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://r1.ykimg.com/050E00006296DA3E2037DD08EF4FAEC2",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m099674/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3.itc.cn/images01/20230429/bbbd7a7c61da4f45a59e62e1e1d98998.jpeg"
+    },
+    {
+      "path": "media/movies/m099674/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i0.hdslb.com/bfs/article/b4446fdb39eb4899f52aadc632047ac0b97b373f.jpg"
+    },
+    {
+      "path": "media/movies/m099674/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img2.ali213.net/picfile/News/2020/09/06/584_8f4fe22bea9e29d3df56efa36ac0141c.jpg"
+    }
+  ]
+}

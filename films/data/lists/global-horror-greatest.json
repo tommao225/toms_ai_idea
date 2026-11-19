@@ -1,0 +1,221 @@
+{
+  "id": "global-horror-greatest",
+  "title": "恐怖电影",
+  "genre": "恐怖",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "恐怖电影的全球候选，先凑够 20 部，再逐步补到 100。",
+    "ranking_rule": "按影史影响、类型完成度和可重看性综合排序。",
+    "time_window": "1927–2023",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "类型是叙事核心，不只是标签。",
+    "exclusion_rule": "只靠单一元素、没有类型完成度的片子。",
+    "known_bias": "首版偏经典和欧美，后续补亚洲和当代。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：恐怖"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m081505",
+      "note": "雪困酒店，父亲先疯了。",
+      "why_included": "空间恐怖。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m070047",
+      "note": "女孩被附身，神父用信仰对抗。",
+      "why_included": "宗教恐怖的原型。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m072271",
+      "note": "一群年轻人走进错误的路。",
+      "why_included": "低成本恐怖的暴力。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m077651",
+      "note": "万圣夜，一个不会死的人回来。",
+      "why_included": "砍杀片模板。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m084787",
+      "note": "南极站里，谁都不是原来的谁。",
+      "why_included": "身体恐怖与猜疑。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m063522",
+      "note": "怀孕的女人发现所有人都在骗她。",
+      "why_included": "日常里的邪教。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m076786",
+      "note": "芭蕾学校下面，女巫在等。",
+      "why_included": "色彩恐怖。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m178868",
+      "note": "一盘录像带，七天后有人来。",
+      "why_included": "日式恐怖。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m364385",
+      "note": "那栋房子，进去的人出不来。",
+      "why_included": "空间诅咒。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m1457767",
+      "note": "夫妇调查一栋闹鬼的农舍。",
+      "why_included": "现代驱魔片。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m5052448",
+      "note": "黑人男友去白人女友家，发现不对劲。",
+      "why_included": "社会恐怖。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m7784604",
+      "note": "一家人继承的不只是房子。",
+      "why_included": "家庭恐怖。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m8772262",
+      "note": "白昼里的村庄，比黑夜更可怕。",
+      "why_included": "民俗恐怖。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m4263482",
+      "note": "清教徒一家被森林逼疯。",
+      "why_included": "历史恐怖。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m3235888",
+      "note": "一个诅咒，慢慢走过来。",
+      "why_included": "青春恐怖。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m1139797",
+      "note": "男孩和吸血鬼女孩做朋友。",
+      "why_included": "寒冷青春恐怖。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m5700672",
+      "note": "一列火车，从首尔开到釜山。",
+      "why_included": "丧尸与父女。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m3835080",
+      "note": "老僵尸片演员住进一栋凶楼。",
+      "why_included": "港式僵尸的挽歌。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m113356",
+      "note": "捉鬼大师住进精神病院。",
+      "why_included": "恐怖喜剧。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m089218",
+      "note": "郊区新房里，电视后面有东西。",
+      "why_included": "家庭恐怖。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m078748",
+      "note": "异形在太空船里，把人一个个变成宿主。",
+      "why_included": "幽闭恐怖的原型。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m102926",
+      "note": "审问和凝视，比任何怪物都危险。",
+      "why_included": "心理恐怖的表演。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m114369",
+      "note": "七桩罪案，凶手把惩罚做成了作品。",
+      "why_included": "犯罪恐怖的仪式感。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m1130884",
+      "note": "孤岛精神病院，越查越像自己的梦。",
+      "why_included": "心理惊悚的空间。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m364569",
+      "note": "被囚十五年，出来先找答案。",
+      "why_included": "复仇恐怖的暴力。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m230600",
+      "note": "大宅里的母亲，不许孩子见光。",
+      "why_included": "哥特恐怖。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m464141",
+      "note": "旧孤儿院里有孩子没走。",
+      "why_included": "悲伤的恐怖。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m167404",
+      "note": "男孩能看见死人，心理医生先不信。",
+      "why_included": "反转恐怖。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m2267998",
+      "note": "妻子失踪，丈夫成了嫌疑人。",
+      "why_included": "婚姻恐怖。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m5715874",
+      "note": "一个少年让医生一家付出代价。",
+      "why_included": "冷峻的报应。"
+    }
+  ]
+}

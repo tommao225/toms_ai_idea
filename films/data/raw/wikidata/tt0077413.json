@@ -1,0 +1,36 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0077413",
+  "wikidata": "http://www.wikidata.org/entity/Q1059914",
+  "title": "尼罗河上的惨案",
+  "original_title": "Death on the Nile",
+  "release_date": "1978-09-29",
+  "runtime": 141,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    },
+    {
+      "iso_3166_1": "埃及"
+    }
+  ],
+  "country_labels": [
+    "英国",
+    "埃及"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "犯罪片",
+    "推理電影",
+    "驚悚片",
+    "suspense film",
+    "detective film"
+  ],
+  "director_names": [
+    "约翰·吉勒明"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

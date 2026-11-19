@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://p3-sign.toutiaoimg.com/pgc-image/d3494144d31f43a8b470e79a764823b3~tplv-tt-origin-web:gif.jpeg?_iz=58558&from=article.pc_detail&lk3s=953192f4&x-expires=1795242051&x-signature=3uMwZUnNGFHe7y5XbogHnOzP%2F6E%3D",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m125439/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cineimg.xyz/images/7d85a06934050400703f2be36867cb05.jpg"
+    },
+    {
+      "path": "media/movies/m125439/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinacn22/52/w1000h652/20180419/f1e5-fzihneq1881849.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m125439/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://assets.aboutamazon.com/dims4/default/cddc00d/2147483647/strip/true/crop/1600x900+0+0/resize/767x431!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F20%2F11%2F1fd3463c411f8ccb1553e8f08822%2Fabout-amazon-inline-020224-romcomvday-nottinghill-inline-1600x900.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1185616",
+  "wikidata": "",
+  "title": "和巴什尔跳华尔兹",
+  "original_title": "Waltz with Bashir",
+  "release_date": "2008-01-01",
+  "runtime": 90,
+  "production_countries": [
+    {
+      "iso_3166_1": "IL"
+    },
+    {
+      "iso_3166_1": "FR"
+    },
+    {
+      "iso_3166_1": "DE"
+    },
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "IL",
+    "FR",
+    "DE",
+    "US"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "阿里·福尔曼"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

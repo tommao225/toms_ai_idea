@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://www.tudoupcs.com/upload/movie/12/3f1e09579cd4080f.webp",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m4263482/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p7.itc.cn/images01/20230208/3184d8daf6564012bce548276c16f907.jpeg"
+    },
+    {
+      "path": "media/movies/m4263482/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p0.meituan.net/movie/b276064fad15aefabb96f208de959df1499701.jpg"
+    },
+    {
+      "path": "media/movies/m4263482/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.ecartelera.com/images/noticias/51600/51663-q1.jpg"
+    }
+  ]
+}

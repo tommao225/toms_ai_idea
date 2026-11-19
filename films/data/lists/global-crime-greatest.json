@@ -1,0 +1,221 @@
+{
+  "id": "global-crime-greatest",
+  "title": "犯罪电影",
+  "genre": "犯罪",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "以犯罪、调查、惩罚和道德灰区为核心的长片。",
+    "ranking_rule": "按影史影响、犯罪结构和人物压力综合排序。",
+    "time_window": "1950–2016",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "犯罪是叙事发动机，不只是背景。",
+    "exclusion_rule": "只把犯罪当奇观、没有道德压力的片子。",
+    "known_bias": "与悬疑高度重叠，先复用同一批片。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：罪与罚"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m052357",
+      "note": "把“看”变成陷阱，观众和主角一起被镜头牵着走。",
+      "why_included": "叙事与视觉的双重谜题。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m054215",
+      "note": "旅馆浴室一场戏改写了观众对“主角”的预期。",
+      "why_included": "类型规则被它改写。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m114369",
+      "note": "城市、雨和七桩罪案，把调查变成道德滑坡。",
+      "why_included": "九十年代犯罪悬疑的模板。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m102926",
+      "note": "审讯室里的对视，比任何追逐都紧张。",
+      "why_included": "心理惊悚的表演与空间范本。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m443706",
+      "note": "案子没有结束，执念也没有。",
+      "why_included": "把未解之谜拍成时间本身。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m209144",
+      "note": "倒着讲故事，让观众和主角一样只剩碎片。",
+      "why_included": "结构即体验。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m482571",
+      "note": "两个魔术师互相拆台，最后拆掉的是自己。",
+      "why_included": "叙事诡计与主题合二为一。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m4857264",
+      "note": "一间房、两个人、无数次翻供。",
+      "why_included": "密室反转的当代样本。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m051201",
+      "note": "法庭上每个人都在表演，包括证人。",
+      "why_included": "法庭悬疑的经典结构。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m047396",
+      "note": "偷看邻居，最后看见的是自己的处境。",
+      "why_included": "空间限制与窥视伦理。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m053125",
+      "note": "被误认的身份，一路把人推下悬崖。",
+      "why_included": "逃亡悬疑的节奏范本。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m071877",
+      "note": "雪夜、车厢、十二个乘客，每个人都有嫌疑。",
+      "why_included": "群像推理的经典。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m077413",
+      "note": "蜜月旅行变成一场被安排好的清算。",
+      "why_included": "古典推理的异域舞台。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m2267998",
+      "note": "婚姻本身就是最大的悬案。",
+      "why_included": "媒体、婚姻与叙事的共谋。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m1130884",
+      "note": "越接近真相，越分不清谁在说谎。",
+      "why_included": "心理悬疑的不可靠叙述。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m166924",
+      "note": "梦的前半段越亮，醒来后越黑。",
+      "why_included": "把梦境结构拍成悬疑。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m364569",
+      "note": "被囚十五年，复仇是唯一的出口，也是陷阱。",
+      "why_included": "复仇悬疑的极端变体。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m353969",
+      "note": "真凶没有落网，时代也没有。",
+      "why_included": "把悬案写成社会史。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m114814",
+      "note": "五个嫌疑人，一个从未存在的故事。",
+      "why_included": "叙述者即谜底。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m042876",
+      "note": "同一件事，四个人四种说法。",
+      "why_included": "不可靠叙述的源头之一。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m765429",
+      "note": "毒枭和警察，一个做生意，一个追。",
+      "why_included": "把犯罪拍成商业史。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m338564",
+      "note": "警察进黑帮，黑帮进警队，互相找。",
+      "why_included": "港式犯罪的双面。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m407887",
+      "note": "波士顿警队和黑帮互派卧底。",
+      "why_included": "把身份焦虑拍到爆。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m317248",
+      "note": "贫民窟里，小孩长大成枪手。",
+      "why_included": "犯罪片的城市史诗。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m040522",
+      "note": "一辆自行车丢了，父亲的世界也塌了。",
+      "why_included": "新现实主义的犯罪。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m072890",
+      "note": "一场抢银行，变成电视直播的闹剧。",
+      "why_included": "犯罪与媒体。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m113277",
+      "note": "警察和劫匪，互相尊重也互相追。",
+      "why_included": "城市犯罪的空间。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m105236",
+      "note": "抢完珠宝，谁是自己人先说不清。",
+      "why_included": "犯罪片的对话结构。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m120735",
+      "note": "四拨人围着一笔钱和两杆枪转。",
+      "why_included": "多线犯罪喜剧。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m117951",
+      "note": "爱丁堡的瘾君子，想戒又戒不掉。",
+      "why_included": "犯罪与青春。"
+    }
+  ]
+}

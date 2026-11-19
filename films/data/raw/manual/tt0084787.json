@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0084787",
+  "wikidata": "",
+  "title": "怪形",
+  "original_title": "The Thing",
+  "release_date": "1982-01-01",
+  "runtime": 109,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "约翰·卡朋特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

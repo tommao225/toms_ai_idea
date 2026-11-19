@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0032553",
+  "wikidata": "",
+  "title": "大独裁者",
+  "original_title": "The Great Dictator",
+  "release_date": "1940-01-01",
+  "runtime": 125,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "查理·卓别林"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

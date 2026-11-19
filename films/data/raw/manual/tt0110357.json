@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0110357",
+  "wikidata": "",
+  "title": "狮子王",
+  "original_title": "The Lion King",
+  "release_date": "1994-01-01",
+  "runtime": 88,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "罗杰·阿勒斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

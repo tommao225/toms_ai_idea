@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0808417",
+  "wikidata": "",
+  "title": "我在伊朗长大",
+  "original_title": "Persepolis",
+  "release_date": "2007-01-01",
+  "runtime": 96,
+  "production_countries": [
+    {
+      "iso_3166_1": "FR"
+    },
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "FR",
+    "US"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "文森特·帕兰德"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

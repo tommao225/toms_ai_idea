@@ -1,0 +1,39 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0102926",
+  "wikidata": "http://www.wikidata.org/entity/Q133654",
+  "title": "沉默的羔羊",
+  "original_title": "The Silence of the Lambs",
+  "release_date": "1991-01-30",
+  "runtime": 118,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other",
+    "mystery"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "恐怖電影",
+    "犯罪片",
+    "驚悚片",
+    "crime thriller film",
+    "性少数相关电影",
+    "心理剧电影",
+    "心理恐怖電影",
+    "psychological thriller film",
+    "police procedural film",
+    "crime drama film"
+  ],
+  "director_names": [
+    "強納森·德米"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

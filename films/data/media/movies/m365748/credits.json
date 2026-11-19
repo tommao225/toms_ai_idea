@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://dingyue.ws.126.net/2025/0919/9e226d59j00t2tx5c002ad000hs00o8g.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m365748/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.360ric.com/upload_files/article/172/18_20190904100942_oui5t.jpg"
+    },
+    {
+      "path": "media/movies/m365748/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://p9.qhimg.com/t11508c75c8608ab57afad83519.jpg"
+    },
+    {
+      "path": "media/movies/m365748/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic.baike.soso.com/ugc/baikepic2/5425/ori-20180612080746-1441427786_jpg_1000_659_116997.jpg/0"
+    }
+  ]
+}

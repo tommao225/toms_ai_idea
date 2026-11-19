@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://k.sinaimg.cn/n/sinakd20250303s/27/w640h987/20250303/74de-beaa16e137c5188db4468d4e517f431b.jpg/w700d1q75cms.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m10366206/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pica.zhimg.com/v2-cdd93aea6e68c69c53845237b7e294fa_1440w.jpg"
+    },
+    {
+      "path": "media/movies/m10366206/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://braveo-iptv.net/wp-content/uploads/2025/08/Keanu-Reeves-action-movie.jpeg"
+    },
+    {
+      "path": "media/movies/m10366206/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://image11.m1905.cn/uploadfile/2025/0307/20250307015032153810.jpg"
+    }
+  ]
+}

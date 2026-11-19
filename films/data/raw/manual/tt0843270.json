@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0843270",
+  "wikidata": "",
+  "title": "疯狂的石头",
+  "original_title": "Crazy Stone",
+  "release_date": "2006-01-01",
+  "runtime": 106,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    },
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "CN",
+    "HK"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "宁浩"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

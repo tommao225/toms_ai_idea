@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0071853",
+  "wikidata": "",
+  "title": "巨蟒与圣杯",
+  "original_title": "Monty Python and the Holy Grail",
+  "release_date": "1975-01-01",
+  "runtime": 91,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "特瑞·吉列姆"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

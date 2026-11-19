@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://p9.itc.cn/images01/20211121/1ebfa08e626c4a9e90c0a8616bf64290.jpeg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m765429/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/964b2e4e2f390d80d1c86ad5/964b2e4e2f390d80d1c86ad5_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+    },
+    {
+      "path": "media/movies/m765429/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q2.itc.cn/images01/20250908/782acdaa782b4f458d535d243eee9bca.jpeg"
+    },
+    {
+      "path": "media/movies/m765429/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.cinemablind.com/wp-content/uploads/2023/08/American-Gangster.jpg"
+    }
+  ]
+}

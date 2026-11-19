@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1139797",
+  "wikidata": "",
+  "title": "生人勿近",
+  "original_title": "Let the Right One In",
+  "release_date": "2008-01-01",
+  "runtime": 115,
+  "production_countries": [
+    {
+      "iso_3166_1": "SE"
+    }
+  ],
+  "country_labels": [
+    "SE"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "托马斯·阿尔弗莱德森"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

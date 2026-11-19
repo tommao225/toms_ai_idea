@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://img.m1905.com/UploadFile/pics/2009/06/08/110356102.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m1119646/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/63672979549e45a2a56a1c556eae0528~tplv-xv4ileqgde-image.image"
+    },
+    {
+      "path": "media/movies/m1119646/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/481145cdI/anh-mo-ta.png"
+    },
+    {
+      "path": "media/movies/m1119646/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.bshyw.com/upload/db/dd/dmlldy9waG90by9sL3B1YmxpYy9wMjUxMzYxNTMyOA.jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0072890",
+  "wikidata": "",
+  "title": "热天午后",
+  "original_title": "Dog Day Afternoon",
+  "release_date": "1975-01-01",
+  "runtime": 125,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "西德尼·吕美特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

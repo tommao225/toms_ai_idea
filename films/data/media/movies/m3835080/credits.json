@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://picx.zhimg.com/50/v2-f45c0b078656d41e8b5e738c2bb1f23e_720w.jpg?source=1def8aca",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m3835080/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic.imgdb.cn/item/63be4796be43e0d30e5f30df.png"
+    },
+    {
+      "path": "media/movies/m3835080/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://develop.creepycatalog.com/wp-content/uploads/sites/2/2025/04/peninsula_2020.jpg?w=768"
+    },
+    {
+      "path": "media/movies/m3835080/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imgs.aixifan.com/newUpload/2394751_6dbdd031dbb34c0686f244f9083cc352.jpeg"
+    }
+  ]
+}

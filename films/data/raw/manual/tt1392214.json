@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1392214",
+  "wikidata": "",
+  "title": "囚徒",
+  "original_title": "Prisoners",
+  "release_date": "2013-01-01",
+  "runtime": 153,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "mystery"
+  ],
+  "genre_labels": [
+    "mystery"
+  ],
+  "director_names": [
+    "丹尼斯·维伦纽瓦"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

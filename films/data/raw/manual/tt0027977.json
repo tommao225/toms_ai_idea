@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0027977",
+  "wikidata": "",
+  "title": "摩登时代",
+  "original_title": "Modern Times",
+  "release_date": "1936-01-01",
+  "runtime": 87,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "查理·卓别林"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0178868",
+  "wikidata": "",
+  "title": "午夜凶铃",
+  "original_title": "Ring",
+  "release_date": "1998-01-01",
+  "runtime": 96,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "JP"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "中田秀夫"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

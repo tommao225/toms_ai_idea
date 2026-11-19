@@ -1,0 +1,34 @@
+# 一个榜单一个文件。count 必须等于 entries.csv 的实际条数；不够 100 就如实。
+
+schema_version = 1
+
+id = "global-mystery-greatest"
+title = "悬疑电影"
+criterion = "greatest"
+status = "draft"
+decision = "hybrid"
+max_entries = 100
+count = 30
+genres = ["mystery"]
+chapters = [
+  { index = 1, title = "第一卷：范式" },
+  { index = 2, title = "第二卷：变体" },
+]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "以不可靠叙述、调查结构、心理困局和经典反转为骨架的全球悬疑长片。"
+ranking_rule = "按影史影响、叙事结构、氛围和可重看性综合排序。"
+time_window = "1950–2016"
+sources = [
+  { name = "Wikidata", url = "https://www.wikidata.org/", weight = 1.0, accessed = "2026-11" },
+  { name = "人工初选", url = "", weight = 1.0, accessed = "2026-11" },
+]
+inclusion_rule = "至少满足一项：不可靠叙述、侦探或调查结构、心理悬疑、经典反转。"
+exclusion_rule = "纯动作、纯恐怖、纯喜剧；只靠彩蛋式反转。"
+known_bias = "英语片偏多；亚洲只有三部。"
+curator = "初选"
+version = "1"

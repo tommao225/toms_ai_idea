@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://jingdianmovie.com/wp-content/uploads/2025/08/mou-sha-lyu-jiao-zhi-1998-xi-ju-fan-zui.webp",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m118715/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://m.media-amazon.com/images/M/MV5BNmVlNDE1NDItZTE5NC00OWEwLWExOGMtMTQ5OTkyMmQ1MWUwXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "path": "media/movies/m118715/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p8.itc.cn/q_70/images03/20220910/b6a9caa6f62c44f9a4ebae98440dd8a3.jpeg"
+    },
+    {
+      "path": "media/movies/m118715/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dingyue.ws.126.net/2026/0318/20ca71e6j00tc3ek4001wd200u000gvg00u000gv.jpg"
+    }
+  ]
+}

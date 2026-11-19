@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0118694",
+  "wikidata": "",
+  "title": "花样年华",
+  "original_title": "In the Mood for Love",
+  "release_date": "2000-01-01",
+  "runtime": 98,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "王家卫"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

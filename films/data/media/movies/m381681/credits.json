@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F8jsUYjaBbOPJRtooqFXdIygeaLaDV9tD8woPkULP5fzgV1552271097110compressflag.jpg&thumbnail=660x2147483647&quality=80&type=jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m381681/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/cc11728b4710b912c8fcf407bbaceb039245d78884b3/cc11728b4710b912c8fcf407bbaceb039245d78884b3_16_9?x-bce-process=image/format,f_auto"
+    },
+    {
+      "path": "media/movies/m381681/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20180503/9f6c8a59ae784fc5916f661f80b0b79b.jpeg"
+    },
+    {
+      "path": "media/movies/m381681/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://wx4.sinaimg.cn/large/007yglybgy1gklaqvokggj31e60u0jyj.jpg"
+    }
+  ]
+}

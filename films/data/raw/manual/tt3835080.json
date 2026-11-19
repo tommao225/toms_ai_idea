@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt3835080",
+  "wikidata": "",
+  "title": "僵尸",
+  "original_title": "Rigor Mortis",
+  "release_date": "2013-01-01",
+  "runtime": 103,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "麦浚龙"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

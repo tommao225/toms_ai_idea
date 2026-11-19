@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt3838978",
+  "wikidata": "",
+  "title": "杀破狼2",
+  "original_title": "SPL 2: A Time for Consequences",
+  "release_date": "2015-01-01",
+  "runtime": 120,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    },
+    {
+      "iso_3166_1": "CN"
+    }
+  ],
+  "country_labels": [
+    "HK",
+    "CN"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "郑保瑞"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

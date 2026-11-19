@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0099685",
+  "wikidata": "",
+  "title": "好家伙",
+  "original_title": "Goodfellas",
+  "release_date": "1990-01-01",
+  "runtime": 145,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "马丁·斯科塞斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

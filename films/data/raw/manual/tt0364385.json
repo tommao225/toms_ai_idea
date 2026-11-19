@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0364385",
+  "wikidata": "",
+  "title": "咒怨",
+  "original_title": "Ju-on: The Grudge",
+  "release_date": "2002-01-01",
+  "runtime": 92,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "JP"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "清水崇"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

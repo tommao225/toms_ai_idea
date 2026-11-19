@@ -1,0 +1,36 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0765120",
+  "wikidata": "",
+  "title": "蓝莓之夜",
+  "original_title": "My Blueberry Nights",
+  "release_date": "2007-01-01",
+  "runtime": 95,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    },
+    {
+      "iso_3166_1": "CN"
+    },
+    {
+      "iso_3166_1": "FR"
+    }
+  ],
+  "country_labels": [
+    "HK",
+    "CN",
+    "FR"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "王家卫"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

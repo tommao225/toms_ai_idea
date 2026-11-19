@@ -1,0 +1,37 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0209144",
+  "wikidata": "http://www.wikidata.org/entity/Q190525",
+  "title": "记忆碎片",
+  "original_title": "Memento",
+  "release_date": "2000-09-05",
+  "runtime": 113,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other",
+    "mystery"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "黑色电影",
+    "恐怖電影",
+    "犯罪片",
+    "推理電影",
+    "新黑色電影",
+    "驚悚片",
+    "倒叙电影",
+    "基于文学的电影"
+  ],
+  "director_names": [
+    "克里斯托弗·诺兰"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

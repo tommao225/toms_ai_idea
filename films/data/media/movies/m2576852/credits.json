@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/75/544/995.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m2576852/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i0.hdslb.com/bfs/article/33a906a1244918552bb4e39a661428d008d5f862.png"
+    },
+    {
+      "path": "media/movies/m2576852/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinacn20191119ac/186/w640h346/20191119/d9ca-iipztff2491869.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m2576852/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://img2.chinadaily.com.cn/images/202012/06/5fcc1f00a31024adbda67174.jpeg"
+    }
+  ]
+}

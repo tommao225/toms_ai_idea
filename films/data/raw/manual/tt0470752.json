@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0470752",
+  "wikidata": "",
+  "title": "机械姬",
+  "original_title": "Ex Machina",
+  "release_date": "2014-01-01",
+  "runtime": 108,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "亚历克斯·加兰"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

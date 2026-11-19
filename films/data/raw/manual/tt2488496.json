@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt2488496",
+  "wikidata": "",
+  "title": "星球大战：原力觉醒",
+  "original_title": "Star Wars: The Force Awakens",
+  "release_date": "2015-01-01",
+  "runtime": 138,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "J.J.艾布拉姆斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0103285",
+  "wikidata": "",
+  "title": "黄飞鸿",
+  "original_title": "Once Upon a Time in China",
+  "release_date": "1991-01-01",
+  "runtime": 134,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "徐克"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

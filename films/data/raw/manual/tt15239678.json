@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt15239678",
+  "wikidata": "",
+  "title": "沙丘2",
+  "original_title": "Dune: Part Two",
+  "release_date": "2024-01-01",
+  "runtime": 166,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "CA"
+    }
+  ],
+  "country_labels": [
+    "US",
+    "CA"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "丹尼斯·维伦纽瓦"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

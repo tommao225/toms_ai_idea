@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0335266",
+  "wikidata": "",
+  "title": "迷失东京",
+  "original_title": "Lost in Translation",
+  "release_date": "2003-01-01",
+  "runtime": 102,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "US",
+    "JP"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "索菲亚·科波拉"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

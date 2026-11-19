@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0381681",
+  "wikidata": "",
+  "title": "爱在日落黄昏时",
+  "original_title": "Before Sunset",
+  "release_date": "2004-01-01",
+  "runtime": 80,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "理查德·林克莱特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

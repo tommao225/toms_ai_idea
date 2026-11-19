@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://professionalmoron.com/wp-content/uploads/2019/01/life-of-brian.jpg?w=693&h=766",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m079470/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjYwNDQ1YzgtY2ZjYS00YjNmLTk0MjktMGY0YzNjMjQ4NGQ2XkEyXkFqcGc@._V1_QL75_UX500_CR0,31,500,281_.jpg"
+    },
+    {
+      "path": "media/movies/m079470/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.mensjournal.com/.image/NDI6MDAwMDAwMDAxMzU3MzY2/graham-chapman-and-terry-jones-in-life-of-brian.jpg?profile=w2560&x=50&y=50"
+    },
+    {
+      "path": "media/movies/m079470/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20180223/14f87eaf15e6426698c0508c1d582bd5.jpeg"
+    }
+  ]
+}

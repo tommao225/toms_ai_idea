@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0109686",
+  "wikidata": "",
+  "title": "阿呆与阿瓜",
+  "original_title": "Dumb and Dumber",
+  "release_date": "1994-01-01",
+  "runtime": 107,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "彼得·法拉利"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

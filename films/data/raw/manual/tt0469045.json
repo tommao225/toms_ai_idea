@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0469045",
+  "wikidata": "",
+  "title": "杀破狼",
+  "original_title": "SPL: Sha Po Lang",
+  "release_date": "2005-01-01",
+  "runtime": 93,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "叶伟信"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

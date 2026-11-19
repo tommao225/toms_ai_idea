@@ -1,0 +1,30 @@
+# 一个榜单一个文件。count 必须等于 entries.csv 的实际条数；不够 100 就如实。
+
+schema_version = 1
+
+id = "global-scifi-greatest"
+title = "科幻电影"
+criterion = "greatest"
+status = "draft"
+decision = "hybrid"
+max_entries = 100
+count = 30
+genres = ["scifi"]
+chapters = [
+  { index = 1, title = "第一卷：未来" },
+]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "以技术、宇宙、身份和未来社会为核心的长片。"
+ranking_rule = "按影史影响、概念完成度和可重看性综合排序。"
+time_window = "1968–2016"
+sources = [{ name = "人工初选", url = "", weight = 1.0, accessed = "2026-11" }]
+inclusion_rule = "科幻设定是叙事核心，不只是背景。"
+exclusion_rule = "只有特效、没有概念的片子。"
+known_bias = "英语片为主，苏联和日本各一部。"
+curator = "初选"
+version = "1"

@@ -1,0 +1,32 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0443706",
+  "wikidata": "http://www.wikidata.org/entity/Q218172",
+  "title": "十二宫",
+  "original_title": "Zodiac",
+  "release_date": "2007-03-02",
+  "runtime": 157,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "紀錄式劇情片",
+    "推理電影",
+    "crime thriller film",
+    "police procedural film"
+  ],
+  "director_names": [
+    "大卫·芬奇"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

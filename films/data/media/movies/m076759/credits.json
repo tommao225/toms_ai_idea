@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2500865872.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m076759/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.salon.com/app/uploads/2013/10/lucas_star_wars.jpg"
+    },
+    {
+      "path": "media/movies/m076759/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.looper.com/img/gallery/the-star-wars-movies-in-chronological-order-does-it-really-matter/intro-1690586334.jpg"
+    },
+    {
+      "path": "media/movies/m076759/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://107cine.cdn.cinehello.com/20191223/uploads/weixin/23Dec2019112255164.jpg"
+    }
+  ]
+}

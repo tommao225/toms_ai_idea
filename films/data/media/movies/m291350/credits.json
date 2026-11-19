@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://img.3dmgame.com/uploads/images/news/20191204/1575429508_236470.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m291350/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://happinessfishes.com/wp-content/uploads//%E8%B3%BD%E5%BE%B7%E5%85%8B%E5%B7%B4%E8%90%8A.jpg"
+    },
+    {
+      "path": "media/movies/m291350/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i0.hdslb.com/bfs/article/41db7be66ac537080380650a7aaceaee41141347.png@1192w"
+    },
+    {
+      "path": "media/movies/m291350/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/translate/61/w1080h581/20181122/Rmun-hnyuqhi7588764.jpg/w700d1q75cms.jpg"
+    }
+  ]
+}

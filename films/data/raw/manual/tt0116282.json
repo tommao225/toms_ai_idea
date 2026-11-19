@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0116282",
+  "wikidata": "",
+  "title": "冰血暴",
+  "original_title": "Fargo",
+  "release_date": "1996-01-01",
+  "runtime": 98,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "US",
+    "GB"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "乔尔·科恩"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

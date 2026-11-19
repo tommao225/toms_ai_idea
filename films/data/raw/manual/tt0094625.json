@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0094625",
+  "wikidata": "",
+  "title": "阿基拉",
+  "original_title": "Akira",
+  "release_date": "1988-01-01",
+  "runtime": 124,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "JP"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "大友克洋"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

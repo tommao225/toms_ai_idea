@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt4996490",
+  "wikidata": "",
+  "title": "夏洛特烦恼",
+  "original_title": "Goodbye Mr. Loser",
+  "release_date": "2015-01-01",
+  "runtime": 104,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    }
+  ],
+  "country_labels": [
+    "CN"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "闫非"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

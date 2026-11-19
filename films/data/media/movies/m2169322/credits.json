@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://img.wiiind.com/img/1696-0.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m2169322/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.lianzhixiu.com/uploads/allimg/180619/22-1P6191539132P.jpg"
+    },
+    {
+      "path": "media/movies/m2169322/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dingyue.ws.126.net/cB3mvQ2KrNWsvgO3VXvBIgKDm8kaKE5C4mVZKCCEJPPcY1524193562273.jpg"
+    },
+    {
+      "path": "media/movies/m2169322/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://image11.m1905.cn/uploadfile/2013/0305/20130305092447147.jpg"
+    }
+  ]
+}

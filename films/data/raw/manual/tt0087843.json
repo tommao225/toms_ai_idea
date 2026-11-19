@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0087843",
+  "wikidata": "",
+  "title": "美国往事",
+  "original_title": "Once Upon a Time in America",
+  "release_date": "1984-01-01",
+  "runtime": 229,
+  "production_countries": [
+    {
+      "iso_3166_1": "IT"
+    },
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "IT",
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "赛尔乔·莱昂内"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

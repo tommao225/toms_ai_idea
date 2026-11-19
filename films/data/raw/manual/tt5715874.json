@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt5715874",
+  "wikidata": "",
+  "title": "圣鹿之死",
+  "original_title": "The Killing of a Sacred Deer",
+  "release_date": "2017-01-01",
+  "runtime": 121,
+  "production_countries": [
+    {
+      "iso_3166_1": "IE"
+    },
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "IE",
+    "GB"
+  ],
+  "site_genres": [
+    "mystery"
+  ],
+  "genre_labels": [
+    "mystery"
+  ],
+  "director_names": [
+    "欧格斯·兰斯莫斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0829482",
+  "wikidata": "",
+  "title": "太坏了",
+  "original_title": "Superbad",
+  "release_date": "2007-01-01",
+  "runtime": 113,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "格雷格·莫托拉"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

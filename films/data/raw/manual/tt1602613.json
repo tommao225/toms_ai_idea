@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1602613",
+  "wikidata": "",
+  "title": "突袭",
+  "original_title": "The Raid",
+  "release_date": "2011-01-01",
+  "runtime": 101,
+  "production_countries": [
+    {
+      "iso_3166_1": "ID"
+    }
+  ],
+  "country_labels": [
+    "ID"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "加雷斯·埃文斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0095765",
+  "wikidata": "",
+  "title": "天堂电影院",
+  "original_title": "Cinema Paradiso",
+  "release_date": "1988-01-01",
+  "runtime": 155,
+  "production_countries": [
+    {
+      "iso_3166_1": "IT"
+    },
+    {
+      "iso_3166_1": "FR"
+    }
+  ],
+  "country_labels": [
+    "IT",
+    "FR"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "朱塞佩·托纳多雷"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://img.jiemian.com/101/original/20190401/155411093171685600.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m4016934/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.cinemablend.com/filter:scale/quill/7/a/4/f/a/4/7a4fa4ffb7910fecd8e0fbec44a9ca5f58e1965f.jpg?mw=600"
+    },
+    {
+      "path": "media/movies/m4016934/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p0.meituan.net/movie/006569156fa1a3fb1b20d33bf300ccd4138256.jpg"
+    },
+    {
+      "path": "media/movies/m4016934/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.sopranu.com/wp-content/uploads/2025/04/Kim-Min-hee-and-Kim-Tae-ri-in-The-Handmaiden-2016.webp"
+    }
+  ]
+}

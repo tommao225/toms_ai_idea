@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1182345",
+  "wikidata": "",
+  "title": "月球",
+  "original_title": "Moon",
+  "release_date": "2009-01-01",
+  "runtime": 97,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "邓肯·琼斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

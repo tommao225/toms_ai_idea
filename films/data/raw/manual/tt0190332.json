@@ -1,0 +1,40 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0190332",
+  "wikidata": "",
+  "title": "卧虎藏龙",
+  "original_title": "Crouching Tiger, Hidden Dragon",
+  "release_date": "2000-01-01",
+  "runtime": 120,
+  "production_countries": [
+    {
+      "iso_3166_1": "TW"
+    },
+    {
+      "iso_3166_1": "HK"
+    },
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "CN"
+    }
+  ],
+  "country_labels": [
+    "TW",
+    "HK",
+    "US",
+    "CN"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "李安"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0338564",
+  "wikidata": "",
+  "title": "无间道",
+  "original_title": "Infernal Affairs",
+  "release_date": "2002-01-01",
+  "runtime": 101,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "刘伟强"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

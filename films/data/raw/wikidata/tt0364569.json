@@ -1,0 +1,35 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0364569",
+  "wikidata": "http://www.wikidata.org/entity/Q475693",
+  "title": "老男孩",
+  "original_title": "Oldboy",
+  "release_date": "2003-01-01",
+  "runtime": 116,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    },
+    {
+      "iso_3166_1": "大韩民国"
+    }
+  ],
+  "country_labels": [
+    "日本",
+    "大韩民国"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "動作片",
+    "推理電影",
+    "驚悚片"
+  ],
+  "director_names": [
+    "朴贊郁"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

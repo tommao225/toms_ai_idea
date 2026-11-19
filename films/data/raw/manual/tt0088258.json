@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0088258",
+  "wikidata": "",
+  "title": "摇滚万万岁",
+  "original_title": "This Is Spinal Tap",
+  "release_date": "1984-01-01",
+  "runtime": 82,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "罗伯·莱纳"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

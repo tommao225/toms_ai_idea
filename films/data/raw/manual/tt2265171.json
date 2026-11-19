@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt2265171",
+  "wikidata": "",
+  "title": "突袭2",
+  "original_title": "The Raid 2",
+  "release_date": "2014-01-01",
+  "runtime": 150,
+  "production_countries": [
+    {
+      "iso_3166_1": "ID"
+    }
+  ],
+  "country_labels": [
+    "ID"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "加雷斯·埃文斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

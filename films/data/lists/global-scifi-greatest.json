@@ -1,0 +1,221 @@
+{
+  "id": "global-scifi-greatest",
+  "title": "科幻电影",
+  "genre": "科幻",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "以技术、宇宙、身份和未来社会为核心的长片。",
+    "ranking_rule": "按影史影响、概念完成度和可重看性综合排序。",
+    "time_window": "1968–2016",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "科幻设定是叙事核心，不只是背景。",
+    "exclusion_rule": "只有特效、没有概念的片子。",
+    "known_bias": "英语片为主，苏联和日本各一部。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：未来"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m062622",
+      "note": "从猿到星孩，人类每一步都被一块黑石看着。",
+      "why_included": "把科幻拍成文明史。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m083658",
+      "note": "雨夜、霓虹和复制人，人的记忆也可以被制造。",
+      "why_included": "赛博朋克视觉与身份问题。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m078748",
+      "note": "太空船里没有英雄，只有求生。",
+      "why_included": "幽闭科幻恐怖的范本。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m133093",
+      "note": "日常世界是程序，选择才是真的。",
+      "why_included": "把动作、哲学和虚拟现实扣在一起。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m079944",
+      "note": "房间会移动，欲望会实现，代价自己承担。",
+      "why_included": "用科幻写信仰与执念。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m069293",
+      "note": "海洋星球会读心，人类带去的只有自己的记忆。",
+      "why_included": "科幻中的孤独与愧疚。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m2543164",
+      "note": "语言改变时间，母亲提前看见一生。",
+      "why_included": "温柔而克制的第一接触。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m816692",
+      "note": "父亲穿过黑洞，女儿在书房里等他。",
+      "why_included": "把亲情放进宇宙尺度。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m206634",
+      "note": "人类不再生育，希望只剩一个孕妇。",
+      "why_included": "末世科幻的政治与长镜头。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m113568",
+      "note": "义体、网络和身份，边界全部融化。",
+      "why_included": "动画赛博朋克的源头。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m1856101",
+      "note": "复制人有了自己的记忆，猎人开始怀疑自己。",
+      "why_included": "把赛博朋克续成身份寓言。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m470752",
+      "note": "一场图灵测试，测试的是人还是机器。",
+      "why_included": "小空间里的AI伦理。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m1182345",
+      "note": "月球背面只有一个值班员，和一个副本。",
+      "why_included": "孤独科幻的干净样本。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m076759",
+      "note": "农场少年被卷入银河战争。",
+      "why_included": "把太空歌剧变成大众神话。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m080684",
+      "note": "帝国反击，主角失去手，也失去答案。",
+      "why_included": "续集把神话拍得更暗。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m075860",
+      "note": "一个普通人被声音和光带走。",
+      "why_included": "第一接触的温柔版本。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m091064",
+      "note": "实验出错，身体一点点变成别的物种。",
+      "why_included": "身体恐怖与科学失控。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m088846",
+      "note": " bureaucracy 吞掉一个人，梦也救不了他。",
+      "why_included": "反乌托邦的黑色喜剧。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m066921",
+      "note": "暴力被治疗，自由也被治疗。",
+      "why_included": "把自由意志拍成酷刑。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m017136",
+      "note": "地下工人和地上乐园，机器藏着人的脸。",
+      "why_included": "科幻都市的原型。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m1160419",
+      "note": "厄拉科斯的沙下埋着香料，也埋着殖民。",
+      "why_included": "把太空歌剧拍成政治史诗。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m15239678",
+      "note": "保罗成为救世主，也成了自己恐惧的东西。",
+      "why_included": "续集把神话拆开。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m796366",
+      "note": "柯克和史波克从敌对开始，重新上舰。",
+      "why_included": "重启系列的节奏。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m2488496",
+      "note": "新的抵抗组织，旧的帝国阴影。",
+      "why_included": "把经典结构重新交给下一代。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m1136608",
+      "note": "外星难民被关在贫民窟，人类只想拿走武器。",
+      "why_included": "用科幻写种族隔离。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m2798920",
+      "note": "进入微光区的人，身体开始不属于自己。",
+      "why_included": "把科幻拍成一场变异。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m093870",
+      "note": "警察被做成机器，记忆还在反抗。",
+      "why_included": "赛博格与资本讽刺。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m093773",
+      "note": "丛林里有一个更会狩猎的猎手。",
+      "why_included": "把动作片变成猎杀。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m090605",
+      "note": "殖民地失去联系，陆战队进去找原因。",
+      "why_included": "把幽闭恐怖扩成战争片。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m088247",
+      "note": "机器从未来回来，杀一个还没出生的孩子。",
+      "why_included": "时间循环与追杀。"
+    }
+  ]
+}

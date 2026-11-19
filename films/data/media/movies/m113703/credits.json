@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://wscdn.ql1d.com/1747950044866_A07_A07_3194.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m113703/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p4.itc.cn/images01/20230706/2e778df5d5bf485dac0a58f38c076913.png"
+    },
+    {
+      "path": "media/movies/m113703/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://movie.toodiancao.com/wp-content/uploads/2025/07/20250513105552160306.jpg"
+    },
+    {
+      "path": "media/movies/m113703/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p7.itc.cn/q_70/images03/20210713/dac94f90428846bcb2835d2992dbad15.jpeg"
+    }
+  ]
+}

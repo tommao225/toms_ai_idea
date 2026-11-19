@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/126/52/917.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m388473/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://storage.movie6.com/movie/d0ea_TGF_812__1764749367.jpg"
+    },
+    {
+      "path": "media/movies/m388473/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://storage.movie6.com/movie/188eb_TGF_149__1764749365.jpg"
+    },
+    {
+      "path": "media/movies/m388473/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://inews.gtimg.com/newsapp_bt/0/13982188316/1000"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://images.martincid.com/2026/06/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m5715874/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://image11.m1905.cn/uploadfile/2017/1012/20171012104135504527.jpg#"
+    },
+    {
+      "path": "media/movies/m5715874/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://hiphotos.baidu.com/zhidao/pic/item/d439b6003af33a876d03fb94cd5c10385243b5d6.jpg"
+    },
+    {
+      "path": "media/movies/m5715874/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.cinephilia.net/wp-content/uploads/2017/05/15ba0.jpg"
+    }
+  ]
+}

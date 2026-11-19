@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://img.mp.sohu.com/upload/20170805/deedafc87ce74b329797d6fc97bb17c0_th.png?hpgo=movie-img-165561",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m258463/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://p9.qhimg.com/t11508c75c87ed2d92b2c68464b.jpg"
+    },
+    {
+      "path": "media/movies/m258463/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p2.itc.cn/q_70/images03/20231103/983ad65ee7f0443cae5ec2c3d3d6a340.jpeg"
+    },
+    {
+      "path": "media/movies/m258463/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q7.itc.cn/images01/20240525/713fdf2e71974bc2b4d479eba9d09128.png"
+    }
+  ]
+}

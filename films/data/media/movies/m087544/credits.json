@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img3.doubanio.com/view/photo/l_ratio_poster/public/p1917567652.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m087544/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinacn20116/85/w1080h605/20190101/3e4b-hqzxptn1542096.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    },
+    {
+      "path": "media/movies/m087544/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://inews.gtimg.com/newsapp_bt/0/13973597621/1000"
+    },
+    {
+      "path": "media/movies/m087544/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://news.zlook.com/uploadfile/2026/0101/20260101043450239.jpg"
+    }
+  ]
+}

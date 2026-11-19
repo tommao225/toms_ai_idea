@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://wx2.sinaimg.cn/large/e86b0536ly4gfu3616lk9j20hs0qc3zo.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m1049413/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://i1.sinaimg.cn/ent/r/m/2010-03-04/U4099P28T3D2887543F326DT20100304092916.jpg"
+    },
+    {
+      "path": "media/movies/m1049413/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p6.itc.cn/q_70/images03/20230803/515bb650e0ca4e699c573c134eac0d50.png"
+    },
+    {
+      "path": "media/movies/m1049413/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://media.cnn.com/api/v1/images/stellar/prod/140609185914-10-cry-movies.jpg?q=w_1280,h_720,x_0,y_0,c_fill/h_447"
+    }
+  ]
+}

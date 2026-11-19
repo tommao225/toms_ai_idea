@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://i0.hdslb.com/bfs/article/0807e63da45f8596cec5581a3696396d83699cb9.jpg@1192w",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m375679/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://culturefilmpublication.co.uk/wp-content/uploads/2026/04/image-20.png?w=1024"
+    },
+    {
+      "path": "media/movies/m375679/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://kenshin.hk/blog/2020-02/miu404/01/miu404-01-12.jpg"
+    },
+    {
+      "path": "media/movies/m375679/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q3.itc.cn/images01/20250318/b8a661b3ba564973b0b16c08c825d545.jpeg"
+    }
+  ]
+}

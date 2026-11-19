@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img3.doubanio.com/view/photo/l_ratio_poster/public/p835946292.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m057012/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/fbf4deeabc1e4ca999fdebb5017d862d~tplv-xv4ileqgde-image.image"
+    },
+    {
+      "path": "media/movies/m057012/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://zdimg.lifeweek.com.cn/bg/20190307/1551927778647voajy.jpg"
+    },
+    {
+      "path": "media/movies/m057012/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjYwNDQ1YzgtY2ZjYS00YjNmLTk0MjktMGY0YzNjMjQ4NGQ2XkEyXkFqcGc@._V1_QL75_UX500_CR0,31,500,281_.jpg"
+    }
+  ]
+}

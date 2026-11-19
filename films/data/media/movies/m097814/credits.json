@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://img2.ali213.net/picfile/News/2020/06/02/584_2020060254707836.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m097814/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://k.sinaimg.cn/n/sinacn10119/0/w1024h576/20190118/b3f0-hrvcwnk3587909.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m097814/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.snowmonkeyresorts.com/wp-content/uploads/2020/11/majo036.jpg"
+    },
+    {
+      "path": "media/movies/m097814/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://eiga-pop.com/files/image/4396/image_4396_i6071a7fb1ded9.jpg"
+    }
+  ]
+}

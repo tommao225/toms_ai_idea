@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://paipianbang.cdn.cinehello.com/resource/post/143717/76bdc3a00ea966cf3dfb3fcb0f0d048a.jpg?imageMogr2/auto-orient/quality/90!/thumbnail/1024x4096>",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m1645170/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://i1.sinaimg.cn/lx/cr/2012/0816/955523609.jpg"
+    },
+    {
+      "path": "media/movies/m1645170/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://so1.360tres.com/t011a7d3d61cb667708.jpg"
+    },
+    {
+      "path": "media/movies/m1645170/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/a8ec8a13632762d0542b120aa6ec08fa513dc66a/a8ec8a13632762d0542b120aa6ec08fa513dc66a_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_1024,limit_1"
+    }
+  ]
+}

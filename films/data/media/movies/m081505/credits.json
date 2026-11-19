@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2928985187.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m081505/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cdn.moviestillsdb.com/i/500x/sgajcqsz/the-shining-lg.jpg"
+    },
+    {
+      "path": "media/movies/m081505/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2020%2F1225%2Ff67fb666p00qlwdqh00mxd000u000gvp.png&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m081505/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://inews.gtimg.com/news_bt/OVdgH_PGm_kcfqU-lBrX2ifO6olvjafY0m3zkIoMpxBZoAA/641"
+    }
+  ]
+}

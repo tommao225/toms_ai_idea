@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0105236",
+  "wikidata": "",
+  "title": "落水狗",
+  "original_title": "Reservoir Dogs",
+  "release_date": "1992-01-01",
+  "runtime": 99,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "昆汀·塔伦蒂诺"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

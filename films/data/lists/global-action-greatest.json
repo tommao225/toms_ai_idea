@@ -1,0 +1,221 @@
+{
+  "id": "global-action-greatest",
+  "title": "动作电影",
+  "genre": "动作",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "以身体、追逐、格斗和空间调度为核心的长片。",
+    "ranking_rule": "按动作设计、影史影响和可重看性综合排序。",
+    "time_window": "1954–2015",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "动作场面是叙事主引擎，不只是过场。",
+    "exclusion_rule": "只靠剪辑和替身、没有空间设计的片子。",
+    "known_bias": "好莱坞偏多，亚洲三部。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：身体"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m1392190",
+      "note": "一辆战车穿过沙漠，动作就是整部电影的语言。",
+      "why_included": "当代动作片的节奏与实拍标杆。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m095016",
+      "note": "一栋楼、一个人、一群劫匪，圣诞夜变成战场。",
+      "why_included": "密闭空间动作的模板。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m1602613",
+      "note": "一栋楼从底打到顶，没有一秒浪费。",
+      "why_included": "近身格斗的纯度。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m047478",
+      "note": "七个武士守一个村子，动作有重量也有代价。",
+      "why_included": "群像动作与牺牲。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m060196",
+      "note": "三个人在墓地转圈，枪声之前全是耐心。",
+      "why_included": "西部片的空间与对峙。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m082971",
+      "note": "考古学家抢在纳粹前面找约柜，机关一个接一个。",
+      "why_included": "冒险动作的黄金配方。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m103064",
+      "note": "液体金属追着母子跑，动作和特效一起升级。",
+      "why_included": "九十年代大片的顶点。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m2911666",
+      "note": "一条狗引发的地下世界清算。",
+      "why_included": "极简动机与动作设计。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m190332",
+      "note": "竹林、屋顶和轻功，打斗像在写诗。",
+      "why_included": "华语武侠动作的国际化。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m067116",
+      "note": "一场追车贴着城市地面跑，结局没有赢家。",
+      "why_included": "写实追车与道德灰区。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m092263",
+      "note": "两个兄弟，一枪一命，江湖没有回头路。",
+      "why_included": "把枪战拍成情义。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m097202",
+      "note": "杀手和警察互相看见对方。",
+      "why_included": "双雄枪战的模板。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m104684",
+      "note": "医院一镜到底，子弹和婴儿一起飞。",
+      "why_included": "动作调度的极限。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m103285",
+      "note": "宗师在洋枪和牌坊之间站稳。",
+      "why_included": "武侠和民族寓言。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m105859",
+      "note": "沙漠客栈，风沙里全是刀。",
+      "why_included": "密闭空间武侠。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m089374",
+      "note": "商场灯柱滑下去，警察用身体追车。",
+      "why_included": "实拍动作的命。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m469045",
+      "note": "三个警察和一个黑帮，最后在窄巷里了结。",
+      "why_included": "近身格斗的狠。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m1220719",
+      "note": "一个咏春师父，在战争里守住分寸。",
+      "why_included": "把功夫拍成克制。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m1403130",
+      "note": "一群普通人用命护送一个人。",
+      "why_included": "群像动作与牺牲。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m299977",
+      "note": "同一个故事讲三遍，颜色一次比一次冷。",
+      "why_included": "把武侠拍成色彩结构。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m082694",
+      "note": "沙漠公路上，汽油比命贵。",
+      "why_included": "末世追车的原型。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m112864",
+      "note": "整个纽约变成一场解谜游戏。",
+      "why_included": "把密闭动作扩成城市追逐。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m1229238",
+      "note": "爬迪拜塔，没有替身。",
+      "why_included": "实拍奇观的回归。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m258463",
+      "note": "失忆特工靠身体记忆找回自己。",
+      "why_included": "手持动作的新语法。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m3397884",
+      "note": "跨境追毒枭，规则先死。",
+      "why_included": "把动作压成气氛。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m10366206",
+      "note": "一个人对抗整张杀手网络。",
+      "why_included": "动作设计的马拉松。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m2265171",
+      "note": "从监狱打到街头，动作没有停。",
+      "why_included": "近身格斗的升级。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m3838978",
+      "note": "监狱里三个人，各自被命运逼到墙角。",
+      "why_included": "华语动作的狠劲。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m15151242",
+      "note": "警察和旧同事，枪口对着枪口。",
+      "why_included": "港式警匪动作。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m368909",
+      "note": "村庄的佛头被偷，拳手一路打进曼谷。",
+      "why_included": "泰拳动作的爆发。"
+    }
+  ]
+}

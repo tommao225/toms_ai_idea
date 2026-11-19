@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0066921",
+  "wikidata": "",
+  "title": "发条橙",
+  "original_title": "A Clockwork Orange",
+  "release_date": "1971-01-01",
+  "runtime": 136,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "scifi"
+  ],
+  "genre_labels": [
+    "scifi"
+  ],
+  "director_names": [
+    "斯坦利·库布里克"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

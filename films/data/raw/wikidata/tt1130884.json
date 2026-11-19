@@ -1,0 +1,42 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt1130884",
+  "wikidata": "http://www.wikidata.org/entity/Q210364",
+  "title": "禁闭岛",
+  "original_title": "Shutter Island",
+  "release_date": "2010-02-13",
+  "runtime": 138,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other",
+    "mystery"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "動作片",
+    "恐怖電影",
+    "冒险电影",
+    "犯罪片",
+    "推理電影",
+    "新黑色電影",
+    "驚悚片",
+    "suspense film",
+    "crime thriller film",
+    "心理剧电影",
+    "心理恐怖電影",
+    "psychological thriller film",
+    "crime drama film"
+  ],
+  "director_names": [
+    "马丁·斯科塞斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

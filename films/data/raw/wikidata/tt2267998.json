@@ -1,0 +1,33 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt2267998",
+  "wikidata": "http://www.wikidata.org/entity/Q14920425",
+  "title": "消失的爱人",
+  "original_title": "Gone Girl",
+  "release_date": "2014-09-26",
+  "runtime": 149,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "犯罪片",
+    "推理電影",
+    "驚悚片",
+    "crime thriller film",
+    "detective film"
+  ],
+  "director_names": [
+    "大卫·芬奇"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

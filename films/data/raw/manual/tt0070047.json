@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0070047",
+  "wikidata": "",
+  "title": "驱魔人",
+  "original_title": "The Exorcist",
+  "release_date": "1973-01-01",
+  "runtime": 122,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "威廉·弗莱德金"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

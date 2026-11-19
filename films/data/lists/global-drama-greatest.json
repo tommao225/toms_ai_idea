@@ -1,0 +1,221 @@
+{
+  "id": "global-drama-greatest",
+  "title": "剧情电影",
+  "genre": "剧情",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "以人物处境、家庭、历史和道德选择为核心的全球剧情长片。",
+    "ranking_rule": "按影史影响、人物完成度和可重看性综合排序。",
+    "time_window": "1941–2000",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "人物和处境是叙事核心，类型元素只是外壳。",
+    "exclusion_rule": "只靠情节反转或奇观、没有人物处境的片子。",
+    "known_bias": "欧美偏多，华语和日本各几部。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：人的处境"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m068646",
+      "note": "家族、权力和餐桌，黑帮片被拍成美国史。",
+      "why_included": "把犯罪家族写成命运。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m071562",
+      "note": "过去和现在两条线，一起把家族推向终点。",
+      "why_included": "续集把父与子拆成两面镜子。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m111161",
+      "note": "监狱里最值钱的东西是时间和希望。",
+      "why_included": "把忍耐拍成自由的前史。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m109830",
+      "note": "一个普通人穿过美国几十年的新闻。",
+      "why_included": "用个人命运串起时代。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m108052",
+      "note": "名单越写越长，人能救一个是一个。",
+      "why_included": "把历史灾难压到具体的人名上。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m050083",
+      "note": "一间屋子、十二个人，证据被一句句拆开。",
+      "why_included": "空间最小，讨论最大。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m033467",
+      "note": "一个人死了，留下一个没人猜透的词。",
+      "why_included": "把传记拍成拼图。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m078788",
+      "note": "逆流而上的船，越走越像梦魇。",
+      "why_included": "战争片里的公路片。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m075314",
+      "note": "夜班司机看着城市腐烂，决定做点什么。",
+      "why_included": "孤独和暴力贴在一起。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m081398",
+      "note": "拳台外的猜疑，比拳头更伤人。",
+      "why_included": "把自毁拍成黑白。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m087843",
+      "note": "几个街头少年，用一生偿还一次背叛。",
+      "why_included": "时间跨度最大的黑帮史诗。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m120382",
+      "note": "全世界都在看，只有他不知道。",
+      "why_included": "把电视娱乐拍成存在困局。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m118799",
+      "note": "父亲把集中营编成一场游戏。",
+      "why_included": "用喜剧保护孩子。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m095765",
+      "note": "小镇电影院关了，记忆还在放映。",
+      "why_included": "给电影本身的情书。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m244316",
+      "note": "一家人各自看见生活的背面。",
+      "why_included": "把日常拍成全景。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m096902",
+      "note": "一个家族的沉默，压着一段历史。",
+      "why_included": "用家庭写时代。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m118694",
+      "note": "两个人靠得很近，却始终没有越过那条线。",
+      "why_included": "把克制拍成颜色和节奏。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m106332",
+      "note": "戏台上是虞姬，戏台下是几十年。",
+      "why_included": "把个人命运和戏曲扣在一起。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m110081",
+      "note": "一家人只想活下去，时代不答应。",
+      "why_included": "用普通人的一生写历史。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m120689",
+      "note": "死囚走廊上，奇迹和残忍挨着坐。",
+      "why_included": "把善良放进最坏的地方。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m099674",
+      "note": "家族想洗白，最后一场戏在歌剧院。",
+      "why_included": "把黑帮收束成悲剧。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m099685",
+      "note": "三十年的黑帮生活，从羡慕到窒息。",
+      "why_included": "旁白驱动的犯罪史诗。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m110912",
+      "note": "几个故事打乱顺序，最后又扣上。",
+      "why_included": "把结构变成风格。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m137523",
+      "note": "一个失眠男人，和一个更自由的自己。",
+      "why_included": "消费社会的分裂人格。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m169547",
+      "note": "郊区中产的生活，从玫瑰花瓣开始裂。",
+      "why_included": "把日常拍成暗流。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m405159",
+      "note": "女拳手和老头，互相成全也互相失去。",
+      "why_included": "体育片的黑色转身。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m375679",
+      "note": "洛杉矶一天，几个人撞在一起。",
+      "why_included": "群像里的偏见。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m477348",
+      "note": "一箱钱，一个杀手，一个老警察。",
+      "why_included": "暴力没有道理。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m469494",
+      "note": "石油商人把土地和人都抽干。",
+      "why_included": "资本与信仰的寓言。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m1285016",
+      "note": "一个网站从宿舍长成帝国，朋友先没了。",
+      "why_included": "把创业拍成诉讼。"
+    }
+  ]
+}

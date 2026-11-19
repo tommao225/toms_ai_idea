@@ -1,0 +1,221 @@
+{
+  "id": "global-comedy-greatest",
+  "title": "喜剧电影",
+  "genre": "喜剧",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "喜剧电影的全球候选，先凑够 20 部，再逐步补到 100。",
+    "ranking_rule": "按影史影响、类型完成度和可重看性综合排序。",
+    "time_window": "1927–2023",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "类型是叙事核心，不只是标签。",
+    "exclusion_rule": "只靠单一元素、没有类型完成度的片子。",
+    "known_bias": "首版偏经典和欧美，后续补亚洲和当代。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：喜剧"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m021749",
+      "note": "流浪汉和卖花女，眼睛看不见的时候最温柔。",
+      "why_included": "默片喜剧的收尾。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m027977",
+      "note": "人在流水线上被机器吞掉。",
+      "why_included": "把工业写成笑料。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m032553",
+      "note": "一个小人物被当成元首，最后开口说话。",
+      "why_included": "喜剧直面暴政。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m052561",
+      "note": "两个乐手男扮女装，逃进一场爱情。",
+      "why_included": "性别错位的喜剧范本。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m057012",
+      "note": "核按钮前的男人，一个比一个疯。",
+      "why_included": "把末日拍成冷幽默。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m061722",
+      "note": "毕业以后，他先掉进一场成年人的关系。",
+      "why_included": "青春和欲望的错位。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m075686",
+      "note": "一段关系被拆开讲，笑完才觉得疼。",
+      "why_included": "把恋爱拍成自嘲。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m080339",
+      "note": "飞机要坠了，乘客还在说冷笑话。",
+      "why_included": "无厘头灾难喜剧。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m088763",
+      "note": "儿子回到过去，差点改写自己的出生。",
+      "why_included": "时间旅行的喜剧模板。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m118715",
+      "note": "一个地毯引发的绑架案，主角只想保龄球。",
+      "why_included": "懒汉侦探喜剧。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m088258",
+      "note": "一支重金属乐队，把纪录片变成了笑话。",
+      "why_included": "伪纪录片喜剧。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m071853",
+      "note": "亚瑟王找圣杯，路上全是荒唐。",
+      "why_included": "英式无厘头。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m107048",
+      "note": "同一天过不完，只好把自己过好。",
+      "why_included": "时间循环的温柔用法。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m109686",
+      "note": "两个笨蛋开着一箱钱横穿美国。",
+      "why_included": "低智喜剧的黄金样本。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m4996490",
+      "note": "中年失败者回到高中，重选一次人生。",
+      "why_included": "把穿越拍成婚姻喜剧。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m1533117",
+      "note": "土匪进城，县长和恶霸互相算计。",
+      "why_included": "黑色幽默与类型混合。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m843270",
+      "note": "一块翡翠，几拨人，绕成一团。",
+      "why_included": "多线喜剧的本土化。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m373074",
+      "note": "猪笼城寨里，混混被打成高手。",
+      "why_included": "把武侠和漫画感扣在一起。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m286112",
+      "note": "少林功夫拿来踢球，输赢都夸张。",
+      "why_included": "运动喜剧的周氏配方。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m108285",
+      "note": "才子卖身为奴，只为了追一个丫鬟。",
+      "why_included": "无厘头古装喜剧。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m1119646",
+      "note": "婚礼前夜喝断片，新郎不见了。",
+      "why_included": "把失忆喜剧拍成解谜。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m1478338",
+      "note": "伴娘团里，谁都想当最好的朋友。",
+      "why_included": "女性喜剧的粗粝感。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m829482",
+      "note": "两个高中生想在被拆散前酷一次。",
+      "why_included": "青春尴尬喜剧。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m443453",
+      "note": "一个哈萨克记者去美国找文化。",
+      "why_included": "伪纪录片式冒犯。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m1645170",
+      "note": "独裁者流落纽约，先学会打工。",
+      "why_included": "政治讽刺喜剧。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m079470",
+      "note": "一个普通人被误认成救世主。",
+      "why_included": "宗教讽刺的经典。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m365748",
+      "note": "僵尸来了，肖恩还想去酒吧。",
+      "why_included": "把僵尸片拍成生活喜剧。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m425112",
+      "note": "大城市警察被发配到完美小镇。",
+      "why_included": "类型混搭的节奏。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m116282",
+      "note": "一场绑架案，被一个小镇警察慢慢解开。",
+      "why_included": "冷幽默犯罪。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m3799694",
+      "note": "一个酒鬼侦探和一个打手，在洛杉矶查失踪案。",
+      "why_included": "把犯罪喜剧拍成搭档片。"
+    }
+  ]
+}

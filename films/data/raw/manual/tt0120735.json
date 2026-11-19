@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0120735",
+  "wikidata": "",
+  "title": "两杆大烟枪",
+  "original_title": "Lock, Stock and Two Smoking Barrels",
+  "release_date": "1998-01-01",
+  "runtime": 107,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "crime"
+  ],
+  "director_names": [
+    "盖·里奇"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0072271",
+  "wikidata": "",
+  "title": "德州电锯杀人狂",
+  "original_title": "The Texas Chain Saw Massacre",
+  "release_date": "1974-01-01",
+  "runtime": 83,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "托比·胡珀"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

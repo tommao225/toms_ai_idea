@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1220719",
+  "wikidata": "",
+  "title": "叶问",
+  "original_title": "Ip Man",
+  "release_date": "2008-01-01",
+  "runtime": 106,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "叶伟信"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt9362722",
+  "wikidata": "",
+  "title": "蜘蛛侠：纵横宇宙",
+  "original_title": "Spider-Man: Across the Spider-Verse",
+  "release_date": "2023-01-01",
+  "runtime": 140,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "华金·多斯·桑托斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

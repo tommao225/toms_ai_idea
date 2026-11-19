@@ -1,0 +1,36 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0118845",
+  "wikidata": "",
+  "title": "春光乍泄",
+  "original_title": "Happy Together",
+  "release_date": "1997-01-01",
+  "runtime": 96,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    },
+    {
+      "iso_3166_1": "JP"
+    },
+    {
+      "iso_3166_1": "KR"
+    }
+  ],
+  "country_labels": [
+    "HK",
+    "JP",
+    "KR"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "王家卫"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

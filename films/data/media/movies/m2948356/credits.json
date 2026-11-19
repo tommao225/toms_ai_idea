@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/a1a9196d3b6f458bb96142a0ca24b074~tplv-tt-origin-web:gif.jpeg?_iz=58558&from=article.pc_detail&lk3s=953192f4&x-expires=1795471409&x-signature=gddCl%2FPsam%2Ble1PYIoRx5Rqu1rU%3D",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m2948356/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://k.sinaimg.cn/n/sni/600/w1920h1080/20250730/766c-af8e6674796a6f0367aeb4877385c9cc.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m2948356/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://inews.gtimg.com/newsapp_match/0/3021722411/0"
+    },
+    {
+      "path": "media/movies/m2948356/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.jiemian.com/jiemian/original/20170112/148418854633349800.jpg"
+    }
+  ]
+}

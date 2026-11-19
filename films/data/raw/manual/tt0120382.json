@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0120382",
+  "wikidata": "",
+  "title": "楚门的世界",
+  "original_title": "The Truman Show",
+  "release_date": "1998-01-01",
+  "runtime": 103,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "彼得·威尔"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

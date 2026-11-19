@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt2140203",
+  "wikidata": "",
+  "title": "狼的孩子雨和雪",
+  "original_title": "Wolf Children",
+  "release_date": "2012-01-01",
+  "runtime": 117,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "JP"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "细田守"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

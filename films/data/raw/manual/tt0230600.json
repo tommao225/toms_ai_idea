@@ -1,0 +1,36 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0230600",
+  "wikidata": "",
+  "title": "小岛惊魂",
+  "original_title": "The Others",
+  "release_date": "2001-01-01",
+  "runtime": 101,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "ES"
+    },
+    {
+      "iso_3166_1": "FR"
+    }
+  ],
+  "country_labels": [
+    "US",
+    "ES",
+    "FR"
+  ],
+  "site_genres": [
+    "mystery"
+  ],
+  "genre_labels": [
+    "mystery"
+  ],
+  "director_names": [
+    "亚历杭德罗·阿梅纳瓦尔"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

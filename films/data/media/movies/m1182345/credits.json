@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://pic.nximg.cn/file/20211031/33414986_130523182107_2.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m1182345/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://popdaily.com/my/wp-content/uploads/2023/08/common-23.jpeg"
+    },
+    {
+      "path": "media/movies/m1182345/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cdn.mos.cms.futurecdn.net/TKpEAdXMQupu3PkkTq4ToG.jpeg"
+    },
+    {
+      "path": "media/movies/m1182345/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://qqpublic.qpic.cn/qq_public/0/28-738569759-2957B02D6D91050043DE6A087A26BB40/0?fmt=jpg&size=77&h=498&w=900&ppv=1"
+    }
+  ]
+}

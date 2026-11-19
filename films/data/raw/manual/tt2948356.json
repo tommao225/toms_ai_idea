@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt2948356",
+  "wikidata": "",
+  "title": "疯狂动物城",
+  "original_title": "Zootopia",
+  "release_date": "2016-01-01",
+  "runtime": 108,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "拜伦·霍华德"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

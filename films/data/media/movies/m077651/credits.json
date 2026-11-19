@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img9.doubanio.com/view/photo/l_ratio_poster/public/p2177127286.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m077651/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://mensuno.hk/wp-content/uploads/2017/11/tmp_3qW47k_fdc24fbb284050cd_117_Halloween_LA_10MB.jpg"
+    },
+    {
+      "path": "media/movies/m077651/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20190609/03c04f196aad4b2aacd62218315fd045.png"
+    },
+    {
+      "path": "media/movies/m077651/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://images.martincid.com/2026/09/AbmKxci3EZMG2rBmFLQiUdNsySL.jpg"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0112864",
+  "wikidata": "",
+  "title": "虎胆龙威3",
+  "original_title": "Die Hard with a Vengeance",
+  "release_date": "1995-01-01",
+  "runtime": 128,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "约翰·麦克蒂尔南"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

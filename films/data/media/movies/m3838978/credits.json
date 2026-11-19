@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://98.hl.cn/zb_users/upload/2026/14/1776175913823_10.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m3838978/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p0.meituan.net/movie/c9cde084181dbb36bc226343855c051d42658.jpg@80q"
+    },
+    {
+      "path": "media/movies/m3838978/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.mxgxt.com/upload/2025/0502/20250502200813_0_f4dckj8.jpg"
+    },
+    {
+      "path": "media/movies/m3838978/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imgls.tvsou.com/g/202212/01/1669905828ea6u.jpg"
+    }
+  ]
+}

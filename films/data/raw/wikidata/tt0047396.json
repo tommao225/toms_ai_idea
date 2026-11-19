@@ -1,0 +1,36 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0047396",
+  "wikidata": "http://www.wikidata.org/entity/Q34414",
+  "title": "后窗",
+  "original_title": "Rear Window",
+  "release_date": "1954-01-01",
+  "runtime": 112,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "犯罪片",
+    "推理電影",
+    "驚悚片",
+    "crime thriller film",
+    "detective film",
+    "心理剧电影",
+    "psychological thriller film",
+    "crime drama film"
+  ],
+  "director_names": [
+    "亞弗列·希治閣"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

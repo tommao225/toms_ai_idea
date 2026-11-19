@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://images.martincid.com/2026/08/9vaRPXj44Q2meHgt3VVfQufiHOJ.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m796366/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cdn.theasc.com/Star-Trek-Into-Darkness-Uhura-and-Spock-2.jpg"
+    },
+    {
+      "path": "media/movies/m796366/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://d.player.one/en/full/169567/yeoman-jm-colt-captain-pike-number-one-escape-talosian-prison-leave-vina-left-behind.jpg?w=736&f=1e72e439da050d3db826c34afcd8f800"
+    },
+    {
+      "path": "media/movies/m796366/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://th-thumbnailer.cdn-si-edu.com/7CVmWvuTl30trUc9ZAXF5i45ka4=/1026x684/filters:no_upscale():focal(2685x560:2686x561)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/df/a1/dfa1c831-d106-4183-a001-2640be1879b0/sofia_boutella_and_simon_pegg_kimberly_french.jpg"
+    }
+  ]
+}

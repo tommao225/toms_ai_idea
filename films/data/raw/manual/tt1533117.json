@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1533117",
+  "wikidata": "",
+  "title": "让子弹飞",
+  "original_title": "Let the Bullets Fly",
+  "release_date": "2010-01-01",
+  "runtime": 132,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    },
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "CN",
+    "HK"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "姜文"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

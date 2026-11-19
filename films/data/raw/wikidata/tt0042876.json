@@ -1,0 +1,32 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0042876",
+  "wikidata": "http://www.wikidata.org/entity/Q135465",
+  "title": "罗生门",
+  "original_title": "Rashomon",
+  "release_date": "1950-08-25",
+  "runtime": 88,
+  "production_countries": [
+    {
+      "iso_3166_1": "JP"
+    }
+  ],
+  "country_labels": [
+    "日本"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "武士電影",
+    "犯罪片",
+    "中世纪主题电影",
+    "倒叙电影"
+  ],
+  "director_names": [
+    "黑澤明"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

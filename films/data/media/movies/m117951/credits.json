@@ -1,0 +1,28 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "",
+    "kind": "real",
+    "note": "poster fallback from still"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m117951/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://cnxp.17996.com/attachments/month_1108/20110807_61fdc482bb47e8247022xSts6h4ilHLr.jpg"
+    },
+    {
+      "path": "media/movies/m117951/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://assets.hldycdn.com/cdn-cgi/image/format=webp,width=600,quality=75/71691b89-ce29-4ee4-8992-db36c91c2b34.jpeg"
+    },
+    {
+      "path": "media/movies/m117951/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://babyimage.cdn.bcebos.com/common/21b480586f42bd77f3180ebcdf04693d000600000400.jpg?x-bce-process=image/quality,Q_85/format,f_auto"
+    }
+  ]
+}

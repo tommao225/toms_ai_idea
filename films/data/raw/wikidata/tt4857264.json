@@ -1,0 +1,30 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt4857264",
+  "wikidata": "http://www.wikidata.org/entity/Q28114432",
+  "title": "看不见的客人",
+  "original_title": "Contratiempo",
+  "release_date": "2016-09-23",
+  "runtime": 106,
+  "production_countries": [
+    {
+      "iso_3166_1": "ES"
+    }
+  ],
+  "country_labels": [
+    "西班牙"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "劇情片",
+    "密室推理",
+    "驚悚片"
+  ],
+  "director_names": [
+    "奧瑞歐·保羅"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

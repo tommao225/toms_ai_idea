@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0077651",
+  "wikidata": "",
+  "title": "月光光心慌慌",
+  "original_title": "Halloween",
+  "release_date": "1978-01-01",
+  "runtime": 91,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "约翰·卡朋特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

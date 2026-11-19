@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0050083",
+  "wikidata": "",
+  "title": "十二怒汉",
+  "original_title": "12 Angry Men",
+  "release_date": "1957-01-01",
+  "runtime": 96,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "西德尼·吕美特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0375679",
+  "wikidata": "",
+  "title": "撞车",
+  "original_title": "Crash",
+  "release_date": "2004-01-01",
+  "runtime": 112,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "保罗·哈吉斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

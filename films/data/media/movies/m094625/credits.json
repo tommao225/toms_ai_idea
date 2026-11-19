@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://assets.juksy.com/files/articles/100825/61a77b32c1551.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m094625/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://raremeat.blog/wp-content/uploads/2016/03/Akira30.jpg"
+    },
+    {
+      "path": "media/movies/m094625/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic2.zhimg.com/v2-1f92d92e4e81c16bbf864ec45d739eb3_1440w.jpg"
+    },
+    {
+      "path": "media/movies/m094625/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://media.gq.com.tw/photos/65816645248f41d197f36093/master/w_1600%2Cc_limit/Best_sci-fi_movies_0002_Akira_2KE0K0K.jpg"
+    }
+  ]
+}

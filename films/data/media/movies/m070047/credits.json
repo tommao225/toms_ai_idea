@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "douban",
+    "url": "https://img9.doubanio.com/view/photo/l_ratio_poster/public/p1495239725.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m070047/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://qqpublic.qpic.cn/qq_public/0/28-1447885530-E03B74A6473D33914288C9B929072082/0?fmt=jpg&size=42&h=361&w=640&ppv=1"
+    },
+    {
+      "path": "media/movies/m070047/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/dyer-cropped.jpeg?q=50&fit=crop&w=825&dpr=1.5"
+    },
+    {
+      "path": "media/movies/m070047/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://k.sinaimg.cn/n/sinakd20113/267/w640h427/20220825/481f-15675b9193683bcda14e2437f5a7c52e.jpg/w700d1q75cms.jpg"
+    }
+  ]
+}

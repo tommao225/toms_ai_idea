@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0078788",
+  "wikidata": "",
+  "title": "现代启示录",
+  "original_title": "Apocalypse Now",
+  "release_date": "1979-01-01",
+  "runtime": 147,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "弗朗西斯·福特·科波拉"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

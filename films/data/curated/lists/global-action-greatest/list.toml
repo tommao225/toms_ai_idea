@@ -1,0 +1,30 @@
+# 一个榜单一个文件。count 必须等于 entries.csv 的实际条数；不够 100 就如实。
+
+schema_version = 1
+
+id = "global-action-greatest"
+title = "动作电影"
+criterion = "greatest"
+status = "draft"
+decision = "hybrid"
+max_entries = 100
+count = 30
+genres = ["action"]
+chapters = [
+  { index = 1, title = "第一卷：身体" },
+]
+
+[scope]
+kind = "global"
+countries = []
+
+[canon]
+definition = "以身体、追逐、格斗和空间调度为核心的长片。"
+ranking_rule = "按动作设计、影史影响和可重看性综合排序。"
+time_window = "1954–2015"
+sources = [{ name = "人工初选", url = "", weight = 1.0, accessed = "2026-11" }]
+inclusion_rule = "动作场面是叙事主引擎，不只是过场。"
+exclusion_rule = "只靠剪辑和替身、没有空间设计的片子。"
+known_bias = "好莱坞偏多，亚洲三部。"
+curator = "初选"
+version = "1"

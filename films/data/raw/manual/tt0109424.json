@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0109424",
+  "wikidata": "",
+  "title": "重庆森林",
+  "original_title": "Chungking Express",
+  "release_date": "1994-01-01",
+  "runtime": 102,
+  "production_countries": [
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "HK"
+  ],
+  "site_genres": [
+    "romance"
+  ],
+  "genre_labels": [
+    "romance"
+  ],
+  "director_names": [
+    "王家卫"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

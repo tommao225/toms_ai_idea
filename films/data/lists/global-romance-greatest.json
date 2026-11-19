@@ -1,0 +1,221 @@
+{
+  "id": "global-romance-greatest",
+  "title": "爱情电影",
+  "genre": "爱情",
+  "criterion": "greatest",
+  "decision": "hybrid",
+  "status": "draft",
+  "max": 100,
+  "count": 30,
+  "scope": {
+    "kind": "global",
+    "countries": []
+  },
+  "canon": {
+    "definition": "爱情电影的全球候选，先凑够 20 部，再逐步补到 100。",
+    "ranking_rule": "按影史影响、类型完成度和可重看性综合排序。",
+    "time_window": "1927–2023",
+    "sources": [
+      {
+        "name": "人工初选",
+        "url": "",
+        "weight": 1.0,
+        "accessed": "2026-11"
+      }
+    ],
+    "inclusion_rule": "类型是叙事核心，不只是标签。",
+    "exclusion_rule": "只靠单一元素、没有类型完成度的片子。",
+    "known_bias": "首版偏经典和欧美，后续补亚洲和当代。",
+    "curator": "初选",
+    "version": "1"
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "title": "第一卷：爱情"
+    }
+  ],
+  "hero": "",
+  "entries": [
+    {
+      "rank": 1,
+      "movie_id": "m034583",
+      "note": "战时酒吧里，旧情人重逢，选择比爱情大。",
+      "why_included": "经典好莱坞爱情。"
+    },
+    {
+      "rank": 2,
+      "movie_id": "m046250",
+      "note": "公主逃出宫殿，和记者过了一天。",
+      "why_included": "把遗憾拍成假日。"
+    },
+    {
+      "rank": 3,
+      "movie_id": "m112471",
+      "note": "火车上认识，走一夜，天亮分开。",
+      "why_included": "对话驱动的爱情。"
+    },
+    {
+      "rank": 4,
+      "movie_id": "m381681",
+      "note": "九年后再见，只有一下午。",
+      "why_included": "把时间写进对话。"
+    },
+    {
+      "rank": 5,
+      "movie_id": "m2209418",
+      "note": "爱情落到婚姻里，争吵也是生活。",
+      "why_included": "三部曲的成年篇。"
+    },
+    {
+      "rank": 6,
+      "movie_id": "m338013",
+      "note": "记忆被删掉，两个人还是走回彼此。",
+      "why_included": "科幻爱情。"
+    },
+    {
+      "rank": 7,
+      "movie_id": "m335266",
+      "note": "两个睡不着的人，在东京短暂靠近。",
+      "why_included": "孤独比爱情更响。"
+    },
+    {
+      "rank": 8,
+      "movie_id": "m1798709",
+      "note": "男人爱上操作系统，亲密关系被重写。",
+      "why_included": "近未来爱情。"
+    },
+    {
+      "rank": 9,
+      "movie_id": "m414387",
+      "note": "偏见先开口，爱情后到。",
+      "why_included": "经典改编。"
+    },
+    {
+      "rank": 10,
+      "movie_id": "m125439",
+      "note": "书店老板和明星，门里门外两个世界。",
+      "why_included": "都市童话。"
+    },
+    {
+      "rank": 11,
+      "movie_id": "m314331",
+      "note": "圣诞节前，十段关系各自靠近。",
+      "why_included": "群像爱情喜剧。"
+    },
+    {
+      "rank": 12,
+      "movie_id": "m117905",
+      "note": "两个内地人在香港遇见，又错过。",
+      "why_included": "把迁徙写进爱情。"
+    },
+    {
+      "rank": 13,
+      "movie_id": "m109424",
+      "note": "两个警察，两段错过，凤梨罐头会过期。",
+      "why_included": "都市爱情的碎片。"
+    },
+    {
+      "rank": 14,
+      "movie_id": "m118845",
+      "note": "两个人跑到阿根廷，还是没能重新开始。",
+      "why_included": "把远方拍成关系。"
+    },
+    {
+      "rank": 15,
+      "movie_id": "m113703",
+      "note": "一封寄往天国的信，牵出少年暗恋。",
+      "why_included": "纯爱片的标本。"
+    },
+    {
+      "rank": 16,
+      "movie_id": "m146270",
+      "note": "女孩搬到东京，只为靠近一个人。",
+      "why_included": "短而轻的暗恋。"
+    },
+    {
+      "rank": 17,
+      "movie_id": "m5311514",
+      "note": "身体互换，时间和灾难一起追上来。",
+      "why_included": "动画爱情。"
+    },
+    {
+      "rank": 18,
+      "movie_id": "m113824",
+      "note": "两个人互相追赶，先成为更好的自己。",
+      "why_included": "青春爱情。"
+    },
+    {
+      "rank": 19,
+      "movie_id": "m1554523",
+      "note": "那个年代，喜欢一个人要很小心。",
+      "why_included": "克制的年代爱情。"
+    },
+    {
+      "rank": 20,
+      "movie_id": "m233422",
+      "note": "一条路，等一个人，等了一辈子。",
+      "why_included": "把等待拍成风景。"
+    },
+    {
+      "rank": 21,
+      "movie_id": "m112579",
+      "note": "农妇和摄影师四天，余生都在回味。",
+      "why_included": "把克制拍成遗憾。"
+    },
+    {
+      "rank": 22,
+      "movie_id": "m116209",
+      "note": "沙漠里的爱情，被战争烧成回忆。",
+      "why_included": "史诗爱情。"
+    },
+    {
+      "rank": 23,
+      "movie_id": "m120338",
+      "note": "船沉之前，两个人先爱上。",
+      "why_included": "灾难爱情的大片模板。"
+    },
+    {
+      "rank": 24,
+      "movie_id": "m3783958",
+      "note": "两个追梦的人，在城市里错过。",
+      "why_included": "把歌舞拍成告别。"
+    },
+    {
+      "rank": 25,
+      "movie_id": "m1563738",
+      "note": "每年同一天，两个人的人生并排走。",
+      "why_included": "时间跨度的爱情。"
+    },
+    {
+      "rank": 26,
+      "movie_id": "m765120",
+      "note": "失恋的人开一家店，等一个回来的人。",
+      "why_included": "把夜拍成颜色。"
+    },
+    {
+      "rank": 27,
+      "movie_id": "m1602476",
+      "note": "烟圈里认识，暧昧比恋爱长。",
+      "why_included": "都市爱情的细节。"
+    },
+    {
+      "rank": 28,
+      "movie_id": "m2255399",
+      "note": "分开了又遇见，成年人先学会嘴硬。",
+      "why_included": "续集把关系拍实。"
+    },
+    {
+      "rank": 29,
+      "movie_id": "m2169322",
+      "note": "一个去美国生孩子的女人，遇见一个司机。",
+      "why_included": "华语都市爱情。"
+    },
+    {
+      "rank": 30,
+      "movie_id": "m1859438",
+      "note": "暗恋一个人，先把自己变好。",
+      "why_included": "青春爱情。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0110912",
+  "wikidata": "",
+  "title": "低俗小说",
+  "original_title": "Pulp Fiction",
+  "release_date": "1994-01-01",
+  "runtime": 154,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "昆汀·塔伦蒂诺"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

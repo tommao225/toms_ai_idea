@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt4633694",
+  "wikidata": "",
+  "title": "蜘蛛侠：平行宇宙",
+  "original_title": "Spider-Man: Into the Spider-Verse",
+  "release_date": "2018-01-01",
+  "runtime": 117,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "animation"
+  ],
+  "genre_labels": [
+    "animation"
+  ],
+  "director_names": [
+    "鲍勃·佩尔西凯蒂"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

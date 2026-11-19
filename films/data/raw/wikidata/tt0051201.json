@@ -1,0 +1,29 @@
+{
+  "source": "wikidata",
+  "key": "imdb:tt0051201",
+  "wikidata": "http://www.wikidata.org/entity/Q196977",
+  "title": "控方证人",
+  "original_title": "Witness for the Prosecution",
+  "release_date": "1957-01-01",
+  "runtime": 116,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "美國"
+  ],
+  "site_genres": [
+    "other"
+  ],
+  "genre_labels": [
+    "犯罪片",
+    "审判电影"
+  ],
+  "director_names": [
+    "比利·懷德"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

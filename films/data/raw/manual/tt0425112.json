@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0425112",
+  "wikidata": "",
+  "title": "热血警探",
+  "original_title": "Hot Fuzz",
+  "release_date": "2007-01-01",
+  "runtime": 121,
+  "production_countries": [
+    {
+      "iso_3166_1": "GB"
+    }
+  ],
+  "country_labels": [
+    "GB"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "埃德加·赖特"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

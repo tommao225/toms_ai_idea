@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0021749",
+  "wikidata": "",
+  "title": "城市之光",
+  "original_title": "City Lights",
+  "release_date": "1931-01-01",
+  "runtime": 87,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "查理·卓别林"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

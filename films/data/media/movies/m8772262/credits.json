@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FukLRUQFDqo1ViVylC9U6aUkQY5Im%3DH8M9cC5le57YchSr1571280435554compressflag.jpg&thumbnail=750x2147483647&quality=75&type=webp",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m8772262/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i0.hdslb.com/bfs/article/3d38314edb514796d7a191854740598cf2dc8097.jpg"
+    },
+    {
+      "path": "media/movies/m8772262/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.tudoupcs.com/upload/role/17/5c74acaccc9f6d9e.webp"
+    },
+    {
+      "path": "media/movies/m8772262/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://babyimage.cdn.bcebos.com/common/590e559cfc0324150b12a0a4b851fb79001000000667.jpg?x-bce-process=image/quality,Q_85/format,f_auto"
+    }
+  ]
+}

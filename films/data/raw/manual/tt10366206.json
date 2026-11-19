@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt10366206",
+  "wikidata": "",
+  "title": "疾速追杀4",
+  "original_title": "John Wick: Chapter 4",
+  "release_date": "2023-01-01",
+  "runtime": 169,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "action"
+  ],
+  "genre_labels": [
+    "action"
+  ],
+  "director_names": [
+    "查德·斯塔赫斯基"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

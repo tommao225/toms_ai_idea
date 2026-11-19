@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://spider.ws.126.net/e69c9a01f9f6a5ebfcf6ea885537e3ae.jpeg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m4633694/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://images.ctfassets.net/4hzlhbw7nuq7/41BsfVJKSDoLEj0w6UGeJ2/ee73d19196ca1068bdccefad146e19fa/spiderman.jpg?w=1920&h=915&fit=fill&fl=progressive&q=75"
+    },
+    {
+      "path": "media/movies/m4633694/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img2.ali213.net/picfile/News/2022/07/06/584_2022070653028165.png"
+    },
+    {
+      "path": "media/movies/m4633694/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cdn.10100.com/content/20260210/fde69bf3-8db2-4707-b2e8-0f78f3f1c533_900x_wm.png"
+    }
+  ]
+}

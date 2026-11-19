@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://n.sinaimg.cn/sinacn15/672/w1241h1831/20180627/060a-hencxtv1904900.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m088846/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0602%2Ff65d6bf4j00sefoz4000id000g00080p.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m088846/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://wl-incrivel.cf.tsp.li/resize/728x/jpg/266/221/6e375e5005b3f8fddbf8357e59.jpg"
+    },
+    {
+      "path": "media/movies/m088846/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://amonovelas.com.br/wp-content/uploads/2019/12/avenida-brasil-betania.jpg"
+    }
+  ]
+}

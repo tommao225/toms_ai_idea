@@ -1,0 +1,32 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0373074",
+  "wikidata": "",
+  "title": "功夫",
+  "original_title": "Kung Fu Hustle",
+  "release_date": "2004-01-01",
+  "runtime": 99,
+  "production_countries": [
+    {
+      "iso_3166_1": "CN"
+    },
+    {
+      "iso_3166_1": "HK"
+    }
+  ],
+  "country_labels": [
+    "CN",
+    "HK"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "周星驰"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

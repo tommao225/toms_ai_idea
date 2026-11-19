@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://inews.gtimg.com/om_bt/OCyHDky4Ja9dBNtGOgHonb5p-3dANYcqTJpHqwdj1afYIAA/641",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m1185616/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imagepphcloud.thepaper.cn/pph/image/229/255/545.jpg"
+    },
+    {
+      "path": "media/movies/m1185616/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i2-prod.manchestereveningnews.co.uk/article31598599.ece/ALTERNATES/s1200e/0_JSR_MEN_080525_ShirleyBallas.jpg"
+    },
+    {
+      "path": "media/movies/m1185616/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.tudoupcs.com/upload/comment/11/c75f9938e2080166.webp"
+    }
+  ]
+}

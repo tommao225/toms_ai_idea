@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0109830",
+  "wikidata": "",
+  "title": "阿甘正传",
+  "original_title": "Forrest Gump",
+  "release_date": "1994-01-01",
+  "runtime": 142,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "drama"
+  ],
+  "genre_labels": [
+    "drama"
+  ],
+  "director_names": [
+    "罗伯特·泽米吉斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

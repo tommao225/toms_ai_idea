@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://n.sinaimg.cn/ent/transform/20151201/MCLH-fxmazmy2300942.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m2488496/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://upload.taihainet.com/2015/1227/1451205160302.jpg"
+    },
+    {
+      "path": "media/movies/m2488496/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://ww3.sinaimg.cn/large/842eaf60jw1ev09qndnsoj20h00crn0c.jpg"
+    },
+    {
+      "path": "media/movies/m2488496/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.ahxh.cn/uploadfile/2016/0120/20160120065209549.jpg"
+    }
+  ]
+}

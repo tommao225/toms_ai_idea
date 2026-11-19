@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://k.sinaimg.cn/n/sinacn/w600h778/20180205/1a61-fyrhcqy5042131.jpg/w700d1q75cms.jpg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m829482/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.cinephilia.net/wp-content/uploads/2017/02/51152_2-1024x576.jpg"
+    },
+    {
+      "path": "media/movies/m829482/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0812%2F07f1bff7j00t0vqtv001xd000u000k0m.jpg&thumbnail=750x2147483647&quality=75&type=webp"
+    },
+    {
+      "path": "media/movies/m829482/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img01.sogoucdn.com/v2/thumb/retype_exclude_gif/ext/awj/q/85?appid=200698&url=https%3A%2F%2Fpic.baike.soso.com%2Fugc%2Fbaikepic2%2F3773%2Fori-20180604163117-1293212815_png_984_551_873089.jpg%2F0"
+    }
+  ]
+}

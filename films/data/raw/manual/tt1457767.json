@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1457767",
+  "wikidata": "",
+  "title": "招魂",
+  "original_title": "The Conjuring",
+  "release_date": "2013-01-01",
+  "runtime": 112,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "horror"
+  ],
+  "genre_labels": [
+    "horror"
+  ],
+  "director_names": [
+    "温子仁"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

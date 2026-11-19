@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://p2.itc.cn/images01/20230416/c0973377ec8f4753916e665923086b7a.jpeg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m113356/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20190913/e1d54d389d274f2a852fdb407b0df80c.jpeg"
+    },
+    {
+      "path": "media/movies/m113356/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://vhs-heaven.com/1995/out-of-the-dark/out-of-the-dark.bce0.w1280.avif"
+    },
+    {
+      "path": "media/movies/m113356/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sign.toutiaoimg.com/tos-cn-i-qvj2lq49k0/03ed51618e89461eb6191ae3895a3ea0~tplv-tt-origin-web:gif.jpeg?_iz=58558&from=article.pc_detail&lk3s=953192f4&x-expires=1795094415&x-signature=XjyYhDzwtc0QK5hyiGLxL0vuWlQ%3D"
+    }
+  ]
+}

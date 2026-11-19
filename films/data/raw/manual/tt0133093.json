@@ -1,0 +1,34 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0133093",
+  "wikidata": "",
+  "title": "黑客帝国",
+  "original_title": "The Matrix",
+  "release_date": "1999-01-01",
+  "runtime": 136,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    },
+    {
+      "iso_3166_1": "AU"
+    }
+  ],
+  "country_labels": [
+    "US",
+    "AU"
+  ],
+  "site_genres": [
+    "scifi",
+    "action"
+  ],
+  "genre_labels": [
+    "scifi",
+    "action"
+  ],
+  "director_names": [
+    "沃卓斯基姐妹"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

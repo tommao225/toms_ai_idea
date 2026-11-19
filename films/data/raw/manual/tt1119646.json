@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt1119646",
+  "wikidata": "",
+  "title": "宿醉",
+  "original_title": "The Hangover",
+  "release_date": "2009-01-01",
+  "runtime": 100,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "comedy"
+  ],
+  "genre_labels": [
+    "comedy"
+  ],
+  "director_names": [
+    "托德·菲利普斯"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

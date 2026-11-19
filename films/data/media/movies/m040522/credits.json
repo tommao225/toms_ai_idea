@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "https://p1.itc.cn/images01/20230830/0743bd515e1849b0b50eee9a2b80fbce.jpeg",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m040522/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/front/151/w1860h1491/20181106/0237-hnknmqx5048615.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    },
+    {
+      "path": "media/movies/m040522/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dingyue.ws.126.net/2020/0603/49d44855j00qbc7rw001ed200lc00g0g00it00e3.jpg"
+    },
+    {
+      "path": "media/movies/m040522/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://thedailyorca.biggerboatpress.com/wp-content/uploads/2026/04/Bicycle-Thieves-01.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "poster": {
+    "source": "sogou",
+    "url": "http://qqpublic.qpic.cn/qq_public/0/0-314902560-417875994498038994F52F535C7A9D99/0?fmt=jpg&size=37&h=1063&w=720&ppv=1",
+    "kind": "real"
+  },
+  "stills": [
+    {
+      "path": "media/movies/m167404/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://creepycatalog.com/wp-content/uploads/sites/2/2020/04/TheOthersVirginiaWollf-768x437.jpg"
+    },
+    {
+      "path": "media/movies/m167404/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://zunzheng.com/news/wp-content/uploads/2022/09/https-pbblogassets-s3-amazonaws-com-uploads-2022-13.x33687.jpeg"
+    },
+    {
+      "path": "media/movies/m167404/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/37fd82b65972412aba754d175c849d5b~tplv-xv4ileqgde-resize-w:1440.awebp"
+    }
+  ]
+}

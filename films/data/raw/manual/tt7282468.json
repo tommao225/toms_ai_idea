@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt7282468",
+  "wikidata": "",
+  "title": "燃烧",
+  "original_title": "Burning",
+  "release_date": "2018-01-01",
+  "runtime": 148,
+  "production_countries": [
+    {
+      "iso_3166_1": "KR"
+    }
+  ],
+  "country_labels": [
+    "KR"
+  ],
+  "site_genres": [
+    "mystery"
+  ],
+  "genre_labels": [
+    "mystery"
+  ],
+  "director_names": [
+    "李沧东"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}
