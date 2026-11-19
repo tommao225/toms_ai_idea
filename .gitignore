@@ -1,5 +1,11 @@
-films/data/posters/
+films/data/media/**/*.webp
+films/data/media/**/*.jpg
+films/data/media/**/*.jpeg
+films/data/media/**/*.png
 films/data/raw/**/*.tmp
+films/tests/out/
+films/tests/.tools/
+films/tests/pipeline/out/
 __pycache__/
 *.pyc
 .DS_Store

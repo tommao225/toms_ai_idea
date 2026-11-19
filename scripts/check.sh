@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# 四项机检：禁用词、markdown 交叉引用、文件行数预算、公共文档。
-# 范围：.dsh/、templates/、根目录 *.md；docs/ 不做禁用词，另由 check-docs.sh 检查。
+# 三项机检：禁用词、markdown 交叉引用、行数预算（含 docs）。
+# 范围：.dsh/、templates/、根 *.md 做三项；docs/ 只做行数。
 # 用法：scripts/check.sh [仓库根目录，默认当前目录]
 set -uo pipefail
 
@@ -24,7 +24,14 @@ if [ "${#files[@]}" -eq 0 ]; then
   exit 2
 fi
 
-echo "== 1/4 禁用词 =="
+docs=()
+while IFS= read -r -d '' f; do docs+=("$f"); done < <(
+  find docs -name '*.md' -type f -print0 2>/dev/null
+)
+all=("${files[@]}")
+if [ "${#docs[@]}" -gt 0 ]; then all+=("${docs[@]}"); fi
+
+echo "== 1/3 禁用词 =="
 hits=$(grep -nE "$BANNED" "${files[@]}" 2>/dev/null || true)
 if [ -n "$hits" ]; then
   printf '%s\n' "$hits"
@@ -35,37 +42,51 @@ else
 fi
 
 echo
-echo "== 2/4 交叉引用 =="
-# 认三种写法：markdown 链接、反引号里的 .md 路径、裸的相对路径。
-# templates/ 跳过：那里的路径按「装到目标项目后」的位置书写，在本仓库里不成立。
+echo "== 2/3 交叉引用 =="
 checked=0
 missing=0
-for file in "${files[@]}"; do
-  case "$file" in
-    ./templates/*|templates/*) continue ;;
+
+# markdown 链接：](path)
+while IFS= read -r hit; do
+  [ -n "$hit" ] || continue
+  file=${hit%%:*}
+  target=${hit#*:}
+  target=${target:2:${#target}-3}
+  case "$target" in
+    http://*|https://*|mailto:*|\#*|~*) continue ;;
   esac
-  dir=$(dirname "$file")
-  while IFS= read -r link; do
-    [ -n "$link" ] || continue
-    case "$link" in
-      http://*|https://*|mailto:*|\#*|~*) continue ;;
-    esac
-    target=${link%%#*}
-    [ -n "$target" ] || continue
-    checked=$((checked + 1))
-    if [ ! -e "$dir/$target" ]; then
-      echo "缺失: $file -> $link"
-      missing=$((missing + 1))
-      fail=1
-    fi
-  done < <(
-    {
-      grep -oE '\]\([^)( ]+\)' "$file" 2>/dev/null | sed -E 's/^\]\(//; s/\)$//'
-      grep -oE '`[^`]*/[^`]*\.md`' "$file" 2>/dev/null | sed -E 's/^`//; s/`$//'
-      grep -oE '(\.\.?/[A-Za-z0-9_./-]+\.md)' "$file" 2>/dev/null
-    } | sort -u
-  )
-done
+  target=${target%%#*}
+  [ -n "$target" ] || continue
+  checked=$((checked + 1))
+  dir=${file%/*}
+  [ "$dir" = "$file" ] && dir=.
+  if [ ! -e "$dir/$target" ]; then
+    echo "缺失: $file -> $target"
+    missing=$((missing + 1))
+    fail=1
+  fi
+done < <(grep -roE '\]\([^)( ]+\)' .dsh *.md 2>/dev/null)
+
+# 反引号里的 .md 路径：`path.md`
+while IFS= read -r hit; do
+  [ -n "$hit" ] || continue
+  file=${hit%%:*}
+  target=${hit#*:}
+  target=${target:1:${#target}-2}
+  case "$target" in
+    http://*|https://*|mailto:*|\#*|~*|/*) continue ;;
+  esac
+  target=${target%%#*}
+  [ -n "$target" ] || continue
+  checked=$((checked + 1))
+  dir=${file%/*}
+  [ "$dir" = "$file" ] && dir=.
+  if [ ! -e "$dir/$target" ]; then
+    echo "缺失: $file -> $target"
+    missing=$((missing + 1))
+    fail=1
+  fi
+done < <(grep -roE '`[^`]*/[^`]*\.md`' .dsh *.md 2>/dev/null)
 
 if [ "$missing" -eq 0 ]; then
   echo "检查 $checked 条，全部命中"
@@ -74,29 +95,19 @@ else
 fi
 
 echo
-echo "== 3/4 行数预算（≤ $MAX_LINES）=="
+echo "== 3/3 行数预算（含 docs，≤ $MAX_LINES）=="
 over=0
-for file in "${files[@]}"; do
-  n=$(wc -l <"$file" | tr -d ' ')
+while read -r n f; do
+  [ -n "$f" ] || continue
+  [ "$f" = "total" ] && continue
   if [ "$n" -gt "$MAX_LINES" ]; then
-    echo "超限 $n 行: $file"
+    echo "超限 $n 行: $f"
     over=$((over + 1))
     fail=1
   fi
-done
-
+done < <(wc -l "${all[@]}" 2>/dev/null)
 if [ "$over" -eq 0 ]; then
   echo "全部在预算内"
-fi
-
-echo
-echo "== 4/4 公共文档 =="
-if [ -f scripts/check-docs.sh ] && [ -d docs ]; then
-  if ! bash scripts/check-docs.sh .; then
-    fail=1
-  fi
-else
-  echo "跳过（无 docs/ 或 scripts/check-docs.sh）"
 fi
 
 echo

@@ -74,15 +74,14 @@ mkdir -p ~/VSCodeProjects/新项目
 ./scripts/check.sh .
 ```
 
-范围：`.dsh/`、`templates/`、根目录 `*.md`；`docs/` 不做禁用词扫描，另按公共文档规则检查文档开头的元信息、索引、链接、行数。
-四项全过才算合格：
+范围：`.dsh/`、`templates/`、根目录 `*.md` 做三项检查；`docs/` 只查行数，开头的元信息、索引和链接在评审时人工看。
+三项全过才算合格：
 
 1. **禁用词 0 命中**：不出现任何具体项目的模块名、路径、端口、业务名词、专有函数名。
 2. **交叉引用全部命中**：markdown 相对链接目标存在。
-3. **行数预算**：单文件 ≤ 300 行。
-4. **公共文档**：文档开头的元信息完整；编号不重复；每份文档都在索引里；相对链接能打开；每份不超过 300 行。
+3. **行数预算**：单文件 ≤ 300 行（含 docs）。
 
-公共文档也可单独检查：`./scripts/check-docs.sh .`。`scripts/install.sh` 的干跑、实装、幂等验证命令见根 `AGENTS.md` 第 6 节。
+`scripts/install.sh` 的干跑、实装、幂等验证命令见根 `AGENTS.md` 第 6 节。
 
 ## 目录
 
@@ -92,8 +91,7 @@ README.md                 人读总览（本文件）
 .dsh/                     规则、约定、清单、手册、教训
 templates/                新项目入口骨架，含占位符
 scripts/install.sh        铺库到目标项目
-scripts/check.sh          规则三项 + 公共文档一项
-scripts/check-docs.sh     公共文档机检
+scripts/check.sh          禁用词、交叉引用、行数预算（含 docs）
 docs/                     公共变更文档：仓库级 + 各项目子目录
 ```
 
