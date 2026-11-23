@@ -1,4 +1,4 @@
-/* 详情页：一场放映。榜单名次来自网址里的 ?list=，没有来源时列所属榜单。 */
+/* 详情页：一场放映。榜单来源来自网址里的 ?list=，没有来源时列所属榜单。 */
 (function () {
   const Films = window.Films || (window.Films = {});
   const ui = Films.ui;
@@ -7,19 +7,14 @@
   function render(f, listId) {
     const watched = Films.store.isWatched(f.id);
     const at = Films.store.dateOf(f.id);
-    const memberships = Films.data.memberships(f).length
-      ? Films.data.memberships(f)
-      : (f.rank ? [{ list_id: listId || '', rank: f.rank }] : []);
-    const current = listId ? memberships.find((m) => m.list_id === listId) : null;
-    const single = memberships.length === 1 ? memberships[0] : null;
-    const rank = current ? current.rank : (single ? single.rank : null);
-    const genreLabel = f.genreLabel || '';
+    const memberships = Films.data.memberships(f);
     const stills = (Array.isArray(f.stills) ? f.stills : [])
       .filter((s) => s && s.path && s.kind !== 'placeholder')
       .map((s) => ui.asset(s.path));
     const posterSrc = ui.asset(f.poster);
     const galleryImages = posterSrc ? [posterSrc, ...stills] : stills;
     const quoteText = typeof f.quote === 'string' ? f.quote : (f.quote && f.quote.text) || '';
+    const quoteZh = (f.quote && f.quote.zh) || '';
     const techRows = (f.tech || [
       ['片长', f.runtime ? `${f.runtime} 分钟` : ''],
       ['画幅', f.aspect || ''],
@@ -43,8 +38,11 @@
       if (entry && entry.note) noteParts = [entry.note];
     }
     const note = noteParts.map((p) => `<p>${ui.esc(p)}</p>`).join('');
+    const noteSection = note
+      ? `<section class="note"><h2>上榜理由</h2>${note}</section>`
+      : '';
     const quote = quoteText
-      ? `<div class="quoteline"><p>${ui.esc(quoteText)}</p></div>`
+      ? `<div class="quoteline"><p class="quote-original">${ui.esc(quoteText)}</p>${quoteZh ? `<p class="quote-zh"><em>${ui.esc(quoteZh)}</em></p>` : ''}</div>`
       : '';
     const gallery = galleryImages.length
       ? `<div class="still-block">
@@ -60,10 +58,6 @@
           </div>
         </div>`
       : '';
-    const membership = (!rank && memberships.length > 1)
-      ? `<div class="watch-hint">所属榜单：${memberships.map((m) => `${ui.esc(m.list_id)} 第 ${m.rank} 位`).join(' · ')}</div>`
-      : '';
-    const tag = rank != null ? `${ui.esc(genreLabel)} · 榜单第 ${rank} 位` : ui.esc(genreLabel);
     const color = f.film || 'var(--film-fallback)';
 
     return `<article class="detail view" style="--film:${color}">
@@ -78,24 +72,18 @@
         <div class="still-body">
           <div class="title-row">
             <h1>${ui.esc(f.zh)}</h1>
-            <button class="watch-btn ${watched ? 'on' : ''}" data-watch="${ui.esc(f.id)}" aria-pressed="${watched}">${watched ? '已入场' : '看过'}</button>
+            <button class="watch-btn ${watched ? 'on stamped' : ''}" data-watch="${ui.esc(f.id)}" aria-pressed="${watched}">${watched ? `<span class="watch-label">已入场</span><span class="watch-stamp">${at}</span>` : '看过'}</button>
           </div>
           <div class="meta-row">
             <span class="en">${ui.esc(String(f.year))} · ${ui.esc(f.director)}</span>
-            <span class="still-tag">${tag}</span>
           </div>
-          ${membership}
-          ${watched ? `<div class="watch-hint watch-date">${at} 盖戳 · 仅存本机</div>` : ''}
         </div>
       </div>
       <div class="detail-body">
         <div class="col-main">
           ${quote}
           <div class="techbar">${tech}</div>
-          <section class="note">
-            <h2>上榜理由</h2>
-            ${note}
-          </section>
+          ${noteSection}
           ${awards}
         </div>
         <aside class="col-rail">
@@ -179,20 +167,9 @@
     const btn = document.querySelector('.watch-btn[data-watch]');
     if (btn) {
       btn.classList.toggle('on', watched);
-      btn.textContent = watched ? '已入场' : '看过';
+      btn.classList.toggle('stamped', watched);
+      btn.innerHTML = watched ? `<span class="watch-label">已入场</span><span class="watch-stamp">${at}</span>` : '看过';
       btn.setAttribute('aria-pressed', String(watched));
-    }
-    const old = document.querySelector('.watch-hint.watch-date');
-    if (watched && !old) {
-      const meta = document.querySelector('.meta-row');
-      if (meta) {
-        const hint = document.createElement('div');
-        hint.className = 'watch-hint watch-date';
-        hint.textContent = `${at} 盖戳 · 仅存本机`;
-        meta.after(hint);
-      }
-    } else if (!watched && old) {
-      old.remove();
     }
   }
 

@@ -71,7 +71,7 @@
     root.innerHTML = `<section class="listhead view">
       <div class="kicker">我的</div>
       <h1>观影册</h1>
-      <p class="canon">${ids.length ? `${ids.length} 部。数据只存本机，导出即备份。` : '还没有看过。去任意榜单点「看过」，这里会按日期排出来。'}</p>
+      <p class="canon">${ids.length ? `${ids.length} 部。` : '还没有看过。去任意榜单点「看过」，这里会按日期排出来。'}</p>
       ${ids.length ? `<div class="canonbar"><span>类型</span>${chips(genre)}</div>
         <div class="canonbar"><span>年代</span>${chips(decade)}</div>` : ''}
       <div class="watch-actions">

@@ -70,13 +70,10 @@ body.lightbox-open { overflow: hidden; }
 .still-body .kicker { font-family: var(--mono); font-size: 10.5px; letter-spacing: .2em; color: var(--paper-dim); }
 .still-body h1 { font-family: var(--serif); font-size: clamp(34px, 6vw, 64px); letter-spacing: .06em; margin: 14px 0 8px; }
 .still-body .en { font-family: var(--serif); font-style: italic; color: var(--paper-dim); font-size: 15px; }
-.still-tag {
-  font-family: var(--serif); font-style: italic; font-size: 13px;
-  letter-spacing: .04em; color: var(--paper-dim);
-}
-
 .quoteline { padding: 54px 0 8px; }
 .quoteline p { font-family: var(--serif); font-size: clamp(20px, 2.6vw, 27px); line-height: 1.7; letter-spacing: .02em; margin: 0 0 14px; }
+.quoteline .quote-zh { font-family: var(--sans); font-size: 12.5px; line-height: 1.8; letter-spacing: .02em; color: var(--paper-dim); margin-top: -4px; }
+.quoteline .quote-zh em { font-style: italic; }
 .quoteline cite { font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; color: var(--paper-dim); font-style: normal; }
 
 .techbar { display: flex; flex-wrap: wrap; gap: 0; margin: 40px 0 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
@@ -95,11 +92,23 @@ body.lightbox-open { overflow: hidden; }
 
 .watchwrap { padding: 46px 0 0; display: flex; align-items: center; gap: 18px; }
 .watch-btn {
+  position: relative;
   font-family: var(--serif); font-size: 19px; letter-spacing: .3em; padding: 14px 30px 14px 34px;
   border: 1px solid var(--accent); color: var(--accent); transition: background .25s ease, color .25s ease;
 }
+.watch-btn.stamped { color: var(--paper-dim); display: flex; align-items: center; justify-content: center; overflow: visible; }
+.watch-btn .watch-label { position: relative; z-index: 1; padding: 0 4px; background: var(--ink); }
+.watch-btn .watch-stamp {
+  position: absolute; left: -10px; right: -10px; top: 50%; z-index: 2;
+  transform: translateY(-50%) rotate(-4deg);
+  white-space: nowrap; padding: 2px 0; border: 1px solid var(--accent);
+  color: var(--accent); text-align: center;
+  font-family: var(--sans); font-weight: 600; font-size: 9px; letter-spacing: .04em; line-height: 1;
+  background: transparent; opacity: .75; pointer-events: none;
+}
 .watch-btn:hover { background: var(--accent); color: #0B0B0C; }
 .watch-btn.on { background: transparent; color: var(--paper-dim); border-color: var(--rule-strong); }
+.watch-btn.on.stamped { color: var(--paper-dim); }
 .watch-hint { font-family: var(--mono); font-size: 10.5px; color: var(--paper-dim); letter-spacing: .1em; }
 
 /* 观影册 */
@@ -114,7 +123,7 @@ body.lightbox-open { overflow: hidden; }
 @media (max-width: 820px) {
   .cards { grid-template-columns: 1fr; }
   .row-link {
-    grid-template-columns: 64px minmax(0, 1fr) 52px;
+    grid-template-columns: minmax(0, 1fr) 52px;
     column-gap: 8px;
     padding-right: 190px;
   }
@@ -132,13 +141,12 @@ body.lightbox-open { overflow: hidden; }
   .hero { padding: 64px 0 40px; }
   .card { min-height: 0; padding: 22px 18px; }
   .row-link {
-    display: grid; grid-template-columns: 58px 1fr; grid-template-areas: "no titles" ". meta";
-    gap: 5px 10px; padding: 13px 84px 13px 0; min-height: 0;
+    display: grid; grid-template-columns: 1fr; grid-template-areas: "titles" "meta";
+    gap: 5px; padding: 13px 84px 13px 0; min-height: 0;
   }
-  .row-link .no { grid-area: no; }
   .row-link .titles { grid-area: titles; gap: 8px; }
-  .row-link .titles .clip-zh { max-width: 46vw; }
-  .row-link .titles .clip-en { display: block; max-width: 26vw; }
+  .row-link .titles .clip-zh { max-width: 100%; }
+  .row-link .titles .clip-en { display: block; max-width: 60vw; }
   .row-link .titles .zh { font-size: 16px; }
   .row-link .meta { display: none; }
   .row-link .meta.year { display: block; grid-area: meta; margin-left: 0; }
@@ -148,7 +156,6 @@ body.lightbox-open { overflow: hidden; }
   .still { min-height: 30vh; margin: 0 -16px; padding: 40px 16px 22px; gap: 26px; justify-content: flex-start; }
   .still-poster { width: 100%; opacity: .2; }
   .still-wm .wm-tag { font-size: 9.5px; transform: translateY(165%); }
-  .still-tag { font-size: 11px; }
   .hero-grid { flex-direction: column; align-items: stretch; gap: 18px; }
   .detail-body { grid-template-columns: 1fr; gap: 36px; min-width: 0; }
   /* 窄屏也保留剧照组，不再隐藏 */
