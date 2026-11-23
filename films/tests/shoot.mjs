@@ -6,7 +6,7 @@ import { mkdirSync, rmSync, writeFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { checkGallery, checkLightbox, checkSearch, checkPager, checkThumbHover, checkQuoteReload } from './checks.mjs';
+import { checkGallery, checkLightbox, checkSearch, checkPager, checkThumbHover, checkQuoteReload, checkSort, checkHomeOrder } from './checks.mjs';
 
 const filmsRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(filmsRoot, 'tests', 'out');
@@ -248,6 +248,8 @@ try {
   await checkVirtualStamp(cdp, `${virtual}#/list/fixture-100`);
   await checkKeyboard(cdp, `${virtual}#/list/fixture-100`);
   await shoot(cdp, 'index-home', index, 1200, 900);
+  await checkHomeOrder(cdp, index);
+  await checkSort(cdp, `${index}#/list/global-mystery-greatest`);
   await shoot(cdp, 'index-list', `${index}#/list/global-mystery-greatest`, 1440, 900);
   await shoot(cdp, 'index-list', `${index}#/list/global-mystery-greatest`, 1024, 900);
   await shoot(cdp, 'index-list', `${index}#/list/global-mystery-greatest`, 700, 900);

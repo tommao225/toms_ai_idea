@@ -113,6 +113,73 @@ export async function checkThumbHover(cdp, url) {
   console.log(`hover 1200x900 ${result}`);
 }
 
+export async function checkSort(cdp, url) {
+  await cdp.send('Emulation.setDeviceMetricsOverride', {
+    width: 1200, height: 900, deviceScaleFactor: 1, mobile: false,
+  });
+  await cdp.send('Page.navigate', { url });
+  await sleep(800);
+  await evaluate(cdp, "localStorage.removeItem('films.sortMode.v1')");
+  await cdp.send('Page.reload', { ignoreCache: true });
+  await sleep(1000);
+  const result = await evaluate(cdp, `(async () => {
+    const first = () => document.querySelector('.reel .row .clip-in.zh')?.textContent || '';
+    const out = {
+      zh: first(),
+      noColumn: document.querySelectorAll('.reel .no').length,
+      zhActive: document.querySelector('[data-sort="zh"]')?.classList.contains('active'),
+    };
+    document.querySelector('[data-sort="en"]').click();
+    await new Promise((r) => setTimeout(r, 120));
+    out.en = first();
+    out.enActive = document.querySelector('[data-sort="en"]')?.classList.contains('active');
+    document.querySelector('[data-sort="year"]').click();
+    await new Promise((r) => setTimeout(r, 120));
+    out.year = first();
+    out.yearActive = document.querySelector('[data-sort="year"]')?.classList.contains('active');
+    out.yearArrow = document.querySelector('[data-sort="year"] .sort-arrow.on')?.textContent;
+    out.arrowCount = document.querySelectorAll('[data-sort="year"] .sort-arrow').length;
+    out.years = [...document.querySelectorAll('.reel .row .meta.year')].slice(0, 5).map((el) => Number(el.textContent));
+    document.querySelector('[data-sort="year"]').click();
+    await new Promise((r) => setTimeout(r, 120));
+    out.yearAsc = first();
+    out.yearsAsc = [...document.querySelectorAll('.reel .row .meta.year')].slice(0, 5).map((el) => Number(el.textContent));
+    out.yearArrowAsc = document.querySelector('[data-sort="year"] .sort-arrow.on')?.textContent;
+    document.querySelector('[data-sort="zh"]').click();
+    await new Promise((r) => setTimeout(r, 120));
+    out.backToZh = document.querySelector('[data-sort="zh"]')?.classList.contains('active');
+    return JSON.stringify(out);
+  })()`, true);
+  console.log(`sort 1200x900 ${result}`);
+}
+
+export async function checkHomeOrder(cdp, url) {
+  await cdp.send('Emulation.setDeviceMetricsOverride', {
+    width: 1200, height: 900, deviceScaleFactor: 1, mobile: false,
+  });
+  await cdp.send('Page.navigate', { url });
+  await sleep(800);
+  await evaluate(cdp, "localStorage.removeItem('films.cardOrder.v1')");
+  await cdp.send('Page.reload', { ignoreCache: true });
+  await sleep(1000);
+  const before = await evaluate(cdp, "[...document.querySelectorAll('.card[data-list-id]')].map((c) => c.dataset.listId)");
+  await evaluate(cdp, `(() => {
+    const cards = [...document.querySelectorAll('.card[data-list-id]')];
+    const first = cards[0];
+    const last = cards[cards.length - 1];
+    const dt = new DataTransfer();
+    first.dispatchEvent(new DragEvent('dragstart', { bubbles: true, dataTransfer: dt }));
+    last.after(first);
+    first.dispatchEvent(new DragEvent('dragend', { bubbles: true, dataTransfer: dt }));
+    return true;
+  })()`);
+  await cdp.send('Page.reload', { ignoreCache: true });
+  await sleep(1000);
+  const after = await evaluate(cdp, "[...document.querySelectorAll('.card[data-list-id]')].map((c) => c.dataset.listId)");
+  console.log(`home-order 1200x900 ${JSON.stringify({ before: before[0], after: after[0], count: after.length })}`);
+}
+
+
 export async function checkQuoteReload(cdp, url) {
   await cdp.send('Emulation.setDeviceMetricsOverride', {
     width: 700, height: 900, deviceScaleFactor: 1, mobile: false,
