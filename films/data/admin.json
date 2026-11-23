@@ -1,0 +1,5 @@
+{
+  "token": "replace-with-your-own-token",
+  "auto_localhost": true,
+  "whitelist": ["local"]
+}

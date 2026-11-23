@@ -1,0 +1,53 @@
+/* 管理员按钮、侧边抽屉。 */
+.admin-btn { font-family: var(--serif); font-size: 14px; letter-spacing: .12em; padding: 0; border: 1px solid var(--accent); color: var(--accent); background: transparent; }
+.title-row .watch-btn,
+.title-row .admin-btn { width: 96px; height: 44px; padding: 0; font-family: var(--serif); font-size: 14px; letter-spacing: .12em; text-align: center; line-height: 1; }
+.admin-btn:hover { background: var(--accent); color: var(--ink); }
+.admin-delete { background: var(--accent); color: var(--ink); border-color: var(--accent); }
+.admin-delete:hover { background: transparent; color: var(--accent); }
+.admin-add { font-family: inherit; font-size: inherit; letter-spacing: inherit; color: inherit; }
+
+.admin-drawer { position: fixed; inset: 0; z-index: 2000; display: none; }
+.admin-drawer.open { display: block; }
+.admin-scrim { position: absolute; inset: 0; background: rgba(0,0,0,.55); }
+.admin-panel { position: absolute; right: 0; top: 0; bottom: 0; width: min(460px, 94vw); overflow: auto; background: var(--ink-2); border-left: 1px solid var(--rule-strong); padding: 34px 32px 48px; box-shadow: -24px 0 60px rgba(0,0,0,.4); }
+.admin-panel h2 { font-family: var(--serif); font-size: 24px; font-weight: 400; margin: 0 0 24px; }
+.admin-field { display: block; margin: 0 0 16px; }
+.admin-field span { display: block; font-family: var(--mono); font-size: 10px; letter-spacing: .1em; color: var(--paper-dim); margin-bottom: 8px; }
+.admin-field input,
+.admin-field textarea,
+.admin-field select,
+.admin-lookup input {
+  width: 100%; box-sizing: border-box; height: 38px; padding: 0 12px;
+  border: 1px solid var(--rule-strong); border-radius: 0; background: var(--ink);
+  color: var(--paper); font-family: var(--sans); font-size: 13px; line-height: 36px;
+  outline: none;
+}
+.admin-field textarea { height: auto; min-height: 84px; padding: 10px 12px; line-height: 1.6; resize: vertical; }
+.admin-field input:focus,
+.admin-field textarea:focus,
+.admin-field select:focus,
+.admin-lookup input:focus { border-color: var(--accent); }
+.admin-field select {
+  appearance: none; -webkit-appearance: none; padding-right: 36px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%239A948A' stroke-width='1.2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 13px center; background-size: 10px 6px;
+  cursor: pointer;
+}
+.admin-field input[type="number"] { appearance: textfield; -moz-appearance: textfield; padding-right: 34px; }
+.admin-field input[type="number"]::-webkit-inner-spin-button,
+.admin-field input[type="number"]::-webkit-outer-spin-button { appearance: none; margin: 0; }
+.admin-number { position: relative; }
+.admin-number .admin-steppers { position: absolute; right: 11px; top: 50%; transform: translateY(-50%); width: 14px; height: 22px; display: flex; flex-direction: column; justify-content: space-between; border: 0; background: none; }
+.admin-number .admin-steppers button { width: 14px; height: 10px; padding: 0; border: 0; background-color: transparent; background-repeat: no-repeat; background-position: center; background-size: 10px 6px; cursor: pointer; }
+.admin-number .admin-steppers .step-up { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 5l4-4 4 4' fill='none' stroke='%239A948A' stroke-width='1.2'/%3E%3C/svg%3E"); }
+.admin-number .admin-steppers .step-down { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%239A948A' stroke-width='1.2'/%3E%3C/svg%3E"); }
+.admin-number .admin-steppers button:active { opacity: .55; }
+.admin-actions { display: flex; gap: 10px; align-items: center; margin-top: 26px; }
+.admin-actions button { height: 38px; padding: 0 16px; border: 1px solid var(--rule-strong); color: var(--paper); background: transparent; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; }
+.admin-actions .primary { border-color: var(--accent); color: var(--accent); }
+.admin-actions .danger { border-color: var(--accent); background: var(--accent); color: var(--ink); }
+.admin-status { min-height: 18px; margin-top: 14px; font-family: var(--mono); font-size: 10px; color: var(--paper-dim); }
+.admin-lookup { display: flex; gap: 10px; margin-bottom: 20px; }
+.admin-lookup input { flex: 1; }
+.admin-lookup button { flex: none; height: 38px; padding: 0 16px; border: 1px solid var(--rule-strong); background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: 10px; letter-spacing: .08em; }

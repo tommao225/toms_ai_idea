@@ -65,6 +65,66 @@ def build_lists(curated: Path, by_key: dict[str, dict]):
     return lists, memberships, problems
 
 
+def overlay_movie_dirs(data_root: Path, movies: list[dict], lists: dict[str, dict], memberships: dict[str, list[dict]], problems: list[str]) -> None:
+    """把 data/movies/<id>/movie.json 叠加到主档；用于页面新增/编辑/删除。"""
+    dirs = data_root / "movies"
+    if not dirs.exists():
+        return
+    by_id = {m["id"]: m for m in movies}
+    deleted: set[str] = set()
+    for path in sorted(dirs.glob("*/movie.json")):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            problems.append(f"{path.parent.name} 读取 movie.json 失败：{exc}")
+            continue
+        movie_id = str(payload.get("id") or path.parent.name)
+        if payload.get("deleted"):
+            deleted.add(movie_id)
+            continue
+        movie = by_id.get(movie_id)
+        if not movie:
+            movie = {"id": movie_id, "key": payload.get("key", ""), "source": "admin"}
+            movies.append(movie)
+            by_id[movie_id] = movie
+        for key, value in payload.items():
+            if key not in ("deleted", "list_id", "rank", "note", "why_included"):
+                movie[key] = value
+        movie.setdefault("zh", "")
+        movie.setdefault("en", "")
+        movie.setdefault("genres", [])
+        movie.setdefault("genreLabel", "其他")
+        movie.setdefault("country", "")
+        movie.setdefault("director", "")
+        movie.setdefault("year", 0)
+        movie.setdefault("runtime", 0)
+        movie.setdefault("poster", f"movies/{movie_id}/poster.webp")
+        movie.setdefault("stills", [])
+        list_id = payload.get("list_id") or ""
+        # 先摘掉旧榜单位置，再按目录里的目标榜单重新插入。
+        memberships.pop(movie_id, None)
+        for item in lists.values():
+            item["entries"] = [e for e in item.get("entries", []) if e.get("movie_id") != movie_id]
+        if list_id and list_id in lists:
+            item = lists[list_id]
+            rank = int(payload.get("rank") or len(item["entries"]) + 1)
+            item["entries"].append({
+                "rank": rank,
+                "movie_id": movie_id,
+                "note": payload.get("note", ""),
+                "why_included": payload.get("why_included", ""),
+            })
+            item["entries"].sort(key=lambda e: e["rank"])
+            item["count"] = len(item["entries"])
+            memberships.setdefault(movie_id, []).append({"list_id": list_id, "rank": rank})
+    for movie_id in deleted:
+        movies[:] = [m for m in movies if m["id"] != movie_id]
+        memberships.pop(movie_id, None)
+        for item in lists.values():
+            item["entries"] = [e for e in item.get("entries", []) if e.get("movie_id") != movie_id]
+            item["count"] = len(item["entries"])
+
+
 def attach_media(movies: list[dict], data_root: Path, colors: dict, problems: list[str]) -> None:
     for movie in movies:
         movie["dominant"] = colors.get(movie["id"], "")
@@ -91,6 +151,17 @@ def attach_media(movies: list[dict], data_root: Path, colors: dict, problems: li
                     "credit": "generated",
                     "kind": "placeholder",
                 }]
+        # 页面新增的电影：图片和元数据都在 data/movies/<id>/ 一个目录。
+        local_poster = data_root / "movies" / movie["id"] / "poster.webp"
+        local_still = data_root / "movies" / movie["id"] / "still.webp"
+        if local_poster.exists():
+            movie["poster"] = f"movies/{movie['id']}/poster.webp"
+        if local_still.exists() and not movie.get("stills"):
+            movie["stills"] = [{
+                "path": f"movies/{movie['id']}/still.webp",
+                "source": "admin",
+                "kind": "real",
+            }]
 
 
 def attach_memberships(movies: list[dict], memberships: dict[str, list[dict]]) -> None:
@@ -123,6 +194,10 @@ def write_list_payloads(web_root: Path, lists: dict[str, dict], movie_by_id: dic
             "window.FILM_LIST_DATA = " + json.dumps(payload, ensure_ascii=False) + ";\n",
             encoding="utf-8",
         )
+    valid = {f"{list_id}.js" for list_id in lists}
+    for path in out.glob("*.js"):
+        if path.name not in valid:
+            path.unlink()
 
 
 def write_movie_payloads(web_root: Path, movies: list[dict]) -> None:
@@ -133,6 +208,10 @@ def write_movie_payloads(web_root: Path, movies: list[dict]) -> None:
             "window.FILM_MOVIE_DATA = " + json.dumps(movie, ensure_ascii=False) + ";\n",
             encoding="utf-8",
         )
+    valid = {f"{movie['id']}.js" for movie in movies}
+    for path in out.glob("*.js"):
+        if path.name not in valid:
+            path.unlink()
 
 
 def search_index(movies: list[dict]) -> list[dict]:
@@ -183,6 +262,7 @@ def main() -> int:
     colors = json.loads(colors_path.read_text(encoding="utf-8")) if colors_path.exists() else {}
 
     lists, memberships, problems = build_lists(args.curated, by_key)
+    overlay_movie_dirs(args.data_root, movies, lists, memberships, problems)
     for list_id, data in lists.items():
         hero = args.data_root / "media" / "lists" / list_id / "hero.webp"
         data["hero"] = f"media/lists/{list_id}/hero.webp" if hero.exists() else ""
