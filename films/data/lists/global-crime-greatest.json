@@ -8,7 +8,7 @@
   "decision": "hybrid",
   "status": "draft",
   "max": 100,
-  "count": 30,
+  "count": 31,
   "scope": {
     "kind": "global",
     "countries": []
@@ -218,6 +218,12 @@
       "movie_id": "m117951",
       "note": "爱丁堡的瘾君子，想戒又戒不掉。",
       "why_included": "犯罪与青春。"
+    },
+    {
+      "rank": 31,
+      "movie_id": "m119488",
+      "note": "三个警察，一座城市，谁都在用自己的方式腐败。",
+      "why_included": "九十年代犯罪群像的完成度标杆。"
     }
   ]
 }

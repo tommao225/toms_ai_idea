@@ -6,7 +6,7 @@ criterion = "greatest"
 status = "draft"
 decision = "hybrid"
 max_entries = 100
-count = 30
+count = 31
 genres = ["crime"]
 chapters = [
   { index = 1, title = "第一卷：罪与罚" },

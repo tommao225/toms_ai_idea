@@ -1,0 +1,28 @@
+{
+  "source": "manual",
+  "key": "imdb:tt0119488",
+  "wikidata": "",
+  "title": "洛城机密",
+  "original_title": "L.A. Confidential",
+  "release_date": "1997-09-19",
+  "runtime": 138,
+  "production_countries": [
+    {
+      "iso_3166_1": "US"
+    }
+  ],
+  "country_labels": [
+    "US"
+  ],
+  "site_genres": [
+    "crime"
+  ],
+  "genre_labels": [
+    "Crime"
+  ],
+  "director_names": [
+    "柯蒂斯·汉森"
+  ],
+  "poster_src": "",
+  "stills_src": []
+}

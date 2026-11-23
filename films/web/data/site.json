@@ -340,7 +340,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Rosebud...",
+        "zh": "玫瑰花蕾……",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#886848",
       "film": "#886848",
       "credits_note": "",
@@ -351,8 +356,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m034583": {
@@ -411,7 +415,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Of all the gin joints in all the towns in all the world, she walks into mine.",
+        "zh": "世界上所有城镇的所有酒吧里，她偏偏走进了我的酒吧。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8A5A32",
       "film": "#8A5A32",
       "credits_note": "",
@@ -422,8 +431,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m040522": {
@@ -482,7 +490,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Why should I kill myself worrying when I'll end up just as dead?",
+        "zh": "为什么我要因为担心而自寻烦恼，反正最后我也会死？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a48351",
       "film": "#a48351",
       "credits_note": "",
@@ -493,8 +506,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m042876": {
@@ -554,7 +566,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It sounded interesting, at least while I kept out of the rain. But if it's a sermon, I'd sooner listen to the rain.",
+        "zh": "听起来挺有意思的，至少能让我避一避雨。但如果是布道，我宁愿听雨声。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#b1a292",
       "film": "#b1a292",
       "credits_note": "",
@@ -569,8 +586,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m046250": {
@@ -629,7 +645,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Romance in romantic Rome!",
+        "zh": "在浪漫的罗马享受浪漫！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5A4A6B",
       "film": "#5A4A6B",
       "credits_note": "",
@@ -640,8 +661,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m047396": {
@@ -704,7 +724,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "我们都成了偷窥者。",
+        "text": "We've become a race of Peeping Toms.",
+        "zh": "我们都成了偷窥者。",
         "source": "",
         "kind": "line"
       },
@@ -852,7 +873,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It’s very hard to keep personal prejudice out of a thing like this. And no matter where you run into it, prejudice obscures the truth.",
+        "zh": "在这样的事情上，很难不掺杂个人偏见。无论在哪里遇到偏见，它都会掩盖真相。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#caba3d",
       "film": "#caba3d",
       "credits_note": "",
@@ -863,8 +889,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m051201": {
@@ -923,7 +948,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I am constantly surprised that women's hats do not provoke more murders.",
+        "zh": "我总是很惊讶，女帽竟然没有引发更多的谋杀案。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#452b27",
       "film": "#452b27",
       "credits_note": "",
@@ -938,8 +968,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m052357": {
@@ -1002,7 +1031,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "你相信我爱你吗？",
+        "text": "Do you believe I love you?",
+        "zh": "你相信我爱你吗？",
         "source": "",
         "kind": "line"
       },
@@ -1079,7 +1109,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Real diamonds! They must be worth their weight in gold!",
+        "zh": "真钻石！它们一定价值连城！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#6B4A32",
       "film": "#6B4A32",
       "credits_note": "",
@@ -1090,8 +1125,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m053125": {
@@ -1154,7 +1188,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Ah, Maggie, in the world of advertising, there's no such thing as a lie. There's only the expedient exaggeration. You ought to know that.",
+        "zh": "啊，Maggie，在广告界，根本不存在谎言这种东西。只有权宜之计的夸大。你应该知道这一点。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#976e6a",
       "film": "#976e6a",
       "credits_note": "",
@@ -1169,8 +1208,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m054215": {
@@ -1231,7 +1269,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "我们每个人都会有点疯。",
+        "text": "We all go a little mad sometimes.",
+        "zh": "我们每个人都会有点疯。",
         "source": "",
         "kind": "line"
       },
@@ -1309,7 +1348,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Gentlemen, you can't fight in here! This is the War Room!",
+        "zh": "各位先生，你们不能在这里打架！这里是战情室！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#2F3E4E",
       "film": "#2F3E4E",
       "credits_note": "",
@@ -1320,8 +1364,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m060196": {
@@ -1382,7 +1425,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Two hundred thousand dollars is a lot of money. We're gonna have to earn it.",
+        "zh": "二十万美元是一大笔钱。我们得靠自己赚。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a69b92",
       "film": "#a69b92",
       "credits_note": "",
@@ -1393,8 +1441,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m061722": {
@@ -1526,7 +1573,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "对不起，戴夫，恐怕我不能这么做。",
+        "text": "I'm sorry, Dave. I'm afraid I can't do that.",
+        "zh": "对不起，戴夫，恐怕我不能这么做。",
         "source": "",
         "kind": "line"
       },
@@ -1670,7 +1718,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[To Alex as a Police Officer] Long time is right, I don't remember them days too horrorshow. Don't call me Dim no more either, Officer call me.",
+        "zh": "[对扮演警察的Alex]确实很久没见了，我不记得那些日子太美好。也不要再叫我“傻瓜”了，警官，叫我……",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5C3A3A",
       "film": "#5C3A3A",
       "credits_note": "",
@@ -1681,8 +1734,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m067116": {
@@ -1812,7 +1864,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I spent my life trying not to be careless. Women and children can be careless, but not men.",
+        "zh": "我一生都在努力避免粗心大意。女人和孩子可以粗心大意，但男人不行。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a08571",
       "film": "#a08571",
       "credits_note": "",
@@ -1823,8 +1880,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m069293": {
@@ -1954,7 +2010,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "There's not a day in my life that I don't feel like a fraud. Other priests, doctors, lawyers - I talk to them all. I don't know anyone who hasn't felt that.",
+        "zh": "我的人生中没有一天不觉得自己像个骗子。其他神父、医生、律师——我跟他们都聊过。我不知道有谁没有过这种感觉。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#4A5A4E",
       "film": "#4A5A4E",
       "credits_note": "",
@@ -1965,8 +2026,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m071562": {
@@ -2025,7 +2085,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I don't feel I have to wipe everybody out, Tom. Just my enemies.",
+        "zh": "汤姆，我觉得我没必要消灭所有人，只要消灭我的敌人就行。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#cca681",
       "film": "#cca681",
       "credits_note": "",
@@ -2036,8 +2101,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m071853": {
@@ -2096,7 +2160,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Makes Ben Hur look like an Epic!",
+        "zh": "让《宾虚》看起来像是一部史诗巨片！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3E4A3A",
       "film": "#3E4A3A",
       "credits_note": "",
@@ -2107,8 +2176,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m071877": {
@@ -2246,7 +2314,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[about Leatherface damaging the door with his chain saw] Look what your brother did to the door! Ain't he got no pride in his home?",
+        "zh": "[关于人皮脸用链锯破坏门]看看你哥哥把门弄成什么样了！他对自己的家一点自豪感都没有吗？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#4A5A4E",
       "film": "#4A5A4E",
       "credits_note": "",
@@ -2257,8 +2330,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m072890": {
@@ -2317,7 +2389,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "All right, freeze! Nobody move!",
+        "zh": "好了，别动！谁都不许动！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#999b7c",
       "film": "#999b7c",
       "credits_note": "",
@@ -2328,8 +2405,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m075314": {
@@ -2388,7 +2464,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Each night when I return the cab to the garage, I have to clean the cum off the back seat. Some nights, I clean off the blood.",
+        "zh": "每晚把出租车开回车库时，我都得把后座上的精液擦干净。有些晚上，我还要擦掉血迹。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#727364",
       "film": "#727364",
       "credits_note": "",
@@ -2399,8 +2480,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m075686": {
@@ -2459,7 +2539,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "A relationship, I think, is like a shark. It has to constantly move forward or it dies. And I think what we got on our hands is a dead shark.",
+        "zh": "我觉得一段感情就像一条鲨鱼。它必须不断向前游，否则就会死去。我觉得我们现在面对的就是一条死鲨鱼。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5A4A6B",
       "film": "#5A4A6B",
       "credits_note": "",
@@ -2470,8 +2555,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m075860": {
@@ -2530,7 +2614,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Old Man: [about the UFOs] They can fly rings around the moon, but we're years ahead of them on the highway.",
+        "zh": "老头：[谈到UFO]它们可以在月球周围绕圈飞行，但在公路上，我们比它们领先好几年。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#2F3E4E",
       "film": "#2F3E4E",
       "credits_note": "",
@@ -2541,8 +2630,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m076759": {
@@ -2894,7 +2982,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "在太空，没人能听见你的尖叫。",
+        "text": "In space, no one can hear you scream.",
+        "zh": "在太空，没人能听见你的尖叫。",
         "source": "",
         "kind": "line"
       },
@@ -2971,7 +3060,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Have you ever considered any real freedoms? Freedoms from the opinion of others... even the opinions of yourself?",
+        "zh": "您是否曾考虑过任何真正的自由？不受他人意见束缚的自由……甚至不受自己意见束缚的自由？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#7c432f",
       "film": "#7c432f",
       "credits_note": "",
@@ -2982,8 +3076,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m079470": {
@@ -3184,7 +3277,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It was a rough place - the seediest dive on the wharf. Populated with every reject and cutthroat from Bombay to Calcutta. It's worse than Detroit.",
+        "zh": "那是个鱼龙混杂的地方——码头上最肮脏的酒吧。从孟买到加尔各答，这里聚集了形形色色的弃儿和亡命之徒。比底特律还糟。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8A5A32",
       "film": "#8A5A32",
       "credits_note": "",
@@ -3195,8 +3293,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m080684": {
@@ -3326,7 +3423,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[to Vickie] You know how beautiful you are? Anybody ever tell you how beautiful? Yeah, tell you all the time.",
+        "zh": "[对Vickie]你知道你有多漂亮吗？有人告诉过你你有多漂亮吗？是的，一直都在夸我。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#898283",
       "film": "#898283",
       "credits_note": "",
@@ -3337,8 +3439,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m081505": {
@@ -3398,7 +3499,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Some places are like people: some shine and some don't",
+        "zh": "有些地方就像人一样：有些光彩照人，有些则黯然失色。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8A5A32",
       "film": "#8A5A32",
       "credits_note": "",
@@ -3409,8 +3515,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m082694": {
@@ -3469,7 +3574,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I'm just here for the gasoline.",
+        "zh": "我只是来加油的。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#59422e",
       "film": "#59422e",
       "credits_note": "",
@@ -3480,8 +3590,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m082971": {
@@ -3541,7 +3650,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "蛇。为什么非得是蛇？",
+        "text": "Snakes. Why'd it have to be snakes?",
+        "zh": "蛇。为什么非得是蛇？",
         "source": "",
         "kind": "line"
       },
@@ -3615,7 +3725,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "所有这些时刻，终将消失在时间里，就像雨中的泪水。",
+        "text": "All those moments will be lost in time, like tears in rain.",
+        "zh": "所有这些时刻，终将消失在时间里，就像雨中的泪水。",
         "source": "",
         "kind": "line"
       },
@@ -3688,7 +3799,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[on finding a partially-assembled spaceship beneath the tool shed] Blair's been busy out here all by himself.",
+        "zh": "[在工具棚下发现一艘部分组装好的宇宙飞船]布莱尔一直一个人在这里忙活。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#4A5A4E",
       "film": "#4A5A4E",
       "credits_note": "",
@@ -3699,8 +3815,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m087544": {
@@ -3759,7 +3874,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Yet another village is dead.",
+        "zh": "又一个村庄被毁灭了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5C3A3A",
       "film": "#5C3A3A",
       "credits_note": "",
@@ -3770,8 +3890,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m087843": {
@@ -3831,7 +3950,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Why was that a surprise? You can always pick the winners at the starting gate - the winners and the losers. Who woulda put a penny on me?",
+        "zh": "为什么这会是个惊喜？你总能在起跑线上挑出赢家——赢家和输家。谁会愿意在我身上下注一分钱？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#433226",
       "film": "#433226",
       "credits_note": "",
@@ -3842,8 +3966,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m088247": {
@@ -3903,7 +4026,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Come with me if you want to live.",
+        "zh": "不想死就待在我身边。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3c2f2d",
       "film": "#3c2f2d",
       "credits_note": "",
@@ -3914,8 +4042,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m088258": {
@@ -3974,7 +4101,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I believe virtually everything I read, and I think that is what makes me more of a selective human than someone who doesn't believe anything.",
+        "zh": "我几乎相信我读到的所有内容，我认为这让我比那些什么都不相信的人更具选择性。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5d421f",
       "film": "#5d421f",
       "credits_note": "",
@@ -3985,8 +4117,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m088763": {
@@ -4045,7 +4176,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Meet Marty McFly. He's broken the time barrier. Busted his parents' first date. And, maybe, botched his chances of ever being born.",
+        "zh": "这位是马蒂·麦克弗莱。他打破了时间的屏障。他搅黄了父母的第一次约会。也许还搞砸了他出生的机会。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5A4A6B",
       "film": "#5A4A6B",
       "credits_note": "",
@@ -4056,8 +4192,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m088846": {
@@ -4116,7 +4251,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Ordem e Progresso [Order and Progress]",
+        "zh": "Ordem e Progresso [秩序与进步]",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#b99928",
       "film": "#b99928",
       "credits_note": "",
@@ -4127,8 +4267,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m089218": {
@@ -4401,7 +4540,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Be afraid. Be very afraid.",
+        "zh": "害怕吧。非常害怕吧。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#635e4d",
       "film": "#635e4d",
       "credits_note": "",
@@ -4412,8 +4556,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m092067": {
@@ -4614,7 +4757,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "RUUUUUN, GOOOOO! GET TO THE CHOPPER!",
+        "zh": "快跑，快跑！快上直升机！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#826e54",
       "film": "#826e54",
       "credits_note": "",
@@ -4625,8 +4773,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m093870": {
@@ -4828,7 +4975,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "现在我有机关枪了，呵呵呵。",
+        "text": "Now I have a machine gun. Ho ho ho.",
+        "zh": "现在我有机关枪了，呵呵呵。",
         "source": "",
         "kind": "line"
       },
@@ -5257,7 +5405,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Just when I thought I was out, they pull me back in.",
+        "zh": "就在我以为自己已经脱身的时候，他们又把我拉了回去。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3a2415",
       "film": "#3a2415",
       "credits_note": "",
@@ -5268,8 +5421,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m099685": {
@@ -5328,7 +5480,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Paulie might've moved slow, but it was only because Paulie didn't have to move for anybody.",
+        "zh": "保利可能行动缓慢，但那只是因为保利不用为任何人行动。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#605758",
       "film": "#605758",
       "credits_note": "",
@@ -5339,8 +5496,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m102926": {
@@ -5401,7 +5557,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "我吃了他的肝，配蚕豆和基安蒂酒。",
+        "text": "I ate his liver with some fava beans and a nice Chianti.",
+        "zh": "我吃了他的肝，配蚕豆和基安蒂酒。",
         "source": "",
         "kind": "line"
       },
@@ -5483,7 +5640,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "后会有期，宝贝。",
+        "text": "Hasta la vista, baby.",
+        "zh": "后会有期，宝贝。",
         "source": "",
         "kind": "line"
       },
@@ -5627,7 +5785,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I'm going to need a gun.",
+        "zh": "我需要一把枪。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3f2928",
       "film": "#3f2928",
       "credits_note": "",
@@ -5638,8 +5801,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m104652": {
@@ -5769,7 +5931,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[After his pants are set on fire and a baby urinates down his leg] You saved the day there, you little pisspot. Thanks a lot.",
+        "zh": "[他的裤子着火后，一个婴儿在他腿上撒尿]你刚才救了我一命，你这个小尿壶。非常感谢。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#be9385",
       "film": "#be9385",
       "credits_note": "",
@@ -5780,8 +5947,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1049413": {
@@ -5840,7 +6006,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "The greatest adventure is just getting back home.",
+        "zh": "最棒的冒险就是回家。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8794b2",
       "film": "#8794b2",
       "credits_note": "",
@@ -5851,8 +6022,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m105236": {
@@ -5911,7 +6081,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Every \"dog\" has its day.",
+        "zh": "每只狗都有自己的一天。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#9a8c85",
       "film": "#9a8c85",
       "credits_note": "",
@@ -5922,8 +6097,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m105859": {
@@ -6125,7 +6299,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Sometimes I wish I had a thousand lifetimes. I don't know, Phil. Maybe it's not a curse. Just depends on how you look at it.",
+        "zh": "有时候我希望自己有一千辈子。我不知道，菲尔。也许这不是诅咒。这完全取决于你怎么看待它。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#95827d",
       "film": "#95827d",
       "credits_note": "",
@@ -6136,8 +6315,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m108052": {
@@ -6196,7 +6374,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[To Gestapo men, as they are arresting him] I'm not saying you'll regret it, but you might. You should be aware of that.",
+        "zh": "[对正在逮捕他的盖世太保]我不是说你们会后悔，但你们可能会。你们应该意识到这一点。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#4c4145",
       "film": "#4c4145",
       "credits_note": "",
@@ -6207,8 +6390,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m108285": {
@@ -6338,7 +6520,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "We're all unlucky in love sometimes. When I am, I go jogging. The body loses water when you jog, so you have none left for tears.",
+        "zh": "我们有时都会在爱情中遭遇不幸。当我遇到这种情况时，我会去跑步。跑步时身体会流失水分，所以就没有水分可以用来流泪了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a99f9e",
       "film": "#a99f9e",
       "credits_note": "",
@@ -6349,8 +6536,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m109686": {
@@ -6409,7 +6595,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Life's a fragile thing, Harr. One minute you're chewin' on a burger, and the next minute you're dead meat.",
+        "zh": "生命很脆弱，Harr。前一分钟你还在啃汉堡，下一分钟你就成了死人。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#af9885",
       "film": "#af9885",
       "credits_note": "",
@@ -6420,8 +6611,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m109830": {
@@ -6480,7 +6670,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Mama always said, dying was a part of life. I sure wish it wasn't.",
+        "zh": "妈妈总是说，死亡是生命的一部分。我真希望不是这样。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#ede7e6",
       "film": "#ede7e6",
       "credits_note": "",
@@ -6491,8 +6686,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m110081": {
@@ -6623,7 +6817,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Little roar.. [scoffs]",
+        "zh": "小声咆哮…… [嗤笑]",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5f89a2",
       "film": "#5f89a2",
       "credits_note": "",
@@ -6634,8 +6833,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m110912": {
@@ -6694,7 +6892,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Girls like me don't make invitations like this to just anyone!",
+        "zh": "像我这样的女孩不会随便向任何人发出这样的邀请！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#6b5240",
       "film": "#6b5240",
       "credits_note": "",
@@ -6705,8 +6908,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m111161": {
@@ -6765,7 +6967,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It was very bitter. She said she was glad I knew, that she hated all the sneaking around. And she said that she wanted a divorce in Reno.",
+        "zh": "那滋味非常苦涩。她说她很高兴我知道了，她讨厌偷偷摸摸的行事方式。她说她想在里诺离婚。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#47332b",
       "film": "#47332b",
       "credits_note": "",
@@ -6776,8 +6983,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1119646": {
@@ -6836,7 +7042,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Some guys just can't handle Vegas",
+        "zh": "有些人就是受不了拉斯维加斯",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#9d8269",
       "film": "#9d8269",
       "credits_note": "",
@@ -6847,8 +7058,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m112471": {
@@ -6909,7 +7119,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "But then the morning comes, and we turn back into pumpkins, right?",
+        "zh": "但天亮后，我们就会变回南瓜，对吧？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#9e6f5d",
       "film": "#9e6f5d",
       "credits_note": "",
@@ -6920,8 +7135,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m112579": {
@@ -7124,7 +7338,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "是像怪物一样活着，还是像好人一样死去？",
+        "text": "Which would be worse: to live as a monster, or to die as a good man?",
+        "zh": "是像怪物一样活着，还是像好人一样死去？",
         "source": "",
         "kind": "line"
       },
@@ -7205,7 +7420,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I gotta hold on to my angst. I preserve it because I need it. It keeps me sharp [snaps fingers], on the edge [snaps fingers], where I gotta be.",
+        "zh": "我得紧紧抓住我的焦虑。我保留它，是因为我需要它。它让我保持敏锐[弹指声]，处于巅峰状态[弹指声]，这就是我该有的状态。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#1e3145",
       "film": "#1e3145",
       "credits_note": "",
@@ -7216,8 +7436,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m113356": {
@@ -7341,7 +7560,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Just a whisper. I hear it in my ghost.",
+        "zh": "只是低语。我在我的灵魂中听到了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#989b9e",
       "film": "#989b9e",
       "credits_note": "",
@@ -7352,8 +7576,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1136608": {
@@ -7413,7 +7636,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[to Fundiswa, referring to the face mask] You don't need that, man. Only sissies wear that. You don't need that.",
+        "zh": "[对Fundiswa说，指着口罩]你不需要戴那个，伙计。只有娘娘腔才会戴那个。你不需要那个。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#848583",
       "film": "#848583",
       "credits_note": "",
@@ -7424,8 +7652,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m113703": {
@@ -7699,7 +7926,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "盒子里是什么？",
+        "text": "What's in the box?",
+        "zh": "盒子里是什么？",
         "source": "",
         "kind": "line"
       },
@@ -7780,7 +8008,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "There's a secret mission in uncharted space. Let's go.",
+        "zh": "未知的太空中有个秘密任务。我们走吧。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#627c82",
       "film": "#627c82",
       "credits_note": "",
@@ -7791,8 +8024,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m114814": {
@@ -7855,7 +8087,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "魔鬼最伟大的把戏，是让世界相信他不存在。",
+        "text": "The greatest trick the devil ever pulled was convincing the world he didn't exist.",
+        "zh": "魔鬼最伟大的把戏，是让世界相信他不存在。",
         "source": "",
         "kind": "line"
       },
@@ -8005,7 +8238,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I think I was a pilot.",
+        "zh": "我想我曾经是一名飞行员。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#795934",
       "film": "#795934",
       "credits_note": "",
@@ -8016,8 +8254,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m116282": {
@@ -8219,7 +8456,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "No way I would poison my body with that shite. All the fucking chemicals. No fucking way!",
+        "zh": "我绝不会用那种垃圾毒害我的身体。全是该死的化学物质。没门！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#2F3E4E",
       "film": "#2F3E4E",
       "credits_note": "",
@@ -8230,8 +8472,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1182345": {
@@ -8435,7 +8676,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It is a restless moment. She has kept her head lowered... to give him a chance to come closer. But he could not, for lack of courage. She turns and walks away.",
+        "zh": "这是一个不安的时刻。她一直低着头……给他机会走近。但他做不到，因为他缺乏勇气。她转身走开。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#834139",
       "film": "#834139",
       "credits_note": "",
@@ -8446,8 +8692,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m118715": {
@@ -8506,7 +8751,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Well, sir, it's this rug I had. It really tied the room together.",
+        "zh": "先生，是这张地毯。它真的让整个房间融为一体。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#534b45",
       "film": "#534b45",
       "credits_note": "",
@@ -8517,8 +8767,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m118799": {
@@ -8577,7 +8826,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "What kind of place is this? It's beautiful: Pigeons fly, women fall from the sky! I'm moving here!",
+        "zh": "这是个什么地方？这里真美：鸽子在飞，女人从天上掉下来！我要搬到这里来！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#92908d",
       "film": "#92908d",
       "credits_note": "",
@@ -8588,8 +8842,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m118845": {
@@ -8663,6 +8916,81 @@
       "missing": [
         "poster",
         "quote"
+      ]
+    },
+    "m119488": {
+      "id": "m119488",
+      "key": "imdb:tt0119488",
+      "source": "manual",
+      "wikidata": "",
+      "titles": {
+        "zh": "洛城机密",
+        "en": "L.A. Confidential"
+      },
+      "zh": "洛城机密",
+      "en": "L.A. Confidential",
+      "year": 1997,
+      "runtime": 138,
+      "countries": [
+        "US"
+      ],
+      "primary_country": "US",
+      "country": "美国",
+      "coproduction": false,
+      "languages": [],
+      "directors": [
+        "p:柯蒂斯·汉森"
+      ],
+      "director": "柯蒂斯·汉森",
+      "genres": [
+        "crime"
+      ],
+      "genreLabel": "犯罪",
+      "silent": false,
+      "color": "color",
+      "aspect": "",
+      "sound": "",
+      "scores": {},
+      "poster": "media/movies/m119488/poster.webp",
+      "poster_src": "",
+      "stills": [
+        {
+          "path": "media/movies/m119488/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic3.zhimg.com/v2-45af532b36a94a40f28e4fd3f7197a06_1440w.jpg"
+        },
+        {
+          "path": "media/movies/m119488/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0422%2F32d99c63j00rtirgj00ptc001kw011om.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        },
+        {
+          "path": "media/movies/m119488/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p9.itc.cn/images01/20230826/2dee6b8b82ac4440b1ae3d120437f110.jpeg"
+        }
+      ],
+      "stills_src": [],
+      "quote": {
+        "text": "Rollo Tomasi.",
+        "zh": "罗罗·汤马西",
+        "source": "",
+        "kind": "line"
+      },
+      "dominant": "#896556",
+      "film": "#896556",
+      "credits_note": "",
+      "lists": [
+        {
+          "list_id": "global-crime-greatest",
+          "rank": 31
+        }
+      ],
+      "missing": [
+        "poster"
       ]
     },
     "m119698": {
@@ -8863,7 +9191,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Good morning, and in case I don't see ya: Good afternoon, good evening, and good night!",
+        "zh": "早上好！如果我没见到你，那也祝你下午好、晚上好、晚安！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8e6c77",
       "film": "#8e6c77",
       "credits_note": "",
@@ -8874,8 +9207,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m120689": {
@@ -9005,7 +9337,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Anyway, fuck it. The battle is over and the war is won.",
+        "zh": "算了，管他呢。战斗结束了，战争胜利了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#703f3c",
       "film": "#703f3c",
       "credits_note": "",
@@ -9016,8 +9353,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1220719": {
@@ -9076,7 +9412,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[To Kam Shan-chu] No men are afraid of their wives, they're only men who respects their wives.",
+        "zh": "[对甘山柱] 没有男人怕老婆，只有男人尊重老婆。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3d2b26",
       "film": "#3d2b26",
       "credits_note": "",
@@ -9087,8 +9428,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1229238": {
@@ -9147,7 +9487,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "No Plan. No Backup. No Choice.",
+        "zh": "没有计划。没有后备方案。没有选择。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#755232",
       "film": "#755232",
       "credits_note": "",
@@ -9158,8 +9503,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m12477480": {
@@ -9361,7 +9705,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "A guy who makes a nice chair doesn't owe money to everyone who has ever built a chair.",
+        "zh": "一个会制作漂亮椅子的工匠，并不欠所有曾经制作过椅子的人的钱。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#394248",
       "film": "#394248",
       "credits_note": "",
@@ -9372,8 +9721,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m133093": {
@@ -9435,7 +9783,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "勺子不存在。",
+        "text": "There is no spoon.",
+        "zh": "勺子不存在。",
         "source": "",
         "kind": "line"
       },
@@ -9582,7 +9931,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "多么美好的一天！",
+        "text": "What a lovely day!",
+        "zh": "多么美好的一天！",
         "source": "",
         "kind": "line"
       },
@@ -9792,7 +10142,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "When the music stops, you see him in the mirror, standing behind you.",
+        "zh": "音乐停止时，你在镜子里看到他站在你身后。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a89b90",
       "film": "#a89b90",
       "credits_note": "",
@@ -9803,8 +10158,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m146270": {
@@ -10005,7 +10359,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "You're really doing it, aren't ya? You're shitting in the street!",
+        "zh": "你真的在这么做，不是吗？你在大街上拉屎！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#82605e",
       "film": "#82605e",
       "credits_note": "",
@@ -10016,8 +10375,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m15151242": {
@@ -10149,7 +10507,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Look at how your Bene Gesserit propaganda has taken root. Some of them already think I'm their Messiah. Others... a false prophet.",
+        "zh": "看看你们的贝尼·杰塞里特宣传是如何扎根的。他们中有些人已经认为我是他们的救世主。其他人……则认为我是假先知。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8d5a36",
       "film": "#8d5a36",
       "credits_note": "",
@@ -10160,8 +10523,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1533117": {
@@ -10863,7 +11225,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It'll be just like in the movies. Pretending to be somebody else.",
+        "zh": "就像电影里演的那样。假扮成别人。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#573623",
       "film": "#573623",
       "credits_note": "",
@@ -10878,8 +11245,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m167404": {
@@ -10938,7 +11304,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Some magic's real.",
+        "zh": "有些魔法是真的。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#0c0d11",
       "film": "#0c0d11",
       "credits_note": "",
@@ -10953,8 +11324,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m169547": {
@@ -11013,7 +11383,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It's a great thing when you realize you still have the ability to surprise yourself. Makes you wonder what else you can do that you've forgotten about.",
+        "zh": "当你意识到自己仍有能力让自己感到惊喜时，这真是件好事。这会让你不禁想知道，自己还有哪些被遗忘的能力。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#ee8748",
       "film": "#ee8748",
       "credits_note": "",
@@ -11024,8 +11399,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m178868": {
@@ -11227,7 +11601,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "All the best memories are hers.",
+        "zh": "所有最美好的回忆都属于她。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#405369",
       "film": "#405369",
       "credits_note": "",
@@ -11238,8 +11617,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m1859438": {
@@ -11586,7 +11964,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Everything is a mythical cosmic battle between faith and chance.",
+        "zh": "一切都是信仰与偶然之间的一场神话般的宇宙大战。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#161512",
       "film": "#161512",
       "credits_note": "",
@@ -11597,8 +11980,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m209144": {
@@ -11659,7 +12041,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "我必须相信，在我的意识之外还有一个世界。",
+        "text": "I have to believe in a world outside my own mind.",
+        "zh": "我必须相信，在我的意识之外还有一个世界。",
         "source": "",
         "kind": "line"
       },
@@ -12021,7 +12404,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[Facing a mob of Goto's men] No, I'm done.",
+        "zh": "[面对一群后藤的手下]不，我受够了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3e3d48",
       "film": "#3e3d48",
       "credits_note": "",
@@ -12032,8 +12420,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m2267998": {
@@ -12096,7 +12483,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "我们太可爱了，我想给我们一拳。",
+        "text": "We're so cute. I want to punch us in the face.",
+        "zh": "我们太可爱了，我想给我们一拳。",
         "source": "",
         "kind": "line"
       },
@@ -12468,7 +12856,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "You shouldn't be here. Get out of here now!",
+        "zh": "你不该来这里的。马上离开这里！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#2c2217",
       "film": "#2c2217",
       "credits_note": "",
@@ -12479,8 +12872,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m2488496": {
@@ -12753,7 +13145,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I'm an American... Okay.",
+        "zh": "我是一名美国人……好吧。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#626149",
       "film": "#626149",
       "credits_note": "",
@@ -12764,8 +13161,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m266543": {
@@ -12824,7 +13220,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "There Are 3.7 Trillion Fish in the Ocean. They're Looking for One.",
+        "zh": "海洋中有3.7万亿条鱼。它们正在寻找一条鱼。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#47698a",
       "film": "#47698a",
       "credits_note": "",
@@ -12835,8 +13236,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m2798920": {
@@ -13181,7 +13581,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[As a 9-year-old] Well, he was right about one thing: I don't know when to quit.",
+        "zh": "[9岁时] 他有一点说对了：我不知道什么时候该放弃。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#aca6a6",
       "film": "#aca6a6",
       "credits_note": "",
@@ -13192,8 +13597,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m299977": {
@@ -13325,7 +13729,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Oh. Hiya kids. Here is an important message from your Uncle Bill. Don't buy drugs..... Become a pop star, and they give you them for free!",
+        "zh": "哦，嗨，孩子们。这是你们比尔叔叔的一条重要信息。别买毒品……当上流行明星，他们就会免费给你！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a58881",
       "film": "#a58881",
       "credits_note": "",
@@ -13336,8 +13745,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m317248": {
@@ -13467,7 +13875,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "It could look like someone you know or it could be a stranger in a crowd. Whatever helps it get close to you.",
+        "zh": "它可能看起来像你认识的人，也可能像人群中的陌生人。任何能帮助它靠近您的东西都可以。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#685e4c",
       "film": "#685e4c",
       "credits_note": "",
@@ -13478,8 +13891,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m335266": {
@@ -13539,7 +13951,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[repeated line] For relaxing times, make it Suntory time.",
+        "zh": "[重复台词] 想要放松一下，就来一杯三得利吧。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#958363",
       "film": "#958363",
       "credits_note": "",
@@ -13550,8 +13967,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m338013": {
@@ -13610,7 +14026,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Sand is overrated. It's just tiny little rocks.",
+        "zh": "沙子被高估了。它不过是些小小的石头。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#8b8288",
       "film": "#8b8288",
       "credits_note": "",
@@ -13621,8 +14042,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m338564": {
@@ -13824,7 +14244,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I'm the best and cleanest witch in Ingary\".",
+        "zh": "我是英格瑞最优秀、最干净的巫师。”",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#818d77",
       "film": "#818d77",
       "credits_note": "",
@@ -13835,8 +14260,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m353969": {
@@ -14047,7 +14471,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "即使我不比禽兽好，难道我没有活下去的权利吗？",
+        "text": "Even though I'm no better than a beast, don't I have the right to live?",
+        "zh": "即使我不比禽兽好，难道我没有活下去的权利吗？",
         "source": "",
         "kind": "line"
       },
@@ -14128,7 +14553,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[Response to David.] GET FUCKED, FOUR-EYES!",
+        "zh": "[回复David。]去你妈的，四眼仔！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5a453f",
       "film": "#5a453f",
       "credits_note": "",
@@ -14139,8 +14569,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m368909": {
@@ -14271,7 +14700,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[To ice cream vendor] What're you looking at? Never seen an ice cream thief before? [Runs away without paying, laughing maniacally]",
+        "zh": "[对冰淇淋摊贩] 你看什么？以前没见过偷冰淇淋的吗？[不付钱就跑了，疯狂地大笑]",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#997b73",
       "film": "#997b73",
       "credits_note": "",
@@ -14282,8 +14716,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m375679": {
@@ -14413,7 +14846,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "That's L.A. They worship everything and they value nothing.",
+        "zh": "这就是洛杉矶。他们崇拜一切，却不珍视任何东西。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#11215a",
       "film": "#11215a",
       "credits_note": "",
@@ -14424,8 +14862,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m3799694": {
@@ -14484,7 +14921,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[repeated line] Fucking Chet.",
+        "zh": "[重复台词] 该死的切特。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#927862",
       "film": "#927862",
       "credits_note": "",
@@ -14495,8 +14937,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m381681": {
@@ -14555,7 +14996,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I'm designed to feel slightly dissatisfied.",
+        "zh": "我的设计就是让我感到略微不满意。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#4c3c29",
       "film": "#4c3c29",
       "credits_note": "",
@@ -14566,8 +15012,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m3835080": {
@@ -14911,7 +15356,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Anybody can lose one fight, anybody can lose once, you'll come back from this you'll be champion of the world.",
+        "zh": "谁都可能输掉一场比赛，谁都可能输掉一次，你会从这次失利中振作起来，你会成为世界冠军。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#232222",
       "film": "#232222",
       "credits_note": "",
@@ -14922,8 +15372,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m407887": {
@@ -14982,7 +15431,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I'm concerned about a Chinaman who thinks it's wise to come to a business transaction with automatic weapons.",
+        "zh": "我担心的是一个中国人，他认为带着自动武器来谈生意很明智。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#4c4742",
       "film": "#4c4742",
       "credits_note": "",
@@ -14993,8 +15447,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m414387": {
@@ -15125,7 +15578,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[echoing line from Shaun Of The Dead] What's the matter, Danny? Never taken a shortcut before?",
+        "zh": "[模仿《僵尸肖恩》中的台词]怎么了，丹尼？以前没走过捷径吗？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#686162",
       "film": "#686162",
       "credits_note": "",
@@ -15136,8 +15594,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m4263482": {
@@ -15270,7 +15727,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[kissing gesture made to woman] Very nice. How much?",
+        "zh": "[向女士做出亲吻的手势]非常好。多少钱？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#a8a590",
       "film": "#a8a590",
       "credits_note": "",
@@ -15281,8 +15743,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m443706": {
@@ -15417,7 +15878,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[final words to Kingpin before his death] I know what you're trying to do– and it won't work. They're gone.",
+        "zh": "[临终前对金并说的最后一句话]我知道你想做什么——但没用的。他们已经走了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3b2746",
       "film": "#3b2746",
       "credits_note": "",
@@ -15428,8 +15894,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m464141": {
@@ -15634,7 +16099,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I have a competition in me. I want no one else to succeed. I hate most people.",
+        "zh": "我心里有一种竞争意识。我不想让别人成功。我讨厌大多数人。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#191b1a",
       "film": "#191b1a",
       "credits_note": "",
@@ -15645,8 +16115,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m470752": {
@@ -15776,7 +16245,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Nothin wounded goes uphill, he said. It just dont happen.",
+        "zh": "他说，受伤的人爬不上坡。这根本不可能。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#6a635b",
       "film": "#6a635b",
       "credits_note": "",
@@ -15787,8 +16261,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m482571": {
@@ -15851,7 +16324,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "你在仔细看吗？",
+        "text": "Are you watching closely?",
+        "zh": "你在仔细看吗？",
         "source": "",
         "kind": "line"
       },
@@ -16076,7 +16550,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "[about the housekeeper] This bitch is crazy. Bitch is crazy.",
+        "zh": "[关于女管家] 这个婊子疯了。婊子疯了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3c4348",
       "film": "#3c4348",
       "credits_note": "",
@@ -16087,8 +16566,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m5311514": {
@@ -16147,7 +16625,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "I can never remember the dream I must have had.",
+        "zh": "我永远记不住我肯定做过的梦。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#5699bc",
       "film": "#5699bc",
       "credits_note": "",
@@ -16158,8 +16641,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m5700672": {
@@ -16438,7 +16920,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "How do you say goodbye to someone you don't imagine your life without? I didn't say goodbye. I didn't say anything. I just walked away.",
+        "zh": "你要如何和无法想象没有对方的生活的人告别？我没有告别。我什么也没说。我只是走开了。",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#857285",
       "film": "#857285",
       "credits_note": "",
@@ -16449,8 +16936,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m765429": {
@@ -16796,7 +17282,8 @@
       ],
       "stills_src": [],
       "quote": {
-        "text": "不要温和地走进那个良夜。",
+        "text": "Do not go gentle into that good night.",
+        "zh": "不要温和地走进那个良夜。",
         "source": "",
         "kind": "line"
       },
@@ -16869,7 +17356,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Do you have any normal-sized clothes or do you only shop at the Baby Gap?",
+        "zh": "你有正常尺码的衣服吗？还是你只在婴幼儿服装店购物？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#c7b340",
       "film": "#c7b340",
       "credits_note": "",
@@ -16880,8 +17372,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m843270": {
@@ -17012,7 +17503,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "(first line of the film) It's the greatest show time!",
+        "zh": "（电影的第一句台词）最精彩的表演开始了！",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#ce7c7d",
       "film": "#ce7c7d",
       "credits_note": "",
@@ -17023,8 +17519,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m8772262": {
@@ -17226,7 +17721,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "So are you like a cow or a dalmatian?",
+        "zh": "那你像奶牛还是斑点狗？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#977bb5",
       "film": "#977bb5",
       "credits_note": "",
@@ -17237,8 +17737,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     },
     "m978762": {
@@ -17297,7 +17796,12 @@
         }
       ],
       "stills_src": [],
-      "quote": null,
+      "quote": {
+        "text": "Anyway, do you like the word 'kumquat'?",
+        "zh": "不管怎么说，你喜欢“金橘”这个词吗？",
+        "source": "",
+        "kind": "line"
+      },
       "dominant": "#3e322e",
       "film": "#3e322e",
       "credits_note": "",
@@ -17308,8 +17812,7 @@
         }
       ],
       "missing": [
-        "poster",
-        "quote"
+        "poster"
       ]
     }
   },
@@ -17993,7 +18496,7 @@
       "decision": "hybrid",
       "status": "draft",
       "max": 100,
-      "count": 30,
+      "count": 31,
       "scope": {
         "kind": "global",
         "countries": []
@@ -18203,6 +18706,12 @@
           "movie_id": "m117951",
           "note": "爱丁堡的瘾君子，想戒又戒不掉。",
           "why_included": "犯罪与青春。"
+        },
+        {
+          "rank": 31,
+          "movie_id": "m119488",
+          "note": "三个警察，一座城市，谁都在用自己的方式腐败。",
+          "why_included": "九十年代犯罪群像的完成度标杆。"
         }
       ]
     },
