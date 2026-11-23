@@ -2,6 +2,7 @@
   "id": "global-animation-greatest",
   "title": "动画电影",
   "genre": "动画",
+  "genreKey": "animation",
   "order": 7,
   "criterion": "greatest",
   "decision": "hybrid",

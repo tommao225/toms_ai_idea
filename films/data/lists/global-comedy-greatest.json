@@ -2,6 +2,7 @@
   "id": "global-comedy-greatest",
   "title": "喜剧电影",
   "genre": "喜剧",
+  "genreKey": "comedy",
   "order": 4,
   "criterion": "greatest",
   "decision": "hybrid",

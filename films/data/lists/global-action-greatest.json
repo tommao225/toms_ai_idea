@@ -2,6 +2,7 @@
   "id": "global-action-greatest",
   "title": "动作电影",
   "genre": "动作",
+  "genreKey": "action",
   "order": 2,
   "criterion": "greatest",
   "decision": "hybrid",

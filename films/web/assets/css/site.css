@@ -63,12 +63,26 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 28px 120px; }
 }
 .hero-quote { margin: 0; max-width: 760px; }
 .hero-quote blockquote { margin: 0; font-family: var(--serif); font-size: clamp(17px, 2.1vw, 22px); line-height: 1.65; color: var(--paper); }
-.hero-quote-by { font-family: inherit; font-size: .62em; font-style: italic; color: inherit; }
 
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: transparent; border: 0; }
-.card { padding: 30px 26px 26px; background: var(--ink); box-shadow: 0 0 0 1px var(--rule); display: flex; flex-direction: column; gap: 12px; min-height: 250px; transition: background .25s ease; }
+.card {
+  position: relative; isolation: isolate; overflow: hidden;
+  padding: 30px 26px 26px; background: var(--ink);
+  box-shadow: 0 0 0 1px var(--rule); display: flex; flex-direction: column;
+  gap: 12px; min-height: 250px; transition: background .25s ease;
+}
+.card::before { content: ""; position: absolute; inset: 0; z-index: 0; opacity: .25; pointer-events: none; background-position: center; background-size: cover; background-repeat: no-repeat; }
+.card > * { position: relative; z-index: 1; }
 .card:hover { background: var(--ink-2); }
-.card-kicker { font-family: var(--mono); font-size: 10px; letter-spacing: .2em; color: var(--paper-dim); }
+.card[data-genre="mystery"]::before { background-image: url("../img/genres/mystery.webp"); }
+.card[data-genre="scifi"]::before { background-image: url("../img/genres/scifi.webp"); }
+.card[data-genre="action"]::before { background-image: url("../img/genres/action.webp"); }
+.card[data-genre="drama"]::before { background-image: url("../img/genres/drama.webp"); }
+.card[data-genre="comedy"]::before { background-image: url("../img/genres/comedy.webp"); }
+.card[data-genre="romance"]::before { background-image: url("../img/genres/romance.webp"); }
+.card[data-genre="crime"]::before { background-image: url("../img/genres/crime.webp"); }
+.card[data-genre="animation"]::before { background-image: url("../img/genres/animation.webp"); }
+.card[data-genre="horror"]::before { background-image: url("../img/genres/horror.webp"); }
 .card h2 { font-family: var(--serif); font-size: 22px; letter-spacing: .04em; line-height: 1.35; }
 .card-canon { color: var(--paper-dim); font-size: 12px; line-height: 1.7; }
 .card-count { font-family: var(--sans); font-size: 11px; color: var(--paper-dim); letter-spacing: .06em; margin-top: auto; }

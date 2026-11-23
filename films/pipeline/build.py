@@ -48,6 +48,7 @@ def build_lists(curated: Path, by_key: dict[str, dict]):
             "id": item["id"],
             "title": item["title"],
             "genre": label_for(genre_key),
+            "genreKey": genre_key,
             "order": order_for(genre_key),
             "criterion": item.get("criterion", ""),
             "decision": item.get("decision", ""),

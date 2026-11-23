@@ -1,0 +1,47 @@
+{
+  "mystery": {
+    "source": "user",
+    "query": "用户提供的悬疑风格图",
+    "url": ""
+  },
+  "scifi": {
+    "source": "user",
+    "query": "用户提供的科幻风格图",
+    "url": ""
+  },
+  "action": {
+    "source": "user",
+    "query": "用户提供的动作风格图",
+    "url": ""
+  },
+  "drama": {
+    "source": "sogou",
+    "query": "剧场 舞台 演员 剪影 追光",
+    "url": "https://afterquotes.com/wp-content/uploads/2023/12/thorstenmeyer_Create_an_image_showcasing_a_dimly_lit_stage_ad_311ce317-5956-4326-b6c0-47dc173bff1e_3_IP464291.jpg"
+  },
+  "comedy": {
+    "source": "user",
+    "query": "用户提供的喜剧风格图",
+    "url": ""
+  },
+  "romance": {
+    "source": "user",
+    "query": "用户提供的爱情风格图，裁掉底部水印",
+    "url": ""
+  },
+  "crime": {
+    "source": "user",
+    "query": "用户提供的犯罪风格图",
+    "url": ""
+  },
+  "horror": {
+    "source": "user",
+    "query": "用户提供的恐怖风格图，裁掉底部水印",
+    "url": ""
+  },
+  "animation": {
+    "source": "user",
+    "query": "用户提供的动画风格图",
+    "url": ""
+  }
+}

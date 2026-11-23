@@ -16,6 +16,7 @@
 | `fetch_posters_douban.py` | 豆瓣逐条慢请求取海报 |
 | `fetch_stills_douban.py` | 从海报的豆瓣照片页逐条取剧照 |
 | `fetch_images_sogou.py` | 豆瓣缺图时按“片名 海报 / 片名 剧照”用搜狗补 |
+| `fetch_genre_images.py` | 按九类氛围词从搜狗取分类背景图，不绑定具体电影 |
 | `build.py` | 汇总榜单，写 `data/lists/`、`web/data/site.js` 和按需加载数据 |
 | `check_content.py` | 内容体检：手记、入选理由、台词、名次、来源、条数 |
 | `make_page.py` | 仅测试用：把正式 `index.html` 复制成 fixture 页 |

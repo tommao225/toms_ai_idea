@@ -10,6 +10,7 @@ assets/css/tokens.css      设计 token、自托管字体
 assets/css/site.css        列表与首页版式
 assets/css/detail.css      详情、观影册、分页与响应式
 assets/fonts/              中文字体子集
+assets/img/genres/         九个分类的抽象场景背景（不是具体电影）
 assets/js/data.js          读取 window.FILMS_DATA
 assets/js/store.js         打卡存储，唯一写入口
 assets/js/ui.js            转义、列宽测量、片名格子

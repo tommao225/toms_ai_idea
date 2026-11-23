@@ -2,6 +2,7 @@
   "id": "global-romance-greatest",
   "title": "爱情电影",
   "genre": "爱情",
+  "genreKey": "romance",
   "order": 5,
   "criterion": "greatest",
   "decision": "hybrid",

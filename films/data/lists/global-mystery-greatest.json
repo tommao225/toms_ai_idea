@@ -2,6 +2,7 @@
   "id": "global-mystery-greatest",
   "title": "悬疑电影",
   "genre": "悬疑",
+  "genreKey": "mystery",
   "order": 0,
   "criterion": "greatest",
   "decision": "hybrid",

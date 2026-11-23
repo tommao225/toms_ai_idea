@@ -2,6 +2,7 @@
   "id": "global-horror-greatest",
   "title": "恐怖电影",
   "genre": "恐怖",
+  "genreKey": "horror",
   "order": 8,
   "criterion": "greatest",
   "decision": "hybrid",
