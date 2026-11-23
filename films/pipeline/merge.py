@@ -53,12 +53,34 @@ def load_memberships(curated_root: Path) -> dict[str, list[dict]]:
     return members
 
 
-def quote_for(movie_id: str, curated_root: Path) -> str:
-    path = curated_root / "movies" / movie_id / "quote.md"
-    if not path.exists():
-        return ""
-    text = path.read_text(encoding="utf-8").strip()
-    return text.splitlines()[0].strip() if text else ""
+def quote_for(movie_id: str, curated_root: Path) -> tuple[str, str]:
+    base = curated_root / "movies" / movie_id
+    original_path = base / "quote.original.md"
+    text_path = base / "quote.md"
+    zh_path = base / "quote.zh.md"
+    meta_path = base / "quote.json"
+    if original_path.exists():
+        text = original_path.read_text(encoding="utf-8").strip()
+        zh = text_path.read_text(encoding="utf-8").strip() if text_path.exists() else ""
+    elif meta_path.exists():
+        try:
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except Exception:
+            meta = {}
+        text = str(meta.get("original", "")).strip()
+        raw = text_path.read_text(encoding="utf-8").strip() if text_path.exists() else ""
+        zh = raw if raw and raw != text else ""
+        if not text:
+            text = raw
+    elif text_path.exists():
+        text = text_path.read_text(encoding="utf-8").strip()
+        zh = zh_path.read_text(encoding="utf-8").strip() if zh_path.exists() else ""
+    else:
+        return "", ""
+    return (
+        text.splitlines()[0].strip() if text else "",
+        zh.splitlines()[0].strip() if zh else "",
+    )
 
 
 def map_genres(raw: dict, mapping: dict[str, list[str]]) -> list[str]:
@@ -130,7 +152,7 @@ def media_fields(raw: dict, movie_id: str, curated_root: Path, missing: list[str
                "source": "tmdb", "credit": "TMDb", "kind": "real"}
               for i in range(len(stills_src))]
     quote = quote_for(movie_id, curated_root)
-    if not quote:
+    if not quote[0]:
         missing.append("quote")
     return poster_src, stills_src, stills, quote
 
@@ -182,7 +204,7 @@ def merge_one(raw: dict, key: str, curated_root: Path, mapping: dict, membership
         "poster_src": poster_src,
         "stills": stills,
         "stills_src": stills_src,
-        "quote": {"text": quote, "source": "", "kind": "line"} if quote else None,
+        "quote": {"text": quote[0], "zh": quote[1], "source": "", "kind": "line"} if quote[0] else None,
         "dominant": "",
         "film": FALLBACK_COLOR,
         "credits_note": "",
