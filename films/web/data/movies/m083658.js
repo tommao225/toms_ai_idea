@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m083658", "key": "imdb:tt0083658", "source": "manual", "wikidata": "", "titles": {"zh": "银翼杀手", "en": "Blade Runner"}, "zh": "银翼杀手", "en": "Blade Runner", "year": 1982, "runtime": 117, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:雷德利·斯科特"], "director": "雷德利·斯科特", "genres": ["scifi"], "genreLabel": "科幻", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m083658/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m083658/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2236705303.jpg"}, {"path": "media/movies/m083658/still-02.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2236705487.jpg"}, {"path": "media/movies/m083658/still-03.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p2364280246.jpg"}], "stills_src": [], "quote": {"text": "All those moments will be lost in time, like tears in rain.", "zh": "所有这些时刻，终将消失在时间里，就像雨中的泪水。", "source": "", "kind": "line"}, "dominant": "#3e2e2b", "film": "#3e2e2b", "credits_note": "", "lists": [{"list_id": "global-scifi-greatest", "rank": 2}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m083658",
+  "key": "imdb:tt0083658",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "银翼杀手",
+    "en": "Blade Runner"
+  },
+  "zh": "银翼杀手",
+  "en": "Blade Runner",
+  "year": 1982,
+  "runtime": 117,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:雷德利·斯科特"
+  ],
+  "director": "雷德利·斯科特",
+  "genres": [
+    "scifi"
+  ],
+  "genreLabel": "科幻",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m083658/poster.webp?v=1795078021",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m083658/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2236705303.jpg"
+    },
+    {
+      "path": "media/movies/m083658/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2236705487.jpg"
+    },
+    {
+      "path": "media/movies/m083658/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img9.doubanio.com/view/photo/l/public/p2364280246.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "All those moments will be lost in time, like tears in rain.",
+    "zh": "所有这些时刻，终将消失在时间里，就像雨中的泪水。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#3e2e2b",
+  "film": "#3e2e2b",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-scifi-greatest",
+      "rank": 2
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

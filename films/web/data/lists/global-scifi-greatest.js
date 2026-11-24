@@ -1,1 +1,1181 @@
-window.FILM_LIST_DATA = {"list": {"id": "global-scifi-greatest", "title": "科幻电影", "genre": "科幻", "genreKey": "scifi", "order": 1, "criterion": "greatest", "decision": "hybrid", "status": "draft", "max": 100, "count": 30, "scope": {"kind": "global", "countries": []}, "canon": {"definition": "以技术、宇宙、身份和未来社会为核心的长片。", "ranking_rule": "按影史影响、概念完成度和可重看性综合排序。", "time_window": "1968–2016", "sources": [{"name": "人工初选", "url": "", "weight": 1.0, "accessed": "2026-11"}], "inclusion_rule": "科幻设定是叙事核心，不只是背景。", "exclusion_rule": "只有特效、没有概念的片子。", "known_bias": "英语片为主，苏联和日本各一部。", "curator": "初选", "version": "1"}, "chapters": [{"index": 1, "title": "第一卷：未来"}], "hero": "", "entries": [{"rank": 1, "movie_id": "m062622", "note": "从猿到星孩，人类每一步都被一块黑石看着。", "why_included": "把科幻拍成文明史。"}, {"rank": 2, "movie_id": "m083658", "note": "雨夜、霓虹和复制人，人的记忆也可以被制造。", "why_included": "赛博朋克视觉与身份问题。"}, {"rank": 3, "movie_id": "m078748", "note": "太空船里没有英雄，只有求生。", "why_included": "幽闭科幻恐怖的范本。"}, {"rank": 4, "movie_id": "m133093", "note": "日常世界是程序，选择才是真的。", "why_included": "把动作、哲学和虚拟现实扣在一起。"}, {"rank": 5, "movie_id": "m079944", "note": "房间会移动，欲望会实现，代价自己承担。", "why_included": "用科幻写信仰与执念。"}, {"rank": 6, "movie_id": "m069293", "note": "海洋星球会读心，人类带去的只有自己的记忆。", "why_included": "科幻中的孤独与愧疚。"}, {"rank": 7, "movie_id": "m2543164", "note": "语言改变时间，母亲提前看见一生。", "why_included": "温柔而克制的第一接触。"}, {"rank": 8, "movie_id": "m816692", "note": "父亲穿过黑洞，女儿在书房里等他。", "why_included": "把亲情放进宇宙尺度。"}, {"rank": 9, "movie_id": "m206634", "note": "人类不再生育，希望只剩一个孕妇。", "why_included": "末世科幻的政治与长镜头。"}, {"rank": 10, "movie_id": "m113568", "note": "义体、网络和身份，边界全部融化。", "why_included": "动画赛博朋克的源头。"}, {"rank": 11, "movie_id": "m1856101", "note": "复制人有了自己的记忆，猎人开始怀疑自己。", "why_included": "把赛博朋克续成身份寓言。"}, {"rank": 12, "movie_id": "m470752", "note": "一场图灵测试，测试的是人还是机器。", "why_included": "小空间里的AI伦理。"}, {"rank": 13, "movie_id": "m1182345", "note": "月球背面只有一个值班员，和一个副本。", "why_included": "孤独科幻的干净样本。"}, {"rank": 14, "movie_id": "m076759", "note": "农场少年被卷入银河战争。", "why_included": "把太空歌剧变成大众神话。"}, {"rank": 15, "movie_id": "m080684", "note": "帝国反击，主角失去手，也失去答案。", "why_included": "续集把神话拍得更暗。"}, {"rank": 16, "movie_id": "m075860", "note": "一个普通人被声音和光带走。", "why_included": "第一接触的温柔版本。"}, {"rank": 17, "movie_id": "m091064", "note": "实验出错，身体一点点变成别的物种。", "why_included": "身体恐怖与科学失控。"}, {"rank": 18, "movie_id": "m088846", "note": " bureaucracy 吞掉一个人，梦也救不了他。", "why_included": "反乌托邦的黑色喜剧。"}, {"rank": 19, "movie_id": "m066921", "note": "暴力被治疗，自由也被治疗。", "why_included": "把自由意志拍成酷刑。"}, {"rank": 20, "movie_id": "m017136", "note": "地下工人和地上乐园，机器藏着人的脸。", "why_included": "科幻都市的原型。"}, {"rank": 21, "movie_id": "m1160419", "note": "厄拉科斯的沙下埋着香料，也埋着殖民。", "why_included": "把太空歌剧拍成政治史诗。"}, {"rank": 22, "movie_id": "m15239678", "note": "保罗成为救世主，也成了自己恐惧的东西。", "why_included": "续集把神话拆开。"}, {"rank": 23, "movie_id": "m796366", "note": "柯克和史波克从敌对开始，重新上舰。", "why_included": "重启系列的节奏。"}, {"rank": 24, "movie_id": "m2488496", "note": "新的抵抗组织，旧的帝国阴影。", "why_included": "把经典结构重新交给下一代。"}, {"rank": 25, "movie_id": "m1136608", "note": "外星难民被关在贫民窟，人类只想拿走武器。", "why_included": "用科幻写种族隔离。"}, {"rank": 26, "movie_id": "m2798920", "note": "进入微光区的人，身体开始不属于自己。", "why_included": "把科幻拍成一场变异。"}, {"rank": 27, "movie_id": "m093870", "note": "警察被做成机器，记忆还在反抗。", "why_included": "赛博格与资本讽刺。"}, {"rank": 28, "movie_id": "m093773", "note": "丛林里有一个更会狩猎的猎手。", "why_included": "把动作片变成猎杀。"}, {"rank": 29, "movie_id": "m090605", "note": "殖民地失去联系，陆战队进去找原因。", "why_included": "把幽闭恐怖扩成战争片。"}, {"rank": 30, "movie_id": "m088247", "note": "机器从未来回来，杀一个还没出生的孩子。", "why_included": "时间循环与追杀。"}]}, "films": {"m062622": {"id": "m062622", "zh": "2001太空漫游", "en": "2001: A Space Odyssey", "year": 1968, "director": "斯坦利·库布里克", "runtime": 149, "country": "美国 / 英国", "film": "#575154", "poster": "media/movies/m062622/poster.webp", "stills": [{"path": "media/movies/m062622/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p937466507.jpg?sa_cv=1a4abe0b59084bd471aba7d0fe908a6f&sa_ct=6afebf74&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m062622/still-02.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2552008653.jpg"}, {"path": "media/movies/m062622/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p453483431.jpg?sa_cv=fbf0bd4b4fa1e98f86825d758b625651&sa_ct=6afebf74&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "wm": null}, "m083658": {"id": "m083658", "zh": "银翼杀手", "en": "Blade Runner", "year": 1982, "director": "雷德利·斯科特", "runtime": 117, "country": "美国", "film": "#3e2e2b", "poster": "media/movies/m083658/poster.webp", "stills": [{"path": "media/movies/m083658/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2236705303.jpg"}, {"path": "media/movies/m083658/still-02.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2236705487.jpg"}, {"path": "media/movies/m083658/still-03.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p2364280246.jpg"}], "wm": null}, "m078748": {"id": "m078748", "zh": "异形", "en": "Alien", "year": 1979, "director": "雷德利·斯科特", "runtime": 117, "country": "美国 / 英国", "film": "#0f120b", "poster": "media/movies/m078748/poster.webp", "stills": [{"path": "media/movies/m078748/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p453700631.jpg?sa_cv=af2863cd33ede396a47ee2792736d51a&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m078748/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1545485574.jpg?sa_cv=8ce7db0cbde0ca24cf43f40c122da59d&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m078748/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1621200561.jpg?sa_cv=189fba488db6b02d07fcbdb14dd5ae63&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "wm": null}, "m133093": {"id": "m133093", "zh": "黑客帝国", "en": "The Matrix", "year": 1999, "director": "沃卓斯基姐妹", "runtime": 136, "country": "美国 / 澳大利亚", "film": "#25422e", "poster": "media/movies/m133093/poster.webp", "stills": [{"path": "media/movies/m133093/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1283575089.jpg?sa_cv=00bbccb6bc21346606b77f7a8d98f1ca&sa_ct=6afec04a&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m133093/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1283544065.jpg?sa_cv=221fe24e42af25053b62fdab12f661ab&sa_ct=6afec04a&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m133093/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p987346174.jpg?sa_cv=766d628e5e6d6f5865b18aa1c8a27880&sa_ct=6afec04a&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "wm": null}, "m079944": {"id": "m079944", "zh": "潜行者", "en": "Stalker", "year": 1979, "director": "安德烈·塔可夫斯基", "runtime": 162, "country": "苏联", "film": "#e1a059", "poster": "media/movies/m079944/poster.webp", "stills": [{"path": "media/movies/m079944/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1636089642.jpg?sa_cv=220a2d32e05a8df1637e953064577cab&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m079944/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456440133.jpg?sa_cv=b0df08f2f919b51b3c64b36e8db85ea1&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m079944/still-03.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2327634468.jpg"}], "wm": null}, "m069293": {"id": "m069293", "zh": "飞向太空", "en": "Solaris", "year": 1972, "director": "安德烈·塔可夫斯基", "runtime": 167, "country": "苏联", "film": "#43413d", "poster": "media/movies/m069293/poster.webp", "stills": [{"path": "media/movies/m069293/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2524402477.jpg"}, {"path": "media/movies/m069293/still-02.webp", "source": "douban", "kind": "real", "url": "https://img2.doubanio.com/view/photo/l/public/p2524402331.jpg"}, {"path": "media/movies/m069293/still-03.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2524402489.jpg"}], "wm": null}, "m2543164": {"id": "m2543164", "zh": "降临", "en": "Arrival", "year": 2016, "director": "丹尼斯·维伦纽瓦", "runtime": 116, "country": "美国", "film": "#515761", "poster": "media/movies/m2543164/poster.webp", "stills": [{"path": "media/movies/m2543164/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2374369280.jpg"}, {"path": "media/movies/m2543164/still-02.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p2395224204.jpg"}, {"path": "media/movies/m2543164/still-03.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2418824878.jpg"}], "wm": null}, "m816692": {"id": "m816692", "zh": "星际穿越", "en": "Interstellar", "year": 2014, "director": "克里斯托弗·诺兰", "runtime": 169, "country": "美国 / 英国", "film": "#7d7e7b", "poster": "media/movies/m816692/poster.webp", "stills": [{"path": "media/movies/m816692/still-01.webp", "source": "douban", "kind": "real", "url": "https://img2.doubanio.com/view/photo/l/public/p2208063011.jpg"}, {"path": "media/movies/m816692/still-02.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p2211063036.jpg"}, {"path": "media/movies/m816692/still-03.webp", "source": "douban", "kind": "real", "url": "https://img2.doubanio.com/view/photo/l/public/p2234509041.jpg"}], "wm": null}, "m206634": {"id": "m206634", "zh": "人类之子", "en": "Children of Men", "year": 2006, "director": "阿方索·卡隆", "runtime": 109, "country": "美国 / 英国", "film": "#161512", "poster": "media/movies/m206634/poster.webp", "stills": [{"path": "media/movies/m206634/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2512259307.jpg"}, {"path": "media/movies/m206634/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456417533.jpg?sa_cv=865d8fd91a389e4492b4773881dbae18&sa_ct=6afec083&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m206634/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456417658.jpg?sa_cv=f5389350cb5cc4e0370e385ea8134a59&sa_ct=6afec083&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "wm": null}, "m113568": {"id": "m113568", "zh": "攻壳机动队", "en": "Ghost in the Shell", "year": 1995, "director": "押井守", "runtime": 83, "country": "日本", "film": "#989b9e", "poster": "media/movies/m113568/poster.webp", "stills": [{"path": "media/movies/m113568/still-01.webp", "source": "user", "kind": "real", "url": ""}, {"path": "media/movies/m113568/still-02.webp", "source": "user", "kind": "real", "url": ""}], "wm": null}, "m1856101": {"id": "m1856101", "zh": "银翼杀手2049", "en": "Blade Runner 2049", "year": 2017, "director": "丹尼斯·维伦纽瓦", "runtime": 164, "country": "美国 / 英国", "film": "#405369", "poster": "media/movies/m1856101/poster.webp", "stills": [{"path": "media/movies/m1856101/still-01.webp", "source": "sogou", "kind": "real", "url": "https://big5.cctv.com/gate/big5/p1.img.cctvpic.com/photoworkspace/contentimg/2017/09/28/2017092809531059927.jpg"}, {"path": "media/movies/m1856101/still-02.webp", "source": "sogou", "kind": "real", "url": "http://n.sinaimg.cn/ent/transform/20170926/bj5B-fymesmq8366080.jpg"}, {"path": "media/movies/m1856101/still-03.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn/20170905/2eff-fykqmrw0529705.jpg/w700d1q75cms.jpg"}], "wm": null}, "m470752": {"id": "m470752", "zh": "机械姬", "en": "Ex Machina", "year": 2014, "director": "亚历克斯·加兰", "runtime": 108, "country": "英国", "film": "#b7b1b1", "poster": "media/movies/m470752/poster.webp", "stills": [{"path": "media/movies/m470752/still-01.webp", "source": "sogou", "kind": "real", "url": "https://horse.neweekly.com.cn/neweekly/1c18eccfa4016252188826f07dbca971/20250320/c7ff5631efcf4c0aa3e7761ebfbee81a.webp"}, {"path": "media/movies/m470752/still-02.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fcrawl.ws.126.net%2Fimg%2Fdb08cd865fcccc70946ede29afe17559.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m470752/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0813%2Fed3d4c59j00rzc5y000c5c000vz00fdm.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "wm": null}, "m1182345": {"id": "m1182345", "zh": "月球", "en": "Moon", "year": 2009, "director": "邓肯·琼斯", "runtime": 97, "country": "英国", "film": "#605f5c", "poster": "media/movies/m1182345/poster.webp", "stills": [{"path": "media/movies/m1182345/still-01.webp", "source": "sogou", "kind": "real", "url": "https://popdaily.com/my/wp-content/uploads/2023/08/common-23.jpeg"}, {"path": "media/movies/m1182345/still-02.webp", "source": "sogou", "kind": "real", "url": "https://cdn.mos.cms.futurecdn.net/TKpEAdXMQupu3PkkTq4ToG.jpeg"}, {"path": "media/movies/m1182345/still-03.webp", "source": "sogou", "kind": "real", "url": "http://qqpublic.qpic.cn/qq_public/0/28-738569759-2957B02D6D91050043DE6A087A26BB40/0?fmt=jpg&size=77&h=498&w=900&ppv=1"}], "wm": null}, "m076759": {"id": "m076759", "zh": "星球大战", "en": "Star Wars", "year": 1977, "director": "乔治·卢卡斯", "runtime": 121, "country": "美国", "film": "#5A4A6B", "poster": "media/movies/m076759/poster.webp", "stills": [{"path": "media/movies/m076759/still-01.webp", "source": "sogou", "kind": "real", "url": "https://www.salon.com/app/uploads/2013/10/lucas_star_wars.jpg"}, {"path": "media/movies/m076759/still-02.webp", "source": "sogou", "kind": "real", "url": "https://www.looper.com/img/gallery/the-star-wars-movies-in-chronological-order-does-it-really-matter/intro-1690586334.jpg"}, {"path": "media/movies/m076759/still-03.webp", "source": "sogou", "kind": "real", "url": "https://107cine.cdn.cinehello.com/20191223/uploads/weixin/23Dec2019112255164.jpg"}], "wm": null}, "m080684": {"id": "m080684", "zh": "帝国反击战", "en": "The Empire Strikes Back", "year": 1980, "director": "厄文·克什纳", "runtime": 124, "country": "美国", "film": "#4A5A4E", "poster": "media/movies/m080684/poster.webp", "stills": [{"path": "media/movies/m080684/still-01.webp", "source": "sogou", "kind": "real", "url": "https://pic.baike.soso.com/ugc/baikepic2/0/20230511020446-771951636_jpeg_1200_800_533656.jpg/0"}, {"path": "media/movies/m080684/still-02.webp", "source": "sogou", "kind": "real", "url": "https://pic1.zhimg.com/v2-8760abff5d7bd78ae153885c5d8b6784_b.jpg"}, {"path": "media/movies/m080684/still-03.webp", "source": "sogou", "kind": "real", "url": "https://img.tvspielfilm.de/14/fb/ff/56fbc8faea60e536affffb14.jpeg?im=Crop,rect=(0,0,1788,1176),gravity=Center;Resize,width=632"}], "wm": null}, "m075860": {"id": "m075860", "zh": "第三类接触", "en": "Close Encounters of the Third Kind", "year": 1977, "director": "史蒂文·斯皮尔伯格", "runtime": 138, "country": "美国", "film": "#2F3E4E", "poster": "media/movies/m075860/poster.webp", "stills": [{"path": "media/movies/m075860/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/ee99cc24d10447a99b33f287ac581556~tplv-xv4ileqgde-image.image"}, {"path": "media/movies/m075860/still-02.webp", "source": "sogou", "kind": "real", "url": "https://so1.360tres.com/t01b07dd200648f3860.png"}, {"path": "media/movies/m075860/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p0.itc.cn/images01/20230704/d8c5f732819445079cc9a05b2c3892fe.jpeg"}], "wm": null}, "m091064": {"id": "m091064", "zh": "变蝇人", "en": "The Fly", "year": 1986, "director": "大卫·柯南伯格", "runtime": 96, "country": "美国", "film": "#635e4d", "poster": "media/movies/m091064/poster.webp", "stills": [{"path": "media/movies/m091064/still-01.webp", "source": "sogou", "kind": "real", "url": "https://img.3dmgame.com/uploads/allimg/170315/276_170315085804_1_lit.jpg"}, {"path": "media/movies/m091064/still-02.webp", "source": "sogou", "kind": "real", "url": "https://wx4.sinaimg.cn/large/cf3e9a59ly1fdhno4gk0lj20go091q3k.jpg"}, {"path": "media/movies/m091064/still-03.webp", "source": "sogou", "kind": "real", "url": "http://qqpublic.qpic.cn/qq_public/0/28-2551026727-3FEB5AEFBDA38E36EB7B07D825C8B672/0?fmt=jpg&size=62&h=525&w=700&ppv=1"}], "wm": null}, "m088846": {"id": "m088846", "zh": "巴西", "en": "Brazil", "year": 1985, "director": "特里·吉列姆", "runtime": 132, "country": "英国", "film": "#b99928", "poster": "media/movies/m088846/poster.webp", "stills": [{"path": "media/movies/m088846/still-01.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0602%2Ff65d6bf4j00sefoz4000id000g00080p.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m088846/still-02.webp", "source": "sogou", "kind": "real", "url": "https://wl-incrivel.cf.tsp.li/resize/728x/jpg/266/221/6e375e5005b3f8fddbf8357e59.jpg"}, {"path": "media/movies/m088846/still-03.webp", "source": "sogou", "kind": "real", "url": "https://amonovelas.com.br/wp-content/uploads/2019/12/avenida-brasil-betania.jpg"}], "wm": null}, "m066921": {"id": "m066921", "zh": "发条橙", "en": "A Clockwork Orange", "year": 1971, "director": "斯坦利·库布里克", "runtime": 136, "country": "英国", "film": "#5C3A3A", "poster": "media/movies/m066921/poster.webp", "stills": [{"path": "media/movies/m066921/still-01.webp", "source": "sogou", "kind": "real", "url": "https://img9.doubanio.com/view/note/l/public/p102791305.webp"}, {"path": "media/movies/m066921/still-02.webp", "source": "sogou", "kind": "real", "url": "https://q2.itc.cn/images01/20260718/6a2e7467a5c34153be592931e84668b4.jpeg"}, {"path": "media/movies/m066921/still-03.webp", "source": "sogou", "kind": "real", "url": "https://media.doblu.com/wp-content/uploads/2021/10/08142912/Clockwork-Orange.mkv_snapshot_01.30.23_2021.10.08_14.21.25-scaled.jpg"}], "wm": null}, "m017136": {"id": "m017136", "zh": "大都会", "en": "Metropolis", "year": 1927, "director": "弗里茨·朗", "runtime": 153, "country": "德国", "film": "#5A4A6B", "poster": "media/movies/m017136/poster.webp", "stills": [{"path": "media/movies/m017136/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p857626894.jpg?sa_cv=680aca96bdc413d906f6682bf5ff8a10&sa_ct=6afed2ee&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m017136/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p857593688.jpg?sa_cv=7554ec24f1af5327075b16a1abea2960&sa_ct=6afed2ee&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m017136/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p857603922.jpg?sa_cv=720c8d6b7dcb98d75b2e15e1f53b04bd&sa_ct=6afed2ee&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "wm": null}, "m1160419": {"id": "m1160419", "zh": "沙丘", "en": "Dune", "year": 2021, "director": "丹尼斯·维伦纽瓦", "runtime": 155, "country": "美国 / 加拿大", "film": "#5b3724", "poster": "media/movies/m1160419/poster.webp", "stills": [{"path": "media/movies/m1160419/still-01.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_bt/0/14140452069/641"}, {"path": "media/movies/m1160419/still-02.webp", "source": "sogou", "kind": "real", "url": "http://qqpublic.qpic.cn/qq_public/0/0-2229093841-7BD657EA938F0627810C32DC663C7A3E/0?fmt=jpg&size=24&h=443&w=620&ppv=1"}, {"path": "media/movies/m1160419/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p2.ssl.qhimgs1.com/t0172b2ca21bbdf01d8.jpg?hpgo=movie-img-028653"}], "wm": null}, "m15239678": {"id": "m15239678", "zh": "沙丘2", "en": "Dune: Part Two", "year": 2024, "director": "丹尼斯·维伦纽瓦", "runtime": 166, "country": "美国 / 加拿大", "film": "#8d5a36", "poster": "media/movies/m15239678/poster.webp", "stills": [{"path": "media/movies/m15239678/still-01.webp", "source": "sogou", "kind": "real", "url": "https://inews.gtimg.com/om_bt/Osp4ki6kapXEYiQpRrhiwL0u41gEirbqm3QsiA0RRrelMAA/641"}, {"path": "media/movies/m15239678/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img0.selfimg.com.cn/wxnews/2024/05/23/15ace04b1fd91f13330533df82d7fba5.jpg"}, {"path": "media/movies/m15239678/still-03.webp", "source": "sogou", "kind": "real", "url": "https://inews.gtimg.com/om_bt/OleAMUDe9NoBVVuBeBiDbmm5DOlyTyQJcAR4UVWD29B0gAA/641"}], "wm": null}, "m796366": {"id": "m796366", "zh": "星际迷航", "en": "Star Trek", "year": 2009, "director": "J.J.艾布拉姆斯", "runtime": 127, "country": "美国", "film": "#222c34", "poster": "media/movies/m796366/poster.webp", "stills": [{"path": "media/movies/m796366/still-01.webp", "source": "sogou", "kind": "real", "url": "https://cdn.theasc.com/Star-Trek-Into-Darkness-Uhura-and-Spock-2.jpg"}, {"path": "media/movies/m796366/still-02.webp", "source": "sogou", "kind": "real", "url": "https://d.player.one/en/full/169567/yeoman-jm-colt-captain-pike-number-one-escape-talosian-prison-leave-vina-left-behind.jpg?w=736&f=1e72e439da050d3db826c34afcd8f800"}, {"path": "media/movies/m796366/still-03.webp", "source": "sogou", "kind": "real", "url": "https://th-thumbnailer.cdn-si-edu.com/7CVmWvuTl30trUc9ZAXF5i45ka4=/1026x684/filters:no_upscale():focal(2685x560:2686x561)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/df/a1/dfa1c831-d106-4183-a001-2640be1879b0/sofia_boutella_and_simon_pegg_kimberly_french.jpg"}], "wm": null}, "m2488496": {"id": "m2488496", "zh": "星球大战：原力觉醒", "en": "Star Wars: The Force Awakens", "year": 2015, "director": "J.J.艾布拉姆斯", "runtime": 138, "country": "美国", "film": "#5a4244", "poster": "media/movies/m2488496/poster.webp", "stills": [{"path": "media/movies/m2488496/still-01.webp", "source": "sogou", "kind": "real", "url": "http://upload.taihainet.com/2015/1227/1451205160302.jpg"}, {"path": "media/movies/m2488496/still-02.webp", "source": "sogou", "kind": "real", "url": "http://ww3.sinaimg.cn/large/842eaf60jw1ev09qndnsoj20h00crn0c.jpg"}, {"path": "media/movies/m2488496/still-03.webp", "source": "sogou", "kind": "real", "url": "http://www.ahxh.cn/uploadfile/2016/0120/20160120065209549.jpg"}], "wm": null}, "m1136608": {"id": "m1136608", "zh": "第九区", "en": "District 9", "year": 2009, "director": "尼尔·布洛姆坎普", "runtime": 112, "country": "ZA / 美国", "film": "#848583", "poster": "media/movies/m1136608/poster.webp", "stills": [{"path": "media/movies/m1136608/still-01.webp", "source": "sogou", "kind": "real", "url": "http://dl.kulemi.com/project/photo/2022071818361517199075.jpg"}, {"path": "media/movies/m1136608/still-02.webp", "source": "sogou", "kind": "real", "url": "https://sgkeho.9imgz.com/uploads/333032373137247777772E797565786972632E636F6D"}, {"path": "media/movies/m1136608/still-03.webp", "source": "sogou", "kind": "real", "url": "https://big5.cctv.com/gate/big5/ent.cctv.com/news/special/2009shujia/20090701/images/1246428381161_U105P28T3D2538814F522DT20090526214145.jpg"}], "wm": null}, "m2798920": {"id": "m2798920", "zh": "湮灭", "en": "Annihilation", "year": 2018, "director": "亚历克斯·加兰", "runtime": 115, "country": "美国 / 英国", "film": "#354656", "poster": "media/movies/m2798920/poster.webp", "stills": [{"path": "media/movies/m2798920/still-01.webp", "source": "sogou", "kind": "real", "url": "http://www.eastent.com/uploadfile/2018/0416/20180416100436854.jpg"}, {"path": "media/movies/m2798920/still-02.webp", "source": "sogou", "kind": "real", "url": "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/natalie-portman-annihilation.jpeg?q=50&fit=crop&w=825&dpr=1.5"}, {"path": "media/movies/m2798920/still-03.webp", "source": "sogou", "kind": "real", "url": "https://k.sinaimg.cn/n/sinakd20121/158/w1080h678/20251221/f53f-e322f18b552caa14fad3d526fd368f36.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}], "wm": null}, "m093870": {"id": "m093870", "zh": "机械战警", "en": "RoboCop", "year": 1987, "director": "保罗·范霍文", "runtime": 102, "country": "美国", "film": "#4c4b4f", "poster": "media/movies/m093870/poster.webp", "stills": [{"path": "media/movies/m093870/still-01.webp", "source": "sogou", "kind": "real", "url": "https://launchpad-backend-v2.onrender.com/api/v1/s3/image/assets%2F38270179-6b5d-4121-bc9b-1818b3e37f2c%2F30-movies-turning-40-in-2026_65ce7fd4%2F30-movies-turning-40-in-2026_img_13_49e754ac.jpg"}, {"path": "media/movies/m093870/still-02.webp", "source": "sogou", "kind": "real", "url": "https://inews.gtimg.com/om_bt/OahEBFn8gxtGzqOZsQJyAfOKAS5kuHrBE4lqqvGcF0N0cAA/641"}, {"path": "media/movies/m093870/still-03.webp", "source": "sogou", "kind": "real", "url": "https://crawl.ws.126.net/nbot2/img/f58ae52256eae2144a5463f49fa6f24f"}], "wm": null}, "m093773": {"id": "m093773", "zh": "铁血战士", "en": "Predator", "year": 1987, "director": "约翰·麦克蒂尔南", "runtime": 107, "country": "美国", "film": "#826e54", "poster": "media/movies/m093773/poster.webp", "stills": [{"path": "media/movies/m093773/still-01.webp", "source": "sogou", "kind": "real", "url": "http://n.sinaimg.cn/translate/185/w600h385/20180823/dqOk-hicsiav6105235.jpg"}, {"path": "media/movies/m093773/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img5.mtime.cn/mg/2018/09/21/120530.53175989.jpg"}, {"path": "media/movies/m093773/still-03.webp", "source": "sogou", "kind": "real", "url": "http://n.sinaimg.cn/translate/173/w584h389/20180803/VwW_-hhehtqh4344425.jpg"}], "wm": null}, "m090605": {"id": "m090605", "zh": "异形2", "en": "Aliens", "year": 1986, "director": "詹姆斯·卡梅隆", "runtime": 137, "country": "美国 / 英国", "film": "#263444", "poster": "media/movies/m090605/poster.webp", "stills": [{"path": "media/movies/m090605/still-01.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2026%2F0718%2F9cfdb7fbj00tidg8700u8d000zk00iip.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m090605/still-02.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0126%2F0ae07693j00sqor5o00ffd000lx00ekp.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m090605/still-03.webp", "source": "sogou", "kind": "real", "url": "https://q5.itc.cn/images01/20251223/399660c053584e6996c1d0a761998f65.jpeg"}], "wm": null}, "m088247": {"id": "m088247", "zh": "终结者", "en": "The Terminator", "year": 1984, "director": "詹姆斯·卡梅隆", "runtime": 107, "country": "美国 / 英国", "film": "#3c2f2d", "poster": "media/movies/m088247/poster.webp", "stills": [{"path": "media/movies/m088247/still-01.webp", "source": "sogou", "kind": "real", "url": "https://i2-prod.irishmirror.ie/article12764276.ece/ALTERNATES/s1200f/GP12723921.jpg"}, {"path": "media/movies/m088247/still-02.webp", "source": "sogou", "kind": "real", "url": "https://batman-univers.fr/wp-content/uploads/2025/09/1757608634_Mystery-a-resolu-Terminator-revele-comment-Sarah-Connor-est-mort.jpg"}, {"path": "media/movies/m088247/still-03.webp", "source": "sogou", "kind": "real", "url": "https://www.showmetech.com.br/wp-content/uploads/2020/09/e477cbdc0ab7692df7316db77b8966b21-1024x557.jpg"}], "wm": null}}};
+window.FILM_LIST_DATA = {
+  "list": {
+    "id": "global-scifi-greatest",
+    "title": "科幻电影",
+    "genre": "科幻",
+    "genreKey": "scifi",
+    "order": 1,
+    "criterion": "greatest",
+    "decision": "hybrid",
+    "status": "draft",
+    "max": 100,
+    "count": 30,
+    "scope": {
+      "kind": "global",
+      "countries": []
+    },
+    "canon": {
+      "definition": "以技术、宇宙、身份和未来社会为核心的长片。",
+      "ranking_rule": "按影史影响、概念完成度和可重看性综合排序。",
+      "time_window": "1968–2016",
+      "sources": [
+        {
+          "name": "人工初选",
+          "url": "",
+          "weight": 1.0,
+          "accessed": "2026-11"
+        }
+      ],
+      "inclusion_rule": "科幻设定是叙事核心，不只是背景。",
+      "exclusion_rule": "只有特效、没有概念的片子。",
+      "known_bias": "英语片为主，苏联和日本各一部。",
+      "curator": "初选",
+      "version": "1"
+    },
+    "chapters": [
+      {
+        "index": 1,
+        "title": "第一卷：未来"
+      }
+    ],
+    "hero": "",
+    "entries": [
+      {
+        "rank": 1,
+        "movie_id": "m062622",
+        "note": "从猿到星孩，人类每一步都被一块黑石看着。",
+        "why_included": "把科幻拍成文明史。"
+      },
+      {
+        "rank": 2,
+        "movie_id": "m083658",
+        "note": "雨夜、霓虹和复制人，人的记忆也可以被制造。",
+        "why_included": "赛博朋克视觉与身份问题。"
+      },
+      {
+        "rank": 3,
+        "movie_id": "m078748",
+        "note": "太空船里没有英雄，只有求生。",
+        "why_included": "幽闭科幻恐怖的范本。"
+      },
+      {
+        "rank": 4,
+        "movie_id": "m133093",
+        "note": "日常世界是程序，选择才是真的。",
+        "why_included": "把动作、哲学和虚拟现实扣在一起。"
+      },
+      {
+        "rank": 5,
+        "movie_id": "m079944",
+        "note": "房间会移动，欲望会实现，代价自己承担。",
+        "why_included": "用科幻写信仰与执念。"
+      },
+      {
+        "rank": 6,
+        "movie_id": "m069293",
+        "note": "海洋星球会读心，人类带去的只有自己的记忆。",
+        "why_included": "科幻中的孤独与愧疚。"
+      },
+      {
+        "rank": 7,
+        "movie_id": "m2543164",
+        "note": "语言改变时间，母亲提前看见一生。",
+        "why_included": "温柔而克制的第一接触。"
+      },
+      {
+        "rank": 8,
+        "movie_id": "m816692",
+        "note": "父亲穿过黑洞，女儿在书房里等他。",
+        "why_included": "把亲情放进宇宙尺度。"
+      },
+      {
+        "rank": 9,
+        "movie_id": "m206634",
+        "note": "人类不再生育，希望只剩一个孕妇。",
+        "why_included": "末世科幻的政治与长镜头。"
+      },
+      {
+        "rank": 10,
+        "movie_id": "m113568",
+        "note": "义体、网络和身份，边界全部融化。",
+        "why_included": "动画赛博朋克的源头。"
+      },
+      {
+        "rank": 11,
+        "movie_id": "m1856101",
+        "note": "复制人有了自己的记忆，猎人开始怀疑自己。",
+        "why_included": "把赛博朋克续成身份寓言。"
+      },
+      {
+        "rank": 12,
+        "movie_id": "m470752",
+        "note": "一场图灵测试，测试的是人还是机器。",
+        "why_included": "小空间里的AI伦理。"
+      },
+      {
+        "rank": 13,
+        "movie_id": "m1182345",
+        "note": "月球背面只有一个值班员，和一个副本。",
+        "why_included": "孤独科幻的干净样本。"
+      },
+      {
+        "rank": 14,
+        "movie_id": "m076759",
+        "note": "农场少年被卷入银河战争。",
+        "why_included": "把太空歌剧变成大众神话。"
+      },
+      {
+        "rank": 15,
+        "movie_id": "m080684",
+        "note": "帝国反击，主角失去手，也失去答案。",
+        "why_included": "续集把神话拍得更暗。"
+      },
+      {
+        "rank": 16,
+        "movie_id": "m075860",
+        "note": "一个普通人被声音和光带走。",
+        "why_included": "第一接触的温柔版本。"
+      },
+      {
+        "rank": 17,
+        "movie_id": "m091064",
+        "note": "实验出错，身体一点点变成别的物种。",
+        "why_included": "身体恐怖与科学失控。"
+      },
+      {
+        "rank": 18,
+        "movie_id": "m088846",
+        "note": " bureaucracy 吞掉一个人，梦也救不了他。",
+        "why_included": "反乌托邦的黑色喜剧。"
+      },
+      {
+        "rank": 19,
+        "movie_id": "m066921",
+        "note": "暴力被治疗，自由也被治疗。",
+        "why_included": "把自由意志拍成酷刑。"
+      },
+      {
+        "rank": 20,
+        "movie_id": "m017136",
+        "note": "地下工人和地上乐园，机器藏着人的脸。",
+        "why_included": "科幻都市的原型。"
+      },
+      {
+        "rank": 21,
+        "movie_id": "m1160419",
+        "note": "厄拉科斯的沙下埋着香料，也埋着殖民。",
+        "why_included": "把太空歌剧拍成政治史诗。"
+      },
+      {
+        "rank": 22,
+        "movie_id": "m15239678",
+        "note": "保罗成为救世主，也成了自己恐惧的东西。",
+        "why_included": "续集把神话拆开。"
+      },
+      {
+        "rank": 23,
+        "movie_id": "m796366",
+        "note": "柯克和史波克从敌对开始，重新上舰。",
+        "why_included": "重启系列的节奏。"
+      },
+      {
+        "rank": 24,
+        "movie_id": "m2488496",
+        "note": "新的抵抗组织，旧的帝国阴影。",
+        "why_included": "把经典结构重新交给下一代。"
+      },
+      {
+        "rank": 25,
+        "movie_id": "m1136608",
+        "note": "外星难民被关在贫民窟，人类只想拿走武器。",
+        "why_included": "用科幻写种族隔离。"
+      },
+      {
+        "rank": 26,
+        "movie_id": "m2798920",
+        "note": "进入微光区的人，身体开始不属于自己。",
+        "why_included": "把科幻拍成一场变异。"
+      },
+      {
+        "rank": 27,
+        "movie_id": "m093870",
+        "note": "警察被做成机器，记忆还在反抗。",
+        "why_included": "赛博格与资本讽刺。"
+      },
+      {
+        "rank": 28,
+        "movie_id": "m093773",
+        "note": "丛林里有一个更会狩猎的猎手。",
+        "why_included": "把动作片变成猎杀。"
+      },
+      {
+        "rank": 29,
+        "movie_id": "m090605",
+        "note": "殖民地失去联系，陆战队进去找原因。",
+        "why_included": "把幽闭恐怖扩成战争片。"
+      },
+      {
+        "rank": 30,
+        "movie_id": "m088247",
+        "note": "机器从未来回来，杀一个还没出生的孩子。",
+        "why_included": "时间循环与追杀。"
+      }
+    ]
+  },
+  "films": {
+    "m062622": {
+      "id": "m062622",
+      "zh": "2001太空漫游",
+      "en": "2001: A Space Odyssey",
+      "year": 1968,
+      "director": "斯坦利·库布里克",
+      "runtime": 149,
+      "country": "美国 / 英国",
+      "film": "#575154",
+      "poster": "media/movies/m062622/poster.webp?v=1795078821",
+      "stills": [
+        {
+          "path": "media/movies/m062622/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p937466507.jpg?sa_cv=1a4abe0b59084bd471aba7d0fe908a6f&sa_ct=6afebf74&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m062622/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2552008653.jpg"
+        },
+        {
+          "path": "media/movies/m062622/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p453483431.jpg?sa_cv=fbf0bd4b4fa1e98f86825d758b625651&sa_ct=6afebf74&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m083658": {
+      "id": "m083658",
+      "zh": "银翼杀手",
+      "en": "Blade Runner",
+      "year": 1982,
+      "director": "雷德利·斯科特",
+      "runtime": 117,
+      "country": "美国",
+      "film": "#3e2e2b",
+      "poster": "media/movies/m083658/poster.webp?v=1795078021",
+      "stills": [
+        {
+          "path": "media/movies/m083658/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2236705303.jpg"
+        },
+        {
+          "path": "media/movies/m083658/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2236705487.jpg"
+        },
+        {
+          "path": "media/movies/m083658/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img9.doubanio.com/view/photo/l/public/p2364280246.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m078748": {
+      "id": "m078748",
+      "zh": "异形",
+      "en": "Alien",
+      "year": 1979,
+      "director": "雷德利·斯科特",
+      "runtime": 117,
+      "country": "美国 / 英国",
+      "film": "#0f120b",
+      "poster": "media/movies/m078748/poster.webp?v=1795078885",
+      "stills": [
+        {
+          "path": "media/movies/m078748/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p453700631.jpg?sa_cv=af2863cd33ede396a47ee2792736d51a&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m078748/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1545485574.jpg?sa_cv=8ce7db0cbde0ca24cf43f40c122da59d&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m078748/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1621200561.jpg?sa_cv=189fba488db6b02d07fcbdb14dd5ae63&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m133093": {
+      "id": "m133093",
+      "zh": "黑客帝国",
+      "en": "The Matrix",
+      "year": 1999,
+      "director": "沃卓斯基姐妹",
+      "runtime": 136,
+      "country": "美国 / 澳大利亚",
+      "film": "#25422e",
+      "poster": "media/movies/m133093/poster.webp?v=1795078961",
+      "stills": [
+        {
+          "path": "media/movies/m133093/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1283575089.jpg?sa_cv=00bbccb6bc21346606b77f7a8d98f1ca&sa_ct=6afec04a&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m133093/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1283544065.jpg?sa_cv=221fe24e42af25053b62fdab12f661ab&sa_ct=6afec04a&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m133093/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p987346174.jpg?sa_cv=766d628e5e6d6f5865b18aa1c8a27880&sa_ct=6afec04a&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m079944": {
+      "id": "m079944",
+      "zh": "潜行者",
+      "en": "Stalker",
+      "year": 1979,
+      "director": "安德烈·塔可夫斯基",
+      "runtime": 162,
+      "country": "苏联",
+      "film": "#e1a059",
+      "poster": "media/movies/m079944/poster.webp?v=1795078898",
+      "stills": [
+        {
+          "path": "media/movies/m079944/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1636089642.jpg?sa_cv=220a2d32e05a8df1637e953064577cab&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m079944/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456440133.jpg?sa_cv=b0df08f2f919b51b3c64b36e8db85ea1&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m079944/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2327634468.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m069293": {
+      "id": "m069293",
+      "zh": "飞向太空",
+      "en": "Solaris",
+      "year": 1972,
+      "director": "安德烈·塔可夫斯基",
+      "runtime": 167,
+      "country": "苏联",
+      "film": "#43413d",
+      "poster": "media/movies/m069293/poster.webp?v=1795078847",
+      "stills": [
+        {
+          "path": "media/movies/m069293/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2524402477.jpg"
+        },
+        {
+          "path": "media/movies/m069293/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img2.doubanio.com/view/photo/l/public/p2524402331.jpg"
+        },
+        {
+          "path": "media/movies/m069293/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2524402489.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m2543164": {
+      "id": "m2543164",
+      "zh": "降临",
+      "en": "Arrival",
+      "year": 2016,
+      "director": "丹尼斯·维伦纽瓦",
+      "runtime": 116,
+      "country": "美国",
+      "film": "#515761",
+      "poster": "media/movies/m2543164/poster.webp?v=1795079068",
+      "stills": [
+        {
+          "path": "media/movies/m2543164/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2374369280.jpg"
+        },
+        {
+          "path": "media/movies/m2543164/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img9.doubanio.com/view/photo/l/public/p2395224204.jpg"
+        },
+        {
+          "path": "media/movies/m2543164/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2418824878.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m816692": {
+      "id": "m816692",
+      "zh": "星际穿越",
+      "en": "Interstellar",
+      "year": 2014,
+      "director": "克里斯托弗·诺兰",
+      "runtime": 169,
+      "country": "美国 / 英国",
+      "film": "#7d7e7b",
+      "poster": "media/movies/m816692/poster.webp?v=1795079163",
+      "stills": [
+        {
+          "path": "media/movies/m816692/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img2.doubanio.com/view/photo/l/public/p2208063011.jpg"
+        },
+        {
+          "path": "media/movies/m816692/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img9.doubanio.com/view/photo/l/public/p2211063036.jpg"
+        },
+        {
+          "path": "media/movies/m816692/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img2.doubanio.com/view/photo/l/public/p2234509041.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m206634": {
+      "id": "m206634",
+      "zh": "人类之子",
+      "en": "Children of Men",
+      "year": 2006,
+      "director": "阿方索·卡隆",
+      "runtime": 109,
+      "country": "美国 / 英国",
+      "film": "#161512",
+      "poster": "media/movies/m206634/poster.webp?v=1795079028",
+      "stills": [
+        {
+          "path": "media/movies/m206634/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://img3.doubanio.com/view/photo/l/public/p2512259307.jpg"
+        },
+        {
+          "path": "media/movies/m206634/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456417533.jpg?sa_cv=865d8fd91a389e4492b4773881dbae18&sa_ct=6afec083&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m206634/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456417658.jpg?sa_cv=f5389350cb5cc4e0370e385ea8134a59&sa_ct=6afec083&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m113568": {
+      "id": "m113568",
+      "zh": "攻壳机动队",
+      "en": "Ghost in the Shell",
+      "year": 1995,
+      "director": "押井守",
+      "runtime": 83,
+      "country": "日本",
+      "film": "#989b9e",
+      "poster": "media/movies/m113568/poster.webp?v=1795081403",
+      "stills": [
+        {
+          "path": "media/movies/m113568/still-01.webp",
+          "source": "user",
+          "kind": "real",
+          "url": ""
+        },
+        {
+          "path": "media/movies/m113568/still-02.webp",
+          "source": "user",
+          "kind": "real",
+          "url": ""
+        }
+      ],
+      "wm": null
+    },
+    "m1856101": {
+      "id": "m1856101",
+      "zh": "银翼杀手2049",
+      "en": "Blade Runner 2049",
+      "year": 2017,
+      "director": "丹尼斯·维伦纽瓦",
+      "runtime": 164,
+      "country": "美国 / 英国",
+      "film": "#405369",
+      "poster": "media/movies/m1856101/poster.webp?v=1795086117",
+      "stills": [
+        {
+          "path": "media/movies/m1856101/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://big5.cctv.com/gate/big5/p1.img.cctvpic.com/photoworkspace/contentimg/2017/09/28/2017092809531059927.jpg"
+        },
+        {
+          "path": "media/movies/m1856101/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://n.sinaimg.cn/ent/transform/20170926/bj5B-fymesmq8366080.jpg"
+        },
+        {
+          "path": "media/movies/m1856101/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinacn/20170905/2eff-fykqmrw0529705.jpg/w700d1q75cms.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m470752": {
+      "id": "m470752",
+      "zh": "机械姬",
+      "en": "Ex Machina",
+      "year": 2014,
+      "director": "亚历克斯·加兰",
+      "runtime": 108,
+      "country": "英国",
+      "film": "#b7b1b1",
+      "poster": "media/movies/m470752/poster.webp?v=1795086490",
+      "stills": [
+        {
+          "path": "media/movies/m470752/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://horse.neweekly.com.cn/neweekly/1c18eccfa4016252188826f07dbca971/20250320/c7ff5631efcf4c0aa3e7761ebfbee81a.webp"
+        },
+        {
+          "path": "media/movies/m470752/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fcrawl.ws.126.net%2Fimg%2Fdb08cd865fcccc70946ede29afe17559.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        },
+        {
+          "path": "media/movies/m470752/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2023%2F0813%2Fed3d4c59j00rzc5y000c5c000vz00fdm.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m1182345": {
+      "id": "m1182345",
+      "zh": "月球",
+      "en": "Moon",
+      "year": 2009,
+      "director": "邓肯·琼斯",
+      "runtime": 97,
+      "country": "英国",
+      "film": "#605f5c",
+      "poster": "media/movies/m1182345/poster.webp?v=1795085795",
+      "stills": [
+        {
+          "path": "media/movies/m1182345/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://popdaily.com/my/wp-content/uploads/2023/08/common-23.jpeg"
+        },
+        {
+          "path": "media/movies/m1182345/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://cdn.mos.cms.futurecdn.net/TKpEAdXMQupu3PkkTq4ToG.jpeg"
+        },
+        {
+          "path": "media/movies/m1182345/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://qqpublic.qpic.cn/qq_public/0/28-738569759-2957B02D6D91050043DE6A087A26BB40/0?fmt=jpg&size=77&h=498&w=900&ppv=1"
+        }
+      ],
+      "wm": null
+    },
+    "m076759": {
+      "id": "m076759",
+      "zh": "星球大战",
+      "en": "Star Wars",
+      "year": 1977,
+      "director": "乔治·卢卡斯",
+      "runtime": 121,
+      "country": "美国",
+      "film": "#5A4A6B",
+      "poster": "media/movies/m076759/poster.webp?v=1795084960",
+      "stills": [
+        {
+          "path": "media/movies/m076759/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://www.salon.com/app/uploads/2013/10/lucas_star_wars.jpg"
+        },
+        {
+          "path": "media/movies/m076759/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://www.looper.com/img/gallery/the-star-wars-movies-in-chronological-order-does-it-really-matter/intro-1690586334.jpg"
+        },
+        {
+          "path": "media/movies/m076759/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://107cine.cdn.cinehello.com/20191223/uploads/weixin/23Dec2019112255164.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m080684": {
+      "id": "m080684",
+      "zh": "帝国反击战",
+      "en": "The Empire Strikes Back",
+      "year": 1980,
+      "director": "厄文·克什纳",
+      "runtime": 124,
+      "country": "美国",
+      "film": "#4A5A4E",
+      "poster": "media/movies/m080684/poster.webp?v=1795085010",
+      "stills": [
+        {
+          "path": "media/movies/m080684/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic.baike.soso.com/ugc/baikepic2/0/20230511020446-771951636_jpeg_1200_800_533656.jpg/0"
+        },
+        {
+          "path": "media/movies/m080684/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic1.zhimg.com/v2-8760abff5d7bd78ae153885c5d8b6784_b.jpg"
+        },
+        {
+          "path": "media/movies/m080684/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img.tvspielfilm.de/14/fb/ff/56fbc8faea60e536affffb14.jpeg?im=Crop,rect=(0,0,1788,1176),gravity=Center;Resize,width=632"
+        }
+      ],
+      "wm": null
+    },
+    "m075860": {
+      "id": "m075860",
+      "zh": "第三类接触",
+      "en": "Close Encounters of the Third Kind",
+      "year": 1977,
+      "director": "史蒂文·斯皮尔伯格",
+      "runtime": 138,
+      "country": "美国",
+      "film": "#2F3E4E",
+      "poster": "media/movies/m075860/poster.webp?v=1795084947",
+      "stills": [
+        {
+          "path": "media/movies/m075860/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/ee99cc24d10447a99b33f287ac581556~tplv-xv4ileqgde-image.image"
+        },
+        {
+          "path": "media/movies/m075860/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://so1.360tres.com/t01b07dd200648f3860.png"
+        },
+        {
+          "path": "media/movies/m075860/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p0.itc.cn/images01/20230704/d8c5f732819445079cc9a05b2c3892fe.jpeg"
+        }
+      ],
+      "wm": null
+    },
+    "m091064": {
+      "id": "m091064",
+      "zh": "变蝇人",
+      "en": "The Fly",
+      "year": 1986,
+      "director": "大卫·柯南伯格",
+      "runtime": 96,
+      "country": "美国",
+      "film": "#635e4d",
+      "poster": "media/movies/m091064/poster.webp?v=1795085311",
+      "stills": [
+        {
+          "path": "media/movies/m091064/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img.3dmgame.com/uploads/allimg/170315/276_170315085804_1_lit.jpg"
+        },
+        {
+          "path": "media/movies/m091064/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://wx4.sinaimg.cn/large/cf3e9a59ly1fdhno4gk0lj20go091q3k.jpg"
+        },
+        {
+          "path": "media/movies/m091064/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://qqpublic.qpic.cn/qq_public/0/28-2551026727-3FEB5AEFBDA38E36EB7B07D825C8B672/0?fmt=jpg&size=62&h=525&w=700&ppv=1"
+        }
+      ],
+      "wm": null
+    },
+    "m088846": {
+      "id": "m088846",
+      "zh": "巴西",
+      "en": "Brazil",
+      "year": 1985,
+      "director": "特里·吉列姆",
+      "runtime": 132,
+      "country": "英国",
+      "film": "#b99928",
+      "poster": "media/movies/m088846/poster.webp?v=1795085289",
+      "stills": [
+        {
+          "path": "media/movies/m088846/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0602%2Ff65d6bf4j00sefoz4000id000g00080p.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        },
+        {
+          "path": "media/movies/m088846/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://wl-incrivel.cf.tsp.li/resize/728x/jpg/266/221/6e375e5005b3f8fddbf8357e59.jpg"
+        },
+        {
+          "path": "media/movies/m088846/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://amonovelas.com.br/wp-content/uploads/2019/12/avenida-brasil-betania.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m066921": {
+      "id": "m066921",
+      "zh": "发条橙",
+      "en": "A Clockwork Orange",
+      "year": 1971,
+      "director": "斯坦利·库布里克",
+      "runtime": 136,
+      "country": "英国",
+      "film": "#5C3A3A",
+      "poster": "media/movies/m066921/poster.webp?v=1795084884",
+      "stills": [
+        {
+          "path": "media/movies/m066921/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img9.doubanio.com/view/note/l/public/p102791305.webp"
+        },
+        {
+          "path": "media/movies/m066921/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://q2.itc.cn/images01/20260718/6a2e7467a5c34153be592931e84668b4.jpeg"
+        },
+        {
+          "path": "media/movies/m066921/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://media.doblu.com/wp-content/uploads/2021/10/08142912/Clockwork-Orange.mkv_snapshot_01.30.23_2021.10.08_14.21.25-scaled.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m017136": {
+      "id": "m017136",
+      "zh": "大都会",
+      "en": "Metropolis",
+      "year": 1927,
+      "director": "弗里茨·朗",
+      "runtime": 153,
+      "country": "德国",
+      "film": "#5A4A6B",
+      "poster": "media/movies/m017136/poster.webp?v=1795084757",
+      "stills": [
+        {
+          "path": "media/movies/m017136/still-01.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p857626894.jpg?sa_cv=680aca96bdc413d906f6682bf5ff8a10&sa_ct=6afed2ee&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m017136/still-02.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p857593688.jpg?sa_cv=7554ec24f1af5327075b16a1abea2960&sa_ct=6afed2ee&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        },
+        {
+          "path": "media/movies/m017136/still-03.webp",
+          "source": "douban",
+          "kind": "real",
+          "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p857603922.jpg?sa_cv=720c8d6b7dcb98d75b2e15e1f53b04bd&sa_ct=6afed2ee&imageView2/2/q/80/w/600/h/3000/format/jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m1160419": {
+      "id": "m1160419",
+      "zh": "沙丘",
+      "en": "Dune",
+      "year": 2021,
+      "director": "丹尼斯·维伦纽瓦",
+      "runtime": 155,
+      "country": "美国 / 加拿大",
+      "film": "#5b3724",
+      "poster": "media/movies/m1160419/poster.webp?v=1795087020",
+      "stills": [
+        {
+          "path": "media/movies/m1160419/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://inews.gtimg.com/newsapp_bt/0/14140452069/641"
+        },
+        {
+          "path": "media/movies/m1160419/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://qqpublic.qpic.cn/qq_public/0/0-2229093841-7BD657EA938F0627810C32DC663C7A3E/0?fmt=jpg&size=24&h=443&w=620&ppv=1"
+        },
+        {
+          "path": "media/movies/m1160419/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p2.ssl.qhimgs1.com/t0172b2ca21bbdf01d8.jpg?hpgo=movie-img-028653"
+        }
+      ],
+      "wm": null
+    },
+    "m15239678": {
+      "id": "m15239678",
+      "zh": "沙丘2",
+      "en": "Dune: Part Two",
+      "year": 2024,
+      "director": "丹尼斯·维伦纽瓦",
+      "runtime": 166,
+      "country": "美国 / 加拿大",
+      "film": "#8d5a36",
+      "poster": "media/movies/m15239678/poster.webp?v=1795087029",
+      "stills": [
+        {
+          "path": "media/movies/m15239678/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://inews.gtimg.com/om_bt/Osp4ki6kapXEYiQpRrhiwL0u41gEirbqm3QsiA0RRrelMAA/641"
+        },
+        {
+          "path": "media/movies/m15239678/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img0.selfimg.com.cn/wxnews/2024/05/23/15ace04b1fd91f13330533df82d7fba5.jpg"
+        },
+        {
+          "path": "media/movies/m15239678/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://inews.gtimg.com/om_bt/OleAMUDe9NoBVVuBeBiDbmm5DOlyTyQJcAR4UVWD29B0gAA/641"
+        }
+      ],
+      "wm": null
+    },
+    "m796366": {
+      "id": "m796366",
+      "zh": "星际迷航",
+      "en": "Star Trek",
+      "year": 2009,
+      "director": "J.J.艾布拉姆斯",
+      "runtime": 127,
+      "country": "美国",
+      "film": "#222c34",
+      "poster": "media/movies/m796366/poster.webp?v=1795087054",
+      "stills": [
+        {
+          "path": "media/movies/m796366/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://cdn.theasc.com/Star-Trek-Into-Darkness-Uhura-and-Spock-2.jpg"
+        },
+        {
+          "path": "media/movies/m796366/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://d.player.one/en/full/169567/yeoman-jm-colt-captain-pike-number-one-escape-talosian-prison-leave-vina-left-behind.jpg?w=736&f=1e72e439da050d3db826c34afcd8f800"
+        },
+        {
+          "path": "media/movies/m796366/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://th-thumbnailer.cdn-si-edu.com/7CVmWvuTl30trUc9ZAXF5i45ka4=/1026x684/filters:no_upscale():focal(2685x560:2686x561)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/df/a1/dfa1c831-d106-4183-a001-2640be1879b0/sofia_boutella_and_simon_pegg_kimberly_french.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m2488496": {
+      "id": "m2488496",
+      "zh": "星球大战：原力觉醒",
+      "en": "Star Wars: The Force Awakens",
+      "year": 2015,
+      "director": "J.J.艾布拉姆斯",
+      "runtime": 138,
+      "country": "美国",
+      "film": "#5a4244",
+      "poster": "media/movies/m2488496/poster.webp?v=1795087035",
+      "stills": [
+        {
+          "path": "media/movies/m2488496/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://upload.taihainet.com/2015/1227/1451205160302.jpg"
+        },
+        {
+          "path": "media/movies/m2488496/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://ww3.sinaimg.cn/large/842eaf60jw1ev09qndnsoj20h00crn0c.jpg"
+        },
+        {
+          "path": "media/movies/m2488496/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://www.ahxh.cn/uploadfile/2016/0120/20160120065209549.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m1136608": {
+      "id": "m1136608",
+      "zh": "第九区",
+      "en": "District 9",
+      "year": 2009,
+      "director": "尼尔·布洛姆坎普",
+      "runtime": 112,
+      "country": "ZA / 美国",
+      "film": "#848583",
+      "poster": "media/movies/m1136608/poster.webp?v=1795086994",
+      "stills": [
+        {
+          "path": "media/movies/m1136608/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://dl.kulemi.com/project/photo/2022071818361517199075.jpg"
+        },
+        {
+          "path": "media/movies/m1136608/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://sgkeho.9imgz.com/uploads/333032373137247777772E797565786972632E636F6D"
+        },
+        {
+          "path": "media/movies/m1136608/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://big5.cctv.com/gate/big5/ent.cctv.com/news/special/2009shujia/20090701/images/1246428381161_U105P28T3D2538814F522DT20090526214145.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m2798920": {
+      "id": "m2798920",
+      "zh": "湮灭",
+      "en": "Annihilation",
+      "year": 2018,
+      "director": "亚历克斯·加兰",
+      "runtime": 115,
+      "country": "美国 / 英国",
+      "film": "#354656",
+      "poster": "media/movies/m2798920/poster.webp?v=1795087043",
+      "stills": [
+        {
+          "path": "media/movies/m2798920/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://www.eastent.com/uploadfile/2018/0416/20180416100436854.jpg"
+        },
+        {
+          "path": "media/movies/m2798920/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/04/natalie-portman-annihilation.jpeg?q=50&fit=crop&w=825&dpr=1.5"
+        },
+        {
+          "path": "media/movies/m2798920/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://k.sinaimg.cn/n/sinakd20121/158/w1080h678/20251221/f53f-e322f18b552caa14fad3d526fd368f36.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+        }
+      ],
+      "wm": null
+    },
+    "m093870": {
+      "id": "m093870",
+      "zh": "机械战警",
+      "en": "RoboCop",
+      "year": 1987,
+      "director": "保罗·范霍文",
+      "runtime": 102,
+      "country": "美国",
+      "film": "#4c4b4f",
+      "poster": "media/movies/m093870/poster.webp?v=1795086971",
+      "stills": [
+        {
+          "path": "media/movies/m093870/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://launchpad-backend-v2.onrender.com/api/v1/s3/image/assets%2F38270179-6b5d-4121-bc9b-1818b3e37f2c%2F30-movies-turning-40-in-2026_65ce7fd4%2F30-movies-turning-40-in-2026_img_13_49e754ac.jpg"
+        },
+        {
+          "path": "media/movies/m093870/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://inews.gtimg.com/om_bt/OahEBFn8gxtGzqOZsQJyAfOKAS5kuHrBE4lqqvGcF0N0cAA/641"
+        },
+        {
+          "path": "media/movies/m093870/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://crawl.ws.126.net/nbot2/img/f58ae52256eae2144a5463f49fa6f24f"
+        }
+      ],
+      "wm": null
+    },
+    "m093773": {
+      "id": "m093773",
+      "zh": "铁血战士",
+      "en": "Predator",
+      "year": 1987,
+      "director": "约翰·麦克蒂尔南",
+      "runtime": 107,
+      "country": "美国",
+      "film": "#826e54",
+      "poster": "media/movies/m093773/poster.webp?v=1795086965",
+      "stills": [
+        {
+          "path": "media/movies/m093773/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://n.sinaimg.cn/translate/185/w600h385/20180823/dqOk-hicsiav6105235.jpg"
+        },
+        {
+          "path": "media/movies/m093773/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img5.mtime.cn/mg/2018/09/21/120530.53175989.jpg"
+        },
+        {
+          "path": "media/movies/m093773/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://n.sinaimg.cn/translate/173/w584h389/20180803/VwW_-hhehtqh4344425.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m090605": {
+      "id": "m090605",
+      "zh": "异形2",
+      "en": "Aliens",
+      "year": 1986,
+      "director": "詹姆斯·卡梅隆",
+      "runtime": 137,
+      "country": "美国 / 英国",
+      "film": "#263444",
+      "poster": "media/movies/m090605/poster.webp?v=1795086951",
+      "stills": [
+        {
+          "path": "media/movies/m090605/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2026%2F0718%2F9cfdb7fbj00tidg8700u8d000zk00iip.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        },
+        {
+          "path": "media/movies/m090605/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0126%2F0ae07693j00sqor5o00ffd000lx00ekp.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        },
+        {
+          "path": "media/movies/m090605/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://q5.itc.cn/images01/20251223/399660c053584e6996c1d0a761998f65.jpeg"
+        }
+      ],
+      "wm": null
+    },
+    "m088247": {
+      "id": "m088247",
+      "zh": "终结者",
+      "en": "The Terminator",
+      "year": 1984,
+      "director": "詹姆斯·卡梅隆",
+      "runtime": 107,
+      "country": "美国 / 英国",
+      "film": "#3c2f2d",
+      "poster": "media/movies/m088247/poster.webp?v=1795086932",
+      "stills": [
+        {
+          "path": "media/movies/m088247/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i2-prod.irishmirror.ie/article12764276.ece/ALTERNATES/s1200f/GP12723921.jpg"
+        },
+        {
+          "path": "media/movies/m088247/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://batman-univers.fr/wp-content/uploads/2025/09/1757608634_Mystery-a-resolu-Terminator-revele-comment-Sarah-Connor-est-mort.jpg"
+        },
+        {
+          "path": "media/movies/m088247/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://www.showmetech.com.br/wp-content/uploads/2020/09/e477cbdc0ab7692df7316db77b8966b21-1024x557.jpg"
+        }
+      ],
+      "wm": null
+    }
+  }
+};

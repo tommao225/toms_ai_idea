@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m079944", "key": "imdb:tt0079944", "source": "manual", "wikidata": "", "titles": {"zh": "潜行者", "en": "Stalker"}, "zh": "潜行者", "en": "Stalker", "year": 1979, "runtime": 162, "countries": ["SU"], "primary_country": "SU", "country": "苏联", "coproduction": false, "languages": [], "directors": ["p:安德烈·塔可夫斯基"], "director": "安德烈·塔可夫斯基", "genres": ["scifi"], "genreLabel": "科幻", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m079944/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m079944/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1636089642.jpg?sa_cv=220a2d32e05a8df1637e953064577cab&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m079944/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456440133.jpg?sa_cv=b0df08f2f919b51b3c64b36e8db85ea1&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m079944/still-03.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2327634468.jpg"}], "stills_src": [], "quote": null, "dominant": "#e1a059", "film": "#e1a059", "credits_note": "", "lists": [{"list_id": "global-scifi-greatest", "rank": 5}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m079944",
+  "key": "imdb:tt0079944",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "潜行者",
+    "en": "Stalker"
+  },
+  "zh": "潜行者",
+  "en": "Stalker",
+  "year": 1979,
+  "runtime": 162,
+  "countries": [
+    "SU"
+  ],
+  "primary_country": "SU",
+  "country": "苏联",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:安德烈·塔可夫斯基"
+  ],
+  "director": "安德烈·塔可夫斯基",
+  "genres": [
+    "scifi"
+  ],
+  "genreLabel": "科幻",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m079944/poster.webp?v=1795078898",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m079944/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1636089642.jpg?sa_cv=220a2d32e05a8df1637e953064577cab&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m079944/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p456440133.jpg?sa_cv=b0df08f2f919b51b3c64b36e8db85ea1&sa_ct=6afebfca&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m079944/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2327634468.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#e1a059",
+  "film": "#e1a059",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-scifi-greatest",
+      "rank": 5
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

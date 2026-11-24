@@ -1,1 +1,67 @@
-window.FILM_MOVIE_DATA = {"id": "m851578", "key": "imdb:tt0851578", "source": "manual", "wikidata": "", "titles": {"zh": "红辣椒", "en": "Paprika"}, "zh": "红辣椒", "en": "Paprika", "year": 2006, "runtime": 90, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:今敏"], "director": "今敏", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m851578/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m851578/still-01.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/d31b0ef41bd5ad6eddc4a10f4c922edbb6fd53669686/d31b0ef41bd5ad6eddc4a10f4c922edbb6fd53669686_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m851578/still-02.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/d01373f082025aafa40f412d36b4bc64034f79f0ac86/d01373f082025aafa40f412d36b4bc64034f79f0ac86_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m851578/still-03.webp", "source": "sogou", "kind": "real", "url": "https://pic3.zhimg.com/v2-f32c88b3e18ac576bdcfb6205e4ebf46_r.jpg"}], "stills_src": [], "quote": {"text": "(first line of the film) It's the greatest show time!", "zh": "（电影的第一句台词）最精彩的表演开始了！", "source": "", "kind": "line"}, "dominant": "#ce7c7d", "film": "#ce7c7d", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 8}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m851578",
+  "key": "imdb:tt0851578",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "红辣椒",
+    "en": "Paprika"
+  },
+  "zh": "红辣椒",
+  "en": "Paprika",
+  "year": 2006,
+  "runtime": 90,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:今敏"
+  ],
+  "director": "今敏",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m851578/poster.webp?v=1795499311",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m851578/still-paprika-01.webp",
+      "source": "user",
+      "kind": "real"
+    },
+    {
+      "path": "media/movies/m851578/still-paprika-02.webp",
+      "source": "user",
+      "kind": "real"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "(first line of the film) It's the greatest show time!",
+    "zh": "（电影的第一句台词）最精彩的表演开始了！",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#ac704b",
+  "film": "#ac704b",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 8
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

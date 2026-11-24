@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m112579", "key": "imdb:tt0112579", "source": "manual", "wikidata": "", "titles": {"zh": "廊桥遗梦", "en": "The Bridges of Madison County"}, "zh": "廊桥遗梦", "en": "The Bridges of Madison County", "year": 1995, "runtime": 135, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:克林特·伊斯特伍德"], "director": "克林特·伊斯特伍德", "genres": ["romance"], "genreLabel": "爱情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m112579/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m112579/still-01.webp", "source": "sogou", "kind": "real", "url": "https://oddnky.img0a.com/uploads/333534333638247777772E736366762E636E"}, {"path": "media/movies/m112579/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img.dingxinwen.cn/upload/20250831/3560712b32e5e97f7e277eebb8e72d2c.webp"}, {"path": "media/movies/m112579/still-03.webp", "source": "sogou", "kind": "real", "url": "https://vmjxia.img0a.com/uploads/3435373136247777772E736366762E636E"}], "stills_src": [], "quote": null, "dominant": "#b59787", "film": "#b59787", "credits_note": "", "lists": [{"list_id": "global-romance-greatest", "rank": 21}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m112579",
+  "key": "imdb:tt0112579",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "廊桥遗梦",
+    "en": "The Bridges of Madison County"
+  },
+  "zh": "廊桥遗梦",
+  "en": "The Bridges of Madison County",
+  "year": 1995,
+  "runtime": 135,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:克林特·伊斯特伍德"
+  ],
+  "director": "克林特·伊斯特伍德",
+  "genres": [
+    "romance"
+  ],
+  "genreLabel": "爱情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m112579/poster.webp?v=1795087563",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m112579/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://oddnky.img0a.com/uploads/333534333638247777772E736366762E636E"
+    },
+    {
+      "path": "media/movies/m112579/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.dingxinwen.cn/upload/20250831/3560712b32e5e97f7e277eebb8e72d2c.webp"
+    },
+    {
+      "path": "media/movies/m112579/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://vmjxia.img0a.com/uploads/3435373136247777772E736366762E636E"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#b59787",
+  "film": "#b59787",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-romance-greatest",
+      "rank": 21
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

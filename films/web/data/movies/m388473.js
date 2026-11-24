@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m388473", "key": "imdb:tt0388473", "source": "manual", "wikidata": "", "titles": {"zh": "东京教父", "en": "Tokyo Godfathers"}, "zh": "东京教父", "en": "Tokyo Godfathers", "year": 2003, "runtime": 92, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:今敏"], "director": "今敏", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m388473/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m388473/still-01.webp", "source": "sogou", "kind": "real", "url": "https://storage.movie6.com/movie/d0ea_TGF_812__1764749367.jpg"}, {"path": "media/movies/m388473/still-02.webp", "source": "sogou", "kind": "real", "url": "https://storage.movie6.com/movie/188eb_TGF_149__1764749365.jpg"}, {"path": "media/movies/m388473/still-03.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_bt/0/13982188316/1000"}], "stills_src": [], "quote": null, "dominant": "#7d3e1c", "film": "#7d3e1c", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 26}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m388473",
+  "key": "imdb:tt0388473",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "东京教父",
+    "en": "Tokyo Godfathers"
+  },
+  "zh": "东京教父",
+  "en": "Tokyo Godfathers",
+  "year": 2003,
+  "runtime": 92,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:今敏"
+  ],
+  "director": "今敏",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m388473/poster.webp?v=1795088232",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m388473/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://storage.movie6.com/movie/d0ea_TGF_812__1764749367.jpg"
+    },
+    {
+      "path": "media/movies/m388473/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://storage.movie6.com/movie/188eb_TGF_149__1764749365.jpg"
+    },
+    {
+      "path": "media/movies/m388473/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://inews.gtimg.com/newsapp_bt/0/13982188316/1000"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#7d3e1c",
+  "film": "#7d3e1c",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 26
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m110357", "key": "imdb:tt0110357", "source": "manual", "wikidata": "", "titles": {"zh": "狮子王", "en": "The Lion King"}, "zh": "狮子王", "en": "The Lion King", "year": 1994, "runtime": 88, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:罗杰·阿勒斯"], "director": "罗杰·阿勒斯", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m110357/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m110357/still-01.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20190711/b29c016b6fc84e61b8b79f76a20440ae.jpeg"}, {"path": "media/movies/m110357/still-02.webp", "source": "sogou", "kind": "real", "url": "https://cinemast.net/wp-content/uploads/2019/07/MV5BMWQ5ZDc5OTctN2RmNi00M2VkLWIzY2UtOGU5ZWUwMWEzYWY4XkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_-800x450.jpg"}, {"path": "media/movies/m110357/still-03.webp", "source": "sogou", "kind": "real", "url": "http://img5.mtime.cn/mg/2019/07/22/101201.87365416.jpg"}], "stills_src": [], "quote": {"text": "Little roar.. [scoffs]", "zh": "小声咆哮…… [嗤笑]", "source": "", "kind": "line"}, "dominant": "#5f89a2", "film": "#5f89a2", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 9}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m110357",
+  "key": "imdb:tt0110357",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "狮子王",
+    "en": "The Lion King"
+  },
+  "zh": "狮子王",
+  "en": "The Lion King",
+  "year": 1994,
+  "runtime": 88,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:罗杰·阿勒斯"
+  ],
+  "director": "罗杰·阿勒斯",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m110357/poster.webp?v=1795085640",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m110357/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20190711/b29c016b6fc84e61b8b79f76a20440ae.jpeg"
+    },
+    {
+      "path": "media/movies/m110357/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cinemast.net/wp-content/uploads/2019/07/MV5BMWQ5ZDc5OTctN2RmNi00M2VkLWIzY2UtOGU5ZWUwMWEzYWY4XkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_-800x450.jpg"
+    },
+    {
+      "path": "media/movies/m110357/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://img5.mtime.cn/mg/2019/07/22/101201.87365416.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Little roar.. [scoffs]",
+    "zh": "小声咆哮…… [嗤笑]",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#5f89a2",
+  "film": "#5f89a2",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 9
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

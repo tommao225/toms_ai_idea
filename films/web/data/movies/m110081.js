@@ -1,1 +1,72 @@
-window.FILM_MOVIE_DATA = {"id": "m110081", "key": "imdb:tt0110081", "source": "manual", "wikidata": "", "titles": {"zh": "活着", "en": "To Live"}, "zh": "活着", "en": "To Live", "year": 1994, "runtime": 133, "countries": ["CN", "HK"], "primary_country": "CN", "country": "中国 / 中国香港", "coproduction": true, "languages": [], "directors": ["p:张艺谋"], "director": "张艺谋", "genres": ["drama"], "genreLabel": "剧情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m110081/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m110081/still-01.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p2513251796.jpg"}, {"path": "media/movies/m110081/still-02.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2513251793.jpg"}, {"path": "media/movies/m110081/still-03.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p2533776835.jpg"}], "stills_src": [], "quote": null, "dominant": "#3d2e2d", "film": "#3d2e2d", "credits_note": "", "lists": [{"list_id": "global-drama-greatest", "rank": 19}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m110081",
+  "key": "imdb:tt0110081",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "活着",
+    "en": "To Live"
+  },
+  "zh": "活着",
+  "en": "To Live",
+  "year": 1994,
+  "runtime": 133,
+  "countries": [
+    "CN",
+    "HK"
+  ],
+  "primary_country": "CN",
+  "country": "中国 / 中国香港",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:张艺谋"
+  ],
+  "director": "张艺谋",
+  "genres": [
+    "drama"
+  ],
+  "genreLabel": "剧情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m110081/poster.webp?v=1795084352",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m110081/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img9.doubanio.com/view/photo/l/public/p2513251796.jpg"
+    },
+    {
+      "path": "media/movies/m110081/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2513251793.jpg"
+    },
+    {
+      "path": "media/movies/m110081/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img9.doubanio.com/view/photo/l/public/p2533776835.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#3d2e2d",
+  "film": "#3d2e2d",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-drama-greatest",
+      "rank": 19
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m1937149", "key": "imdb:tt1937149", "source": "manual", "wikidata": "", "titles": {"zh": "女尸谜案", "en": "The Body"}, "zh": "女尸谜案", "en": "The Body", "year": 2012, "runtime": 111, "countries": ["ES"], "primary_country": "ES", "country": "西班牙", "coproduction": false, "languages": [], "directors": ["p:奥里奥尔·保罗"], "director": "奥里奥尔·保罗", "genres": ["mystery"], "genreLabel": "悬疑", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m1937149/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m1937149/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/dcad32c7f8714f0dbcddc0a1578d9638~tplv-xv4ileqgde-image.image"}, {"path": "media/movies/m1937149/still-02.webp", "source": "sogou", "kind": "real", "url": "https://www.weixinpcs.com/upload/comment/20/96fe124ef622a863.webp"}, {"path": "media/movies/m1937149/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F1106%2F6b8dc6f2j00rkx32w0028c000zk00f4m.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "stills_src": [], "quote": null, "dominant": "#2d3231", "film": "#2d3231", "credits_note": "", "lists": [{"list_id": "global-mystery-greatest", "rank": 26}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m1937149",
+  "key": "imdb:tt1937149",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "女尸谜案",
+    "en": "The Body"
+  },
+  "zh": "女尸谜案",
+  "en": "The Body",
+  "year": 2012,
+  "runtime": 111,
+  "countries": [
+    "ES"
+  ],
+  "primary_country": "ES",
+  "country": "西班牙",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:奥里奥尔·保罗"
+  ],
+  "director": "奥里奥尔·保罗",
+  "genres": [
+    "mystery"
+  ],
+  "genreLabel": "悬疑",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m1937149/poster.webp?v=1795086785",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m1937149/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/dcad32c7f8714f0dbcddc0a1578d9638~tplv-xv4ileqgde-image.image"
+    },
+    {
+      "path": "media/movies/m1937149/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.weixinpcs.com/upload/comment/20/96fe124ef622a863.webp"
+    },
+    {
+      "path": "media/movies/m1937149/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F1106%2F6b8dc6f2j00rkx32w0028c000zk00f4m.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#2d3231",
+  "film": "#2d3231",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-mystery-greatest",
+      "rank": 26
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

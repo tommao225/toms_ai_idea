@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m119698", "key": "imdb:tt0119698", "source": "manual", "wikidata": "", "titles": {"zh": "幽灵公主", "en": "Princess Mononoke"}, "zh": "幽灵公主", "en": "Princess Mononoke", "year": 1997, "runtime": 134, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:宫崎骏"], "director": "宫崎骏", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m119698/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m119698/still-01.webp", "source": "sogou", "kind": "real", "url": "https://neryfx.img0a.com/uploads/313739363537247777772E6D657070726963652E636E"}, {"path": "media/movies/m119698/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20111/63/w1080h583/20250503/afb3-2c09a300c40bbff745f9d32b7b014422.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m119698/still-03.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/new_dyn/4e3179ea0b2e3204fe46b8118e6543b9129943308.jpg@1192w"}], "stills_src": [], "quote": null, "dominant": "#8e8d85", "film": "#8e8d85", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 4}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m119698",
+  "key": "imdb:tt0119698",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "幽灵公主",
+    "en": "Princess Mononoke"
+  },
+  "zh": "幽灵公主",
+  "en": "Princess Mononoke",
+  "year": 1997,
+  "runtime": 134,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:宫崎骏"
+  ],
+  "director": "宫崎骏",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m119698/poster.webp?v=1795085931",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m119698/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://neryfx.img0a.com/uploads/313739363537247777772E6D657070726963652E636E"
+    },
+    {
+      "path": "media/movies/m119698/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20111/63/w1080h583/20250503/afb3-2c09a300c40bbff745f9d32b7b014422.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    },
+    {
+      "path": "media/movies/m119698/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i0.hdslb.com/bfs/new_dyn/4e3179ea0b2e3204fe46b8118e6543b9129943308.jpg@1192w"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#8e8d85",
+  "film": "#8e8d85",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 4
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

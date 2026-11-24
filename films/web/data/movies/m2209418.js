@@ -1,1 +1,72 @@
-window.FILM_MOVIE_DATA = {"id": "m2209418", "key": "imdb:tt2209418", "source": "manual", "wikidata": "", "titles": {"zh": "爱在午夜降临前", "en": "Before Midnight"}, "zh": "爱在午夜降临前", "en": "Before Midnight", "year": 2013, "runtime": 109, "countries": ["US", "GR"], "primary_country": "US", "country": "美国 / GR", "coproduction": true, "languages": [], "directors": ["p:理查德·林克莱特"], "director": "理查德·林克莱特", "genres": ["romance"], "genreLabel": "爱情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m2209418/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m2209418/still-01.webp", "source": "sogou", "kind": "real", "url": "https://q1.itc.cn/images01/20251118/f03026bc01cc4361ab327af77d227179.jpeg"}, {"path": "media/movies/m2209418/still-02.webp", "source": "sogou", "kind": "real", "url": "http://dl.kulemi.com/project/photo/2022012413320985468268.jpg"}, {"path": "media/movies/m2209418/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F1116%2F86315936j00sn0r9r00cod000k000b9g.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "stills_src": [], "quote": null, "dominant": "#a3c0d0", "film": "#a3c0d0", "credits_note": "", "lists": [{"list_id": "global-romance-greatest", "rank": 5}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m2209418",
+  "key": "imdb:tt2209418",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "爱在午夜降临前",
+    "en": "Before Midnight"
+  },
+  "zh": "爱在午夜降临前",
+  "en": "Before Midnight",
+  "year": 2013,
+  "runtime": 109,
+  "countries": [
+    "US",
+    "GR"
+  ],
+  "primary_country": "US",
+  "country": "美国 / GR",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:理查德·林克莱特"
+  ],
+  "director": "理查德·林克莱特",
+  "genres": [
+    "romance"
+  ],
+  "genreLabel": "爱情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m2209418/poster.webp?v=1795086131",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m2209418/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q1.itc.cn/images01/20251118/f03026bc01cc4361ab327af77d227179.jpeg"
+    },
+    {
+      "path": "media/movies/m2209418/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dl.kulemi.com/project/photo/2022012413320985468268.jpg"
+    },
+    {
+      "path": "media/movies/m2209418/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F1116%2F86315936j00sn0r9r00cod000k000b9g.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#a3c0d0",
+  "film": "#a3c0d0",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-romance-greatest",
+      "rank": 5
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

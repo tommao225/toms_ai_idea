@@ -1,1 +1,1179 @@
-window.FILM_LIST_DATA = {"list": {"id": "global-animation-greatest", "title": "动画电影", "genre": "动画", "genreKey": "animation", "order": 7, "criterion": "greatest", "decision": "hybrid", "status": "draft", "max": 100, "count": 30, "scope": {"kind": "global", "countries": []}, "canon": {"definition": "动画电影的全球候选，先凑够 20 部，再逐步补到 100。", "ranking_rule": "按影史影响、类型完成度和可重看性综合排序。", "time_window": "1927–2023", "sources": [{"name": "人工初选", "url": "", "weight": 1.0, "accessed": "2026-11"}], "inclusion_rule": "类型是叙事核心，不只是标签。", "exclusion_rule": "只靠单一元素、没有类型完成度的片子。", "known_bias": "首版偏经典和欧美，后续补亚洲和当代。", "curator": "初选", "version": "1"}, "chapters": [{"index": 1, "title": "第一卷：动画"}], "hero": "", "entries": [{"rank": 1, "movie_id": "m245429", "note": "女孩走进神隐世界，先学会记住名字。", "why_included": "动画里的成长寓言。"}, {"rank": 2, "movie_id": "m096283", "note": "乡下夏天，两个女孩遇见森林精灵。", "why_included": "把童年拍成风。"}, {"rank": 3, "movie_id": "m092067", "note": "飞行石带着两个孩子去找天空之城。", "why_included": "冒险动画的经典。"}, {"rank": 4, "movie_id": "m119698", "note": "人和森林互相伤害，没有干净的赢家。", "why_included": "生态与暴力。"}, {"rank": 5, "movie_id": "m087544", "note": "腐海下面，世界还在呼吸。", "why_included": "末世动画。"}, {"rank": 6, "movie_id": "m094625", "note": "少年获得力量，城市跟着失控。", "why_included": "赛博朋克动画的爆点。"}, {"rank": 7, "movie_id": "m156887", "note": "偶像转型演员，分不清自己和角色。", "why_included": "心理动画。"}, {"rank": 8, "movie_id": "m851578", "note": "梦境被机器入侵，现实开始变形。", "why_included": "动画里的梦。"}, {"rank": 9, "movie_id": "m110357", "note": "小狮子失去父亲，再回到王位。", "why_included": "把成长写成循环。"}, {"rank": 10, "movie_id": "m114709", "note": "玩具们争宠，最后学会一起被爱。", "why_included": "第一部全CG长片。"}, {"rank": 11, "movie_id": "m266543", "note": "父亲穿过整片海找儿子。", "why_included": "亲子冒险。"}, {"rank": 12, "movie_id": "m910970", "note": "垃圾星球上，一个小机器人还在收东西。", "why_included": "沉默的科幻动画。"}, {"rank": 13, "movie_id": "m1049413", "note": "老人用气球把屋子带走。", "why_included": "把失去拍成冒险。"}, {"rank": 14, "movie_id": "m4633694", "note": "多个蜘蛛侠挤进同一个城市。", "why_included": "动画视觉的刷新。"}, {"rank": 15, "movie_id": "m808417", "note": "女孩在革命和流亡之间长大。", "why_included": "黑白图像回忆录。"}, {"rank": 16, "movie_id": "m1185616", "note": "一个老兵去找回自己忘掉的战争。", "why_included": "动画纪录片。"}, {"rank": 17, "movie_id": "m978762", "note": "两个孤独的人隔着大陆写信。", "why_included": "黏土动画的孤独。"}, {"rank": 18, "movie_id": "m2948356", "note": "兔子警察和狐狸骗子一起查案。", "why_included": "把偏见写进类型片。"}, {"rank": 19, "movie_id": "m2380307", "note": "男孩走进亡灵世界，找回家族记忆。", "why_included": "家庭与记忆。"}, {"rank": 20, "movie_id": "m9362722", "note": "每个宇宙都有自己的蜘蛛侠，也都有自己的代价。", "why_included": "续集把视觉再推一步。"}, {"rank": 21, "movie_id": "m347149", "note": "被诅咒的女孩住进会走的城堡。", "why_included": "把战争和童话扣在一起。"}, {"rank": 22, "movie_id": "m097814", "note": "小魔女进城，先用扫帚送快递。", "why_included": "成长动画的轻盈。"}, {"rank": 23, "movie_id": "m2013293", "note": "造飞机的人，先被时代折断。", "why_included": "把梦想拍成代价。"}, {"rank": 24, "movie_id": "m2576852", "note": "竹子里出生的女孩，最后还是离开人间。", "why_included": "水墨动画的呼吸。"}, {"rank": 25, "movie_id": "m291350", "note": "女演员的一生，在采访里重演。", "why_included": "把记忆剪成电影。"}, {"rank": 26, "movie_id": "m388473", "note": "三个流浪汉在圣诞夜捡到一个婴儿。", "why_included": "残酷城市里的温柔。"}, {"rank": 27, "movie_id": "m104652", "note": "一个变成猪的飞行员，还在亚得里亚海飞。", "why_included": "成年人的童话。"}, {"rank": 28, "movie_id": "m1568921", "note": "小人一家住在人类地板下。", "why_included": "微观世界的冒险。"}, {"rank": 29, "movie_id": "m2140203", "note": "母亲带着两个狼孩子住进山里。", "why_included": "把成长拍成四季。"}, {"rank": 30, "movie_id": "m1474276", "note": "一个虚拟世界被入侵，一家人先吃饭。", "why_included": "把家庭和网络扣在一起。"}]}, "films": {"m245429": {"id": "m245429", "zh": "千与千寻", "en": "Spirited Away", "year": 2001, "director": "宫崎骏", "runtime": 125, "country": "日本", "film": "#2c2217", "poster": "media/movies/m245429/poster.webp", "stills": [{"path": "media/movies/m245429/still-01.webp", "source": "sogou", "kind": "real", "url": "http://wx4.sinaimg.cn/middle/3e2fe402gy1iciz4n3839j20u00g7wr0.jpg"}, {"path": "media/movies/m245429/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn20109/187/w640h347/20190122/4312-hryfqhk5559130.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m245429/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F4VdxQ5A5UFBGq1Z0Hp0u2f033JMuOO9juLc29xjq3akcW1542721125167compressflag.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "wm": null}, "m096283": {"id": "m096283", "zh": "龙猫", "en": "My Neighbor Totoro", "year": 1988, "director": "宫崎骏", "runtime": 86, "country": "日本", "film": "#d2caa2", "poster": "media/movies/m096283/poster.webp", "stills": [{"path": "media/movies/m096283/still-01.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn03/30/w500h330/20180525/b954-haysviy3513782.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m096283/still-02.webp", "source": "sogou", "kind": "real", "url": "https://n.sinaimg.cn/translate/121/w600h321/20181222/RCPk-hqnkyps5628860.jpg"}, {"path": "media/movies/m096283/still-03.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn03/275/w640h435/20180525/c326-haysviy3514282.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}], "wm": null}, "m092067": {"id": "m092067", "zh": "天空之城", "en": "Castle in the Sky", "year": 1986, "director": "宫崎骏", "runtime": 124, "country": "日本", "film": "#776e6d", "poster": "media/movies/m092067/poster.webp", "stills": [{"path": "media/movies/m092067/still-01.webp", "source": "sogou", "kind": "real", "url": "https://img0.baidu.com/it/u=1672390742,2017242954&fm=253"}, {"path": "media/movies/m092067/still-02.webp", "source": "sogou", "kind": "real", "url": "https://p1-q.mafengwo.net/s12/M00/8E/AA/wKgED1xBLMiAamtPAADTMmSzaAc05.jpeg?imageView2%2F2%2Fw%2F680%2Fq%2F90"}, {"path": "media/movies/m092067/still-03.webp", "source": "sogou", "kind": "real", "url": "http://n.sinaimg.cn/translate/640/w864h576/20190114/VjRD-hrpcmqw5795416.jpg"}], "wm": null}, "m119698": {"id": "m119698", "zh": "幽灵公主", "en": "Princess Mononoke", "year": 1997, "director": "宫崎骏", "runtime": 134, "country": "日本", "film": "#8e8d85", "poster": "media/movies/m119698/poster.webp", "stills": [{"path": "media/movies/m119698/still-01.webp", "source": "sogou", "kind": "real", "url": "https://neryfx.img0a.com/uploads/313739363537247777772E6D657070726963652E636E"}, {"path": "media/movies/m119698/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20111/63/w1080h583/20250503/afb3-2c09a300c40bbff745f9d32b7b014422.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m119698/still-03.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/new_dyn/4e3179ea0b2e3204fe46b8118e6543b9129943308.jpg@1192w"}], "wm": null}, "m087544": {"id": "m087544", "zh": "风之谷", "en": "Nausicaä of the Valley of the Wind", "year": 1984, "director": "宫崎骏", "runtime": 117, "country": "日本", "film": "#5C3A3A", "poster": "media/movies/m087544/poster.webp", "stills": [{"path": "media/movies/m087544/still-01.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn20116/85/w1080h605/20190101/3e4b-hqzxptn1542096.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m087544/still-02.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_bt/0/13973597621/1000"}, {"path": "media/movies/m087544/still-03.webp", "source": "sogou", "kind": "real", "url": "http://news.zlook.com/uploadfile/2026/0101/20260101043450239.jpg"}], "wm": null}, "m094625": {"id": "m094625", "zh": "阿基拉", "en": "Akira", "year": 1988, "director": "大友克洋", "runtime": 124, "country": "日本", "film": "#8c3437", "poster": "media/movies/m094625/poster.webp", "stills": [{"path": "media/movies/m094625/still-01.webp", "source": "sogou", "kind": "real", "url": "https://raremeat.blog/wp-content/uploads/2016/03/Akira30.jpg"}, {"path": "media/movies/m094625/still-02.webp", "source": "sogou", "kind": "real", "url": "https://pic2.zhimg.com/v2-1f92d92e4e81c16bbf864ec45d739eb3_1440w.jpg"}, {"path": "media/movies/m094625/still-03.webp", "source": "sogou", "kind": "real", "url": "https://media.gq.com.tw/photos/65816645248f41d197f36093/master/w_1600%2Cc_limit/Best_sci-fi_movies_0002_Akira_2KE0K0K.jpg"}], "wm": null}, "m156887": {"id": "m156887", "zh": "未麻的部屋", "en": "Perfect Blue", "year": 1997, "director": "今敏", "runtime": 81, "country": "日本", "film": "#7b6456", "poster": "media/movies/m156887/poster.webp", "stills": [{"path": "media/movies/m156887/still-01.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/article/408337b18480289744458e7398a21e1df4f83314.png@1256w_668h_!web-article-pic.avif"}, {"path": "media/movies/m156887/still-02.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/article/f201dbc80234aadec2452398f6465cb4b0d5b0fd.png@1256w_672h_!web-article-pic.avif"}, {"path": "media/movies/m156887/still-03.webp", "source": "sogou", "kind": "real", "url": "https://pic3.zhimg.com/v2-42c81168e22ff78f9311e501201c41c2_r.jpg"}], "wm": null}, "m851578": {"id": "m851578", "zh": "红辣椒", "en": "Paprika", "year": 2006, "director": "今敏", "runtime": 90, "country": "日本", "film": "#ce7c7d", "poster": "media/movies/m851578/poster.webp", "stills": [{"path": "media/movies/m851578/still-01.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/d31b0ef41bd5ad6eddc4a10f4c922edbb6fd53669686/d31b0ef41bd5ad6eddc4a10f4c922edbb6fd53669686_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m851578/still-02.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/d01373f082025aafa40f412d36b4bc64034f79f0ac86/d01373f082025aafa40f412d36b4bc64034f79f0ac86_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m851578/still-03.webp", "source": "sogou", "kind": "real", "url": "https://pic3.zhimg.com/v2-f32c88b3e18ac576bdcfb6205e4ebf46_r.jpg"}], "wm": null}, "m110357": {"id": "m110357", "zh": "狮子王", "en": "The Lion King", "year": 1994, "director": "罗杰·阿勒斯", "runtime": 88, "country": "美国", "film": "#5f89a2", "poster": "media/movies/m110357/poster.webp", "stills": [{"path": "media/movies/m110357/still-01.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20190711/b29c016b6fc84e61b8b79f76a20440ae.jpeg"}, {"path": "media/movies/m110357/still-02.webp", "source": "sogou", "kind": "real", "url": "https://cinemast.net/wp-content/uploads/2019/07/MV5BMWQ5ZDc5OTctN2RmNi00M2VkLWIzY2UtOGU5ZWUwMWEzYWY4XkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_-800x450.jpg"}, {"path": "media/movies/m110357/still-03.webp", "source": "sogou", "kind": "real", "url": "http://img5.mtime.cn/mg/2019/07/22/101201.87365416.jpg"}], "wm": null}, "m114709": {"id": "m114709", "zh": "玩具总动员", "en": "Toy Story", "year": 1995, "director": "约翰·拉塞特", "runtime": 81, "country": "美国", "film": "#627c82", "poster": "media/movies/m114709/poster.webp", "stills": [{"path": "media/movies/m114709/still-01.webp", "source": "sogou", "kind": "real", "url": "https://images.stacker.com/w/1080/BestPixarfilmsBestPixarfilmsslide18O3EK_0_0_0_1.png?v=v3"}, {"path": "media/movies/m114709/still-02.webp", "source": "sogou", "kind": "real", "url": "https://m.media-amazon.com/images/M/MV5BYTBhNGUyNTktYTlhYy00MzNkLThkMmQtYTZiNTNhZTMzYjcyXkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg"}, {"path": "media/movies/m114709/still-03.webp", "source": "sogou", "kind": "real", "url": "https://insidethemagic.net/wp-content/uploads/2025/03/Rex-in-Toy-Story.jpg"}], "wm": null}, "m266543": {"id": "m266543", "zh": "海底总动员", "en": "Finding Nemo", "year": 2003, "director": "安德鲁·斯坦顿", "runtime": 100, "country": "美国", "film": "#47698a", "poster": "media/movies/m266543/poster.webp", "stills": [{"path": "media/movies/m266543/still-01.webp", "source": "sogou", "kind": "real", "url": "https://www.showmetech.com.br/wp-content/uploads/2023/08/procura-nemo-cena.webp"}, {"path": "media/movies/m266543/still-02.webp", "source": "sogou", "kind": "real", "url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/oifDIWbtyxhkusq.png"}, {"path": "media/movies/m266543/still-03.webp", "source": "sogou", "kind": "real", "url": "https://vnmedia2.monkeyuni.net/upload/web/img/4-english-movies.png"}], "wm": null}, "m910970": {"id": "m910970", "zh": "瓦力", "en": "WALL·E", "year": 2008, "director": "安德鲁·斯坦顿", "runtime": 98, "country": "美国", "film": "#333166", "poster": "media/movies/m910970/poster.webp", "stills": [{"path": "media/movies/m910970/still-01.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20171129/48db182830524aadb1a51d9ac242a987.jpeg"}, {"path": "media/movies/m910970/still-02.webp", "source": "sogou", "kind": "real", "url": "https://pic1.zhimg.com/50/v2-e47cef677a1332d109f28593b2f67a4a_720w.jpg?source=2c26e567"}, {"path": "media/movies/m910970/still-03.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_bt/0/10360220680/641"}], "wm": null}, "m1049413": {"id": "m1049413", "zh": "飞屋环游记", "en": "Up", "year": 2009, "director": "彼特·道格特", "runtime": 96, "country": "美国", "film": "#8794b2", "poster": "media/movies/m1049413/poster.webp", "stills": [{"path": "media/movies/m1049413/still-01.webp", "source": "sogou", "kind": "real", "url": "http://i1.sinaimg.cn/ent/r/m/2010-03-04/U4099P28T3D2887543F326DT20100304092916.jpg"}, {"path": "media/movies/m1049413/still-02.webp", "source": "sogou", "kind": "real", "url": "https://p6.itc.cn/q_70/images03/20230803/515bb650e0ca4e699c573c134eac0d50.png"}, {"path": "media/movies/m1049413/still-03.webp", "source": "sogou", "kind": "real", "url": "https://media.cnn.com/api/v1/images/stellar/prod/140609185914-10-cry-movies.jpg?q=w_1280,h_720,x_0,y_0,c_fill/h_447"}], "wm": null}, "m4633694": {"id": "m4633694", "zh": "蜘蛛侠：平行宇宙", "en": "Spider-Man: Into the Spider-Verse", "year": 2018, "director": "鲍勃·佩尔西凯蒂", "runtime": 117, "country": "美国", "film": "#3b2746", "poster": "media/movies/m4633694/poster.webp", "stills": [{"path": "media/movies/m4633694/still-01.webp", "source": "sogou", "kind": "real", "url": "https://images.ctfassets.net/4hzlhbw7nuq7/41BsfVJKSDoLEj0w6UGeJ2/ee73d19196ca1068bdccefad146e19fa/spiderman.jpg?w=1920&h=915&fit=fill&fl=progressive&q=75"}, {"path": "media/movies/m4633694/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img2.ali213.net/picfile/News/2022/07/06/584_2022070653028165.png"}, {"path": "media/movies/m4633694/still-03.webp", "source": "sogou", "kind": "real", "url": "https://cdn.10100.com/content/20260210/fde69bf3-8db2-4707-b2e8-0f78f3f1c533_900x_wm.png"}], "wm": null}, "m808417": {"id": "m808417", "zh": "我在伊朗长大", "en": "Persepolis", "year": 2007, "director": "文森特·帕兰德", "runtime": 96, "country": "法国 / 美国", "film": "#5c6365", "poster": "media/movies/m808417/poster.webp", "stills": [{"path": "media/movies/m808417/still-01.webp", "source": "sogou", "kind": "real", "url": "https://q1.itc.cn/q_70/images03/20260306/1df173b15e924ea592aa64e4ced77ae7.jpeg"}, {"path": "media/movies/m808417/still-02.webp", "source": "sogou", "kind": "real", "url": "http://p2.ifengimg.com/fck/2017_07/3300add0e54cd1c_w1000_h660.jpg"}, {"path": "media/movies/m808417/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p9.itc.cn/q_70/images03/20220926/5143616902124e969e76ba87b6855da6.png"}], "wm": null}, "m1185616": {"id": "m1185616", "zh": "和巴什尔跳华尔兹", "en": "Waltz with Bashir", "year": 2008, "director": "阿里·福尔曼", "runtime": 90, "country": "IL / 法国 / 德国 / 美国", "film": "#614a1f", "poster": "media/movies/m1185616/poster.webp", "stills": [{"path": "media/movies/m1185616/still-01.webp", "source": "sogou", "kind": "real", "url": "https://imagepphcloud.thepaper.cn/pph/image/229/255/545.jpg"}, {"path": "media/movies/m1185616/still-02.webp", "source": "sogou", "kind": "real", "url": "https://i2-prod.manchestereveningnews.co.uk/article31598599.ece/ALTERNATES/s1200e/0_JSR_MEN_080525_ShirleyBallas.jpg"}, {"path": "media/movies/m1185616/still-03.webp", "source": "sogou", "kind": "real", "url": "https://www.tudoupcs.com/upload/comment/11/c75f9938e2080166.webp"}], "wm": null}, "m978762": {"id": "m978762", "zh": "玛丽与马克思", "en": "Mary and Max", "year": 2009, "director": "亚当·艾略特", "runtime": 92, "country": "澳大利亚", "film": "#3e322e", "poster": "media/movies/m978762/poster.webp", "stills": [{"path": "media/movies/m978762/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p8.itc.cn/q_70/images03/20221018/45fdbb1d93be4789a0fc41d10523ebe0.jpeg"}, {"path": "media/movies/m978762/still-02.webp", "source": "sogou", "kind": "real", "url": "https://p1.itc.cn/images01/20230906/b8c82cfd7d004f93beba3e8fe3ec1439.jpeg"}, {"path": "media/movies/m978762/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2020%2F0521%2Ff8bbcb10j00qaoc3o001nd000hs00k0p.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "wm": null}, "m2948356": {"id": "m2948356", "zh": "疯狂动物城", "en": "Zootopia", "year": 2016, "director": "拜伦·霍华德", "runtime": 108, "country": "美国", "film": "#aca6a6", "poster": "media/movies/m2948356/poster.webp", "stills": [{"path": "media/movies/m2948356/still-01.webp", "source": "sogou", "kind": "real", "url": "https://k.sinaimg.cn/n/sni/600/w1920h1080/20250730/766c-af8e6674796a6f0367aeb4877385c9cc.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m2948356/still-02.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_match/0/3021722411/0"}, {"path": "media/movies/m2948356/still-03.webp", "source": "sogou", "kind": "real", "url": "https://img.jiemian.com/jiemian/original/20170112/148418854633349800.jpg"}], "wm": null}, "m2380307": {"id": "m2380307", "zh": "寻梦环游记", "en": "Coco", "year": 2017, "director": "李·昂克里奇", "runtime": 105, "country": "美国", "film": "#945756", "poster": "media/movies/m2380307/poster.webp", "stills": [{"path": "media/movies/m2380307/still-01.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FT7sIvzvxdkIU6F093rAnkNE0AB3%3D2YK7c3Ku9ytj7a8FI1564668702693compressflag.png&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m2380307/still-02.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/8326cffc1e178a82b90192e6e75f648da9773912427a/8326cffc1e178a82b90192e6e75f648da9773912427a_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m2380307/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p5.itc.cn/q_70/images03/20211206/83b43394a2ad4fb7a89a8486b86cc0d4.jpeg"}], "wm": null}, "m9362722": {"id": "m9362722", "zh": "蜘蛛侠：纵横宇宙", "en": "Spider-Man: Across the Spider-Verse", "year": 2023, "director": "华金·多斯·桑托斯", "runtime": 140, "country": "美国", "film": "#977bb5", "poster": "media/movies/m9362722/poster.webp", "stills": [{"path": "media/movies/m9362722/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p9.itc.cn/q_70/images03/20230603/c3e841b4626c44f2aacd2f5cdabd2783.png"}, {"path": "media/movies/m9362722/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img2.ali213.net/picfile/News/2023/05/23/584_20230523120117436.png"}, {"path": "media/movies/m9362722/still-03.webp", "source": "sogou", "kind": "real", "url": "https://img1.wywyx.com/uploads/allimg/230509/0955132620-4.jpg"}], "wm": null}, "m347149": {"id": "m347149", "zh": "哈尔的移动城堡", "en": "Howl's Moving Castle", "year": 2004, "director": "宫崎骏", "runtime": 119, "country": "日本", "film": "#818d77", "poster": "media/movies/m347149/poster.webp", "stills": [{"path": "media/movies/m347149/still-01.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20190418/bedac97c1b924f05980bb0f56d55ffe3.jpeg"}, {"path": "media/movies/m347149/still-02.webp", "source": "sogou", "kind": "real", "url": "https://k.sinaimg.cn/n/sinakd20240521s/45/w1080h565/20240521/0377-d7bbf2234920a7de510ff3ed2ec317fc.png/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m347149/still-03.webp", "source": "sogou", "kind": "real", "url": "http://qqpublic.qpic.cn/qq_public/0/28-3276937526-0630F5DDFA8BA038085C53FAE2C59705/0?fmt=jpg&size=149&h=583&w=1080&ppv=1"}], "wm": null}, "m097814": {"id": "m097814", "zh": "魔女宅急便", "en": "Kiki's Delivery Service", "year": 1989, "director": "宫崎骏", "runtime": 103, "country": "日本", "film": "#687f7b", "poster": "media/movies/m097814/poster.webp", "stills": [{"path": "media/movies/m097814/still-01.webp", "source": "sogou", "kind": "real", "url": "https://k.sinaimg.cn/n/sinacn10119/0/w1024h576/20190118/b3f0-hrvcwnk3587909.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m097814/still-02.webp", "source": "sogou", "kind": "real", "url": "https://www.snowmonkeyresorts.com/wp-content/uploads/2020/11/majo036.jpg"}, {"path": "media/movies/m097814/still-03.webp", "source": "sogou", "kind": "real", "url": "https://eiga-pop.com/files/image/4396/image_4396_i6071a7fb1ded9.jpg"}], "wm": null}, "m2013293": {"id": "m2013293", "zh": "起风了", "en": "The Wind Rises", "year": 2013, "director": "宫崎骏", "runtime": 126, "country": "日本", "film": "#82a9b5", "poster": "media/movies/m2013293/poster.webp", "stills": [{"path": "media/movies/m2013293/still-01.webp", "source": "sogou", "kind": "real", "url": "https://inews.gtimg.com/om_ls/OQ038Nb5zGXRWk7JP7md8lQVZpukOgxv6XmMH0VOhsk2kAA_870492/0"}, {"path": "media/movies/m2013293/still-02.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20190704/475a83c6233e46a4873c3e3fa5846a25.jpeg"}, {"path": "media/movies/m2013293/still-03.webp", "source": "sogou", "kind": "real", "url": "https://eskvfw.img0a.com/uploads/323236343336247773732E73706F727473686F772E636F6D2E636E"}], "wm": null}, "m2576852": {"id": "m2576852", "zh": "辉夜姬物语", "en": "The Tale of the Princess Kaguya", "year": 2013, "director": "高畑勋", "runtime": 137, "country": "日本", "film": "#e1d7db", "poster": "media/movies/m2576852/poster.webp", "stills": [{"path": "media/movies/m2576852/still-01.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/article/33a906a1244918552bb4e39a661428d008d5f862.png"}, {"path": "media/movies/m2576852/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn20191119ac/186/w640h346/20191119/d9ca-iipztff2491869.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m2576852/still-03.webp", "source": "sogou", "kind": "real", "url": "http://img2.chinadaily.com.cn/images/202012/06/5fcc1f00a31024adbda67174.jpeg"}], "wm": null}, "m291350": {"id": "m291350", "zh": "千年女优", "en": "Millennium Actress", "year": 2001, "director": "今敏", "runtime": 87, "country": "日本", "film": "#7b543e", "poster": "media/movies/m291350/poster.webp", "stills": [{"path": "media/movies/m291350/still-01.webp", "source": "sogou", "kind": "real", "url": "https://happinessfishes.com/wp-content/uploads//%E8%B3%BD%E5%BE%B7%E5%85%8B%E5%B7%B4%E8%90%8A.jpg"}, {"path": "media/movies/m291350/still-02.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/article/41db7be66ac537080380650a7aaceaee41141347.png@1192w"}, {"path": "media/movies/m291350/still-03.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/translate/61/w1080h581/20181122/Rmun-hnyuqhi7588764.jpg/w700d1q75cms.jpg"}], "wm": null}, "m388473": {"id": "m388473", "zh": "东京教父", "en": "Tokyo Godfathers", "year": 2003, "director": "今敏", "runtime": 92, "country": "日本", "film": "#7d3e1c", "poster": "media/movies/m388473/poster.webp", "stills": [{"path": "media/movies/m388473/still-01.webp", "source": "sogou", "kind": "real", "url": "https://storage.movie6.com/movie/d0ea_TGF_812__1764749367.jpg"}, {"path": "media/movies/m388473/still-02.webp", "source": "sogou", "kind": "real", "url": "https://storage.movie6.com/movie/188eb_TGF_149__1764749365.jpg"}, {"path": "media/movies/m388473/still-03.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_bt/0/13982188316/1000"}], "wm": null}, "m104652": {"id": "m104652", "zh": "红猪", "en": "Porco Rosso", "year": 1992, "director": "宫崎骏", "runtime": 94, "country": "日本", "film": "#a59085", "poster": "media/movies/m104652/poster.webp", "stills": [{"path": "media/movies/m104652/still-01.webp", "source": "sogou", "kind": "real", "url": "https://d189djjbmcrkk.cloudfront.net/tinymce/QwyYrHeVTmAbc3Mn0MPogDg0DW2sUMeJUg7CJtS4.png"}, {"path": "media/movies/m104652/still-02.webp", "source": "sogou", "kind": "real", "url": "http://www.applause.com.tw/wp-content/uploads/2025/07/2560x1050-1.jpg"}, {"path": "media/movies/m104652/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fcrawl.ws.126.net%2F4293249bd4b734cfab359260faba328b.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"}], "wm": null}, "m1568921": {"id": "m1568921", "zh": "借东西的小人阿莉埃蒂", "en": "Arrietty", "year": 2010, "director": "米林宏昌", "runtime": 94, "country": "日本", "film": "#464f55", "poster": "media/movies/m1568921/poster.webp", "stills": [{"path": "media/movies/m1568921/still-01.webp", "source": "sogou", "kind": "real", "url": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180111/f41c6e1beadd4e8f85a2c85f3e342b40.jpeg"}, {"path": "media/movies/m1568921/still-02.webp", "source": "sogou", "kind": "real", "url": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180131/f2e57987d47c46d9af9c518b0550a6ff.jpeg"}, {"path": "media/movies/m1568921/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/39bd0989d0534c9084bd840b9d8125ef~tplv-xv4ileqgde-resize-w:1440.awebp"}], "wm": null}, "m2140203": {"id": "m2140203", "zh": "狼的孩子雨和雪", "en": "Wolf Children", "year": 2012, "director": "细田守", "runtime": 117, "country": "日本", "film": "#9aafa7", "poster": "media/movies/m2140203/poster.webp", "stills": [{"path": "media/movies/m2140203/still-01.webp", "source": "sogou", "kind": "real", "url": "https://pic3.zhimg.com/v2-983ff06a133110e0a34163fd40969186_b.jpg"}, {"path": "media/movies/m2140203/still-02.webp", "source": "sogou", "kind": "real", "url": "https://picx.zhimg.com/v2-10fd3371c8dfdaf0793cc70e935c6a91_1440w.jpg"}, {"path": "media/movies/m2140203/still-03.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20180927/251a8e352d9e40f9842c9b1427d828ce.jpeg"}], "wm": null}, "m1474276": {"id": "m1474276", "zh": "夏日大作战", "en": "Summer Wars", "year": 2009, "director": "细田守", "runtime": 114, "country": "日本", "film": "#919a93", "poster": "media/movies/m1474276/poster.webp", "stills": [{"path": "media/movies/m1474276/still-01.webp", "source": "sogou", "kind": "real", "url": "https://mhgmqh.img0a.com/uploads/313733383639247777772E736366762E636E"}, {"path": "media/movies/m1474276/still-02.webp", "source": "sogou", "kind": "real", "url": "https://rstntx.img0a.com/uploads/323435353532247777772E736366762E636E"}, {"path": "media/movies/m1474276/still-03.webp", "source": "sogou", "kind": "real", "url": "https://so1.360tres.com/t0192e5380ef6e603b9.jpg"}], "wm": null}}};
+window.FILM_LIST_DATA = {
+  "list": {
+    "id": "global-animation-greatest",
+    "title": "动画电影",
+    "genre": "动画",
+    "genreKey": "animation",
+    "order": 7,
+    "criterion": "greatest",
+    "decision": "hybrid",
+    "status": "draft",
+    "max": 100,
+    "count": 30,
+    "scope": {
+      "kind": "global",
+      "countries": []
+    },
+    "canon": {
+      "definition": "动画电影的全球候选，先凑够 20 部，再逐步补到 100。",
+      "ranking_rule": "按影史影响、类型完成度和可重看性综合排序。",
+      "time_window": "1927–2023",
+      "sources": [
+        {
+          "name": "人工初选",
+          "url": "",
+          "weight": 1.0,
+          "accessed": "2026-11"
+        }
+      ],
+      "inclusion_rule": "类型是叙事核心，不只是标签。",
+      "exclusion_rule": "只靠单一元素、没有类型完成度的片子。",
+      "known_bias": "首版偏经典和欧美，后续补亚洲和当代。",
+      "curator": "初选",
+      "version": "1"
+    },
+    "chapters": [
+      {
+        "index": 1,
+        "title": "第一卷：动画"
+      }
+    ],
+    "hero": "",
+    "entries": [
+      {
+        "rank": 1,
+        "movie_id": "m245429",
+        "note": "女孩走进神隐世界，先学会记住名字。",
+        "why_included": "动画里的成长寓言。"
+      },
+      {
+        "rank": 2,
+        "movie_id": "m096283",
+        "note": "乡下夏天，两个女孩遇见森林精灵。",
+        "why_included": "把童年拍成风。"
+      },
+      {
+        "rank": 3,
+        "movie_id": "m092067",
+        "note": "飞行石带着两个孩子去找天空之城。",
+        "why_included": "冒险动画的经典。"
+      },
+      {
+        "rank": 4,
+        "movie_id": "m119698",
+        "note": "人和森林互相伤害，没有干净的赢家。",
+        "why_included": "生态与暴力。"
+      },
+      {
+        "rank": 5,
+        "movie_id": "m087544",
+        "note": "腐海下面，世界还在呼吸。",
+        "why_included": "末世动画。"
+      },
+      {
+        "rank": 6,
+        "movie_id": "m094625",
+        "note": "少年获得力量，城市跟着失控。",
+        "why_included": "赛博朋克动画的爆点。"
+      },
+      {
+        "rank": 7,
+        "movie_id": "m156887",
+        "note": "偶像转型演员，分不清自己和角色。",
+        "why_included": "心理动画。"
+      },
+      {
+        "rank": 8,
+        "movie_id": "m851578",
+        "note": "梦境被机器入侵，现实开始变形。",
+        "why_included": "动画里的梦。"
+      },
+      {
+        "rank": 9,
+        "movie_id": "m110357",
+        "note": "小狮子失去父亲，再回到王位。",
+        "why_included": "把成长写成循环。"
+      },
+      {
+        "rank": 10,
+        "movie_id": "m114709",
+        "note": "玩具们争宠，最后学会一起被爱。",
+        "why_included": "第一部全CG长片。"
+      },
+      {
+        "rank": 11,
+        "movie_id": "m266543",
+        "note": "父亲穿过整片海找儿子。",
+        "why_included": "亲子冒险。"
+      },
+      {
+        "rank": 12,
+        "movie_id": "m910970",
+        "note": "垃圾星球上，一个小机器人还在收东西。",
+        "why_included": "沉默的科幻动画。"
+      },
+      {
+        "rank": 13,
+        "movie_id": "m1049413",
+        "note": "老人用气球把屋子带走。",
+        "why_included": "把失去拍成冒险。"
+      },
+      {
+        "rank": 14,
+        "movie_id": "m4633694",
+        "note": "多个蜘蛛侠挤进同一个城市。",
+        "why_included": "动画视觉的刷新。"
+      },
+      {
+        "rank": 15,
+        "movie_id": "m808417",
+        "note": "女孩在革命和流亡之间长大。",
+        "why_included": "黑白图像回忆录。"
+      },
+      {
+        "rank": 16,
+        "movie_id": "m1185616",
+        "note": "一个老兵去找回自己忘掉的战争。",
+        "why_included": "动画纪录片。"
+      },
+      {
+        "rank": 17,
+        "movie_id": "m978762",
+        "note": "两个孤独的人隔着大陆写信。",
+        "why_included": "黏土动画的孤独。"
+      },
+      {
+        "rank": 18,
+        "movie_id": "m2948356",
+        "note": "兔子警察和狐狸骗子一起查案。",
+        "why_included": "把偏见写进类型片。"
+      },
+      {
+        "rank": 19,
+        "movie_id": "m2380307",
+        "note": "男孩走进亡灵世界，找回家族记忆。",
+        "why_included": "家庭与记忆。"
+      },
+      {
+        "rank": 20,
+        "movie_id": "m9362722",
+        "note": "每个宇宙都有自己的蜘蛛侠，也都有自己的代价。",
+        "why_included": "续集把视觉再推一步。"
+      },
+      {
+        "rank": 21,
+        "movie_id": "m347149",
+        "note": "被诅咒的女孩住进会走的城堡。",
+        "why_included": "把战争和童话扣在一起。"
+      },
+      {
+        "rank": 22,
+        "movie_id": "m097814",
+        "note": "小魔女进城，先用扫帚送快递。",
+        "why_included": "成长动画的轻盈。"
+      },
+      {
+        "rank": 23,
+        "movie_id": "m2013293",
+        "note": "造飞机的人，先被时代折断。",
+        "why_included": "把梦想拍成代价。"
+      },
+      {
+        "rank": 24,
+        "movie_id": "m2576852",
+        "note": "竹子里出生的女孩，最后还是离开人间。",
+        "why_included": "水墨动画的呼吸。"
+      },
+      {
+        "rank": 25,
+        "movie_id": "m291350",
+        "note": "女演员的一生，在采访里重演。",
+        "why_included": "把记忆剪成电影。"
+      },
+      {
+        "rank": 26,
+        "movie_id": "m388473",
+        "note": "三个流浪汉在圣诞夜捡到一个婴儿。",
+        "why_included": "残酷城市里的温柔。"
+      },
+      {
+        "rank": 27,
+        "movie_id": "m104652",
+        "note": "一个变成猪的飞行员，还在亚得里亚海飞。",
+        "why_included": "成年人的童话。"
+      },
+      {
+        "rank": 28,
+        "movie_id": "m1568921",
+        "note": "小人一家住在人类地板下。",
+        "why_included": "微观世界的冒险。"
+      },
+      {
+        "rank": 29,
+        "movie_id": "m2140203",
+        "note": "母亲带着两个狼孩子住进山里。",
+        "why_included": "把成长拍成四季。"
+      },
+      {
+        "rank": 30,
+        "movie_id": "m1474276",
+        "note": "一个虚拟世界被入侵，一家人先吃饭。",
+        "why_included": "把家庭和网络扣在一起。"
+      }
+    ]
+  },
+  "films": {
+    "m245429": {
+      "id": "m245429",
+      "zh": "千与千寻",
+      "en": "Spirited Away",
+      "year": 2001,
+      "director": "宫崎骏",
+      "runtime": 125,
+      "country": "日本",
+      "film": "#2c2217",
+      "poster": "media/movies/m245429/poster.webp?v=1795086154",
+      "stills": [
+        {
+          "path": "media/movies/m245429/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://wx4.sinaimg.cn/middle/3e2fe402gy1iciz4n3839j20u00g7wr0.jpg"
+        },
+        {
+          "path": "media/movies/m245429/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinacn20109/187/w640h347/20190122/4312-hryfqhk5559130.jpg/w700d1q75cms.jpg"
+        },
+        {
+          "path": "media/movies/m245429/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F4VdxQ5A5UFBGq1Z0Hp0u2f033JMuOO9juLc29xjq3akcW1542721125167compressflag.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m096283": {
+      "id": "m096283",
+      "zh": "龙猫",
+      "en": "My Neighbor Totoro",
+      "year": 1988,
+      "director": "宫崎骏",
+      "runtime": 86,
+      "country": "日本",
+      "film": "#d2caa2",
+      "poster": "media/movies/m096283/poster.webp?v=1795085396",
+      "stills": [
+        {
+          "path": "media/movies/m096283/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinacn03/30/w500h330/20180525/b954-haysviy3513782.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+        },
+        {
+          "path": "media/movies/m096283/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://n.sinaimg.cn/translate/121/w600h321/20181222/RCPk-hqnkyps5628860.jpg"
+        },
+        {
+          "path": "media/movies/m096283/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinacn03/275/w640h435/20180525/c326-haysviy3514282.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+        }
+      ],
+      "wm": null
+    },
+    "m092067": {
+      "id": "m092067",
+      "zh": "天空之城",
+      "en": "Castle in the Sky",
+      "year": 1986,
+      "director": "宫崎骏",
+      "runtime": 124,
+      "country": "日本",
+      "film": "#776e6d",
+      "poster": "media/movies/m092067/poster.webp?v=1795085320",
+      "stills": [
+        {
+          "path": "media/movies/m092067/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img0.baidu.com/it/u=1672390742,2017242954&fm=253"
+        },
+        {
+          "path": "media/movies/m092067/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p1-q.mafengwo.net/s12/M00/8E/AA/wKgED1xBLMiAamtPAADTMmSzaAc05.jpeg?imageView2%2F2%2Fw%2F680%2Fq%2F90"
+        },
+        {
+          "path": "media/movies/m092067/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://n.sinaimg.cn/translate/640/w864h576/20190114/VjRD-hrpcmqw5795416.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m119698": {
+      "id": "m119698",
+      "zh": "幽灵公主",
+      "en": "Princess Mononoke",
+      "year": 1997,
+      "director": "宫崎骏",
+      "runtime": 134,
+      "country": "日本",
+      "film": "#8e8d85",
+      "poster": "media/movies/m119698/poster.webp?v=1795085931",
+      "stills": [
+        {
+          "path": "media/movies/m119698/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://neryfx.img0a.com/uploads/313739363537247777772E6D657070726963652E636E"
+        },
+        {
+          "path": "media/movies/m119698/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinakd20111/63/w1080h583/20250503/afb3-2c09a300c40bbff745f9d32b7b014422.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+        },
+        {
+          "path": "media/movies/m119698/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i0.hdslb.com/bfs/new_dyn/4e3179ea0b2e3204fe46b8118e6543b9129943308.jpg@1192w"
+        }
+      ],
+      "wm": null
+    },
+    "m087544": {
+      "id": "m087544",
+      "zh": "风之谷",
+      "en": "Nausicaä of the Valley of the Wind",
+      "year": 1984,
+      "director": "宫崎骏",
+      "runtime": 117,
+      "country": "日本",
+      "film": "#5C3A3A",
+      "poster": "media/movies/m087544/poster.webp?v=1795085051",
+      "stills": [
+        {
+          "path": "media/movies/m087544/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinacn20116/85/w1080h605/20190101/3e4b-hqzxptn1542096.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+        },
+        {
+          "path": "media/movies/m087544/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://inews.gtimg.com/newsapp_bt/0/13973597621/1000"
+        },
+        {
+          "path": "media/movies/m087544/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://news.zlook.com/uploadfile/2026/0101/20260101043450239.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m094625": {
+      "id": "m094625",
+      "zh": "阿基拉",
+      "en": "Akira",
+      "year": 1988,
+      "director": "大友克洋",
+      "runtime": 124,
+      "country": "日本",
+      "film": "#8c3437",
+      "poster": "media/movies/m094625/poster.webp?v=1795085361",
+      "stills": [
+        {
+          "path": "media/movies/m094625/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://raremeat.blog/wp-content/uploads/2016/03/Akira30.jpg"
+        },
+        {
+          "path": "media/movies/m094625/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic2.zhimg.com/v2-1f92d92e4e81c16bbf864ec45d739eb3_1440w.jpg"
+        },
+        {
+          "path": "media/movies/m094625/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://media.gq.com.tw/photos/65816645248f41d197f36093/master/w_1600%2Cc_limit/Best_sci-fi_movies_0002_Akira_2KE0K0K.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m156887": {
+      "id": "m156887",
+      "zh": "未麻的部屋",
+      "en": "Perfect Blue",
+      "year": 1997,
+      "director": "今敏",
+      "runtime": 81,
+      "country": "日本",
+      "film": "#7b6456",
+      "poster": "media/movies/m156887/poster.webp?v=1795086048",
+      "stills": [
+        {
+          "path": "media/movies/m156887/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i0.hdslb.com/bfs/article/408337b18480289744458e7398a21e1df4f83314.png@1256w_668h_!web-article-pic.avif"
+        },
+        {
+          "path": "media/movies/m156887/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i0.hdslb.com/bfs/article/f201dbc80234aadec2452398f6465cb4b0d5b0fd.png@1256w_672h_!web-article-pic.avif"
+        },
+        {
+          "path": "media/movies/m156887/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic3.zhimg.com/v2-42c81168e22ff78f9311e501201c41c2_r.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m851578": {
+      "id": "m851578",
+      "zh": "红辣椒",
+      "en": "Paprika",
+      "year": 2006,
+      "director": "今敏",
+      "runtime": 90,
+      "country": "日本",
+      "film": "#ac704b",
+      "poster": "media/movies/m851578/poster.webp?v=1795499311",
+      "stills": [
+        {
+          "path": "media/movies/m851578/still-paprika-01.webp",
+          "source": "user",
+          "kind": "real"
+        },
+        {
+          "path": "media/movies/m851578/still-paprika-02.webp",
+          "source": "user",
+          "kind": "real"
+        }
+      ],
+      "wm": null
+    },
+    "m110357": {
+      "id": "m110357",
+      "zh": "狮子王",
+      "en": "The Lion King",
+      "year": 1994,
+      "director": "罗杰·阿勒斯",
+      "runtime": 88,
+      "country": "美国",
+      "film": "#5f89a2",
+      "poster": "media/movies/m110357/poster.webp?v=1795085640",
+      "stills": [
+        {
+          "path": "media/movies/m110357/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://5b0988e595225.cdn.sohucs.com/images/20190711/b29c016b6fc84e61b8b79f76a20440ae.jpeg"
+        },
+        {
+          "path": "media/movies/m110357/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://cinemast.net/wp-content/uploads/2019/07/MV5BMWQ5ZDc5OTctN2RmNi00M2VkLWIzY2UtOGU5ZWUwMWEzYWY4XkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_-800x450.jpg"
+        },
+        {
+          "path": "media/movies/m110357/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://img5.mtime.cn/mg/2019/07/22/101201.87365416.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m114709": {
+      "id": "m114709",
+      "zh": "玩具总动员",
+      "en": "Toy Story",
+      "year": 1995,
+      "director": "约翰·拉塞特",
+      "runtime": 81,
+      "country": "美国",
+      "film": "#627c82",
+      "poster": "media/movies/m114709/poster.webp?v=1795085694",
+      "stills": [
+        {
+          "path": "media/movies/m114709/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://images.stacker.com/w/1080/BestPixarfilmsBestPixarfilmsslide18O3EK_0_0_0_1.png?v=v3"
+        },
+        {
+          "path": "media/movies/m114709/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://m.media-amazon.com/images/M/MV5BYTBhNGUyNTktYTlhYy00MzNkLThkMmQtYTZiNTNhZTMzYjcyXkEyXkFqcGc@._V1_QL75_UX500_CR0,0,500,281_.jpg"
+        },
+        {
+          "path": "media/movies/m114709/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://insidethemagic.net/wp-content/uploads/2025/03/Rex-in-Toy-Story.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m266543": {
+      "id": "m266543",
+      "zh": "海底总动员",
+      "en": "Finding Nemo",
+      "year": 2003,
+      "director": "安德鲁·斯坦顿",
+      "runtime": 100,
+      "country": "美国",
+      "film": "#47698a",
+      "poster": "media/movies/m266543/poster.webp?v=1795086160",
+      "stills": [
+        {
+          "path": "media/movies/m266543/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://www.showmetech.com.br/wp-content/uploads/2023/08/procura-nemo-cena.webp"
+        },
+        {
+          "path": "media/movies/m266543/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i.17173cdn.com/2fhnvk/YWxqaGBf/cms3/oifDIWbtyxhkusq.png"
+        },
+        {
+          "path": "media/movies/m266543/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://vnmedia2.monkeyuni.net/upload/web/img/4-english-movies.png"
+        }
+      ],
+      "wm": null
+    },
+    "m910970": {
+      "id": "m910970",
+      "zh": "瓦力",
+      "en": "WALL·E",
+      "year": 2008,
+      "director": "安德鲁·斯坦顿",
+      "runtime": 98,
+      "country": "美国",
+      "film": "#333166",
+      "poster": "media/movies/m910970/poster.webp?v=1795086614",
+      "stills": [
+        {
+          "path": "media/movies/m910970/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://5b0988e595225.cdn.sohucs.com/images/20171129/48db182830524aadb1a51d9ac242a987.jpeg"
+        },
+        {
+          "path": "media/movies/m910970/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic1.zhimg.com/50/v2-e47cef677a1332d109f28593b2f67a4a_720w.jpg?source=2c26e567"
+        },
+        {
+          "path": "media/movies/m910970/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://inews.gtimg.com/newsapp_bt/0/10360220680/641"
+        }
+      ],
+      "wm": null
+    },
+    "m1049413": {
+      "id": "m1049413",
+      "zh": "飞屋环游记",
+      "en": "Up",
+      "year": 2009,
+      "director": "彼特·道格特",
+      "runtime": 96,
+      "country": "美国",
+      "film": "#8794b2",
+      "poster": "media/movies/m1049413/poster.webp?v=1795085534",
+      "stills": [
+        {
+          "path": "media/movies/m1049413/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://i1.sinaimg.cn/ent/r/m/2010-03-04/U4099P28T3D2887543F326DT20100304092916.jpg"
+        },
+        {
+          "path": "media/movies/m1049413/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p6.itc.cn/q_70/images03/20230803/515bb650e0ca4e699c573c134eac0d50.png"
+        },
+        {
+          "path": "media/movies/m1049413/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://media.cnn.com/api/v1/images/stellar/prod/140609185914-10-cry-movies.jpg?q=w_1280,h_720,x_0,y_0,c_fill/h_447"
+        }
+      ],
+      "wm": null
+    },
+    "m4633694": {
+      "id": "m4633694",
+      "zh": "蜘蛛侠：平行宇宙",
+      "en": "Spider-Man: Into the Spider-Verse",
+      "year": 2018,
+      "director": "鲍勃·佩尔西凯蒂",
+      "runtime": 117,
+      "country": "美国",
+      "film": "#3b2746",
+      "poster": "media/movies/m4633694/poster.webp?v=1795086448",
+      "stills": [
+        {
+          "path": "media/movies/m4633694/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://images.ctfassets.net/4hzlhbw7nuq7/41BsfVJKSDoLEj0w6UGeJ2/ee73d19196ca1068bdccefad146e19fa/spiderman.jpg?w=1920&h=915&fit=fill&fl=progressive&q=75"
+        },
+        {
+          "path": "media/movies/m4633694/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img2.ali213.net/picfile/News/2022/07/06/584_2022070653028165.png"
+        },
+        {
+          "path": "media/movies/m4633694/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://cdn.10100.com/content/20260210/fde69bf3-8db2-4707-b2e8-0f78f3f1c533_900x_wm.png"
+        }
+      ],
+      "wm": null
+    },
+    "m808417": {
+      "id": "m808417",
+      "zh": "我在伊朗长大",
+      "en": "Persepolis",
+      "year": 2007,
+      "director": "文森特·帕兰德",
+      "runtime": 96,
+      "country": "法国 / 美国",
+      "film": "#5c6365",
+      "poster": "media/movies/m808417/poster.webp?v=1795086558",
+      "stills": [
+        {
+          "path": "media/movies/m808417/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://q1.itc.cn/q_70/images03/20260306/1df173b15e924ea592aa64e4ced77ae7.jpeg"
+        },
+        {
+          "path": "media/movies/m808417/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://p2.ifengimg.com/fck/2017_07/3300add0e54cd1c_w1000_h660.jpg"
+        },
+        {
+          "path": "media/movies/m808417/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p9.itc.cn/q_70/images03/20220926/5143616902124e969e76ba87b6855da6.png"
+        }
+      ],
+      "wm": null
+    },
+    "m1185616": {
+      "id": "m1185616",
+      "zh": "和巴什尔跳华尔兹",
+      "en": "Waltz with Bashir",
+      "year": 2008,
+      "director": "阿里·福尔曼",
+      "runtime": 90,
+      "country": "IL / 法国 / 德国 / 美国",
+      "film": "#614a1f",
+      "poster": "media/movies/m1185616/poster.webp?v=1795085809",
+      "stills": [
+        {
+          "path": "media/movies/m1185616/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://imagepphcloud.thepaper.cn/pph/image/229/255/545.jpg"
+        },
+        {
+          "path": "media/movies/m1185616/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i2-prod.manchestereveningnews.co.uk/article31598599.ece/ALTERNATES/s1200e/0_JSR_MEN_080525_ShirleyBallas.jpg"
+        },
+        {
+          "path": "media/movies/m1185616/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://www.tudoupcs.com/upload/comment/11/c75f9938e2080166.webp"
+        }
+      ],
+      "wm": null
+    },
+    "m978762": {
+      "id": "m978762",
+      "zh": "玛丽与马克思",
+      "en": "Mary and Max",
+      "year": 2009,
+      "director": "亚当·艾略特",
+      "runtime": 92,
+      "country": "澳大利亚",
+      "film": "#3e322e",
+      "poster": "media/movies/m978762/poster.webp?v=1795086629",
+      "stills": [
+        {
+          "path": "media/movies/m978762/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p8.itc.cn/q_70/images03/20221018/45fdbb1d93be4789a0fc41d10523ebe0.jpeg"
+        },
+        {
+          "path": "media/movies/m978762/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p1.itc.cn/images01/20230906/b8c82cfd7d004f93beba3e8fe3ec1439.jpeg"
+        },
+        {
+          "path": "media/movies/m978762/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2020%2F0521%2Ff8bbcb10j00qaoc3o001nd000hs00k0p.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m2948356": {
+      "id": "m2948356",
+      "zh": "疯狂动物城",
+      "en": "Zootopia",
+      "year": 2016,
+      "director": "拜伦·霍华德",
+      "runtime": 108,
+      "country": "美国",
+      "film": "#aca6a6",
+      "poster": "media/movies/m2948356/poster.webp?v=1795086189",
+      "stills": [
+        {
+          "path": "media/movies/m2948356/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://k.sinaimg.cn/n/sni/600/w1920h1080/20250730/766c-af8e6674796a6f0367aeb4877385c9cc.jpg/w700d1q75cms.jpg"
+        },
+        {
+          "path": "media/movies/m2948356/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://inews.gtimg.com/newsapp_match/0/3021722411/0"
+        },
+        {
+          "path": "media/movies/m2948356/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img.jiemian.com/jiemian/original/20170112/148418854633349800.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m2380307": {
+      "id": "m2380307",
+      "zh": "寻梦环游记",
+      "en": "Coco",
+      "year": 2017,
+      "director": "李·昂克里奇",
+      "runtime": 105,
+      "country": "美国",
+      "film": "#945756",
+      "poster": "media/movies/m2380307/poster.webp?v=1795086145",
+      "stills": [
+        {
+          "path": "media/movies/m2380307/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FT7sIvzvxdkIU6F093rAnkNE0AB3%3D2YK7c3Ku9ytj7a8FI1564668702693compressflag.png&thumbnail=660x2147483647&quality=80&type=jpg"
+        },
+        {
+          "path": "media/movies/m2380307/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://gbaike-image.cdn.bcebos.com/8326cffc1e178a82b90192e6e75f648da9773912427a/8326cffc1e178a82b90192e6e75f648da9773912427a_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+        },
+        {
+          "path": "media/movies/m2380307/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p5.itc.cn/q_70/images03/20211206/83b43394a2ad4fb7a89a8486b86cc0d4.jpeg"
+        }
+      ],
+      "wm": null
+    },
+    "m9362722": {
+      "id": "m9362722",
+      "zh": "蜘蛛侠：纵横宇宙",
+      "en": "Spider-Man: Across the Spider-Verse",
+      "year": 2023,
+      "director": "华金·多斯·桑托斯",
+      "runtime": 140,
+      "country": "美国",
+      "film": "#977bb5",
+      "poster": "media/movies/m9362722/poster.webp?v=1795086623",
+      "stills": [
+        {
+          "path": "media/movies/m9362722/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p9.itc.cn/q_70/images03/20230603/c3e841b4626c44f2aacd2f5cdabd2783.png"
+        },
+        {
+          "path": "media/movies/m9362722/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img2.ali213.net/picfile/News/2023/05/23/584_20230523120117436.png"
+        },
+        {
+          "path": "media/movies/m9362722/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://img1.wywyx.com/uploads/allimg/230509/0955132620-4.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m347149": {
+      "id": "m347149",
+      "zh": "哈尔的移动城堡",
+      "en": "Howl's Moving Castle",
+      "year": 2004,
+      "director": "宫崎骏",
+      "runtime": 119,
+      "country": "日本",
+      "film": "#818d77",
+      "poster": "media/movies/m347149/poster.webp?v=1795088224",
+      "stills": [
+        {
+          "path": "media/movies/m347149/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://5b0988e595225.cdn.sohucs.com/images/20190418/bedac97c1b924f05980bb0f56d55ffe3.jpeg"
+        },
+        {
+          "path": "media/movies/m347149/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://k.sinaimg.cn/n/sinakd20240521s/45/w1080h565/20240521/0377-d7bbf2234920a7de510ff3ed2ec317fc.png/w700d1q75cms.jpg?by=cms_fixed_width"
+        },
+        {
+          "path": "media/movies/m347149/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://qqpublic.qpic.cn/qq_public/0/28-3276937526-0630F5DDFA8BA038085C53FAE2C59705/0?fmt=jpg&size=149&h=583&w=1080&ppv=1"
+        }
+      ],
+      "wm": null
+    },
+    "m097814": {
+      "id": "m097814",
+      "zh": "魔女宅急便",
+      "en": "Kiki's Delivery Service",
+      "year": 1989,
+      "director": "宫崎骏",
+      "runtime": 103,
+      "country": "日本",
+      "film": "#687f7b",
+      "poster": "media/movies/m097814/poster.webp?v=1795088088",
+      "stills": [
+        {
+          "path": "media/movies/m097814/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://k.sinaimg.cn/n/sinacn10119/0/w1024h576/20190118/b3f0-hrvcwnk3587909.jpg/w700d1q75cms.jpg"
+        },
+        {
+          "path": "media/movies/m097814/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://www.snowmonkeyresorts.com/wp-content/uploads/2020/11/majo036.jpg"
+        },
+        {
+          "path": "media/movies/m097814/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://eiga-pop.com/files/image/4396/image_4396_i6071a7fb1ded9.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m2013293": {
+      "id": "m2013293",
+      "zh": "起风了",
+      "en": "The Wind Rises",
+      "year": 2013,
+      "director": "宫崎骏",
+      "runtime": 126,
+      "country": "日本",
+      "film": "#82a9b5",
+      "poster": "media/movies/m2013293/poster.webp?v=1795088160",
+      "stills": [
+        {
+          "path": "media/movies/m2013293/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://inews.gtimg.com/om_ls/OQ038Nb5zGXRWk7JP7md8lQVZpukOgxv6XmMH0VOhsk2kAA_870492/0"
+        },
+        {
+          "path": "media/movies/m2013293/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://5b0988e595225.cdn.sohucs.com/images/20190704/475a83c6233e46a4873c3e3fa5846a25.jpeg"
+        },
+        {
+          "path": "media/movies/m2013293/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://eskvfw.img0a.com/uploads/323236343336247773732E73706F727473686F772E636F6D2E636E"
+        }
+      ],
+      "wm": null
+    },
+    "m2576852": {
+      "id": "m2576852",
+      "zh": "辉夜姬物语",
+      "en": "The Tale of the Princess Kaguya",
+      "year": 2013,
+      "director": "高畑勋",
+      "runtime": 137,
+      "country": "日本",
+      "film": "#e1d7db",
+      "poster": "media/movies/m2576852/poster.webp?v=1795088180",
+      "stills": [
+        {
+          "path": "media/movies/m2576852/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i0.hdslb.com/bfs/article/33a906a1244918552bb4e39a661428d008d5f862.png"
+        },
+        {
+          "path": "media/movies/m2576852/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/sinacn20191119ac/186/w640h346/20191119/d9ca-iipztff2491869.jpg/w700d1q75cms.jpg"
+        },
+        {
+          "path": "media/movies/m2576852/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://img2.chinadaily.com.cn/images/202012/06/5fcc1f00a31024adbda67174.jpeg"
+        }
+      ],
+      "wm": null
+    },
+    "m291350": {
+      "id": "m291350",
+      "zh": "千年女优",
+      "en": "Millennium Actress",
+      "year": 2001,
+      "director": "今敏",
+      "runtime": 87,
+      "country": "日本",
+      "film": "#7b543e",
+      "poster": "media/movies/m291350/poster.webp?v=1795088209",
+      "stills": [
+        {
+          "path": "media/movies/m291350/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://happinessfishes.com/wp-content/uploads//%E8%B3%BD%E5%BE%B7%E5%85%8B%E5%B7%B4%E8%90%8A.jpg"
+        },
+        {
+          "path": "media/movies/m291350/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://i0.hdslb.com/bfs/article/41db7be66ac537080380650a7aaceaee41141347.png@1192w"
+        },
+        {
+          "path": "media/movies/m291350/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://k.sinaimg.cn/n/translate/61/w1080h581/20181122/Rmun-hnyuqhi7588764.jpg/w700d1q75cms.jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m388473": {
+      "id": "m388473",
+      "zh": "东京教父",
+      "en": "Tokyo Godfathers",
+      "year": 2003,
+      "director": "今敏",
+      "runtime": 92,
+      "country": "日本",
+      "film": "#7d3e1c",
+      "poster": "media/movies/m388473/poster.webp?v=1795088232",
+      "stills": [
+        {
+          "path": "media/movies/m388473/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://storage.movie6.com/movie/d0ea_TGF_812__1764749367.jpg"
+        },
+        {
+          "path": "media/movies/m388473/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://storage.movie6.com/movie/188eb_TGF_149__1764749365.jpg"
+        },
+        {
+          "path": "media/movies/m388473/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://inews.gtimg.com/newsapp_bt/0/13982188316/1000"
+        }
+      ],
+      "wm": null
+    },
+    "m104652": {
+      "id": "m104652",
+      "zh": "红猪",
+      "en": "Porco Rosso",
+      "year": 1992,
+      "director": "宫崎骏",
+      "runtime": 94,
+      "country": "日本",
+      "film": "#a59085",
+      "poster": "media/movies/m104652/poster.webp?v=1795088107",
+      "stills": [
+        {
+          "path": "media/movies/m104652/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://d189djjbmcrkk.cloudfront.net/tinymce/QwyYrHeVTmAbc3Mn0MPogDg0DW2sUMeJUg7CJtS4.png"
+        },
+        {
+          "path": "media/movies/m104652/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://www.applause.com.tw/wp-content/uploads/2025/07/2560x1050-1.jpg"
+        },
+        {
+          "path": "media/movies/m104652/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fcrawl.ws.126.net%2F4293249bd4b734cfab359260faba328b.jpeg&thumbnail=660x2147483647&quality=80&type=jpg"
+        }
+      ],
+      "wm": null
+    },
+    "m1568921": {
+      "id": "m1568921",
+      "zh": "借东西的小人阿莉埃蒂",
+      "en": "Arrietty",
+      "year": 2010,
+      "director": "米林宏昌",
+      "runtime": 94,
+      "country": "日本",
+      "film": "#464f55",
+      "poster": "media/movies/m1568921/poster.webp?v=1795088151",
+      "stills": [
+        {
+          "path": "media/movies/m1568921/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180111/f41c6e1beadd4e8f85a2c85f3e342b40.jpeg"
+        },
+        {
+          "path": "media/movies/m1568921/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20180131/f2e57987d47c46d9af9c518b0550a6ff.jpeg"
+        },
+        {
+          "path": "media/movies/m1568921/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/39bd0989d0534c9084bd840b9d8125ef~tplv-xv4ileqgde-resize-w:1440.awebp"
+        }
+      ],
+      "wm": null
+    },
+    "m2140203": {
+      "id": "m2140203",
+      "zh": "狼的孩子雨和雪",
+      "en": "Wolf Children",
+      "year": 2012,
+      "director": "细田守",
+      "runtime": 117,
+      "country": "日本",
+      "film": "#9aafa7",
+      "poster": "media/movies/m2140203/poster.webp?v=1795088168",
+      "stills": [
+        {
+          "path": "media/movies/m2140203/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://pic3.zhimg.com/v2-983ff06a133110e0a34163fd40969186_b.jpg"
+        },
+        {
+          "path": "media/movies/m2140203/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://picx.zhimg.com/v2-10fd3371c8dfdaf0793cc70e935c6a91_1440w.jpg"
+        },
+        {
+          "path": "media/movies/m2140203/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "http://5b0988e595225.cdn.sohucs.com/images/20180927/251a8e352d9e40f9842c9b1427d828ce.jpeg"
+        }
+      ],
+      "wm": null
+    },
+    "m1474276": {
+      "id": "m1474276",
+      "zh": "夏日大作战",
+      "en": "Summer Wars",
+      "year": 2009,
+      "director": "细田守",
+      "runtime": 114,
+      "country": "日本",
+      "film": "#919a93",
+      "poster": "media/movies/m1474276/poster.webp?v=1795088140",
+      "stills": [
+        {
+          "path": "media/movies/m1474276/still-01.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://mhgmqh.img0a.com/uploads/313733383639247777772E736366762E636E"
+        },
+        {
+          "path": "media/movies/m1474276/still-02.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://rstntx.img0a.com/uploads/323435353532247777772E736366762E636E"
+        },
+        {
+          "path": "media/movies/m1474276/still-03.webp",
+          "source": "sogou",
+          "kind": "real",
+          "url": "https://so1.360tres.com/t0192e5380ef6e603b9.jpg"
+        }
+      ],
+      "wm": null
+    }
+  }
+};

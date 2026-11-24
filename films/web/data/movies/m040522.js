@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m040522", "key": "imdb:tt0040522", "source": "manual", "wikidata": "", "titles": {"zh": "偷自行车的人", "en": "Bicycle Thieves"}, "zh": "偷自行车的人", "en": "Bicycle Thieves", "year": 1948, "runtime": 89, "countries": ["IT"], "primary_country": "IT", "country": "意大利", "coproduction": false, "languages": [], "directors": ["p:维托里奥·德·西卡"], "director": "维托里奥·德·西卡", "genres": ["crime"], "genreLabel": "犯罪", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m040522/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m040522/still-01.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/front/151/w1860h1491/20181106/0237-hnknmqx5048615.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m040522/still-02.webp", "source": "sogou", "kind": "real", "url": "http://dingyue.ws.126.net/2020/0603/49d44855j00qbc7rw001ed200lc00g0g00it00e3.jpg"}, {"path": "media/movies/m040522/still-03.webp", "source": "sogou", "kind": "real", "url": "https://thedailyorca.biggerboatpress.com/wp-content/uploads/2026/04/Bicycle-Thieves-01.jpeg"}], "stills_src": [], "quote": {"text": "Why should I kill myself worrying when I'll end up just as dead?", "zh": "为什么我要因为担心而自寻烦恼，反正最后我也会死？", "source": "", "kind": "line"}, "dominant": "#a48351", "film": "#a48351", "credits_note": "", "lists": [{"list_id": "global-crime-greatest", "rank": 25}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m040522",
+  "key": "imdb:tt0040522",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "偷自行车的人",
+    "en": "Bicycle Thieves"
+  },
+  "zh": "偷自行车的人",
+  "en": "Bicycle Thieves",
+  "year": 1948,
+  "runtime": 89,
+  "countries": [
+    "IT"
+  ],
+  "primary_country": "IT",
+  "country": "意大利",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:维托里奥·德·西卡"
+  ],
+  "director": "维托里奥·德·西卡",
+  "genres": [
+    "crime"
+  ],
+  "genreLabel": "犯罪",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m040522/poster.webp?v=1795087886",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m040522/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/front/151/w1860h1491/20181106/0237-hnknmqx5048615.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    },
+    {
+      "path": "media/movies/m040522/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dingyue.ws.126.net/2020/0603/49d44855j00qbc7rw001ed200lc00g0g00it00e3.jpg"
+    },
+    {
+      "path": "media/movies/m040522/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://thedailyorca.biggerboatpress.com/wp-content/uploads/2026/04/Bicycle-Thieves-01.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Why should I kill myself worrying when I'll end up just as dead?",
+    "zh": "为什么我要因为担心而自寻烦恼，反正最后我也会死？",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#a48351",
+  "film": "#a48351",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-crime-greatest",
+      "rank": 25
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

@@ -162,6 +162,11 @@ def attach_media(movies: list[dict], data_root: Path, colors: dict, problems: li
                 "source": "admin",
                 "kind": "real",
             }]
+        poster_rel = str(movie.get("poster") or "").split("?", 1)[0]
+        if poster_rel:
+            poster_file = data_root / poster_rel
+            if poster_file.exists():
+                movie["poster"] = f"{poster_rel}?v={int(poster_file.stat().st_mtime)}"
 
 
 def attach_memberships(movies: list[dict], memberships: dict[str, list[dict]]) -> None:
@@ -191,7 +196,7 @@ def write_list_payloads(web_root: Path, lists: dict[str, dict], movie_by_id: dic
             },
         }
         (out / f"{list_id}.js").write_text(
-            "window.FILM_LIST_DATA = " + json.dumps(payload, ensure_ascii=False) + ";\n",
+            "window.FILM_LIST_DATA = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
             encoding="utf-8",
         )
     valid = {f"{list_id}.js" for list_id in lists}
@@ -205,7 +210,7 @@ def write_movie_payloads(web_root: Path, movies: list[dict]) -> None:
     out.mkdir(parents=True, exist_ok=True)
     for movie in movies:
         (out / f"{movie['id']}.js").write_text(
-            "window.FILM_MOVIE_DATA = " + json.dumps(movie, ensure_ascii=False) + ";\n",
+            "window.FILM_MOVIE_DATA = " + json.dumps(movie, ensure_ascii=False, indent=2) + ";\n",
             encoding="utf-8",
         )
     valid = {f"{movie['id']}.js" for movie in movies}
@@ -236,7 +241,7 @@ def write_site(web_root: Path, list_index: dict, search: list[dict]) -> None:
     data_dir.mkdir(parents=True, exist_ok=True)
     (data_dir / "site.js").write_text(
         "window.FILMS_DATA = " + json.dumps(
-            {"films": {}, "lists": list_index, "search": search}, ensure_ascii=False,
+            {"films": {}, "lists": list_index, "search": search}, ensure_ascii=False, indent=2,
         ) + ";\n",
         encoding="utf-8",
     )

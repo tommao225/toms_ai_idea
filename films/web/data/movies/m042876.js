@@ -1,1 +1,80 @@
-window.FILM_MOVIE_DATA = {"id": "m042876", "key": "imdb:tt0042876", "source": "wikidata", "wikidata": "http://www.wikidata.org/entity/Q135465", "titles": {"zh": "罗生门", "en": "Rashomon"}, "zh": "罗生门", "en": "Rashomon", "year": 1950, "runtime": 88, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:黑泽明"], "director": "黑泽明", "genres": ["drama", "crime"], "genreLabel": "剧情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m042876/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m042876/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1332090829.jpg?sa_cv=ee85c1bb51370ffb3ae354410a243e72&sa_ct=6afebf07&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m042876/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1332091897.jpg?sa_cv=1b65a319e2bf09981d17cd4c556543e3&sa_ct=6afebf07&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m042876/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1332092311.jpg?sa_cv=c07d4745617a00573a7039d606fed71f&sa_ct=6afebf07&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "stills_src": [], "quote": {"text": "It sounded interesting, at least while I kept out of the rain. But if it's a sermon, I'd sooner listen to the rain.", "zh": "听起来挺有意思的，至少能让我避一避雨。但如果是布道，我宁愿听雨声。", "source": "", "kind": "line"}, "dominant": "#b1a292", "film": "#b1a292", "credits_note": "", "lists": [{"list_id": "global-crime-greatest", "rank": 20}, {"list_id": "global-mystery-greatest", "rank": 20}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m042876",
+  "key": "imdb:tt0042876",
+  "source": "wikidata",
+  "wikidata": "http://www.wikidata.org/entity/Q135465",
+  "titles": {
+    "zh": "罗生门",
+    "en": "Rashomon"
+  },
+  "zh": "罗生门",
+  "en": "Rashomon",
+  "year": 1950,
+  "runtime": 88,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:黑泽明"
+  ],
+  "director": "黑泽明",
+  "genres": [
+    "drama",
+    "crime"
+  ],
+  "genreLabel": "剧情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m042876/poster.webp?v=1795078013",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m042876/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1332090829.jpg?sa_cv=ee85c1bb51370ffb3ae354410a243e72&sa_ct=6afebf07&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m042876/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1332091897.jpg?sa_cv=1b65a319e2bf09981d17cd4c556543e3&sa_ct=6afebf07&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m042876/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1332092311.jpg?sa_cv=c07d4745617a00573a7039d606fed71f&sa_ct=6afebf07&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "It sounded interesting, at least while I kept out of the rain. But if it's a sermon, I'd sooner listen to the rain.",
+    "zh": "听起来挺有意思的，至少能让我避一避雨。但如果是布道，我宁愿听雨声。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#b1a292",
+  "film": "#b1a292",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-crime-greatest",
+      "rank": 20
+    },
+    {
+      "list_id": "global-mystery-greatest",
+      "rank": 20
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

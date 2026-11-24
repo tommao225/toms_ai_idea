@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m2380307", "key": "imdb:tt2380307", "source": "manual", "wikidata": "", "titles": {"zh": "寻梦环游记", "en": "Coco"}, "zh": "寻梦环游记", "en": "Coco", "year": 2017, "runtime": 105, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:李·昂克里奇"], "director": "李·昂克里奇", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m2380307/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m2380307/still-01.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FT7sIvzvxdkIU6F093rAnkNE0AB3%3D2YK7c3Ku9ytj7a8FI1564668702693compressflag.png&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m2380307/still-02.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/8326cffc1e178a82b90192e6e75f648da9773912427a/8326cffc1e178a82b90192e6e75f648da9773912427a_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m2380307/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p5.itc.cn/q_70/images03/20211206/83b43394a2ad4fb7a89a8486b86cc0d4.jpeg"}], "stills_src": [], "quote": null, "dominant": "#945756", "film": "#945756", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 19}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m2380307",
+  "key": "imdb:tt2380307",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "寻梦环游记",
+    "en": "Coco"
+  },
+  "zh": "寻梦环游记",
+  "en": "Coco",
+  "year": 2017,
+  "runtime": 105,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:李·昂克里奇"
+  ],
+  "director": "李·昂克里奇",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m2380307/poster.webp?v=1795086145",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m2380307/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2FT7sIvzvxdkIU6F093rAnkNE0AB3%3D2YK7c3Ku9ytj7a8FI1564668702693compressflag.png&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m2380307/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/8326cffc1e178a82b90192e6e75f648da9773912427a/8326cffc1e178a82b90192e6e75f648da9773912427a_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+    },
+    {
+      "path": "media/movies/m2380307/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p5.itc.cn/q_70/images03/20211206/83b43394a2ad4fb7a89a8486b86cc0d4.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#945756",
+  "film": "#945756",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 19
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m469045", "key": "imdb:tt0469045", "source": "manual", "wikidata": "", "titles": {"zh": "杀破狼", "en": "SPL: Sha Po Lang"}, "zh": "杀破狼", "en": "SPL: Sha Po Lang", "year": 2005, "runtime": 93, "countries": ["HK"], "primary_country": "HK", "country": "中国香港", "coproduction": false, "languages": [], "directors": ["p:叶伟信"], "director": "叶伟信", "genres": ["action"], "genreLabel": "动作", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m469045/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m469045/still-01.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20201209ac/734/w434h300/20201209/0616-keyancx3916374.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m469045/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img03.sogoucdn.com/v2/thumb/retype_exclude_gif/ext/awj/q/85?appid=200698&url=https%3A%2F%2Fpic.baike.soso.com%2Fugc%2Fbaikepic2%2F0%2F20261015000446-1516493014_jpeg_1000_562_86976.jpg%2F0"}, {"path": "media/movies/m469045/still-03.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20201115ac/481/w750h531/20201115/1770-kcysmrv5705973.jpg/w700d1q75cms.jpg"}], "stills_src": [], "quote": null, "dominant": "#53575c", "film": "#53575c", "credits_note": "", "lists": [{"list_id": "global-action-greatest", "rank": 17}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m469045",
+  "key": "imdb:tt0469045",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "杀破狼",
+    "en": "SPL: Sha Po Lang"
+  },
+  "zh": "杀破狼",
+  "en": "SPL: Sha Po Lang",
+  "year": 2005,
+  "runtime": 93,
+  "countries": [
+    "HK"
+  ],
+  "primary_country": "HK",
+  "country": "中国香港",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:叶伟信"
+  ],
+  "director": "叶伟信",
+  "genres": [
+    "action"
+  ],
+  "genreLabel": "动作",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m469045/poster.webp?v=1795086482",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m469045/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20201209ac/734/w434h300/20201209/0616-keyancx3916374.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m469045/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img03.sogoucdn.com/v2/thumb/retype_exclude_gif/ext/awj/q/85?appid=200698&url=https%3A%2F%2Fpic.baike.soso.com%2Fugc%2Fbaikepic2%2F0%2F20261015000446-1516493014_jpeg_1000_562_86976.jpg%2F0"
+    },
+    {
+      "path": "media/movies/m469045/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20201115ac/481/w750h531/20201115/1770-kcysmrv5705973.jpg/w700d1q75cms.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#53575c",
+  "film": "#53575c",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-action-greatest",
+      "rank": 17
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

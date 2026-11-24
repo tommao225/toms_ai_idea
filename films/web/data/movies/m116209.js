@@ -1,1 +1,76 @@
-window.FILM_MOVIE_DATA = {"id": "m116209", "key": "imdb:tt0116209", "source": "manual", "wikidata": "", "titles": {"zh": "英国病人", "en": "The English Patient"}, "zh": "英国病人", "en": "The English Patient", "year": 1996, "runtime": 162, "countries": ["US", "GB"], "primary_country": "US", "country": "美国 / 英国", "coproduction": true, "languages": [], "directors": ["p:安东尼·明格拉"], "director": "安东尼·明格拉", "genres": ["romance"], "genreLabel": "爱情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m116209/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m116209/still-01.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20200917ac/40/w480h360/20200917/7677-izeysaz6575680.png/w700d1q75cms.jpg"}, {"path": "media/movies/m116209/still-02.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0526%2Fadabb2fbj00qtonjo000oc000g200ang.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m116209/still-03.webp", "source": "sogou", "kind": "real", "url": "https://5b0988e595225.cdn.sohucs.com/images/20180512/10a352ecc414454fbb1673db325546e2.jpeg"}], "stills_src": [], "quote": {"text": "I think I was a pilot.", "zh": "我想我曾经是一名飞行员。", "source": "", "kind": "line"}, "dominant": "#795934", "film": "#795934", "credits_note": "", "lists": [{"list_id": "global-romance-greatest", "rank": 22}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m116209",
+  "key": "imdb:tt0116209",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "英国病人",
+    "en": "The English Patient"
+  },
+  "zh": "英国病人",
+  "en": "The English Patient",
+  "year": 1996,
+  "runtime": 162,
+  "countries": [
+    "US",
+    "GB"
+  ],
+  "primary_country": "US",
+  "country": "美国 / 英国",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:安东尼·明格拉"
+  ],
+  "director": "安东尼·明格拉",
+  "genres": [
+    "romance"
+  ],
+  "genreLabel": "爱情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m116209/poster.webp?v=1795087581",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m116209/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20200917ac/40/w480h360/20200917/7677-izeysaz6575680.png/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m116209/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0526%2Fadabb2fbj00qtonjo000oc000g200ang.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m116209/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://5b0988e595225.cdn.sohucs.com/images/20180512/10a352ecc414454fbb1673db325546e2.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "I think I was a pilot.",
+    "zh": "我想我曾经是一名飞行员。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#795934",
+  "film": "#795934",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-romance-greatest",
+      "rank": 22
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

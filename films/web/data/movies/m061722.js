@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m061722", "key": "imdb:tt0061722", "source": "manual", "wikidata": "", "titles": {"zh": "毕业生", "en": "The Graduate"}, "zh": "毕业生", "en": "The Graduate", "year": 1967, "runtime": 106, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:迈克·尼科尔斯"], "director": "迈克·尼科尔斯", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m061722/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m061722/still-01.webp", "source": "sogou", "kind": "real", "url": "http://i1.sinaimg.cn/ent/v/m/2009-04-09/U2599P28T3D2463662F326DT20090409155023.jpg"}, {"path": "media/movies/m061722/still-02.webp", "source": "sogou", "kind": "real", "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/a441cb577c824f818b89eb969a75cbf7~tplv-xv4ileqgde-image.image"}, {"path": "media/movies/m061722/still-03.webp", "source": "sogou", "kind": "real", "url": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2024/11/04234509/xFK9AjCqlgBps2cU4I3b1MyZrHT.jpg"}], "stills_src": [], "quote": null, "dominant": "#2F3E4E", "film": "#2F3E4E", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 6}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m061722",
+  "key": "imdb:tt0061722",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "毕业生",
+    "en": "The Graduate"
+  },
+  "zh": "毕业生",
+  "en": "The Graduate",
+  "year": 1967,
+  "runtime": 106,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:迈克·尼科尔斯"
+  ],
+  "director": "迈克·尼科尔斯",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m061722/poster.webp?v=1795084858",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m061722/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://i1.sinaimg.cn/ent/v/m/2009-04-09/U2599P28T3D2463662F326DT20090409155023.jpg"
+    },
+    {
+      "path": "media/movies/m061722/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/a441cb577c824f818b89eb969a75cbf7~tplv-xv4ileqgde-image.image"
+    },
+    {
+      "path": "media/movies/m061722/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2024/11/04234509/xFK9AjCqlgBps2cU4I3b1MyZrHT.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#2F3E4E",
+  "film": "#2F3E4E",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 6
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

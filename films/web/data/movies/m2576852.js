@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m2576852", "key": "imdb:tt2576852", "source": "manual", "wikidata": "", "titles": {"zh": "辉夜姬物语", "en": "The Tale of the Princess Kaguya"}, "zh": "辉夜姬物语", "en": "The Tale of the Princess Kaguya", "year": 2013, "runtime": 137, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:高畑勋"], "director": "高畑勋", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m2576852/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m2576852/still-01.webp", "source": "sogou", "kind": "real", "url": "https://i0.hdslb.com/bfs/article/33a906a1244918552bb4e39a661428d008d5f862.png"}, {"path": "media/movies/m2576852/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn20191119ac/186/w640h346/20191119/d9ca-iipztff2491869.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m2576852/still-03.webp", "source": "sogou", "kind": "real", "url": "http://img2.chinadaily.com.cn/images/202012/06/5fcc1f00a31024adbda67174.jpeg"}], "stills_src": [], "quote": null, "dominant": "#e1d7db", "film": "#e1d7db", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 24}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m2576852",
+  "key": "imdb:tt2576852",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "辉夜姬物语",
+    "en": "The Tale of the Princess Kaguya"
+  },
+  "zh": "辉夜姬物语",
+  "en": "The Tale of the Princess Kaguya",
+  "year": 2013,
+  "runtime": 137,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:高畑勋"
+  ],
+  "director": "高畑勋",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m2576852/poster.webp?v=1795088180",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m2576852/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://i0.hdslb.com/bfs/article/33a906a1244918552bb4e39a661428d008d5f862.png"
+    },
+    {
+      "path": "media/movies/m2576852/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinacn20191119ac/186/w640h346/20191119/d9ca-iipztff2491869.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m2576852/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://img2.chinadaily.com.cn/images/202012/06/5fcc1f00a31024adbda67174.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#e1d7db",
+  "film": "#e1d7db",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 24
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

@@ -1,1 +1,73 @@
-window.FILM_MOVIE_DATA = {"id": "m118845", "key": "imdb:tt0118845", "source": "manual", "wikidata": "", "titles": {"zh": "春光乍泄", "en": "Happy Together"}, "zh": "春光乍泄", "en": "Happy Together", "year": 1997, "runtime": 96, "countries": ["HK", "JP", "KR"], "primary_country": "HK", "country": "中国香港 / 日本 / 韩国", "coproduction": true, "languages": [], "directors": ["p:王家卫"], "director": "王家卫", "genres": ["romance"], "genreLabel": "爱情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m118845/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m118845/still-01.webp", "source": "sogou", "kind": "real", "url": "http://wx3.sinaimg.cn/middle/0079lQUxgy1if0ik2j42kj31t810ojyf.jpg"}, {"path": "media/movies/m118845/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20220602ac/354/w1794h960/20220602/9b64-b653dd9a4ef3eb4ba8bc2f66f42f3593.jpg/w700d1q75cms.jpg?by=cms_fixed_width"}, {"path": "media/movies/m118845/still-03.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20220602ac/678/w1998h1080/20220602/b611-91e454aea8b7acbd1c60f139cdb0795b.jpg/w700d1q75cms.jpg"}], "stills_src": [], "quote": null, "dominant": "#428d6a", "film": "#428d6a", "credits_note": "", "lists": [{"list_id": "global-romance-greatest", "rank": 14}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m118845",
+  "key": "imdb:tt0118845",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "春光乍泄",
+    "en": "Happy Together"
+  },
+  "zh": "春光乍泄",
+  "en": "Happy Together",
+  "year": 1997,
+  "runtime": 96,
+  "countries": [
+    "HK",
+    "JP",
+    "KR"
+  ],
+  "primary_country": "HK",
+  "country": "中国香港 / 日本 / 韩国",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:王家卫"
+  ],
+  "director": "王家卫",
+  "genres": [
+    "romance"
+  ],
+  "genreLabel": "爱情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m118845/poster.webp?v=1795085877",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m118845/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://wx3.sinaimg.cn/middle/0079lQUxgy1if0ik2j42kj31t810ojyf.jpg"
+    },
+    {
+      "path": "media/movies/m118845/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20220602ac/354/w1794h960/20220602/9b64-b653dd9a4ef3eb4ba8bc2f66f42f3593.jpg/w700d1q75cms.jpg?by=cms_fixed_width"
+    },
+    {
+      "path": "media/movies/m118845/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20220602ac/678/w1998h1080/20220602/b611-91e454aea8b7acbd1c60f139cdb0795b.jpg/w700d1q75cms.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#428d6a",
+  "film": "#428d6a",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-romance-greatest",
+      "rank": 14
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

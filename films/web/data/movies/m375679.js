@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m375679", "key": "imdb:tt0375679", "source": "manual", "wikidata": "", "titles": {"zh": "撞车", "en": "Crash"}, "zh": "撞车", "en": "Crash", "year": 2004, "runtime": 112, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:保罗·哈吉斯"], "director": "保罗·哈吉斯", "genres": ["drama"], "genreLabel": "剧情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m375679/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m375679/still-01.webp", "source": "sogou", "kind": "real", "url": "https://culturefilmpublication.co.uk/wp-content/uploads/2026/04/image-20.png?w=1024"}, {"path": "media/movies/m375679/still-02.webp", "source": "sogou", "kind": "real", "url": "https://kenshin.hk/blog/2020-02/miu404/01/miu404-01-12.jpg"}, {"path": "media/movies/m375679/still-03.webp", "source": "sogou", "kind": "real", "url": "https://q3.itc.cn/images01/20250318/b8a661b3ba564973b0b16c08c825d545.jpeg"}], "stills_src": [], "quote": null, "dominant": "#44433d", "film": "#44433d", "credits_note": "", "lists": [{"list_id": "global-drama-greatest", "rank": 27}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m375679",
+  "key": "imdb:tt0375679",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "撞车",
+    "en": "Crash"
+  },
+  "zh": "撞车",
+  "en": "Crash",
+  "year": 2004,
+  "runtime": 112,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:保罗·哈吉斯"
+  ],
+  "director": "保罗·哈吉斯",
+  "genres": [
+    "drama"
+  ],
+  "genreLabel": "剧情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m375679/poster.webp?v=1795087336",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m375679/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://culturefilmpublication.co.uk/wp-content/uploads/2026/04/image-20.png?w=1024"
+    },
+    {
+      "path": "media/movies/m375679/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://kenshin.hk/blog/2020-02/miu404/01/miu404-01-12.jpg"
+    },
+    {
+      "path": "media/movies/m375679/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q3.itc.cn/images01/20250318/b8a661b3ba564973b0b16c08c825d545.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#44433d",
+  "film": "#44433d",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-drama-greatest",
+      "rank": 27
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

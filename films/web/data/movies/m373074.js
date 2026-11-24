@@ -1,1 +1,76 @@
-window.FILM_MOVIE_DATA = {"id": "m373074", "key": "imdb:tt0373074", "source": "manual", "wikidata": "", "titles": {"zh": "功夫", "en": "Kung Fu Hustle"}, "zh": "功夫", "en": "Kung Fu Hustle", "year": 2004, "runtime": 99, "countries": ["CN", "HK"], "primary_country": "CN", "country": "中国 / 中国香港", "coproduction": true, "languages": [], "directors": ["p:周星驰"], "director": "周星驰", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m373074/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m373074/still-01.webp", "source": "sogou", "kind": "real", "url": "https://inews.gtimg.com/om_ls/Oue1Xnex8ceaSXh_1pDdGh-APOdEUEzW6KWmr3KLZmbJgAA_870492/0"}, {"path": "media/movies/m373074/still-02.webp", "source": "sogou", "kind": "real", "url": "http://inews.gtimg.com/newsapp_bt/0/11651335516/641"}, {"path": "media/movies/m373074/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0815%2Feaf00303j00qxuo99001td200u000gwg00zk00k0.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "stills_src": [], "quote": {"text": "[To ice cream vendor] What're you looking at? Never seen an ice cream thief before? [Runs away without paying, laughing maniacally]", "zh": "[对冰淇淋摊贩] 你看什么？以前没见过偷冰淇淋的吗？[不付钱就跑了，疯狂地大笑]", "source": "", "kind": "line"}, "dominant": "#997b73", "film": "#997b73", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 18}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m373074",
+  "key": "imdb:tt0373074",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "功夫",
+    "en": "Kung Fu Hustle"
+  },
+  "zh": "功夫",
+  "en": "Kung Fu Hustle",
+  "year": 2004,
+  "runtime": 99,
+  "countries": [
+    "CN",
+    "HK"
+  ],
+  "primary_country": "CN",
+  "country": "中国 / 中国香港",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:周星驰"
+  ],
+  "director": "周星驰",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m373074/poster.webp?v=1795086353",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m373074/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://inews.gtimg.com/om_ls/Oue1Xnex8ceaSXh_1pDdGh-APOdEUEzW6KWmr3KLZmbJgAA_870492/0"
+    },
+    {
+      "path": "media/movies/m373074/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://inews.gtimg.com/newsapp_bt/0/11651335516/641"
+    },
+    {
+      "path": "media/movies/m373074/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0815%2Feaf00303j00qxuo99001td200u000gwg00zk00k0.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "[To ice cream vendor] What're you looking at? Never seen an ice cream thief before? [Runs away without paying, laughing maniacally]",
+    "zh": "[对冰淇淋摊贩] 你看什么？以前没见过偷冰淇淋的吗？[不付钱就跑了，疯狂地大笑]",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#997b73",
+  "film": "#997b73",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 18
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

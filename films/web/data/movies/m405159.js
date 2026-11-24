@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m405159", "key": "imdb:tt0405159", "source": "manual", "wikidata": "", "titles": {"zh": "百万美元宝贝", "en": "Million Dollar Baby"}, "zh": "百万美元宝贝", "en": "Million Dollar Baby", "year": 2004, "runtime": 132, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:克林特·伊斯特伍德"], "director": "克林特·伊斯特伍德", "genres": ["drama"], "genreLabel": "剧情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m405159/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m405159/still-01.webp", "source": "sogou", "kind": "real", "url": "http://www.mna.net.cn/d/file/yule/yingshi/2019-08-21/222ba77dc651b66a3061db3679000d5c.jpeg"}, {"path": "media/movies/m405159/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20200611ac/448/w750h498/20200611/f904-iuvaazp3765944.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m405159/still-03.webp", "source": "sogou", "kind": "real", "url": "http://img1.gtimg.com/ent/pics/hv1/158/168/2201/143163023.jpg"}], "stills_src": [], "quote": {"text": "Anybody can lose one fight, anybody can lose once, you'll come back from this you'll be champion of the world.", "zh": "谁都可能输掉一场比赛，谁都可能输掉一次，你会从这次失利中振作起来，你会成为世界冠军。", "source": "", "kind": "line"}, "dominant": "#232222", "film": "#232222", "credits_note": "", "lists": [{"list_id": "global-drama-greatest", "rank": 26}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m405159",
+  "key": "imdb:tt0405159",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "百万美元宝贝",
+    "en": "Million Dollar Baby"
+  },
+  "zh": "百万美元宝贝",
+  "en": "Million Dollar Baby",
+  "year": 2004,
+  "runtime": 132,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:克林特·伊斯特伍德"
+  ],
+  "director": "克林特·伊斯特伍德",
+  "genres": [
+    "drama"
+  ],
+  "genreLabel": "剧情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m405159/poster.webp?v=1795087346",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m405159/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://www.mna.net.cn/d/file/yule/yingshi/2019-08-21/222ba77dc651b66a3061db3679000d5c.jpeg"
+    },
+    {
+      "path": "media/movies/m405159/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20200611ac/448/w750h498/20200611/f904-iuvaazp3765944.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m405159/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://img1.gtimg.com/ent/pics/hv1/158/168/2201/143163023.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Anybody can lose one fight, anybody can lose once, you'll come back from this you'll be champion of the world.",
+    "zh": "谁都可能输掉一场比赛，谁都可能输掉一次，你会从这次失利中振作起来，你会成为世界冠军。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#232222",
+  "film": "#232222",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-drama-greatest",
+      "rank": 26
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

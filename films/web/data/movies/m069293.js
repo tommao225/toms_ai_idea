@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m069293", "key": "imdb:tt0069293", "source": "manual", "wikidata": "", "titles": {"zh": "飞向太空", "en": "Solaris"}, "zh": "飞向太空", "en": "Solaris", "year": 1972, "runtime": 167, "countries": ["SU"], "primary_country": "SU", "country": "苏联", "coproduction": false, "languages": [], "directors": ["p:安德烈·塔可夫斯基"], "director": "安德烈·塔可夫斯基", "genres": ["scifi"], "genreLabel": "科幻", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m069293/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m069293/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2524402477.jpg"}, {"path": "media/movies/m069293/still-02.webp", "source": "douban", "kind": "real", "url": "https://img2.doubanio.com/view/photo/l/public/p2524402331.jpg"}, {"path": "media/movies/m069293/still-03.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2524402489.jpg"}], "stills_src": [], "quote": null, "dominant": "#43413d", "film": "#43413d", "credits_note": "", "lists": [{"list_id": "global-scifi-greatest", "rank": 6}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m069293",
+  "key": "imdb:tt0069293",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "飞向太空",
+    "en": "Solaris"
+  },
+  "zh": "飞向太空",
+  "en": "Solaris",
+  "year": 1972,
+  "runtime": 167,
+  "countries": [
+    "SU"
+  ],
+  "primary_country": "SU",
+  "country": "苏联",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:安德烈·塔可夫斯基"
+  ],
+  "director": "安德烈·塔可夫斯基",
+  "genres": [
+    "scifi"
+  ],
+  "genreLabel": "科幻",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m069293/poster.webp?v=1795078847",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m069293/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2524402477.jpg"
+    },
+    {
+      "path": "media/movies/m069293/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img2.doubanio.com/view/photo/l/public/p2524402331.jpg"
+    },
+    {
+      "path": "media/movies/m069293/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2524402489.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#43413d",
+  "film": "#43413d",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-scifi-greatest",
+      "rank": 6
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

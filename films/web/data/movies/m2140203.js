@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m2140203", "key": "imdb:tt2140203", "source": "manual", "wikidata": "", "titles": {"zh": "狼的孩子雨和雪", "en": "Wolf Children"}, "zh": "狼的孩子雨和雪", "en": "Wolf Children", "year": 2012, "runtime": 117, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:细田守"], "director": "细田守", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m2140203/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m2140203/still-01.webp", "source": "sogou", "kind": "real", "url": "https://pic3.zhimg.com/v2-983ff06a133110e0a34163fd40969186_b.jpg"}, {"path": "media/movies/m2140203/still-02.webp", "source": "sogou", "kind": "real", "url": "https://picx.zhimg.com/v2-10fd3371c8dfdaf0793cc70e935c6a91_1440w.jpg"}, {"path": "media/movies/m2140203/still-03.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20180927/251a8e352d9e40f9842c9b1427d828ce.jpeg"}], "stills_src": [], "quote": null, "dominant": "#9aafa7", "film": "#9aafa7", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 29}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m2140203",
+  "key": "imdb:tt2140203",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "狼的孩子雨和雪",
+    "en": "Wolf Children"
+  },
+  "zh": "狼的孩子雨和雪",
+  "en": "Wolf Children",
+  "year": 2012,
+  "runtime": 117,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:细田守"
+  ],
+  "director": "细田守",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m2140203/poster.webp?v=1795088168",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m2140203/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://pic3.zhimg.com/v2-983ff06a133110e0a34163fd40969186_b.jpg"
+    },
+    {
+      "path": "media/movies/m2140203/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://picx.zhimg.com/v2-10fd3371c8dfdaf0793cc70e935c6a91_1440w.jpg"
+    },
+    {
+      "path": "media/movies/m2140203/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20180927/251a8e352d9e40f9842c9b1427d828ce.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#9aafa7",
+  "film": "#9aafa7",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 29
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

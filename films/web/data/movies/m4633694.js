@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m4633694", "key": "imdb:tt4633694", "source": "manual", "wikidata": "", "titles": {"zh": "蜘蛛侠：平行宇宙", "en": "Spider-Man: Into the Spider-Verse"}, "zh": "蜘蛛侠：平行宇宙", "en": "Spider-Man: Into the Spider-Verse", "year": 2018, "runtime": 117, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:鲍勃·佩尔西凯蒂"], "director": "鲍勃·佩尔西凯蒂", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m4633694/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m4633694/still-01.webp", "source": "sogou", "kind": "real", "url": "https://images.ctfassets.net/4hzlhbw7nuq7/41BsfVJKSDoLEj0w6UGeJ2/ee73d19196ca1068bdccefad146e19fa/spiderman.jpg?w=1920&h=915&fit=fill&fl=progressive&q=75"}, {"path": "media/movies/m4633694/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img2.ali213.net/picfile/News/2022/07/06/584_2022070653028165.png"}, {"path": "media/movies/m4633694/still-03.webp", "source": "sogou", "kind": "real", "url": "https://cdn.10100.com/content/20260210/fde69bf3-8db2-4707-b2e8-0f78f3f1c533_900x_wm.png"}], "stills_src": [], "quote": {"text": "[final words to Kingpin before his death] I know what you're trying to do– and it won't work. They're gone.", "zh": "[临终前对金并说的最后一句话]我知道你想做什么——但没用的。他们已经走了。", "source": "", "kind": "line"}, "dominant": "#3b2746", "film": "#3b2746", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 14}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m4633694",
+  "key": "imdb:tt4633694",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "蜘蛛侠：平行宇宙",
+    "en": "Spider-Man: Into the Spider-Verse"
+  },
+  "zh": "蜘蛛侠：平行宇宙",
+  "en": "Spider-Man: Into the Spider-Verse",
+  "year": 2018,
+  "runtime": 117,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:鲍勃·佩尔西凯蒂"
+  ],
+  "director": "鲍勃·佩尔西凯蒂",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m4633694/poster.webp?v=1795086448",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m4633694/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://images.ctfassets.net/4hzlhbw7nuq7/41BsfVJKSDoLEj0w6UGeJ2/ee73d19196ca1068bdccefad146e19fa/spiderman.jpg?w=1920&h=915&fit=fill&fl=progressive&q=75"
+    },
+    {
+      "path": "media/movies/m4633694/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img2.ali213.net/picfile/News/2022/07/06/584_2022070653028165.png"
+    },
+    {
+      "path": "media/movies/m4633694/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://cdn.10100.com/content/20260210/fde69bf3-8db2-4707-b2e8-0f78f3f1c533_900x_wm.png"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "[final words to Kingpin before his death] I know what you're trying to do– and it won't work. They're gone.",
+    "zh": "[临终前对金并说的最后一句话]我知道你想做什么——但没用的。他们已经走了。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#3b2746",
+  "film": "#3b2746",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 14
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

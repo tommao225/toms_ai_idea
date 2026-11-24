@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m765429", "key": "imdb:tt0765429", "source": "manual", "wikidata": "", "titles": {"zh": "美国黑帮", "en": "American Gangster"}, "zh": "美国黑帮", "en": "American Gangster", "year": 2007, "runtime": 157, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:雷德利·斯科特"], "director": "雷德利·斯科特", "genres": ["crime"], "genreLabel": "犯罪", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m765429/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m765429/still-01.webp", "source": "sogou", "kind": "real", "url": "https://gbaike-image.cdn.bcebos.com/964b2e4e2f390d80d1c86ad5/964b2e4e2f390d80d1c86ad5_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"}, {"path": "media/movies/m765429/still-02.webp", "source": "sogou", "kind": "real", "url": "https://q2.itc.cn/images01/20250908/782acdaa782b4f458d535d243eee9bca.jpeg"}, {"path": "media/movies/m765429/still-03.webp", "source": "sogou", "kind": "real", "url": "https://www.cinemablind.com/wp-content/uploads/2023/08/American-Gangster.jpg"}], "stills_src": [], "quote": null, "dominant": "#5c4034", "film": "#5c4034", "credits_note": "", "lists": [{"list_id": "global-crime-greatest", "rank": 21}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m765429",
+  "key": "imdb:tt0765429",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "美国黑帮",
+    "en": "American Gangster"
+  },
+  "zh": "美国黑帮",
+  "en": "American Gangster",
+  "year": 2007,
+  "runtime": 157,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:雷德利·斯科特"
+  ],
+  "director": "雷德利·斯科特",
+  "genres": [
+    "crime"
+  ],
+  "genreLabel": "犯罪",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m765429/poster.webp?v=1795088026",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m765429/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://gbaike-image.cdn.bcebos.com/964b2e4e2f390d80d1c86ad5/964b2e4e2f390d80d1c86ad5_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+    },
+    {
+      "path": "media/movies/m765429/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q2.itc.cn/images01/20250908/782acdaa782b4f458d535d243eee9bca.jpeg"
+    },
+    {
+      "path": "media/movies/m765429/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.cinemablind.com/wp-content/uploads/2023/08/American-Gangster.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#5c4034",
+  "film": "#5c4034",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-crime-greatest",
+      "rank": 21
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

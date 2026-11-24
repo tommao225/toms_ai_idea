@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m118715", "key": "imdb:tt0118715", "source": "manual", "wikidata": "", "titles": {"zh": "谋杀绿脚趾", "en": "The Big Lebowski"}, "zh": "谋杀绿脚趾", "en": "The Big Lebowski", "year": 1998, "runtime": 117, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:乔尔·科恩"], "director": "乔尔·科恩", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m118715/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m118715/still-01.webp", "source": "sogou", "kind": "real", "url": "https://m.media-amazon.com/images/M/MV5BNmVlNDE1NDItZTE5NC00OWEwLWExOGMtMTQ5OTkyMmQ1MWUwXkEyXkFqcGc@._V1_.jpg"}, {"path": "media/movies/m118715/still-02.webp", "source": "sogou", "kind": "real", "url": "https://p8.itc.cn/q_70/images03/20220910/b6a9caa6f62c44f9a4ebae98440dd8a3.jpeg"}, {"path": "media/movies/m118715/still-03.webp", "source": "sogou", "kind": "real", "url": "http://dingyue.ws.126.net/2026/0318/20ca71e6j00tc3ek4001wd200u000gvg00u000gv.jpg"}], "stills_src": [], "quote": {"text": "Well, sir, it's this rug I had. It really tied the room together.", "zh": "先生，是这张地毯。它真的让整个房间融为一体。", "source": "", "kind": "line"}, "dominant": "#534b45", "film": "#534b45", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 10}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m118715",
+  "key": "imdb:tt0118715",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "谋杀绿脚趾",
+    "en": "The Big Lebowski"
+  },
+  "zh": "谋杀绿脚趾",
+  "en": "The Big Lebowski",
+  "year": 1998,
+  "runtime": 117,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:乔尔·科恩"
+  ],
+  "director": "乔尔·科恩",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m118715/poster.webp?v=1795085826",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m118715/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://m.media-amazon.com/images/M/MV5BNmVlNDE1NDItZTE5NC00OWEwLWExOGMtMTQ5OTkyMmQ1MWUwXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "path": "media/movies/m118715/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p8.itc.cn/q_70/images03/20220910/b6a9caa6f62c44f9a4ebae98440dd8a3.jpeg"
+    },
+    {
+      "path": "media/movies/m118715/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dingyue.ws.126.net/2026/0318/20ca71e6j00tc3ek4001wd200u000gvg00u000gv.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Well, sir, it's this rug I had. It really tied the room together.",
+    "zh": "先生，是这张地毯。它真的让整个房间融为一体。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#534b45",
+  "film": "#534b45",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 10
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

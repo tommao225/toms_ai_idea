@@ -1,1 +1,72 @@
-window.FILM_MOVIE_DATA = {"id": "m1563738", "key": "imdb:tt1563738", "source": "manual", "wikidata": "", "titles": {"zh": "一天", "en": "One Day"}, "zh": "一天", "en": "One Day", "year": 2011, "runtime": 107, "countries": ["US", "GB"], "primary_country": "US", "country": "美国 / 英国", "coproduction": true, "languages": [], "directors": ["p:罗勒·莎菲"], "director": "罗勒·莎菲", "genres": ["romance"], "genreLabel": "爱情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m1563738/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m1563738/still-01.webp", "source": "sogou", "kind": "real", "url": "https://hips.hearstapps.com/hmg-prod/images/one-day-ambika-mod-leo-woodall-65674a870db77.jpg?resize=980:*"}, {"path": "media/movies/m1563738/still-02.webp", "source": "sogou", "kind": "real", "url": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/12/One-Day-image-3-Credit-Netflix.jpg?w=1024"}, {"path": "media/movies/m1563738/still-03.webp", "source": "sogou", "kind": "real", "url": "https://www.martincid.com/wp-content/uploads/2024/02/image-6.png"}], "stills_src": [], "quote": null, "dominant": "#53463e", "film": "#53463e", "credits_note": "", "lists": [{"list_id": "global-romance-greatest", "rank": 25}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m1563738",
+  "key": "imdb:tt1563738",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "一天",
+    "en": "One Day"
+  },
+  "zh": "一天",
+  "en": "One Day",
+  "year": 2011,
+  "runtime": 107,
+  "countries": [
+    "US",
+    "GB"
+  ],
+  "primary_country": "US",
+  "country": "美国 / 英国",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:罗勒·莎菲"
+  ],
+  "director": "罗勒·莎菲",
+  "genres": [
+    "romance"
+  ],
+  "genreLabel": "爱情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m1563738/poster.webp?v=1795087801",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m1563738/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/one-day-ambika-mod-leo-woodall-65674a870db77.jpg?resize=980:*"
+    },
+    {
+      "path": "media/movies/m1563738/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.comingsoon.net/wp-content/uploads/sites/3/2023/12/One-Day-image-3-Credit-Netflix.jpg?w=1024"
+    },
+    {
+      "path": "media/movies/m1563738/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.martincid.com/wp-content/uploads/2024/02/image-6.png"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#53463e",
+  "film": "#53463e",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-romance-greatest",
+      "rank": 25
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

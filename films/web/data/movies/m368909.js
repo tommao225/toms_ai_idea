@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m368909", "key": "imdb:tt0368909", "source": "manual", "wikidata": "", "titles": {"zh": "拳霸", "en": "Ong-Bak"}, "zh": "拳霸", "en": "Ong-Bak", "year": 2003, "runtime": 105, "countries": ["TH"], "primary_country": "TH", "country": "TH", "coproduction": false, "languages": [], "directors": ["p:普拉奇亚·平克尧"], "director": "普拉奇亚·平克尧", "genres": ["action"], "genreLabel": "动作", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m368909/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m368909/still-01.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn20121/253/w640h413/20191021/8037-ihfpfwa2628566.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m368909/still-02.webp", "source": "sogou", "kind": "real", "url": "https://image11.m1905.cn/uploadfile/2015/0515/20150515105711616360.jpg#"}, {"path": "media/movies/m368909/still-03.webp", "source": "sogou", "kind": "real", "url": "https://q8.itc.cn/q_70/images03/20260831/63300144f8844c94bad30755453e8204.jpeg"}], "stills_src": [], "quote": null, "dominant": "#564739", "film": "#564739", "credits_note": "", "lists": [{"list_id": "global-action-greatest", "rank": 30}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m368909",
+  "key": "imdb:tt0368909",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "拳霸",
+    "en": "Ong-Bak"
+  },
+  "zh": "拳霸",
+  "en": "Ong-Bak",
+  "year": 2003,
+  "runtime": 105,
+  "countries": [
+    "TH"
+  ],
+  "primary_country": "TH",
+  "country": "TH",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:普拉奇亚·平克尧"
+  ],
+  "director": "普拉奇亚·平克尧",
+  "genres": [
+    "action"
+  ],
+  "genreLabel": "动作",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m368909/poster.webp?v=1795087215",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m368909/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinacn20121/253/w640h413/20191021/8037-ihfpfwa2628566.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m368909/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://image11.m1905.cn/uploadfile/2015/0515/20150515105711616360.jpg#"
+    },
+    {
+      "path": "media/movies/m368909/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://q8.itc.cn/q_70/images03/20260831/63300144f8844c94bad30755453e8204.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#564739",
+  "film": "#564739",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-action-greatest",
+      "rank": 30
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

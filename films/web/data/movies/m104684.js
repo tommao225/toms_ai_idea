@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m104684", "key": "imdb:tt0104684", "source": "manual", "wikidata": "", "titles": {"zh": "辣手神探", "en": "Hard Boiled"}, "zh": "辣手神探", "en": "Hard Boiled", "year": 1992, "runtime": 128, "countries": ["HK"], "primary_country": "HK", "country": "中国香港", "coproduction": false, "languages": [], "directors": ["p:吴宇森"], "director": "吴宇森", "genres": ["action"], "genreLabel": "动作", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m104684/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m104684/still-01.webp", "source": "sogou", "kind": "real", "url": "https://imgs.weekendhk.com/wp-content/uploads/2022/03/screen-shot-2022-03-30-at-3.50.36-pm_103467739162440c4983cc7-1024x541.png"}, {"path": "media/movies/m104684/still-02.webp", "source": "sogou", "kind": "real", "url": "http://dl.kulemi.com/project/photo/2023051716112549379346.jpg"}, {"path": "media/movies/m104684/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/87b3e017f5764796853d9875f5dd9d24~tplv-xv4ileqgde-image.image"}], "stills_src": [], "quote": {"text": "[After his pants are set on fire and a baby urinates down his leg] You saved the day there, you little pisspot. Thanks a lot.", "zh": "[他的裤子着火后，一个婴儿在他腿上撒尿]你刚才救了我一命，你这个小尿壶。非常感谢。", "source": "", "kind": "line"}, "dominant": "#be9385", "film": "#be9385", "credits_note": "", "lists": [{"list_id": "global-action-greatest", "rank": 13}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m104684",
+  "key": "imdb:tt0104684",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "辣手神探",
+    "en": "Hard Boiled"
+  },
+  "zh": "辣手神探",
+  "en": "Hard Boiled",
+  "year": 1992,
+  "runtime": 128,
+  "countries": [
+    "HK"
+  ],
+  "primary_country": "HK",
+  "country": "中国香港",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:吴宇森"
+  ],
+  "director": "吴宇森",
+  "genres": [
+    "action"
+  ],
+  "genreLabel": "动作",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m104684/poster.webp?v=1795085504",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m104684/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imgs.weekendhk.com/wp-content/uploads/2022/03/screen-shot-2022-03-30-at-3.50.36-pm_103467739162440c4983cc7-1024x541.png"
+    },
+    {
+      "path": "media/movies/m104684/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://dl.kulemi.com/project/photo/2023051716112549379346.jpg"
+    },
+    {
+      "path": "media/movies/m104684/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/87b3e017f5764796853d9875f5dd9d24~tplv-xv4ileqgde-image.image"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "[After his pants are set on fire and a baby urinates down his leg] You saved the day there, you little pisspot. Thanks a lot.",
+    "zh": "[他的裤子着火后，一个婴儿在他腿上撒尿]你刚才救了我一命，你这个小尿壶。非常感谢。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#be9385",
+  "film": "#be9385",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-action-greatest",
+      "rank": 13
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

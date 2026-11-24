@@ -1,1 +1,79 @@
-window.FILM_MOVIE_DATA = {"id": "m051201", "key": "imdb:tt0051201", "source": "wikidata", "wikidata": "http://www.wikidata.org/entity/Q196977", "titles": {"zh": "控方证人", "en": "Witness for the Prosecution"}, "zh": "控方证人", "en": "Witness for the Prosecution", "year": 1957, "runtime": 116, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:比利·怀尔德"], "director": "比利·怀尔德", "genres": ["crime"], "genreLabel": "犯罪", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m051201/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m051201/still-01.webp", "source": "douban", "kind": "real", "url": "https://img2.doubanio.com/view/photo/l/public/p1963073081.jpg"}, {"path": "media/movies/m051201/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1184248811.jpg?sa_cv=ab06bcc1467adcac0b92eba2129c2955&sa_ct=6afebf30&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m051201/still-03.webp", "source": "douban", "kind": "real", "url": "https://img9.doubanio.com/view/photo/l/public/p1963070215.jpg"}], "stills_src": [], "quote": {"text": "I am constantly surprised that women's hats do not provoke more murders.", "zh": "我总是很惊讶，女帽竟然没有引发更多的谋杀案。", "source": "", "kind": "line"}, "dominant": "#452b27", "film": "#452b27", "credits_note": "", "lists": [{"list_id": "global-crime-greatest", "rank": 9}, {"list_id": "global-mystery-greatest", "rank": 9}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m051201",
+  "key": "imdb:tt0051201",
+  "source": "wikidata",
+  "wikidata": "http://www.wikidata.org/entity/Q196977",
+  "titles": {
+    "zh": "控方证人",
+    "en": "Witness for the Prosecution"
+  },
+  "zh": "控方证人",
+  "en": "Witness for the Prosecution",
+  "year": 1957,
+  "runtime": 116,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:比利·怀尔德"
+  ],
+  "director": "比利·怀尔德",
+  "genres": [
+    "crime"
+  ],
+  "genreLabel": "犯罪",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m051201/poster.webp?v=1795078016",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m051201/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img2.doubanio.com/view/photo/l/public/p1963073081.jpg"
+    },
+    {
+      "path": "media/movies/m051201/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1184248811.jpg?sa_cv=ab06bcc1467adcac0b92eba2129c2955&sa_ct=6afebf30&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m051201/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img9.doubanio.com/view/photo/l/public/p1963070215.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "I am constantly surprised that women's hats do not provoke more murders.",
+    "zh": "我总是很惊讶，女帽竟然没有引发更多的谋杀案。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#452b27",
+  "film": "#452b27",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-crime-greatest",
+      "rank": 9
+    },
+    {
+      "list_id": "global-mystery-greatest",
+      "rank": 9
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

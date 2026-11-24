@@ -1,1 +1,84 @@
-window.FILM_MOVIE_DATA = {"id": "m102926", "key": "imdb:tt0102926", "source": "wikidata", "wikidata": "http://www.wikidata.org/entity/Q133654", "titles": {"zh": "沉默的羔羊", "en": "The Silence of the Lambs"}, "zh": "沉默的羔羊", "en": "The Silence of the Lambs", "year": 1991, "runtime": 118, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:乔纳森·戴米"], "director": "乔纳森·戴米", "genres": ["other", "mystery"], "genreLabel": "其他", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m102926/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m102926/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p874426867.jpg?sa_cv=65677d379e2a460dcad2730388c46aaf&sa_ct=6afebfd7&imageView2/2/q/80/w/600/h/3000/format/webp"}, {"path": "media/movies/m102926/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p929834695.jpg?sa_cv=12c6ca5f88fae5728627ba2aa935579f&sa_ct=6afebfd7&imageView2/2/q/80/w/600/h/3000/format/webp"}, {"path": "media/movies/m102926/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p967716061.jpg?sa_cv=cfaf80e2733e947d1cc95d0119199e51&sa_ct=6afebfd7&imageView2/2/q/80/w/600/h/3000/format/webp"}], "stills_src": [], "quote": {"text": "I ate his liver with some fava beans and a nice Chianti.", "zh": "我吃了他的肝，配蚕豆和基安蒂酒。", "source": "", "kind": "line"}, "dominant": "#878083", "film": "#878083", "credits_note": "", "lists": [{"list_id": "global-crime-greatest", "rank": 4}, {"list_id": "global-horror-greatest", "rank": 22}, {"list_id": "global-mystery-greatest", "rank": 4}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m102926",
+  "key": "imdb:tt0102926",
+  "source": "wikidata",
+  "wikidata": "http://www.wikidata.org/entity/Q133654",
+  "titles": {
+    "zh": "沉默的羔羊",
+    "en": "The Silence of the Lambs"
+  },
+  "zh": "沉默的羔羊",
+  "en": "The Silence of the Lambs",
+  "year": 1991,
+  "runtime": 118,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:乔纳森·戴米"
+  ],
+  "director": "乔纳森·戴米",
+  "genres": [
+    "other",
+    "mystery"
+  ],
+  "genreLabel": "其他",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m102926/poster.webp?v=1795078023",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m102926/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p874426867.jpg?sa_cv=65677d379e2a460dcad2730388c46aaf&sa_ct=6afebfd7&imageView2/2/q/80/w/600/h/3000/format/webp"
+    },
+    {
+      "path": "media/movies/m102926/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p929834695.jpg?sa_cv=12c6ca5f88fae5728627ba2aa935579f&sa_ct=6afebfd7&imageView2/2/q/80/w/600/h/3000/format/webp"
+    },
+    {
+      "path": "media/movies/m102926/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p967716061.jpg?sa_cv=cfaf80e2733e947d1cc95d0119199e51&sa_ct=6afebfd7&imageView2/2/q/80/w/600/h/3000/format/webp"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "I ate his liver with some fava beans and a nice Chianti.",
+    "zh": "我吃了他的肝，配蚕豆和基安蒂酒。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#878083",
+  "film": "#878083",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-crime-greatest",
+      "rank": 4
+    },
+    {
+      "list_id": "global-horror-greatest",
+      "rank": 22
+    },
+    {
+      "list_id": "global-mystery-greatest",
+      "rank": 4
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

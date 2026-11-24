@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m477348", "key": "imdb:tt0477348", "source": "manual", "wikidata": "", "titles": {"zh": "老无所依", "en": "No Country for Old Men"}, "zh": "老无所依", "en": "No Country for Old Men", "year": 2007, "runtime": 122, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:乔尔·科恩"], "director": "乔尔·科恩", "genres": ["drama"], "genreLabel": "剧情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m477348/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m477348/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p3.itc.cn/images01/20231211/2cc96e770a9d4669a16c61bfa760201b.png"}, {"path": "media/movies/m477348/still-02.webp", "source": "sogou", "kind": "real", "url": "https://a.zdmimg.com/202602/09/69897102f7a012738.jpg_fo710.jpg"}, {"path": "media/movies/m477348/still-03.webp", "source": "sogou", "kind": "real", "url": "https://p1.itc.cn/images01/20210829/b0508fbca0a640a5812db234bbda7c2a.jpeg"}], "stills_src": [], "quote": {"text": "Nothin wounded goes uphill, he said. It just dont happen.", "zh": "他说，受伤的人爬不上坡。这根本不可能。", "source": "", "kind": "line"}, "dominant": "#6a635b", "film": "#6a635b", "credits_note": "", "lists": [{"list_id": "global-drama-greatest", "rank": 28}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m477348",
+  "key": "imdb:tt0477348",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "老无所依",
+    "en": "No Country for Old Men"
+  },
+  "zh": "老无所依",
+  "en": "No Country for Old Men",
+  "year": 2007,
+  "runtime": 122,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:乔尔·科恩"
+  ],
+  "director": "乔尔·科恩",
+  "genres": [
+    "drama"
+  ],
+  "genreLabel": "剧情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m477348/poster.webp?v=1795087357",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m477348/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3.itc.cn/images01/20231211/2cc96e770a9d4669a16c61bfa760201b.png"
+    },
+    {
+      "path": "media/movies/m477348/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://a.zdmimg.com/202602/09/69897102f7a012738.jpg_fo710.jpg"
+    },
+    {
+      "path": "media/movies/m477348/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p1.itc.cn/images01/20210829/b0508fbca0a640a5812db234bbda7c2a.jpeg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Nothin wounded goes uphill, he said. It just dont happen.",
+    "zh": "他说，受伤的人爬不上坡。这根本不可能。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#6a635b",
+  "film": "#6a635b",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-drama-greatest",
+      "rank": 28
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

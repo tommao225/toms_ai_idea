@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m076759", "key": "imdb:tt0076759", "source": "manual", "wikidata": "", "titles": {"zh": "星球大战", "en": "Star Wars"}, "zh": "星球大战", "en": "Star Wars", "year": 1977, "runtime": 121, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:乔治·卢卡斯"], "director": "乔治·卢卡斯", "genres": ["scifi"], "genreLabel": "科幻", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m076759/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m076759/still-01.webp", "source": "sogou", "kind": "real", "url": "https://www.salon.com/app/uploads/2013/10/lucas_star_wars.jpg"}, {"path": "media/movies/m076759/still-02.webp", "source": "sogou", "kind": "real", "url": "https://www.looper.com/img/gallery/the-star-wars-movies-in-chronological-order-does-it-really-matter/intro-1690586334.jpg"}, {"path": "media/movies/m076759/still-03.webp", "source": "sogou", "kind": "real", "url": "https://107cine.cdn.cinehello.com/20191223/uploads/weixin/23Dec2019112255164.jpg"}], "stills_src": [], "quote": null, "dominant": "#5A4A6B", "film": "#5A4A6B", "credits_note": "", "lists": [{"list_id": "global-scifi-greatest", "rank": 14}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m076759",
+  "key": "imdb:tt0076759",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "星球大战",
+    "en": "Star Wars"
+  },
+  "zh": "星球大战",
+  "en": "Star Wars",
+  "year": 1977,
+  "runtime": 121,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:乔治·卢卡斯"
+  ],
+  "director": "乔治·卢卡斯",
+  "genres": [
+    "scifi"
+  ],
+  "genreLabel": "科幻",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m076759/poster.webp?v=1795084960",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m076759/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.salon.com/app/uploads/2013/10/lucas_star_wars.jpg"
+    },
+    {
+      "path": "media/movies/m076759/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.looper.com/img/gallery/the-star-wars-movies-in-chronological-order-does-it-really-matter/intro-1690586334.jpg"
+    },
+    {
+      "path": "media/movies/m076759/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://107cine.cdn.cinehello.com/20191223/uploads/weixin/23Dec2019112255164.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#5A4A6B",
+  "film": "#5A4A6B",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-scifi-greatest",
+      "rank": 14
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

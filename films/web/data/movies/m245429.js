@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m245429", "key": "imdb:tt0245429", "source": "manual", "wikidata": "", "titles": {"zh": "千与千寻", "en": "Spirited Away"}, "zh": "千与千寻", "en": "Spirited Away", "year": 2001, "runtime": 125, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:宫崎骏"], "director": "宫崎骏", "genres": ["animation"], "genreLabel": "动画", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m245429/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m245429/still-01.webp", "source": "sogou", "kind": "real", "url": "http://wx4.sinaimg.cn/middle/3e2fe402gy1iciz4n3839j20u00g7wr0.jpg"}, {"path": "media/movies/m245429/still-02.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinacn20109/187/w640h347/20190122/4312-hryfqhk5559130.jpg/w700d1q75cms.jpg"}, {"path": "media/movies/m245429/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F4VdxQ5A5UFBGq1Z0Hp0u2f033JMuOO9juLc29xjq3akcW1542721125167compressflag.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "stills_src": [], "quote": {"text": "You shouldn't be here. Get out of here now!", "zh": "你不该来这里的。马上离开这里！", "source": "", "kind": "line"}, "dominant": "#2c2217", "film": "#2c2217", "credits_note": "", "lists": [{"list_id": "global-animation-greatest", "rank": 1}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m245429",
+  "key": "imdb:tt0245429",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "千与千寻",
+    "en": "Spirited Away"
+  },
+  "zh": "千与千寻",
+  "en": "Spirited Away",
+  "year": 2001,
+  "runtime": 125,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:宫崎骏"
+  ],
+  "director": "宫崎骏",
+  "genres": [
+    "animation"
+  ],
+  "genreLabel": "动画",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m245429/poster.webp?v=1795086154",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m245429/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://wx4.sinaimg.cn/middle/3e2fe402gy1iciz4n3839j20u00g7wr0.jpg"
+    },
+    {
+      "path": "media/movies/m245429/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinacn20109/187/w640h347/20190122/4312-hryfqhk5559130.jpg/w700d1q75cms.jpg"
+    },
+    {
+      "path": "media/movies/m245429/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F4VdxQ5A5UFBGq1Z0Hp0u2f033JMuOO9juLc29xjq3akcW1542721125167compressflag.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "You shouldn't be here. Get out of here now!",
+    "zh": "你不该来这里的。马上离开这里！",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#2c2217",
+  "film": "#2c2217",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-animation-greatest",
+      "rank": 1
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

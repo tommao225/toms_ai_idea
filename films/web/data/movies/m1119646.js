@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m1119646", "key": "imdb:tt1119646", "source": "manual", "wikidata": "", "titles": {"zh": "宿醉", "en": "The Hangover"}, "zh": "宿醉", "en": "The Hangover", "year": 2009, "runtime": 100, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:托德·菲利普斯"], "director": "托德·菲利普斯", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m1119646/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m1119646/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/63672979549e45a2a56a1c556eae0528~tplv-xv4ileqgde-image.image"}, {"path": "media/movies/m1119646/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/481145cdI/anh-mo-ta.png"}, {"path": "media/movies/m1119646/still-03.webp", "source": "sogou", "kind": "real", "url": "https://img.bshyw.com/upload/db/dd/dmlldy9waG90by9sL3B1YmxpYy9wMjUxMzYxNTMyOA.jpg"}], "stills_src": [], "quote": {"text": "Some guys just can't handle Vegas", "zh": "有些人就是受不了拉斯维加斯", "source": "", "kind": "line"}, "dominant": "#9d8269", "film": "#9d8269", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 21}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m1119646",
+  "key": "imdb:tt1119646",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "宿醉",
+    "en": "The Hangover"
+  },
+  "zh": "宿醉",
+  "en": "The Hangover",
+  "year": 2009,
+  "runtime": 100,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:托德·菲利普斯"
+  ],
+  "director": "托德·菲利普斯",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m1119646/poster.webp?v=1795087443",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m1119646/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/63672979549e45a2a56a1c556eae0528~tplv-xv4ileqgde-image.image"
+    },
+    {
+      "path": "media/movies/m1119646/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/481145cdI/anh-mo-ta.png"
+    },
+    {
+      "path": "media/movies/m1119646/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.bshyw.com/upload/db/dd/dmlldy9waG90by9sL3B1YmxpYy9wMjUxMzYxNTMyOA.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Some guys just can't handle Vegas",
+    "zh": "有些人就是受不了拉斯维加斯",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#9d8269",
+  "film": "#9d8269",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 21
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

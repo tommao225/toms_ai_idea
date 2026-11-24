@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m1478338", "key": "imdb:tt1478338", "source": "manual", "wikidata": "", "titles": {"zh": "伴娘", "en": "Bridesmaids"}, "zh": "伴娘", "en": "Bridesmaids", "year": 2011, "runtime": 125, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:保罗·费格"], "director": "保罗·费格", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m1478338/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m1478338/still-01.webp", "source": "sogou", "kind": "real", "url": "https://img.hbhcdn.com/dmp/s/merchant/1563120000/jh-img-orig-ga_1150686852937523200_601_400_334101.jpg"}, {"path": "media/movies/m1478338/still-02.webp", "source": "sogou", "kind": "real", "url": "http://qnm.hunliji.com/o_1cr7fccp41pug1mplda0i731ecl7.png?imageView2/2/w/640"}, {"path": "media/movies/m1478338/still-03.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0414%2F6555afdbj00sbxvow00rmd000qo00hpm.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}], "stills_src": [], "quote": {"text": "You're really doing it, aren't ya? You're shitting in the street!", "zh": "你真的在这么做，不是吗？你在大街上拉屎！", "source": "", "kind": "line"}, "dominant": "#82605e", "film": "#82605e", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 22}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m1478338",
+  "key": "imdb:tt1478338",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "伴娘",
+    "en": "Bridesmaids"
+  },
+  "zh": "伴娘",
+  "en": "Bridesmaids",
+  "year": 2011,
+  "runtime": 125,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:保罗·费格"
+  ],
+  "director": "保罗·费格",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m1478338/poster.webp?v=1795087466",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m1478338/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.hbhcdn.com/dmp/s/merchant/1563120000/jh-img-orig-ga_1150686852937523200_601_400_334101.jpg"
+    },
+    {
+      "path": "media/movies/m1478338/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://qnm.hunliji.com/o_1cr7fccp41pug1mplda0i731ecl7.png?imageView2/2/w/640"
+    },
+    {
+      "path": "media/movies/m1478338/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0414%2F6555afdbj00sbxvow00rmd000qo00hpm.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "You're really doing it, aren't ya? You're shitting in the street!",
+    "zh": "你真的在这么做，不是吗？你在大街上拉屎！",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#82605e",
+  "film": "#82605e",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 22
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

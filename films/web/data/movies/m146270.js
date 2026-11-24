@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m146270", "key": "imdb:tt0146270", "source": "manual", "wikidata": "", "titles": {"zh": "四月物语", "en": "April Story"}, "zh": "四月物语", "en": "April Story", "year": 1998, "runtime": 67, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:岩井俊二"], "director": "岩井俊二", "genres": ["romance"], "genreLabel": "爱情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m146270/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m146270/still-01.webp", "source": "sogou", "kind": "real", "url": "https://vhs-heaven.com/1998/april-story/april-story.82e7.w1280.avif"}, {"path": "media/movies/m146270/still-02.webp", "source": "sogou", "kind": "real", "url": "https://www.115pt.com/wp-content/uploads/2025/09/05034945491.webp"}, {"path": "media/movies/m146270/still-03.webp", "source": "sogou", "kind": "real", "url": "http://k.sinaimg.cn/n/sinakd20200618ac/195/w640h355/20200618/66ed-ivffpcs2054759.jpg/w700d1q75cms.jpg"}], "stills_src": [], "quote": null, "dominant": "#37444b", "film": "#37444b", "credits_note": "", "lists": [{"list_id": "global-romance-greatest", "rank": 16}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m146270",
+  "key": "imdb:tt0146270",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "四月物语",
+    "en": "April Story"
+  },
+  "zh": "四月物语",
+  "en": "April Story",
+  "year": 1998,
+  "runtime": 67,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:岩井俊二"
+  ],
+  "director": "岩井俊二",
+  "genres": [
+    "romance"
+  ],
+  "genreLabel": "爱情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m146270/poster.webp?v=1795086002",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m146270/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://vhs-heaven.com/1998/april-story/april-story.82e7.w1280.avif"
+    },
+    {
+      "path": "media/movies/m146270/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://www.115pt.com/wp-content/uploads/2025/09/05034945491.webp"
+    },
+    {
+      "path": "media/movies/m146270/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://k.sinaimg.cn/n/sinakd20200618ac/195/w640h355/20200618/66ed-ivffpcs2054759.jpg/w700d1q75cms.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#37444b",
+  "film": "#37444b",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-romance-greatest",
+      "rank": 16
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

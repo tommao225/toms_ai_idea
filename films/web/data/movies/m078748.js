@@ -1,1 +1,80 @@
-window.FILM_MOVIE_DATA = {"id": "m078748", "key": "imdb:tt0078748", "source": "manual", "wikidata": "", "titles": {"zh": "异形", "en": "Alien"}, "zh": "异形", "en": "Alien", "year": 1979, "runtime": 117, "countries": ["US", "GB"], "primary_country": "US", "country": "美国 / 英国", "coproduction": true, "languages": [], "directors": ["p:雷德利·斯科特"], "director": "雷德利·斯科特", "genres": ["scifi"], "genreLabel": "科幻", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m078748/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m078748/still-01.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p453700631.jpg?sa_cv=af2863cd33ede396a47ee2792736d51a&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m078748/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1545485574.jpg?sa_cv=8ce7db0cbde0ca24cf43f40c122da59d&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m078748/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1621200561.jpg?sa_cv=189fba488db6b02d07fcbdb14dd5ae63&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "stills_src": [], "quote": {"text": "In space, no one can hear you scream.", "zh": "在太空，没人能听见你的尖叫。", "source": "", "kind": "line"}, "dominant": "#0f120b", "film": "#0f120b", "credits_note": "", "lists": [{"list_id": "global-horror-greatest", "rank": 21}, {"list_id": "global-scifi-greatest", "rank": 3}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m078748",
+  "key": "imdb:tt0078748",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "异形",
+    "en": "Alien"
+  },
+  "zh": "异形",
+  "en": "Alien",
+  "year": 1979,
+  "runtime": 117,
+  "countries": [
+    "US",
+    "GB"
+  ],
+  "primary_country": "US",
+  "country": "美国 / 英国",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:雷德利·斯科特"
+  ],
+  "director": "雷德利·斯科特",
+  "genres": [
+    "scifi"
+  ],
+  "genreLabel": "科幻",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m078748/poster.webp?v=1795078885",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m078748/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p453700631.jpg?sa_cv=af2863cd33ede396a47ee2792736d51a&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m078748/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1545485574.jpg?sa_cv=8ce7db0cbde0ca24cf43f40c122da59d&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m078748/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1621200561.jpg?sa_cv=189fba488db6b02d07fcbdb14dd5ae63&sa_ct=6afebfbc&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "In space, no one can hear you scream.",
+    "zh": "在太空，没人能听见你的尖叫。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#0f120b",
+  "film": "#0f120b",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-horror-greatest",
+      "rank": 21
+    },
+    {
+      "list_id": "global-scifi-greatest",
+      "rank": 3
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

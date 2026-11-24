@@ -1,1 +1,71 @@
-window.FILM_MOVIE_DATA = {"id": "m178868", "key": "imdb:tt0178868", "source": "manual", "wikidata": "", "titles": {"zh": "午夜凶铃", "en": "Ring"}, "zh": "午夜凶铃", "en": "Ring", "year": 1998, "runtime": 96, "countries": ["JP"], "primary_country": "JP", "country": "日本", "coproduction": false, "languages": [], "directors": ["p:中田秀夫"], "director": "中田秀夫", "genres": ["horror"], "genreLabel": "恐怖", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m178868/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m178868/still-01.webp", "source": "sogou", "kind": "real", "url": "https://so1.360tres.com/t0196965d7952fefd96.jpg"}, {"path": "media/movies/m178868/still-02.webp", "source": "sogou", "kind": "real", "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F1105%2Fb0487a61j00r22vsn000nd200u000g8g00zk00j8.jpg&thumbnail=660x2147483647&quality=80&type=jpg"}, {"path": "media/movies/m178868/still-03.webp", "source": "sogou", "kind": "real", "url": "http://img2.selfimg.com.cn/uedvoguecms/2018/10/18/1539863709_4h9iq5.jpg"}], "stills_src": [], "quote": null, "dominant": "#291210", "film": "#291210", "credits_note": "", "lists": [{"list_id": "global-horror-greatest", "rank": 8}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m178868",
+  "key": "imdb:tt0178868",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "午夜凶铃",
+    "en": "Ring"
+  },
+  "zh": "午夜凶铃",
+  "en": "Ring",
+  "year": 1998,
+  "runtime": 96,
+  "countries": [
+    "JP"
+  ],
+  "primary_country": "JP",
+  "country": "日本",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:中田秀夫"
+  ],
+  "director": "中田秀夫",
+  "genres": [
+    "horror"
+  ],
+  "genreLabel": "恐怖",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m178868/poster.webp?v=1795086107",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m178868/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://so1.360tres.com/t0196965d7952fefd96.jpg"
+    },
+    {
+      "path": "media/movies/m178868/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F1105%2Fb0487a61j00r22vsn000nd200u000g8g00zk00j8.jpg&thumbnail=660x2147483647&quality=80&type=jpg"
+    },
+    {
+      "path": "media/movies/m178868/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://img2.selfimg.com.cn/uedvoguecms/2018/10/18/1539863709_4h9iq5.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#291210",
+  "film": "#291210",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-horror-greatest",
+      "rank": 8
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m080339", "key": "imdb:tt0080339", "source": "manual", "wikidata": "", "titles": {"zh": "空前绝后满天飞", "en": "Airplane!"}, "zh": "空前绝后满天飞", "en": "Airplane!", "year": 1980, "runtime": 88, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:吉姆·艾布拉姆斯"], "director": "吉姆·艾布拉姆斯", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m080339/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m080339/still-01.webp", "source": "sogou", "kind": "real", "url": "http://5b0988e595225.cdn.sohucs.com/images/20190206/4d8a5de8a44343edbb917fb4edd8318c.jpeg"}, {"path": "media/movies/m080339/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img.bshyw.com/upload/db/4a/dmlldy9waG90by9sL3B1YmxpYy9wMjM2MjQ2MTczMA.jpg"}, {"path": "media/movies/m080339/still-03.webp", "source": "sogou", "kind": "real", "url": "https://picx.zhimg.com/50/v2-aa9faea2d00a8cf88f7a80773effee09_720w.jpg?source=2c26e567"}], "stills_src": [], "quote": {"text": "It was a rough place - the seediest dive on the wharf. Populated with every reject and cutthroat from Bombay to Calcutta. It's worse than Detroit.", "zh": "那是个鱼龙混杂的地方——码头上最肮脏的酒吧。从孟买到加尔各答，这里聚集了形形色色的弃儿和亡命之徒。比底特律还糟。", "source": "", "kind": "line"}, "dominant": "#8A5A32", "film": "#8A5A32", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 8}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m080339",
+  "key": "imdb:tt0080339",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "空前绝后满天飞",
+    "en": "Airplane!"
+  },
+  "zh": "空前绝后满天飞",
+  "en": "Airplane!",
+  "year": 1980,
+  "runtime": 88,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:吉姆·艾布拉姆斯"
+  ],
+  "director": "吉姆·艾布拉姆斯",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m080339/poster.webp?v=1795084998",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m080339/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://5b0988e595225.cdn.sohucs.com/images/20190206/4d8a5de8a44343edbb917fb4edd8318c.jpeg"
+    },
+    {
+      "path": "media/movies/m080339/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.bshyw.com/upload/db/4a/dmlldy9waG90by9sL3B1YmxpYy9wMjM2MjQ2MTczMA.jpg"
+    },
+    {
+      "path": "media/movies/m080339/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://picx.zhimg.com/50/v2-aa9faea2d00a8cf88f7a80773effee09_720w.jpg?source=2c26e567"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "It was a rough place - the seediest dive on the wharf. Populated with every reject and cutthroat from Bombay to Calcutta. It's worse than Detroit.",
+    "zh": "那是个鱼龙混杂的地方——码头上最肮脏的酒吧。从孟买到加尔各答，这里聚集了形形色色的弃儿和亡命之徒。比底特律还糟。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#8A5A32",
+  "film": "#8A5A32",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 8
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

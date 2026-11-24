@@ -1,1 +1,72 @@
-window.FILM_MOVIE_DATA = {"id": "m3838978", "key": "imdb:tt3838978", "source": "manual", "wikidata": "", "titles": {"zh": "杀破狼2", "en": "SPL 2: A Time for Consequences"}, "zh": "杀破狼2", "en": "SPL 2: A Time for Consequences", "year": 2015, "runtime": 120, "countries": ["HK", "CN"], "primary_country": "HK", "country": "中国香港 / 中国", "coproduction": true, "languages": [], "directors": ["p:郑保瑞"], "director": "郑保瑞", "genres": ["action"], "genreLabel": "动作", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m3838978/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m3838978/still-01.webp", "source": "sogou", "kind": "real", "url": "https://p0.meituan.net/movie/c9cde084181dbb36bc226343855c051d42658.jpg@80q"}, {"path": "media/movies/m3838978/still-02.webp", "source": "sogou", "kind": "real", "url": "https://img.mxgxt.com/upload/2025/0502/20250502200813_0_f4dckj8.jpg"}, {"path": "media/movies/m3838978/still-03.webp", "source": "sogou", "kind": "real", "url": "https://imgls.tvsou.com/g/202212/01/1669905828ea6u.jpg"}], "stills_src": [], "quote": null, "dominant": "#9b9898", "film": "#9b9898", "credits_note": "", "lists": [{"list_id": "global-action-greatest", "rank": 28}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m3838978",
+  "key": "imdb:tt3838978",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "杀破狼2",
+    "en": "SPL 2: A Time for Consequences"
+  },
+  "zh": "杀破狼2",
+  "en": "SPL 2: A Time for Consequences",
+  "year": 2015,
+  "runtime": 120,
+  "countries": [
+    "HK",
+    "CN"
+  ],
+  "primary_country": "HK",
+  "country": "中国香港 / 中国",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:郑保瑞"
+  ],
+  "director": "郑保瑞",
+  "genres": [
+    "action"
+  ],
+  "genreLabel": "动作",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m3838978/poster.webp?v=1795087225",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m3838978/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://p0.meituan.net/movie/c9cde084181dbb36bc226343855c051d42658.jpg@80q"
+    },
+    {
+      "path": "media/movies/m3838978/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.mxgxt.com/upload/2025/0502/20250502200813_0_f4dckj8.jpg"
+    },
+    {
+      "path": "media/movies/m3838978/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://imgls.tvsou.com/g/202212/01/1669905828ea6u.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#9b9898",
+  "film": "#9b9898",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-action-greatest",
+      "rank": 28
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

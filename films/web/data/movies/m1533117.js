@@ -1,1 +1,72 @@
-window.FILM_MOVIE_DATA = {"id": "m1533117", "key": "imdb:tt1533117", "source": "manual", "wikidata": "", "titles": {"zh": "让子弹飞", "en": "Let the Bullets Fly"}, "zh": "让子弹飞", "en": "Let the Bullets Fly", "year": 2010, "runtime": 132, "countries": ["CN", "HK"], "primary_country": "CN", "country": "中国 / 中国香港", "coproduction": true, "languages": [], "directors": ["p:姜文"], "director": "姜文", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m1533117/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m1533117/still-01.webp", "source": "sogou", "kind": "real", "url": "https://k.sinaimg.cn/www/dy/slidenews/16_img/2010_51/2852_255676_391159.jpg/w640slw.jpg"}, {"path": "media/movies/m1533117/still-02.webp", "source": "sogou", "kind": "real", "url": "https://big5.cctv.com/gate/big5/p3.img.cctvpic.com/20100710/images/1278814194242_1278814194242_r.jpg"}, {"path": "media/movies/m1533117/still-03.webp", "source": "sogou", "kind": "real", "url": "https://k.sinaimg.cn/www/dy/slidenews/16_img/2010_51/2852_255672_149226.jpg/w640slw.jpg"}], "stills_src": [], "quote": null, "dominant": "#7a1413", "film": "#7a1413", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 16}], "missing": ["poster", "quote"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m1533117",
+  "key": "imdb:tt1533117",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "让子弹飞",
+    "en": "Let the Bullets Fly"
+  },
+  "zh": "让子弹飞",
+  "en": "Let the Bullets Fly",
+  "year": 2010,
+  "runtime": 132,
+  "countries": [
+    "CN",
+    "HK"
+  ],
+  "primary_country": "CN",
+  "country": "中国 / 中国香港",
+  "coproduction": true,
+  "languages": [],
+  "directors": [
+    "p:姜文"
+  ],
+  "director": "姜文",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m1533117/poster.webp?v=1795086026",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m1533117/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://k.sinaimg.cn/www/dy/slidenews/16_img/2010_51/2852_255676_391159.jpg/w640slw.jpg"
+    },
+    {
+      "path": "media/movies/m1533117/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://big5.cctv.com/gate/big5/p3.img.cctvpic.com/20100710/images/1278814194242_1278814194242_r.jpg"
+    },
+    {
+      "path": "media/movies/m1533117/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://k.sinaimg.cn/www/dy/slidenews/16_img/2010_51/2852_255672_149226.jpg/w640slw.jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": null,
+  "dominant": "#7a1413",
+  "film": "#7a1413",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 16
+    }
+  ],
+  "missing": [
+    "poster",
+    "quote"
+  ]
+};

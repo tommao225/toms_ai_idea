@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m081398", "key": "imdb:tt0081398", "source": "manual", "wikidata": "", "titles": {"zh": "愤怒的公牛", "en": "Raging Bull"}, "zh": "愤怒的公牛", "en": "Raging Bull", "year": 1980, "runtime": 129, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:马丁·斯科塞斯"], "director": "马丁·斯科塞斯", "genres": ["drama"], "genreLabel": "剧情", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m081398/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m081398/still-01.webp", "source": "douban", "kind": "real", "url": "https://img2.doubanio.com/view/photo/l/public/p2284114441.jpg"}, {"path": "media/movies/m081398/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1188134858.jpg?sa_cv=2b8b909c1a4e6fed03d8678e972d752d&sa_ct=6afed0f0&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m081398/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1302823824.jpg?sa_cv=4a7df1d3a76d105afa0f43585776e0bf&sa_ct=6afed0f0&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "stills_src": [], "quote": {"text": "[to Vickie] You know how beautiful you are? Anybody ever tell you how beautiful? Yeah, tell you all the time.", "zh": "[对Vickie]你知道你有多漂亮吗？有人告诉过你你有多漂亮吗？是的，一直都在夸我。", "source": "", "kind": "line"}, "dominant": "#898283", "film": "#898283", "credits_note": "", "lists": [{"list_id": "global-drama-greatest", "rank": 10}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m081398",
+  "key": "imdb:tt0081398",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "愤怒的公牛",
+    "en": "Raging Bull"
+  },
+  "zh": "愤怒的公牛",
+  "en": "Raging Bull",
+  "year": 1980,
+  "runtime": 129,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:马丁·斯科塞斯"
+  ],
+  "director": "马丁·斯科塞斯",
+  "genres": [
+    "drama"
+  ],
+  "genreLabel": "剧情",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m081398/poster.webp?v=1795084265",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m081398/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img2.doubanio.com/view/photo/l/public/p2284114441.jpg"
+    },
+    {
+      "path": "media/movies/m081398/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1188134858.jpg?sa_cv=2b8b909c1a4e6fed03d8678e972d752d&sa_ct=6afed0f0&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m081398/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1302823824.jpg?sa_cv=4a7df1d3a76d105afa0f43585776e0bf&sa_ct=6afed0f0&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "[to Vickie] You know how beautiful you are? Anybody ever tell you how beautiful? Yeah, tell you all the time.",
+    "zh": "[对Vickie]你知道你有多漂亮吗？有人告诉过你你有多漂亮吗？是的，一直都在夸我。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#898283",
+  "film": "#898283",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-drama-greatest",
+      "rank": 10
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

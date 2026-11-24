@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m091064", "key": "imdb:tt0091064", "source": "manual", "wikidata": "", "titles": {"zh": "变蝇人", "en": "The Fly"}, "zh": "变蝇人", "en": "The Fly", "year": 1986, "runtime": 96, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:大卫·柯南伯格"], "director": "大卫·柯南伯格", "genres": ["scifi"], "genreLabel": "科幻", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m091064/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m091064/still-01.webp", "source": "sogou", "kind": "real", "url": "https://img.3dmgame.com/uploads/allimg/170315/276_170315085804_1_lit.jpg"}, {"path": "media/movies/m091064/still-02.webp", "source": "sogou", "kind": "real", "url": "https://wx4.sinaimg.cn/large/cf3e9a59ly1fdhno4gk0lj20go091q3k.jpg"}, {"path": "media/movies/m091064/still-03.webp", "source": "sogou", "kind": "real", "url": "http://qqpublic.qpic.cn/qq_public/0/28-2551026727-3FEB5AEFBDA38E36EB7B07D825C8B672/0?fmt=jpg&size=62&h=525&w=700&ppv=1"}], "stills_src": [], "quote": {"text": "Be afraid. Be very afraid.", "zh": "害怕吧。非常害怕吧。", "source": "", "kind": "line"}, "dominant": "#635e4d", "film": "#635e4d", "credits_note": "", "lists": [{"list_id": "global-scifi-greatest", "rank": 17}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m091064",
+  "key": "imdb:tt0091064",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "变蝇人",
+    "en": "The Fly"
+  },
+  "zh": "变蝇人",
+  "en": "The Fly",
+  "year": 1986,
+  "runtime": 96,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:大卫·柯南伯格"
+  ],
+  "director": "大卫·柯南伯格",
+  "genres": [
+    "scifi"
+  ],
+  "genreLabel": "科幻",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m091064/poster.webp?v=1795085311",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m091064/still-01.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://img.3dmgame.com/uploads/allimg/170315/276_170315085804_1_lit.jpg"
+    },
+    {
+      "path": "media/movies/m091064/still-02.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "https://wx4.sinaimg.cn/large/cf3e9a59ly1fdhno4gk0lj20go091q3k.jpg"
+    },
+    {
+      "path": "media/movies/m091064/still-03.webp",
+      "source": "sogou",
+      "kind": "real",
+      "url": "http://qqpublic.qpic.cn/qq_public/0/28-2551026727-3FEB5AEFBDA38E36EB7B07D825C8B672/0?fmt=jpg&size=62&h=525&w=700&ppv=1"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Be afraid. Be very afraid.",
+    "zh": "害怕吧。非常害怕吧。",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#635e4d",
+  "film": "#635e4d",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-scifi-greatest",
+      "rank": 17
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};

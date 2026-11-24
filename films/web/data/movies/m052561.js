@@ -1,1 +1,75 @@
-window.FILM_MOVIE_DATA = {"id": "m052561", "key": "imdb:tt0052561", "source": "manual", "wikidata": "", "titles": {"zh": "热情似火", "en": "Some Like It Hot"}, "zh": "热情似火", "en": "Some Like It Hot", "year": 1959, "runtime": 120, "countries": ["US"], "primary_country": "US", "country": "美国", "coproduction": false, "languages": [], "directors": ["p:比利·怀尔德"], "director": "比利·怀尔德", "genres": ["comedy"], "genreLabel": "喜剧", "silent": false, "color": "color", "aspect": "", "sound": "", "scores": {}, "poster": "media/movies/m052561/poster.webp", "poster_src": "", "stills": [{"path": "media/movies/m052561/still-01.webp", "source": "douban", "kind": "real", "url": "https://img3.doubanio.com/view/photo/l/public/p2344776618.jpg"}, {"path": "media/movies/m052561/still-02.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1381686147.jpg?sa_cv=2c6a85ba50e581267925cf3aea6ea2f9&sa_ct=6afed348&imageView2/2/q/80/w/600/h/3000/format/jpg"}, {"path": "media/movies/m052561/still-03.webp", "source": "douban", "kind": "real", "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1523545259.jpg?sa_cv=2c9d263a1f6db9c3cc22b076e65b14b4&sa_ct=6afed348&imageView2/2/q/80/w/600/h/3000/format/jpg"}], "stills_src": [], "quote": {"text": "Real diamonds! They must be worth their weight in gold!", "zh": "真钻石！它们一定价值连城！", "source": "", "kind": "line"}, "dominant": "#6B4A32", "film": "#6B4A32", "credits_note": "", "lists": [{"list_id": "global-comedy-greatest", "rank": 4}], "missing": ["poster"]};
+window.FILM_MOVIE_DATA = {
+  "id": "m052561",
+  "key": "imdb:tt0052561",
+  "source": "manual",
+  "wikidata": "",
+  "titles": {
+    "zh": "热情似火",
+    "en": "Some Like It Hot"
+  },
+  "zh": "热情似火",
+  "en": "Some Like It Hot",
+  "year": 1959,
+  "runtime": 120,
+  "countries": [
+    "US"
+  ],
+  "primary_country": "US",
+  "country": "美国",
+  "coproduction": false,
+  "languages": [],
+  "directors": [
+    "p:比利·怀尔德"
+  ],
+  "director": "比利·怀尔德",
+  "genres": [
+    "comedy"
+  ],
+  "genreLabel": "喜剧",
+  "silent": false,
+  "color": "color",
+  "aspect": "",
+  "sound": "",
+  "scores": {},
+  "poster": "media/movies/m052561/poster.webp?v=1795084833",
+  "poster_src": "",
+  "stills": [
+    {
+      "path": "media/movies/m052561/still-01.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://img3.doubanio.com/view/photo/l/public/p2344776618.jpg"
+    },
+    {
+      "path": "media/movies/m052561/still-02.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1381686147.jpg?sa_cv=2c6a85ba50e581267925cf3aea6ea2f9&sa_ct=6afed348&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    },
+    {
+      "path": "media/movies/m052561/still-03.webp",
+      "source": "douban",
+      "kind": "real",
+      "url": "https://qnmob3-sign.doubanio.com/view/photo/large/public/p1523545259.jpg?sa_cv=2c9d263a1f6db9c3cc22b076e65b14b4&sa_ct=6afed348&imageView2/2/q/80/w/600/h/3000/format/jpg"
+    }
+  ],
+  "stills_src": [],
+  "quote": {
+    "text": "Real diamonds! They must be worth their weight in gold!",
+    "zh": "真钻石！它们一定价值连城！",
+    "source": "",
+    "kind": "line"
+  },
+  "dominant": "#6B4A32",
+  "film": "#6B4A32",
+  "credits_note": "",
+  "lists": [
+    {
+      "list_id": "global-comedy-greatest",
+      "rank": 4
+    }
+  ],
+  "missing": [
+    "poster"
+  ]
+};
