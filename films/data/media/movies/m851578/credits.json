@@ -1,27 +1,19 @@
 {
   "poster": {
-    "source": "sogou",
-    "url": "https://pic9.sucaisucai.com/03/31/03731699_2.jpg",
+    "source": "user",
+    "url": "",
     "kind": "real"
   },
   "stills": [
     {
-      "path": "media/movies/m851578/still-01.webp",
-      "source": "sogou",
-      "kind": "real",
-      "url": "https://gbaike-image.cdn.bcebos.com/d31b0ef41bd5ad6eddc4a10f4c922edbb6fd53669686/d31b0ef41bd5ad6eddc4a10f4c922edbb6fd53669686_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
+      "path": "media/movies/m851578/still-paprika-01.webp",
+      "source": "user",
+      "kind": "real"
     },
     {
-      "path": "media/movies/m851578/still-02.webp",
-      "source": "sogou",
-      "kind": "real",
-      "url": "https://gbaike-image.cdn.bcebos.com/d01373f082025aafa40f412d36b4bc64034f79f0ac86/d01373f082025aafa40f412d36b4bc64034f79f0ac86_url?x-bce-process=image/format,f_auto/resize,m_lfit,h_400,limit_1"
-    },
-    {
-      "path": "media/movies/m851578/still-03.webp",
-      "source": "sogou",
-      "kind": "real",
-      "url": "https://pic3.zhimg.com/v2-f32c88b3e18ac576bdcfb6205e4ebf46_r.jpg"
+      "path": "media/movies/m851578/still-paprika-02.webp",
+      "source": "user",
+      "kind": "real"
     }
   ]
 }
