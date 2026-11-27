@@ -1,0 +1,10 @@
+{
+  "id": 3,
+  "key": "pump",
+  "name": "泵",
+  "color": "#c9a227",
+  "kind": "solid",
+  "defaults": {
+    "direction": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "key": "lava",
+  "name": "岩浆",
+  "color": "#e2582a",
+  "behavior": "liquid",
+  "placeable": true,
+  "temperature": 1200,
+  "conductivity": 3,
+  "density": 2800,
+  "heatSource": 1100
+}

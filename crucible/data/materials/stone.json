@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "key": "stone",
+  "name": "石",
+  "color": "#5b6472",
+  "behavior": "static",
+  "placeable": true,
+  "temperature": 20,
+  "conductivity": 3
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "key": "water",
+  "name": "水",
+  "color": "#3f7fd2",
+  "behavior": "liquid",
+  "placeable": true,
+  "temperature": 20,
+  "conductivity": 4,
+  "density": 1000
+}

@@ -26,14 +26,19 @@ docs/
 ├─ ADR-0001-公共文档布局.md
 ├─ PLAN-2026-11-12-通用规则库设计.md
 ├─ ISSUE-YYYY-MM-DD-<中文短名>.md          # 仓库级，按需
-└─ films/                                 # 项目级：目录名和顶层项目目录一致
+├─ films/                                 # 项目级：目录名和顶层项目目录一致
+│  ├─ README.md
+│  ├─ adr/
+│  ├─ issues/
+│  ├─ plans/
+│  │  ├─ feature/
+│  │  └─ refactor/
+│  └─ reviews/
+└─ crucible/
    ├─ README.md
    ├─ adr/
-   ├─ issues/
-   ├─ plans/
-   │  ├─ feature/
-   │  └─ refactor/
-   └─ reviews/
+   └─ plans/
+      └─ feature/
 ```
 
 - 根目录放仓库级文档，文件名前加类型；项目文档放 `docs/<项目>/`，里面再按类型分目录。
@@ -133,3 +138,4 @@ related: [ADR-0001]
 | 项目 | 索引 | 当前方案 |
 |---|---|---|
 | films | [docs/films](films/README.md) | 原型转生产（进行中） |
+| crucible | [docs/crucible](crucible/README.md) | 立项与首个可玩版本（已确认） |

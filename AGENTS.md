@@ -33,6 +33,7 @@
 | `.dsh/agents/` | 子 agent 使用手册 |
 | `.dsh/lessons/` | 跨项目教训：现象、根因、防法 |
 | `films/` | 专题项目：电影榜单导航站（自带 docs/data/pipeline/web 分层） |
+| `crucible/` | 专题项目：2D 侧视剖面物质沙盘游戏（规划中，先做网页 demo） |
 | `docs/` | 公共变更文档：仓库级在根下，项目级在 `docs/<项目>/`；项目现在的事实仍在项目自己的文档目录 |
 | `templates/` | 铺到新项目的入口骨架，含占位符 |
 | `scripts/install.sh` | 把库铺到目标项目，默认只补齐不覆盖 |

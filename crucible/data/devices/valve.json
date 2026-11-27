@@ -1,0 +1,8 @@
+{
+  "id": 4,
+  "key": "valve",
+  "name": "阀门",
+  "color": "#7f9cf5",
+  "kind": "solid",
+  "defaults": {}
+}

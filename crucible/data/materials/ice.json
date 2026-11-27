@@ -1,0 +1,10 @@
+{
+  "id": 6,
+  "key": "ice",
+  "name": "冰",
+  "color": "#9fd8f0",
+  "behavior": "static",
+  "placeable": true,
+  "temperature": -10,
+  "conductivity": 2
+}

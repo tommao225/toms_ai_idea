@@ -1,0 +1,11 @@
+{
+  "id": 8,
+  "key": "oil",
+  "name": "油",
+  "color": "#4a3b2a",
+  "behavior": "liquid",
+  "placeable": true,
+  "temperature": 20,
+  "conductivity": 3,
+  "density": 800
+}

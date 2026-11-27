@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "key": "heater",
+  "name": "加热器",
+  "color": "#ff8a3d",
+  "kind": "solid",
+  "defaults": {
+    "temperature": 900,
+    "radius": 8
+  }
+}

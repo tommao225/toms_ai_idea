@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>坩埚 · 原型</title>
+    <meta
+      name="description"
+      content="一个 2D 侧视剖面的物质沙盘：用装置控制物质的物理与化学反应，搭出能自动运转的生产链。"
+    />
+    <meta name="theme-color" content="#0b0d10" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0d10'/%3E%3Cpath d='M8 10h16l-3 12a4 4 0 0 1-4 3h-2a4 4 0 0 1-4-3z' fill='%23e2582a'/%3E%3C/svg%3E"
+    />
+    <style>
+      /* 只给 file:// 提示用，正常运行时不显示 */
+      #boot-tip {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+        text-align: center;
+        font: 15px/1.9 ui-monospace, Menlo, Consolas, monospace;
+        color: #c8d2de;
+        background: #0b0d10;
+        z-index: 10;
+      }
+      #boot-tip p {
+        margin: 0 0 10px;
+      }
+      #boot-tip code {
+        color: #d9b26f;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div id="stage"></div>
+      <div id="vignette"></div>
+      <header id="toolbar">
+        <div id="materials" class="group"></div>
+        <div id="devices" class="group"></div>
+        <div class="group">
+          <button data-action="pause">暂停</button>
+          <button data-action="step">单步</button>
+          <button data-action="slow">慢放</button>
+          <button data-action="heat">热视图</button>
+          <button data-action="help">?</button>
+          <button data-action="undo">撤销</button>
+          <button data-action="clear">清空</button>
+        </div>
+      </header>
+      <div id="hud"></div>
+      <div id="toast"></div>
+      <div id="help">
+        <div class="help-card">
+          <h1>坩埚</h1>
+          <p class="lead">用简短的装置控制物质的物理与化学反应，搭出能自动运转的生产链。</p>
+          <ul class="help-list">
+            <li><b>怎么玩</b>：左边选物质或装置，左键往世界里画，搭出能自己运转的链子。</li>
+            <li><b>物质有温度</b>：沙烧到 800 度变玻璃，水到 100 度变蒸汽，岩浆遇水变石头。</li>
+            <li><b>装置读网格</b>：喷口吐料、加热器烤热、泵推液体、阀门开关、传感器发信号。</li>
+            <li><b>液体有密度</b>：油比水轻会浮在上面；液面会自动找平。</li>
+          </ul>
+          <ul class="help-keys">
+            <li>左键 画</li>
+            <li>Shift + 左键 擦</li>
+            <li>右键拖 平移</li>
+            <li>滚轮 缩放</li>
+            <li>空格 暂停</li>
+            <li>S 单步</li>
+            <li>H 热视图</li>
+            <li>Ctrl + Z 撤销</li>
+          </ul>
+          <button id="help-close" type="button">开始</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      // 双击打开 html 时浏览器不允许加载模块脚本，这里给一句人话，而不是留个黑屏
+      if (location.protocol === 'file:') {
+        const tip = document.createElement('div');
+        tip.id = 'boot-tip';
+        tip.innerHTML =
+          '<div>' +
+          '<p>这个页面要靠本地服务器打开，直接双击 html 会是一片黑。</p>' +
+          '<p>在 <code>crucible</code> 目录运行 <code>pnpm dev</code>，访问 <code>http://127.0.0.1:5273</code>。</p>' +
+          '<p>或者先 <code>pnpm build</code>，再 <code>pnpm preview</code>。</p>' +
+          '</div>';
+        document.body.appendChild(tip);
+      }
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

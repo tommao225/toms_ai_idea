@@ -1,0 +1,10 @@
+{
+  "id": 0,
+  "key": "air",
+  "name": "空气",
+  "color": "#0b0d10",
+  "behavior": "static",
+  "placeable": false,
+  "temperature": 20,
+  "conductivity": 1
+}

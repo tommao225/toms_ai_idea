@@ -1,0 +1,11 @@
+{
+  "id": 0,
+  "key": "emitter",
+  "name": "喷口",
+  "color": "#7dd3a8",
+  "kind": "solid",
+  "defaults": {
+    "material": "sand",
+    "interval": 6
+  }
+}

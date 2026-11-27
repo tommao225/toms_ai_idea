@@ -1,0 +1,10 @@
+{
+  "id": 5,
+  "key": "steam",
+  "name": "蒸汽",
+  "color": "#b9c8d6",
+  "behavior": "gas",
+  "placeable": false,
+  "temperature": 120,
+  "conductivity": 2
+}

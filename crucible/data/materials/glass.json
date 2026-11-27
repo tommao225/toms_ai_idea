@@ -1,0 +1,10 @@
+{
+  "id": 7,
+  "key": "glass",
+  "name": "玻璃",
+  "color": "#a8c4cf",
+  "behavior": "powder",
+  "placeable": false,
+  "temperature": 20,
+  "conductivity": 3
+}

@@ -1,0 +1,11 @@
+{
+  "id": 9,
+  "key": "fire",
+  "name": "火",
+  "color": "#ff7a18",
+  "behavior": "gas",
+  "placeable": true,
+  "temperature": 900,
+  "conductivity": 2,
+  "heatSource": 900
+}

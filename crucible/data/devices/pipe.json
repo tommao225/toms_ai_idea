@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "key": "pipe",
+  "name": "管道",
+  "color": "#8fa3b8",
+  "kind": "pipe",
+  "defaults": {}
+}

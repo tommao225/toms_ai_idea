@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "key": "sand",
+  "name": "沙",
+  "color": "#d6ae6a",
+  "behavior": "powder",
+  "placeable": true,
+  "temperature": 20,
+  "conductivity": 2
+}

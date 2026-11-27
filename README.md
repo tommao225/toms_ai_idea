@@ -30,12 +30,13 @@ mkdir -p ~/VSCodeProjects/新项目
 | 目录 | 专题 | 入口 |
 |---|---|---|
 | `films/` | 电影榜单导航站（按口径的前 100 部 + 打卡 + 奖项维度） | `films/README.md` |
+| `crucible/` | 2D 侧视剖面物质沙盘游戏（规划中，先做 itch 网页 demo） | `crucible/README.md` |
 
 专题目录里的代码与数据只在各自目录内增长；根目录只放通用工具（`scripts/`、`templates/`）与规则（`AGENTS.md`、`.dsh/`）。
 
 ## 公共文档
 
-一次改动怎么发生、为什么这么选，放 `docs/`：仓库级在根下，项目级在 `docs/<项目>/`；项目现在的事实与使用说明仍留在项目自己的文档目录。规则和索引见 `docs/README.md`，各项目索引见 `docs/films/README.md`。
+一次改动怎么发生、为什么这么选，放 `docs/`：仓库级在根下，项目级在 `docs/<项目>/`；项目现在的事实与使用说明仍留在项目自己的文档目录。规则和索引见 `docs/README.md`，各项目索引见 `docs/films/README.md` 与 `docs/crucible/README.md`。
 
 ## 内容分级
 

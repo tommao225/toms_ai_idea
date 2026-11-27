@@ -1,0 +1,14 @@
+{
+  "temperature": [
+    { "from": "sand", "to": "glass", "min": 800 },
+    { "from": "water", "to": "steam", "min": 100 },
+    { "from": "water", "to": "ice", "max": 0 },
+    { "from": "ice", "to": "water", "min": 1 },
+    { "from": "steam", "to": "water", "max": 99 }
+  ],
+  "contact": [
+    { "from": "lava", "with": "water", "fromTo": "stone", "withTo": "steam" },
+    { "from": "oil", "with": "fire", "fromTo": "fire", "withTo": "fire" },
+    { "from": "fire", "with": "water", "fromTo": "air", "withTo": "steam" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": 5,
+  "key": "sensor",
+  "name": "传感器",
+  "color": "#c084fc",
+  "kind": "solid",
+  "defaults": {
+    "temperature": 100,
+    "target": "water",
+    "radius": 12
+  }
+}
